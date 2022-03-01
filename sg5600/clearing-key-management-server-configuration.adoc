@@ -1,0 +1,79 @@
+---
+permalink: sg5600/clearing-key-management-server-configuration.html 
+sidebar: sidebar 
+keywords: storagegrid, sg5600, storage node, storage appliance, kms, key management server, configure, configuration, clear, erase, delete, clearing, erasing, deleting, disable, encryption 
+summary: 'KMS\(키 관리 서버) 구성을 지우면 어플라이언스에서 노드 암호화가 비활성화됩니다. KMS 구성을 삭제한 후에는 어플라이언스의 데이터가 영구적으로 삭제되며 더 이상 액세스할 수 없습니다. 이 데이터는 복구할 수 없습니다.' 
+---
+= 키 관리 서버 구성을 지웁니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+KMS(키 관리 서버) 구성을 지우면 어플라이언스에서 노드 암호화가 비활성화됩니다. KMS 구성을 삭제한 후에는 어플라이언스의 데이터가 영구적으로 삭제되며 더 이상 액세스할 수 없습니다. 이 데이터는 복구할 수 없습니다.
+
+어플라이언스의 데이터를 보존해야 하는 경우 KMS 구성을 지우기 전에 노드 서비스 해제 절차를 수행하거나 노드를 복제해야 합니다.
+
+
+IMPORTANT: KMS를 삭제하면 제품의 데이터가 영구적으로 삭제되고 더 이상 액세스할 수 없게 됩니다. 이 데이터는 복구할 수 없습니다.
+
+xref:../maintain/grid-node-decommissioning.adoc[노드 서비스 해제] 포함된 데이터를 StorageGRID의 다른 노드로 이동하려면 다음을 사용합니다.
+
+어플라이언스 KMS 구성을 지우면 노드 암호화가 비활성화되므로 어플라이언스 노드와 StorageGRID 사이트의 KMS 구성 간의 연결이 제거됩니다. 그러면 어플라이언스의 데이터가 삭제되고 어플라이언스가 사전 설치 상태로 유지됩니다. 이 프로세스는 되돌릴 수 없습니다.
+
+KMS 구성을 지워야 합니다.
+
+* KMS를 사용하지 않거나 다른 KMS를 사용하는 다른 StorageGRID 시스템에 제품을 설치하기 전에
++
+
+IMPORTANT: 동일한 KMS 키를 사용하는 StorageGRID 시스템에 어플라이언스 노드를 재설치하려는 경우 KMS 구성을 지우지 마십시오.
+
+* KMS 구성이 손실되고 KMS 키를 복구할 수 없는 노드를 복구 및 재설치할 수 있습니다.
+* 이전에 현장에서 사용 중이던 제품을 반환하기 전에
+* 노드 암호화가 설정된 어플라이언스를 서비스 해제 후
+
+
+
+IMPORTANT: KMS를 제거하기 전에 어플라이언스의 전원을 해제하여 StorageGRID 시스템의 다른 노드로 데이터를 이동합니다. KMS를 폐기하기 전에 제거하면 데이터가 손실되고 어플라이언스가 작동하지 않을 수 있습니다.
+
+.단계
+. 브라우저를 열고 어플라이언스의 컴퓨팅 컨트롤러에 대한 IP 주소 중 하나를 입력합니다. (+) * https://_Controller_IP_:8443*`
++
+'_Controller_IP_'는 3개의 StorageGRID 네트워크 중 어느 한 곳의 컴퓨팅 컨트롤러(스토리지 컨트롤러가 아님)의 IP 주소입니다.
+
++
+StorageGRID 어플라이언스 설치 관리자 홈 페이지가 나타납니다.
+
+. 하드웨어 구성 * > * 노드 암호화 * 를 선택합니다.
++
+image::../media/clear_kms.png[kms clear 설정]
+
++
+
+IMPORTANT: KMS 구성이 삭제된 경우 어플라이언스의 데이터가 영구적으로 삭제됩니다. 이 데이터는 복구할 수 없습니다.
+
+. 창 아래쪽에서 * KMS 키 삭제 및 데이터 삭제 * 를 선택합니다.
+. KMS 구성을 지우려면 + " * clear * "+를 입력하고 * KMS 키 삭제 및 데이터 삭제 * 를 선택합니다.
++
+image::../media/fde_disable_confirmation.png[KMS의 분명한 확인]
+
++
+KMS 암호화 키 및 모든 데이터가 노드에서 삭제되고 어플라이언스가 재부팅됩니다. 이 작업은 최대 20분이 소요될 수 있습니다.
+
+. 브라우저를 열고 어플라이언스의 컴퓨팅 컨트롤러에 대한 IP 주소 중 하나를 입력합니다. (+) * https://_Controller_IP_:8443*`
++
+'_Controller_IP_'는 3개의 StorageGRID 네트워크 중 어느 한 곳의 컴퓨팅 컨트롤러(스토리지 컨트롤러가 아님)의 IP 주소입니다.
+
++
+StorageGRID 어플라이언스 설치 관리자 홈 페이지가 나타납니다.
+
+. 하드웨어 구성 * > * 노드 암호화 * 를 선택합니다.
+. 노드 암호화가 비활성화되었으며 * 키 관리 서버 세부 정보 * 및 * KMS 키 지우기 및 데이터 삭제 * 컨트롤의 키 및 인증서 정보가 창에서 제거되었는지 확인합니다.
++
+그리드에 다시 설치할 때까지 어플라이언스에서 노드 암호화를 다시 활성화할 수 없습니다.
+
+
+
+어플라이언스가 재부팅되고 KMS가 삭제되었으며 사전 설치 상태의 제품이 검증된 경우 StorageGRID 시스템에서 어플라이언스를 물리적으로 제거할 수 있습니다. 에 대한 자세한 내용은 복구 및 유지 관리 지침을 참조하십시오 xref:../maintain/preparing-appliance-for-reinstallation-platform-replacement-only.adoc[어플라이언스 재설치를 준비합니다].
+
+xref:../admin/index.adoc[StorageGRID 관리]

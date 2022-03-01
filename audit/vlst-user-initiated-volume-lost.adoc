@@ -1,0 +1,62 @@
+---
+permalink: audit/vlst-user-initiated-volume-lost.html 
+sidebar: sidebar 
+keywords: storagegrid, audit, message, VLST, User Initiated Volume Lost 
+summary: 이 메시지는 /proc/cMSI/Volume_lost 명령이 실행될 때마다 발행됩니다. 
+---
+= VLST: 사용자가 시작한 볼륨이 손실되었습니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이 메시지는 '/proc/cMSI/Volume_lost' 명령어를 실행할 때마다 출력된다.
+
+|===
+| 코드 | 필드에 입력합니다 | 설명 
+
+
+ a| 
+볼륨
+ a| 
+볼륨 식별자 낮음
+ a| 
+영향을 받는 볼륨 범위의 아래쪽 끝 또는 단일 볼륨입니다.
+
+
+
+ a| 
+볼륨
+ a| 
+볼륨 식별자 상부입니다
+ a| 
+영향을 받는 볼륨 범위의 위쪽 끝입니다. 단일 볼륨의 경우 VOLL과 동일합니다.
+
+
+
+ a| 
+귀도
+ a| 
+소스 노드 ID입니다
+ a| 
+위치가 손실된 노드 ID입니다.
+
+
+
+ a| 
+LTYP
+ a| 
+위치 유형
+ a| 
+'CLDI'(온라인) 또는 'CLNL'(Nearline). 지정하지 않으면 기본적으로 'CLDI'가 사용됩니다.
+
+
+
+ a| 
+RSLT
+ a| 
+결과
+ a| 
+항상 '없음'입니다. RSLT는 필수 메시지 필드이지만 이 메시지와 관련이 없습니다. 이 메시지가 필터링되지 않도록 'UCS' 대신 '없음'이 사용됩니다.
+
+|===

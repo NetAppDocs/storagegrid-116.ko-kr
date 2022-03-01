@@ -1,0 +1,24 @@
+---
+permalink: upgrade/changes-to-tenant-management-api.html 
+sidebar: sidebar 
+keywords: tenant management api, api, api version, swagger, rest api 
+summary: StorageGRID 11.6은 테넌트 관리 API 버전 3을 사용합니다. 버전 3은 버전 2를 사용하지 않지만 버전 1과 버전 2는 계속 지원됩니다. 
+---
+= 테넌트 관리 API의 변경 사항
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 11.6은 테넌트 관리 API 버전 3을 사용합니다. 버전 3은 버전 2를 사용하지 않지만 버전 1과 버전 2는 계속 지원됩니다.
+
+
+IMPORTANT: StorageGRID 11.6에서 관리 API 버전 1 및 버전 2를 계속 사용할 수 있지만, 이러한 API 버전에 대한 지원은 StorageGRID의 향후 릴리스에서 제거됩니다. StorageGRID 11.6으로 업그레이드한 후, 'Put/grid/config/management' API를 사용하여 더 이상 사용되지 않는 v1 및 v2 API를 비활성화할 수 있다.
+
+자세한 내용은 를 참조하십시오 xref:../tenant/understanding-tenant-management-api.adoc[테넌트 관리 API 이해].
+
+
+
+== 패치 메소드는 사용되지 않습니다
+
+이제 패치 방법이 더 이상 사용되지 않으며 향후 릴리스에서 제거될 것입니다. 필요한 경우 패치 작업을 사용하여 리소스를 수정하는 대신 PUT 작업을 수행하여 리소스를 교체합니다.

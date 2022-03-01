@@ -1,0 +1,131 @@
+---
+permalink: sg100-1000/obtaining-additional-equipment-and-tools-sg100-and-sg1000.html 
+sidebar: sidebar 
+keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gateway Node, admin node, additional, equipment, tools 
+summary: StorageGRID 제품을 설치하기 전에 필요한 추가 장비와 도구가 모두 있는지 확인하십시오. 
+---
+= 추가 장비 및 도구 확보(SG100 및 SG1000)
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 제품을 설치하기 전에 필요한 추가 장비와 도구가 모두 있는지 확인하십시오.
+
+하드웨어를 설치하고 구성하려면 다음 추가 장비가 필요합니다.
+
+* * 스크류드라이버 *
++
+image::../media/screwdrivers.gif[나사 드라이버 2개]
+
++
+필립스 번호 2 드라이버
+
++
+중형 일자 드라이버
+
+* * ESD 손목 스트랩 *
++
+image::../media/appliance_wriststrap.gif[ESD 손목 스트랩]
+
+* * 광 케이블 및 트랜시버 *
++
+image::../media/fc_cable_and_sfp.gif[광 케이블 및 QSFP+ 트랜시버]
+
++
+** 케이블
++
+*** Twinax/구리(1-4개)
++
+또는
+
+*** 파이버/광(1-4개)
+
+
+** 링크 속도를 기반으로 하는 이러한 트랜시버/어댑터 중 1-4개(혼합 속도는 지원되지 않음)
++
+*** SG100:
++
+|===
+| 링크 속도(GbE) | 필수 장비 
+
+
+ a| 
+10
+ a| 
+SFP+ 트랜시버
+
+
+
+ a| 
+25
+ a| 
+SFP28 트랜시버
+
+|===
+*** SG1000:
++
+|===
+| 링크 속도(GbE) | 필수 장비 
+
+
+ a| 
+10
+ a| 
+QSFP-SFP 어댑터(QSA) 및 SFP+ 트랜시버
+
+
+
+ a| 
+25
+ a| 
+QSFP-SFP 어댑터(QSA) 및 SFP28 트랜시버
+
+
+
+ a| 
+40
+ a| 
+QSFP+ 트랜시버
+
+
+
+ a| 
+100
+ a| 
+QFSP28 트랜시버
+
+|===
+
+
+
+
+* RJ-45(Cat5/Cat5e/Cat6/CAT6A) 이더넷 케이블 *
++
+image::../media/ethernet_cables.png[이더넷 케이블]
+
+* * 서비스 노트북 *
++
+image::../media/sam_management_client.gif[서비스 노트북]
+
++
+xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저]
+
++
+1GbE(RJ-45) 포트
+
++
+
+NOTE: 일부 포트는 10/100 이더넷 속도를 지원하지 않을 수 있습니다.
+
+* * 옵션 도구 *
++
+image::../media/optional_tools.gif[파워 드릴 및 손전등이 있습니다]
+
++
+Phillips 헤드 비트를 이용한 파워 드릴
+
++
+플래시
+
+

@@ -1,0 +1,61 @@
+---
+section: primer
+title: 그리드 프라이머
+entries:
+- title: 개요
+  pdf-filename: StorageGRID 그리드 프라이머
+  url: "/primer/index.html"
+- title: StorageGRID 하이브리드 클라우드
+  url: "/primer/hybrid-clouds-with-storagegrid.html"
+- title: 아키텍처 및 네트워크 토폴로지
+  url: "/primer/storagegrid-architecture-and-network-topology.html"
+- title: 오브젝트 관리
+  entries:
+  - title: StorageGRID의 데이터 관리 방법
+    url: "/primer/how-storagegrid-manages-data.html"
+  - title: 오브젝트 라이프사이클
+    entries:
+    - title: 개체의 수명입니다
+      url: "/primer/life-of-object.html"
+    - title: 수집 데이터 흐름
+      url: "/primer/ingest-data-flow.html"
+    - title: 복사 관리
+      url: "/primer/copy-management.html"
+    - title: 데이터 흐름을 검색합니다
+      url: "/primer/retrieve-data-flow.html"
+    - title: 데이터 흐름을 삭제합니다
+      url: "/primer/delete-data-flow.html"
+- title: StorageGRID 사용 방법
+  entries:
+  - title: Grid Manager를 탐색합니다
+    url: "/primer/exploring-grid-manager.html"
+  - title: 테넌트 관리자를 탐색합니다
+    url: "/primer/exploring-tenant-manager.html"
+  - title: StorageGRID 액세스를 제어합니다
+    url: "/primer/controlling-storagegrid-access.html"
+  - title: 테넌트 및 클라이언트 연결을 관리합니다
+    url: "/primer/managing-tenants-and-client-connections.html"
+  - title: 네트워크 설정을 구성합니다
+    url: "/primer/configuring-network-settings.html"
+  - title: 보안 설정을 구성합니다
+    url: "/primer/configuring-security-settings.html"
+  - title: 시스템 설정을 구성합니다
+    url: "/primer/configuring-system-settings.html"
+  - title: 정보 수명 주기 관리를 사용합니다
+    url: "/primer/using-information-lifecycle-management.html"
+  - title: 작업을 모니터링합니다
+    entries:
+    - title: 노드 보기 페이지
+      url: "/primer/viewing-nodes-page.html"
+    - title: 경고를 모니터링하고 관리합니다
+      url: "/primer/monitoring-and-managing-alerts.html"
+    - title: SNMP 모니터링을 사용합니다
+      url: "/primer/using-snmp-monitoring.html"
+    - title: 감사 메시지를 검토합니다
+      url: "/primer/reviewing-audit-messages.html"
+  - title: 유지 관리를 수행합니다
+    url: "/primer/performing-maintenance-procedures.html"
+  - title: 복구 패키지를 다운로드합니다
+    url: "/primer/downloading-recovery-package.html"
+  - title: 지원 옵션을 사용합니다
+    url: "/primer/using-storagegrid-support-options.html"

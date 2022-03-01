@@ -1,0 +1,25 @@
+---
+permalink: admin/changing-cifs-audit-share-user-or-group-name.html 
+sidebar: sidebar 
+keywords: CIFS audit share, change group name, change use for CIFS 
+summary: 새 사용자 또는 그룹을 추가한 다음 이전 사용자 또는 그룹을 삭제하여 CIFS 감사 공유의 사용자 또는 그룹 이름을 변경할 수 있습니다. 
+---
+= CIFS 감사 공유 사용자 또는 그룹 이름을 변경합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+새 사용자 또는 그룹을 추가한 다음 이전 사용자 또는 그룹을 삭제하여 CIFS 감사 공유의 사용자 또는 그룹 이름을 변경할 수 있습니다.
+
+CIFS/Samba를 통한 감사 내보내기는 더 이상 사용되지 않으며 향후 StorageGRID 릴리즈에서 제거될 예정입니다.
+
+.단계
+. 업데이트된 이름이 있는 새 사용자 또는 그룹을 감사 공유에 추가합니다.
+. 이전 사용자 또는 그룹 이름을 삭제합니다.
+
+
+.관련 정보
+* xref:adding-user-or-group-to-cifs-audit-share.adoc[CIFS 감사 공유에 사용자 또는 그룹을 추가합니다]
+* xref:removing-user-or-group-from-cifs-audit-share.adoc[CIFS 감사 공유에서 사용자 또는 그룹을 제거합니다]
+

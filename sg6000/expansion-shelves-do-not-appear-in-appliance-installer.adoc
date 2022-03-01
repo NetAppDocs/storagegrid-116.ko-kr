@@ -1,0 +1,32 @@
+---
+permalink: sg6000/expansion-shelves-do-not-appear-in-appliance-installer.html 
+sidebar: sidebar 
+keywords: storagegrid, sg6000, storage node, storage appliance troubleshooting, Expansion, shelves, do not appear, Appliance Installer, missing, not shown 
+summary: SG6060용 확장 셸프가 설치되어 있고 StorageGRID 어플라이언스 설치 프로그램에 나타나지 않는 경우 셸프가 완전히 설치되어 전원이 켜져 있는지 확인해야 합니다. 
+---
+= 확장 셸프가 Appliance Installer에 나타나지 않습니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SG6060용 확장 셸프가 설치되어 있고 StorageGRID 어플라이언스 설치 프로그램에 나타나지 않는 경우 셸프가 완전히 설치되어 전원이 켜져 있는지 확인해야 합니다.
+
+StorageGRID 어플라이언스 설치 프로그램에서 다음 정보를 확인하여 확장 쉘프가 어플라이언스에 연결되어 있는지 확인할 수 있습니다.
+
+* 홈 * 페이지에는 확장 셸프에 대한 메시지가 포함되어 있습니다.
++
+image::../media/expansion_shelf_home_page_msg.png[확장 셸프 메시지]
+
+* 고급 * > * RAID 모드 * 페이지는 어플라이언스에 확장 쉘프가 포함되어 있는지 여부에 관계 없이 드라이브 수로 표시됩니다. 예를 들어, 다음 스크린 샷에서는 SSD 2개와 178 HDD가 표시되어 있습니다. 2개의 확장 쉘프가 있는 SG6060에는 총 180개의 드라이브가 포함됩니다.
+
+
+image::../media/expansion_shelves_shown_by_num_of_drives.png[드라이브 수]
+
+StorageGRID 어플라이언스 설치 프로그램 페이지에 확장 셸프가 있는 것으로 표시되지 않으면 다음 절차를 따르십시오.
+
+.단계
+. 확인합니다 xref:sg6060-cabling-optional-expansion-shelves.adoc[필요한 모든 케이블이 단단히 연결되었습니다].
+. 이 있는지 확인하십시오 xref:connecting-power-cords-and-applying-power-sg6000.adoc[확장 셸프의 전원을 켭니다].
+. 문제 해결에 도움이 필요한 경우 기술 지원 부서에 문의하십시오.
+

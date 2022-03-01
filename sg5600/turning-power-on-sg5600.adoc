@@ -1,0 +1,45 @@
+---
+permalink: sg5600/turning-power-on-sg5600.html 
+sidebar: sidebar 
+keywords: storagegrid, sg5600, storage node, storage appliance, power on, power, start 
+summary: 엔클로저의 전원을 켜면 두 컨트롤러에 전원이 제공됩니다. 
+---
+= 전원 켜기(SG5600)
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+엔클로저의 전원을 켜면 두 컨트롤러에 전원이 제공됩니다.
+
+.단계
+. 엔클로저 후면에서 전원 공급 장치 스위치 2개를 켭니다.
++
+전원이 공급되는 동안 컨트롤러의 LED가 간헐적으로 켜지거나 꺼집니다.
+
++
+전원 켜기 프로세스를 완료하는 데 최대 10분이 걸릴 수 있습니다. 초기 시작 시퀀스 중에 컨트롤러가 여러 번 재부팅되면 팬이 회전/다운되고 LED가 깜박입니다.
+
+. 각 컨트롤러의 전원 LED 및 호스트 링크 활성 LED를 확인하여 전원이 켜졌는지 점검합니다.
+. 모든 드라이브에 녹색 LED가 계속 켜져 온라인 상태임을 나타낼 때까지 기다립니다.
+. 엔클로저의 전면과 후면에 녹색 LED가 있는지 확인합니다.
++
+주황색 LED가 나타나면 위치를 기록해 둡니다.
+
+. E5500SG 컨트롤러에 대한 7개 세그먼트 디스플레이를 살펴봅니다.
++
+이 디스플레이에는 * HO * 가 표시되고 그 뒤에 두 자리 숫자가 반복됩니다.
+
++
+[listing]
+----
+HO -- IP address for Admin Network -- IP address for Grid Network HO
+----
++
+순서대로 첫 번째 숫자 세트는 컨트롤러의 관리 포트 1에 대해 DHCP가 할당한 IP 주소입니다. 이 주소는 컨트롤러를 StorageGRID용 관리 네트워크에 연결하는 데 사용됩니다. 두 번째 숫자 세트는 어플라이언스를 StorageGRID용 그리드 네트워크에 연결하는 데 사용되는 DHCP 할당 IP 주소입니다.
+
++
+
+NOTE: DHCP를 사용하여 IP 주소를 할당할 수 없는 경우 0.0.0.0이 표시됩니다.
+
+

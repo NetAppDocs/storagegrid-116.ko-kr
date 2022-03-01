@@ -1,0 +1,114 @@
+---
+permalink: admin/adding-user-or-group-to-cifs-audit-share.html 
+sidebar: sidebar 
+keywords: CIFS, add user to audit share, add group to audit share, ad authentication 
+summary: AD 인증과 통합된 CIFS 감사 공유에 사용자 또는 그룹을 추가할 수 있습니다. 
+---
+= CIFS 감사 공유에 사용자 또는 그룹을 추가합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+AD 인증과 통합된 CIFS 감사 공유에 사용자 또는 그룹을 추가할 수 있습니다.
+
+.무엇을 &#8217;필요로 할거야
+* 루트/관리자 계정 암호(해당 패키지에서 사용 가능)가 있는 "passwords.txt" 파일이 있습니다.
+* "Configuration.txt" 파일이 있습니다(해당 패키지에서 사용 가능).
+
+
+다음 절차는 AD 인증과 통합된 감사 공유에 대한 것입니다.
+
+
+NOTE: CIFS/Samba를 통한 감사 내보내기는 더 이상 사용되지 않으며 향후 StorageGRID 릴리즈에서 제거될 예정입니다.
+
+.단계
+. 기본 관리자 노드에 로그인합니다.
++
+.. 'ssh admin@_primary_Admin_Node_IP_' 명령을 입력합니다
+.. "passwords.txt" 파일에 나열된 암호를 입력합니다.
+.. 루트로 전환하려면 다음 명령을 입력합니다
+.. "passwords.txt" 파일에 나열된 암호를 입력합니다.
++
+루트로 로그인하면 프롬프트가 '$'에서 '#'로 바뀝니다.
+
+
+
+. 모든 서비스의 상태가 실행 중 또는 확인인지 확인합니다. 'toragegrid-status'를 입력합니다
++
+모든 서비스가 실행 중이거나 확인되지 않은 경우 계속하기 전에 문제를 해결하십시오.
+
+. 명령줄로 돌아가 * Ctrl * + * C * 를 누릅니다.
+. CIFS 구성 유틸리티 'config_cifs.rb'를 시작합니다
++
+[listing]
+----
+
+---------------------------------------------------------------------
+| Shares                 | Authentication         | Config          |
+---------------------------------------------------------------------
+| add-audit-share        | set-authentication     | validate-config |
+| enable-disable-share   | set-netbios-name       | help            |
+| add-user-to-share      | join-domain            | exit            |
+| remove-user-from-share | add-password-server    |                 |
+| modify-group           | remove-password-server |                 |
+|                        | add-wins-server        |                 |
+|                        | remove-wins-server     |                 |
+---------------------------------------------------------------------
+----
+. 사용자 또는 그룹 추가:'add-user-to-share'를 시작합니다
++
+구성된 감사 공유의 번호가 매겨진 목록이 표시됩니다.
+
+. 메시지가 표시되면 감사 공유(감사-내보내기) 번호('_audit_share_number_')를 입력합니다
++
+사용자 또는 그룹에 이 감사 공유에 대한 액세스 권한을 부여할지 묻는 메시지가 표시됩니다.
+
+. 메시지가 나타나면 사용자 또는 그룹(사용자 또는 그룹)을 추가합니다
+. 이 AD 감사 공유에 대한 사용자 또는 그룹 이름을 묻는 메시지가 나타나면 이름을 입력합니다.
++
+사용자 또는 그룹은 서버의 운영 체제와 CIFS 서비스 모두에서 감사 공유에 대해 읽기 전용으로 추가됩니다. 사용자 또는 그룹이 감사 클라이언트 공유에 액세스할 수 있도록 Samba 구성이 다시 로드됩니다.
+
+. 메시지가 표시되면 * Enter * 를 누릅니다.
++
+CIFS 구성 유틸리티가 표시됩니다.
+
+. 감사 공유에 액세스할 수 있는 각 사용자 또는 그룹에 대해 이 단계를 반복합니다.
+. 필요에 따라 'validate-config' 구성을 확인합니다
++
+서비스가 확인 및 표시됩니다. 다음 메시지는 무시해도 됩니다.
+
++
+** include 파일 /etc/samba/include/cifs-interfaces.in c를 찾을 수 없습니다
+** include 파일 /etc/samba/include/cifs-filesystem.in c를 찾을 수 없습니다
+** include 파일 /etc/samba/include/cifs-custom-config.in c를 찾을 수 없습니다
+** include 파일 /etc/samba/include/cifs-shares.in c를 찾을 수 없습니다
++
+... 메시지가 표시되면 * Enter * 를 눌러 감사 클라이언트 구성을 표시합니다.
+... 메시지가 표시되면 * Enter * 를 누릅니다.
+
+
+
+
+. CIFS 구성 유틸리티 'exit'를 닫습니다
+. 다음과 같이 추가 감사 공유를 설정해야 하는지 확인합니다.
++
+** StorageGRID 배포가 단일 사이트인 경우 다음 단계로 이동합니다.
+** StorageGRID 구축에 다른 사이트의 관리 노드가 포함되는 경우 필요에 따라 다음 감사 공유를 활성화합니다.
++
+... 사이트의 관리 노드에 원격으로 로그인:
++
+.... 'ssh admin@_grid_node_ip_' 명령을 입력합니다
+.... "passwords.txt" 파일에 나열된 암호를 입력합니다.
+.... 루트로 전환하려면 다음 명령을 입력합니다
+.... "passwords.txt" 파일에 나열된 암호를 입력합니다.
+
+
+... 각 관리 노드에 대한 감사 공유를 구성하려면 다음 단계를 반복합니다.
+... 원격 관리 노드에 대한 원격 보안 셸 로그인을 'exit'로 닫습니다
+
+
+
+
+. 명령 셸에서 'exit'를 로그아웃합니다
+

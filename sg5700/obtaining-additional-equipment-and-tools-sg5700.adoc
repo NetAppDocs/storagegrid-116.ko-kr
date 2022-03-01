@@ -1,0 +1,71 @@
+---
+permalink: sg5700/obtaining-additional-equipment-and-tools-sg5700.html 
+sidebar: sidebar 
+keywords: storagegrid, sg5700, storage node, storage appliance, additional, equipment, tools 
+summary: StorageGRID 제품을 설치하기 전에 필요한 추가 장비와 도구가 모두 있는지 확인하십시오. 
+---
+= 추가 장비 및 도구 확보(SG5700)
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 제품을 설치하기 전에 필요한 추가 장비와 도구가 모두 있는지 확인하십시오.
+
+하드웨어를 설치하고 구성하려면 다음 추가 장비가 필요합니다.
+
+* * 스크류드라이버 *
++
+image::../media/screwdrivers.gif[나사 드라이버 2개]
+
++
+필립스 번호 2 드라이버
+
++
+중형 일자 드라이버
+
+* * ESD 손목 스트랩 *
++
+image::../media/appliance_wriststrap.gif[ESD 손목 스트랩]
+
+* * 광 케이블 및 SFP 트랜시버 *
++
+image::../media/fc_cable_and_sfp.gif[광 케이블 및 SFP+ 트랜시버]
+
++
+사용하려는 10/25-GbE 포트의 광 케이블
+
++
+선택 사항: 25GbE 링크 속도를 사용하려는 경우 SFP28 트랜시버
+
+* * 이더넷 케이블 *
++
+image::../media/ethernet_cables.png[이더넷 케이블]
+
+* * 서비스 노트북 *
++
+image::../media/sam_management_client.gif[서비스 노트북]
+
++
+xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저]
+
++
+PuTTY와 같은 SSH 클라이언트
+
++
+1Gb(RJ-45) 이더넷 포트
+
+* * 옵션 도구 *
++
+image::../media/optional_tools.gif[파워 드릴 및 손전등이 있습니다]
+
++
+Phillips 헤드 비트를 이용한 파워 드릴
+
++
+플래시
+
++
+SG5760의 기계식 리프트
+
+

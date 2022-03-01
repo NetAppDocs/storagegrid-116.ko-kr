@@ -1,0 +1,21 @@
+---
+permalink: fabricpool/configuring-dns-for-storagegrid-ip-addresses.html 
+sidebar: sidebar 
+keywords: fabricPool, DNS, domain name system, FQDN, fully qualified domain name, IP address, VIP 
+summary: '고가용성 그룹 및 로드 밸런서 끝점을 구성한 후에는 ONTAP 시스템의 도메인 이름 시스템\(DNS\)에 StorageGRID 서버 이름\(정규화된 도메인 이름\)을 FabricPool가 연결에 사용할 IP 주소에 연결하는 레코드가 포함되어 있는지 확인해야 합니다.' 
+---
+= StorageGRID IP 주소에 대해 DNS 서버를 구성합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+고가용성 그룹 및 로드 밸런서 끝점을 구성한 후에는 ONTAP 시스템의 DNS(도메인 이름 시스템)에 StorageGRID 서버 이름(정규화된 도메인 이름)을 FabricPool가 연결에 사용할 IP 주소에 연결하는 레코드가 포함되어 있는지 확인해야 합니다.
+
+DNS 레코드에 입력하는 IP 주소는 로드 밸런싱 노드의 HA 그룹을 사용하는지 여부에 따라 달라집니다.
+
+* HA 그룹을 구성한 경우 FabricPool는 해당 HA 그룹의 가상 IP 주소에 연결됩니다.
+* HA 그룹을 사용하지 않는 경우 FabricPool는 게이트웨이 노드 또는 관리 노드의 IP 주소를 사용하여 StorageGRID 로드 밸런서 서비스에 연결할 수 있습니다.
+
+
+또한 DNS 레코드가 와일드카드 이름을 포함하여 필요한 모든 끝점 도메인 이름을 참조하는지 확인해야 합니다.

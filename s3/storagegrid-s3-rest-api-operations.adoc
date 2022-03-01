@@ -1,0 +1,51 @@
+---
+permalink: s3/storagegrid-s3-rest-api-operations.html 
+sidebar: sidebar 
+keywords: S3 REST API, S3 operations 
+summary: StorageGRID 시스템별 S3 REST API에 작업이 추가됩니다. 
+---
+= StorageGRID S3 REST API 작업
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 시스템별 S3 REST API에 작업이 추가됩니다.
+
+* xref:../s3/get-bucket-consistency-request.adoc[버킷 정합성 보장 요청 가져오기]
++
+Get Bucket 정합성 보장 요청을 사용하면 특정 버킷에 적용되는 정합성 보장 수준을 확인할 수 있습니다.
+
+* xref:../s3/put-bucket-consistency-request.adoc[버킷 정합성 보장 요청을 배치합니다]
++
+PUT 버킷 정합성 보장 요청을 사용하면 버킷에서 수행된 작업에 적용할 정합성 수준을 지정할 수 있습니다.
+
+* xref:../s3/get-bucket-last-access-time-request.adoc[버킷 최종 액세스 시간 요청 가져오기]
++
+[버킷 최종 액세스 시간 가져오기(Get Bucket Last Access Time) 요청 을 사용하면 개별 버킷에 대해 마지막 액세스 시간 업데이트가 활성화되거나 비활성화되었는지 확인할 수 있습니다.
+
+* xref:../s3/put-bucket-last-access-time-request.adoc[버킷 최종 액세스 시간 요청]
++
+Put Bucket Last Access Time 요청을 사용하면 개별 버킷에 대한 마지막 액세스 시간 업데이트를 활성화하거나 비활성화할 수 있습니다. 마지막 액세스 시간 업데이트를 비활성화하면 성능이 향상되고 버전 10.3.0 이상으로 생성된 모든 버킷의 기본 설정이 됩니다.
+
+* xref:../s3/delete-bucket-metadata-notification-configuration-request.adoc[버킷 메타데이터 알림 구성 요청을 삭제합니다]
++
+Delete Bucket 메타데이터 알림 구성 요청을 사용하면 구성 XML을 삭제하여 개별 버킷에 대한 검색 통합 서비스를 비활성화할 수 있습니다.
+
+* xref:../s3/get-bucket-metadata-notification-configuration-request.adoc[버킷 메타데이터 알림 구성 요청을 가져옵니다]
++
+Get Bucket 메타데이터 알림 구성 요청을 사용하면 개별 버킷에 대한 검색 통합을 구성하는 데 사용되는 구성 XML을 검색할 수 있습니다.
+
+* xref:../s3/put-bucket-metadata-notification-configuration-request.adoc[PUT 버킷 메타데이터 알림 구성 요청]
++
+Put Bucket 메타데이터 알림 구성 요청을 사용하면 개별 버킷에 대한 검색 통합 서비스를 활성화할 수 있습니다. 요청 본문에 제공하는 메타데이터 알림 구성 XML은 대상 검색 인덱스에 메타데이터가 전송되는 개체를 지정합니다.
+
+* xref:../s3/get-storage-usage-request.adoc[스토리지 사용 요청 가져오기]
++
+Get Storage Usage 요청은 계정이 사용하는 총 스토리지 양과 계정과 연결된 각 버킷에 대해 알려줍니다.
+
+* xref:../s3/deprecated-bucket-requests-for-legacy-compliance.adoc[레거시 규정 준수에 대한 더 이상 사용되지 않는 버킷 요청]
++
+StorageGRID S3 REST API를 사용하여 레거시 규정 준수 기능을 사용하여 생성된 버킷을 관리해야 할 수 있습니다.
+
+

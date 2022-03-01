@@ -1,0 +1,101 @@
+---
+permalink: sg100-1000/automating-appliance-configuration-using-storagegrid-appliance-installer.html 
+sidebar: sidebar 
+keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gateway Node, admin node, automate, automating, automation, automatic, configuration, configure, appliance installer 
+summary: 구성 정보가 포함된 JSON 파일을 사용하여 어플라이언스 구성을 자동화할 수 있습니다. StorageGRID 어플라이언스 설치 프로그램을 사용하여 파일을 업로드합니다. 
+---
+= StorageGRID 어플라이언스 설치 프로그램을 사용하여 어플라이언스 구성을 자동화합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+구성 정보가 포함된 JSON 파일을 사용하여 어플라이언스 구성을 자동화할 수 있습니다. StorageGRID 어플라이언스 설치 프로그램을 사용하여 파일을 업로드합니다.
+
+.무엇을 &#8217;필요로 할거야
+* 어플라이언스는 StorageGRID 11.5 이상과 호환되는 최신 펌웨어에 있어야 합니다.
+* 를 사용하여 구성하는 어플라이언스의 StorageGRID 어플라이언스 설치 프로그램에 연결되어 있어야 합니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
+
+
+다음과 같은 어플라이언스 구성 작업을 자동화할 수 있습니다.
+
+* Grid Network, Admin Network 및 Client Network IP 주소입니다
+* BMC 인터페이스
+* 네트워크 링크
++
+** 포트 결합 모드
+** 네트워크 연결 모드
+** 링크 속도
+
+
+
+
+업로드된 JSON 파일을 사용하여 어플라이언스를 구성하는 것이 StorageGRID 어플라이언스 설치 프로그램에서 여러 페이지를 사용하여 수동으로 구성하는 것보다 더 효율적인 경우가 많습니다. 특히 여러 노드를 구성해야 하는 경우 더욱 그렇습니다. 각 노드에 대해 한 번에 하나씩 구성 파일을 적용해야 합니다.
+
+
+NOTE: 어플라이언스의 설치와 구성을 모두 자동화하려는 숙련된 사용자는 xref:automating-installation-configuration-appliance-nodes-configure-sga-py-script.adoc[configure-sga.py 스크립트를 사용합니다].
+
+.단계
+. 다음 중 하나를 사용하여 JSON 파일을 생성합니다.
++
+** 를 클릭합니다 https://configbuilder.netapp.com/["ConfigBuilder 응용 프로그램"^].
+** 를 클릭합니다 xref:automating-installation-configuration-appliance-nodes-configure-sga-py-script.adoc['configure-sGA.py' 어플라이언스 구성 스크립트]. StorageGRID 어플라이언스 설치 프로그램(* 도움말*>* 어플라이언스 구성 스크립트*)에서 스크립트를 다운로드할 수 있습니다.
++
+JSON 파일의 노드 이름은 다음 요구사항을 충족해야 합니다.
+
++
+*** 1자 이상 32자 이하의 유효한 호스트 이름이어야 합니다
+*** 문자, 숫자 및 하이픈을 사용할 수 있습니다
+*** 하이픈으로 시작하거나 끝날 수 없습니다
+*** 숫자만 포함할 수 없습니다
++
+
+IMPORTANT: JSON 파일의 노드 이름(최상위 이름)이 고유한지 확인하십시오. 그렇지 않으면 JSON 파일을 사용하여 둘 이상의 노드를 구성할 수 없습니다.
+
+
+
+
+
+. Advanced * > * Update Appliance Configuration * 을 선택합니다.
++
+어플라이언스 구성 업데이트 페이지가 나타납니다.
+
++
+image::../media/update_appliance_configuration.png[어플라이언스 구성 페이지를 업데이트합니다]
+
+. 업로드할 구성이 있는 JSON 파일을 선택합니다.
++
+.. 찾아보기 * 를 선택합니다.
+.. 파일을 찾아 선택합니다.
+.. 열기 * 를 선택합니다.
++
+파일이 업로드되고 검증됩니다. 유효성 검사 프로세스가 완료되면 녹색 확인 표시 옆에 파일 이름이 표시됩니다.
+
++
+
+IMPORTANT: JSON 파일의 구성에 "link_config", "networks" 또는 둘 다에 대한 섹션이 포함된 경우 어플라이언스에 대한 연결이 끊어질 수 있습니다. 1분 이내에 다시 연결되지 않으면 어플라이언스에 할당된 다른 IP 주소 중 하나를 사용하여 어플라이언스 URL을 다시 입력하십시오.
+
++
+image::../media/update_appliance_configuration_valid_json.png[어플라이언스 구성 JSON이 업로드되었습니다]
+
++
+노드 이름 * 드롭다운은 JSON 파일에 정의된 최상위 노드 이름으로 채워집니다.
+
++
+
+NOTE: 파일이 유효하지 않으면 파일 이름이 빨간색으로 표시되고 오류 메시지가 노란색 배너에 표시됩니다. 잘못된 파일이 어플라이언스에 적용되지 않습니다. ConfigBuilder를 사용하여 올바른 JSON 파일이 있는지 확인할 수 있습니다.
+
+
+
+. 노드 이름 * 드롭다운 목록에서 노드를 선택합니다.
++
+JSON 설정 적용 * 버튼이 활성화됩니다.
+
++
+image::../media/update_appliance_configuration_apply_button_enabled.png[어플라이언스 구성 적용 버튼을 활성화합니다]
+
+. JSON 구성 적용 * 을 선택합니다.
++
+선택한 노드에 구성이 적용됩니다.
+
+

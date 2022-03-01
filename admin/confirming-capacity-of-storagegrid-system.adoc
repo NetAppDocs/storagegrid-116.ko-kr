@@ -1,0 +1,17 @@
+---
+permalink: admin/confirming-capacity-of-storagegrid-system.html 
+sidebar: sidebar 
+keywords: data migration, data capacity for migration 
+summary: 대량의 데이터를 StorageGRID 시스템으로 마이그레이션하기 전에 StorageGRID 시스템에 예상되는 볼륨을 처리할 수 있는 디스크 용량이 있는지 확인하십시오. 
+---
+= StorageGRID 시스템의 용량을 확인합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+대량의 데이터를 StorageGRID 시스템으로 마이그레이션하기 전에 StorageGRID 시스템에 예상되는 볼륨을 처리할 수 있는 디스크 용량이 있는지 확인하십시오.
+
+StorageGRID 시스템에 아카이브 노드가 포함되어 있고 마이그레이션된 객체의 복제본이 니어라인 스토리지(예: 테이프)에 저장된 경우 아카이브 노드의 스토리지가 마이그레이션된 데이터의 예상 볼륨에 충분한 용량을 가지고 있는지 확인하십시오.
+
+용량 평가의 일환으로 마이그레이션할 객체의 데이터 프로파일을 살펴보고 필요한 디스크 용량을 계산합니다. StorageGRID 시스템의 디스크 용량을 모니터링하는 방법에 대한 자세한 내용은 을 참조하십시오 xref:managing-storage-nodes.adoc[스토리지 노드 관리] 및 xref:../monitor/index.adoc[모니터링하고 문제를 해결합니다].

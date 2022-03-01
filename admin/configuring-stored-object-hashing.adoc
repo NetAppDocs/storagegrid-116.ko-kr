@@ -1,0 +1,32 @@
+---
+permalink: admin/configuring-stored-object-hashing.html 
+sidebar: sidebar 
+keywords: stored object hashing, hashing algorithm, sha-1, sha-256 
+summary: 저장된 개체 해싱 옵션은 개체 무결성을 확인하는 데 사용되는 해시 알고리즘을 지정합니다. 
+---
+= 저장된 객체 해싱을 구성합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+저장된 개체 해싱 옵션은 개체 무결성을 확인하는 데 사용되는 해시 알고리즘을 지정합니다.
+
+.무엇을 &#8217;필요로 할거야
+* 를 사용하여 그리드 관리자에 로그인했습니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
+* 특정 액세스 권한이 있습니다.
+
+
+기본적으로 오브젝트 데이터는 SHA-1 알고리즘을 사용하여 해시됩니다. SHA-256 알고리즘에는 추가 CPU 리소스가 필요하며 일반적으로 무결성 검증에 권장되지 않습니다.
+
+
+NOTE: 이 설정을 변경하면 새 설정을 적용하는 데 약 1분이 걸립니다. 구성된 값이 성능 및 확장을 위해 캐싱됩니다.
+
+.단계
+. 구성 * > * 시스템 * > * 그리드 옵션 * 을 선택합니다.
+. 저장된 개체 옵션 섹션에서 저장된 개체 해시를 * SHA-1 * (기본값) 또는 * SHA-256 * 로 변경합니다.
++
+image::../media/stored_object_hashing.png[저장된 개체 해싱]
+
+. 저장 * 을 선택합니다.
+

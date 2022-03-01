@@ -1,0 +1,47 @@
+---
+permalink: admin/controlling-which-client-operations-are-permitted.html 
+sidebar: sidebar 
+keywords: prevent client modification, grid option, deny client operations 
+summary: 클라이언트 수정 방지 그리드 옵션을 선택하여 특정 HTTP 클라이언트 작업을 거부할 수 있습니다. 
+---
+= 허용되는 클라이언트 작업을 제어합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+클라이언트 수정 방지 그리드 옵션을 선택하여 특정 HTTP 클라이언트 작업을 거부할 수 있습니다.
+
+.무엇을 &#8217;필요로 할거야
+* 를 사용하여 그리드 관리자에 로그인했습니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
+* 특정 액세스 권한이 있습니다.
+
+
+클라이언트 수정 방지 는 시스템 전체 설정입니다. 클라이언트 수정 방지 옵션을 선택하면 다음 요청이 거부됩니다.
+
+* * S3 REST API *
++
+** 버킷 요청을 삭제합니다
+** 기존 오브젝트의 데이터, 사용자 정의 메타데이터 또는 S3 오브젝트 태그 지정을 수정하는 요청
++
+
+NOTE: 이 설정은 버전 관리가 활성화된 버킷에는 적용되지 않습니다. 버전 관리를 사용하면 이미 개체 데이터, 사용자 정의 메타데이터 및 개체 태그 지정을 수정할 수 없습니다.
+
+
+
+* * Swift REST API *
++
+** 컨테이너 요청을 삭제합니다
+** 기존 객체 수정 요청. 예를 들어, 덮어쓰기, 삭제, 메타데이터 업데이트 등의 작업이 거부됩니다.
+
+
+
+
+.단계
+. 구성 * > * 시스템 * > * 그리드 옵션 * 을 선택합니다.
+. 네트워크 옵션 섹션에서 * 클라이언트 수정 방지 * 확인란을 선택합니다.
++
+image::../media/prevent_client_modification.png[클라이언트 수정 방지]
+
+. 저장 * 을 선택합니다.
+

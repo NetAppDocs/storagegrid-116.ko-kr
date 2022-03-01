@@ -1,0 +1,56 @@
+---
+permalink: upgrade/linux-installing-rpm-or-deb-package-on-all-hosts.html 
+sidebar: sidebar 
+keywords: upgrade, linux, rpm, deb, 
+summary: StorageGRID 노드가 Linux 호스트에 배포된 경우 업그레이드를 시작하기 전에 각 호스트에 추가 RPM 또는 DEB 패키지를 설치해야 합니다. 
+---
+= Linux: 모든 호스트에 RPM 또는 DEB 패키지를 설치합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 노드가 Linux 호스트에 배포된 경우 업그레이드를 시작하기 전에 각 호스트에 추가 RPM 또는 DEB 패키지를 설치해야 합니다.
+
+StorageGRID용 NetApp 다운로드 페이지에서 다음 '.tgz' 또는 '.zip' 파일 중 하나를 다운로드해야 합니다.
+
+
+NOTE: 서비스 랩톱에서 Windows를 실행 중인 경우 '.zip' 파일을 사용합니다.
+
+[cols="1a,2a"]
+|===
+| Linux 플랫폼 | 추가 파일(하나 선택) 
+
+
+ a| 
+Red Hat Enterprise Linux 또는 CentOS
+ a| 
+* 'STORageGRID-Webscale-_VERSION_-RPM-_UniqueID_.zip'
+* S torageGRID-Webscale-_version_-RPM-_UniqueID_.tgz
+
+
+
+
+ a| 
+Ubuntu 또는 Debian
+ a| 
+* 'storageGRID-Webscale-_version_-deb-_UniqueID_.zip'
+* 'storageGRID-Webscale-_version_-deb-_UniqueID_.tgz'
+
+
+|===
+.단계
+. 설치 파일에서 RPM 또는 DEB 패키지를 추출합니다.
+. 모든 Linux 호스트에 RPM 또는 DEB 패키지를 설치합니다.
++
+Linux 플랫폼의 설치 지침에서 StorageGRID 호스트 서비스 설치 단계를 참조하십시오.
+
++
+** xref:../rhel/index.adoc[Red Hat Enterprise Linux 또는 CentOS를 설치합니다]
+** xref:../ubuntu/index.adoc[Ubuntu 또는 Debian을 설치합니다]
+
+
++
+새 패키지는 추가 패키지로 설치됩니다. 기존 패키지를 제거하지 마십시오.
+
+

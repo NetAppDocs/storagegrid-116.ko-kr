@@ -1,0 +1,40 @@
+---
+permalink: maintain/removing-donotstart-file-for-service.html 
+sidebar: sidebar 
+keywords: storagegrid, recover, donotstart file, do not start file, remove donotstart, removing donotstart, remove do not start, removing do not start 
+summary: 서비스 시작을 방해하는 DoNotStart 파일을 제거할 경우 해당 서비스를 시작해야 합니다. 
+---
+= 서비스에 대한 DoNotStart 파일을 제거합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+서비스 시작을 방해하는 DoNotStart 파일을 제거할 경우 해당 서비스를 시작해야 합니다.
+
+"passwords.txt" 파일이 있어야 합니다.
+
+.단계
+. 그리드 노드에 로그인합니다.
++
+.. 'ssh admin@_grid_node_ip_' 명령을 입력합니다
+.. "passwords.txt" 파일에 나열된 암호를 입력합니다.
+.. 루트로 전환하려면 다음 명령을 입력합니다
+.. "passwords.txt" 파일에 나열된 암호를 입력합니다.
+
+
++
+루트로 로그인하면 프롬프트가 '$'에서 '#'로 바뀝니다.
+
+. 서비스 디렉터리 'rm/etc/sv/_service_/DoNotStart'에서 DoNotStart 파일을 제거합니다
++
+여기서 서비스는 서비스의 이름입니다. 예를 들면, 다음과 같습니다.
+
++
+[listing]
+----
+rm /etc/sv/ldr/DoNotStart
+----
+. 'service_serviceename_start' 서비스를 시작합니다
+. 명령 셸에서 'exit'를 로그아웃합니다
+

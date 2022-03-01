@@ -1,0 +1,136 @@
+---
+section: sg100-1000
+title: SG100 및 SG1000 서비스 어플라이언스
+entries:
+- title: 개요
+  pdf-filename: StorageGRID SG100 및 SG1000 서비스 어플라이언스
+  url: "/sg100-1000/index.html"
+- title: SG100 및 SG1000 응용 프로그램
+  url: "/sg100-1000/sg100-and-sg1000-applications.html"
+- title: 설치 및 구축 개요
+  url: "/sg100-1000/installation-and-deployment-overview.html"
+- title: 설치 준비(SG100 및 SG1000)
+  url: "/sg100-1000/preparing-for-installation-sg100-and-sg1000.html"
+  entries:
+  - title: 사이트 준비(SG100 및 SG1000)
+    url: "/sg100-1000/preparing-site-sg100-and-sg1000.html"
+  - title: 박스 포장 풀기(SG100 및 SG1000)
+    url: "/sg100-1000/unpacking-boxes-sg100-and-sg1000.html"
+  - title: 추가 장비 및 도구 확보(SG100 및 SG1000)
+    url: "/sg100-1000/obtaining-additional-equipment-and-tools-sg100-and-sg1000.html"
+  - title: 어플라이언스 네트워크 연결 검토(SG100 및 SG1000)
+    url: "/sg100-1000/reviewing-appliance-network-connections-sg100-and-sg1000.html"
+    entries:
+    - title: SG100 및 SG1000 어플라이언스의 포트 결합 모드
+      url: "/sg100-1000/port-bond-modes-for-sg100-and-sg1000.html"
+      entries:
+      - title: 네트워크 연결 모드
+        url: "/sg100-1000/network-bond-modes-sg100-and-sg1000.html"
+      - title: 관리 포트의 네트워크 연결 모드입니다
+        url: "/sg100-1000/network-bond-modes-for-management-ports-sg100-and-sg1000.html"
+  - title: 설치 정보 수집(SG100 및 SG1000)
+    url: "/sg100-1000/gathering-installation-information-sg100-and-sg1000.html"
+- title: 하드웨어 설치(SG100 및 SG1000)
+  entries:
+  - title: 하드웨어 등록
+    url: "/sg100-1000/registering-hardware-sg100-and-sg1000.html"
+  - title: 캐비닛 또는 랙에 어플라이언스 설치(SG100 및 SG1000)
+    url: "/sg100-1000/installing-appliance-in-cabinet-or-rack-sg100-and-sg1000.html"
+  - title: 케이블 어플라이언스(SG100 및 SG1000)
+    url: "/sg100-1000/cabling-appliance-sg100-and-sg1000.html"
+  - title: 전원 코드를 연결하고 전원을 공급합니다(SG100 및 SG1000).
+    url: "/sg100-1000/connecting-power-cords-and-applying-power-sg100-and-sg1000.html"
+  - title: SG100 및 SG1000 어플라이언스의 상태 표시기를 봅니다
+    url: "/sg100-1000/viewing-status-indicators-on-sg100-and-sg1000-appliances.html"
+- title: StorageGRID 접속 구성(SG100 및 SG1000)
+  url: "/sg100-1000/configuring-storagegrid-connections-sg100-and-sg1000.html"
+  entries:
+  - title: StorageGRID 어플라이언스 설치 프로그램에 액세스합니다
+    url: "/sg100-1000/accessing-storagegrid-appliance-installer-sg100-and-sg1000.html"
+  - title: StorageGRID 어플라이언스 설치 프로그램 버전을 확인하고 업그레이드합니다
+    url: "/sg100-1000/verifying-and-upgrading-storagegrid-appliance-installer-version.html"
+  - title: 네트워크 링크 구성(SG100 및 SG1000)
+    url: "/sg100-1000/configuring-network-links-sg100-and-sg1000.html"
+  - title: StorageGRID IP 주소를 구성합니다
+    url: "/sg100-1000/configuring-storagegrid-ip-addresses-sg100-and-sg1000.html"
+  - title: 네트워크 연결을 확인합니다
+    url: "/sg100-1000/verifying-network-connections.html"
+  - title: 포트 수준 네트워크 연결을 확인합니다
+    url: "/sg100-1000/verifying-port-level-network-connections.html"
+- title: BMC 인터페이스 구성(SG100 및 SG1000)
+  url: "/sg100-1000/configuring-bmc-interface-sg1000.html"
+  entries:
+  - title: BMC 인터페이스의 루트 암호를 변경합니다
+    url: "/sg100-1000/changing-root-password-for-bmc-interface-sg1000.html"
+  - title: BMC 관리 포트의 IP 주소를 설정합니다
+    url: "/sg100-1000/setting-ip-address-for-bmc-management-port-sg1000.html"
+  - title: BMC 인터페이스에 액세스합니다
+    url: "/sg100-1000/accessing-bmc-interface-sg1000.html"
+  - title: 서비스 어플라이언스에 대한 SNMP 설정을 구성합니다
+    url: "/sg100-1000/configuring-snmp-settings-for-sg1000.html"
+  - title: 알림에 대한 이메일 알림을 설정합니다
+    url: "/sg100-1000/setting-up-email-notifications-for-alerts.html"
+- title: '선택 사항: 노드 암호화를 활성화합니다'
+  url: "/sg100-1000/optional-enabling-node-encryption.html"
+- title: 서비스 어플라이언스 노드를 배포합니다
+  url: "/sg100-1000/deploying-services-appliance-node.html"
+  entries:
+  - title: 서비스 어플라이언스를 기본 관리 노드로 배포합니다
+    url: "/sg100-1000/deploying-services-appliance-as-primary-admin-node.html"
+  - title: 서비스 어플라이언스를 게이트웨이 또는 비기본 관리 노드로 배포합니다
+    url: "/sg100-1000/deploying-services-appliance-as-gateway-or-non-primary-admin-node.html"
+  - title: 서비스 어플라이언스 설치를 모니터링합니다
+    url: "/sg100-1000/monitoring-services-appliance-installation.html"
+  - title: 어플라이언스 설치 및 구성 자동화(SG100 및 SG1000)
+    url: "/sg100-1000/automating-appliance-installation-and-configuration.html"
+    entries:
+    - title: StorageGRID 어플라이언스 설치 프로그램을 사용하여 어플라이언스 구성을 자동화합니다
+      url: "/sg100-1000/automating-appliance-configuration-using-storagegrid-appliance-installer.html"
+    - title: configure-sga.py 스크립트를 사용하여 어플라이언스 노드의 설치 및 구성을 자동화합니다
+      url: "/sg100-1000/automating-installation-configuration-appliance-nodes-configure-sga-py-script.html"
+    - title: StorageGRID 구성 자동화
+      url: "/sg100-1000/automating-configuration-of-storagegrid.html"
+  - title: REST API 설치 개요
+    url: "/sg100-1000/overview-of-installation-rest-apis.html"
+- title: 하드웨어 설치 문제 해결(SG100 및 SG1000)
+  url: "/sg100-1000/troubleshooting-hardware-installation-sg100-and-sg1000.html"
+  entries:
+  - title: 어플라이언스의 부팅 코드를 봅니다
+    url: "/sg100-1000/viewing-boot-up-codes-for-appliance-sg100-and-sg1000.html"
+  - title: 어플라이언스에 대한 오류 코드를 봅니다
+    url: "/sg100-1000/viewing-error-codes-for-sg1000-controller-sg100-and-sg1000.html"
+  - title: 하드웨어 설치가 중단된 것 같습니다(SG100 및 SG1000).
+    url: "/sg100-1000/hardware-setup-appears-to-hang-sg100-and-sg1000.html"
+  - title: 연결 문제 해결(SG100 및 SG1000)
+    url: "/sg100-1000/troubleshooting-connection-issues-sg100-and-sg1000.html"
+  - title: StorageGRID 어플라이언스 설치 프로그램이 실행 중인 동안 서비스 어플라이언스를 재부팅합니다
+    url: "/sg100-1000/rebooting-services-appliance-while-sg-appliance-installer-is-running-sg100-and-sg1000.html"
+- title: 제품을 유지보수하십시오
+  url: "/sg100-1000/maintaining-services-appliance-sg100-and-sg1000.html"
+  entries:
+  - title: 제품을 유지보수 모드로 전환합니다
+    url: "/sg100-1000/placing-appliance-into-maintenance-mode.html"
+  - title: 컨트롤러 식별 LED를 켜고 끕니다
+    url: "/sg100-1000/turning-controller-identify-led-on-and-off.html"
+  - title: 데이터 센터에서 컨트롤러를 찾습니다
+    url: "/sg100-1000/locating-controller-in-data-center.html"
+  - title: 제품을 종료하십시오
+    url: "/sg100-1000/shut-down-sg100-and-sg1000.html"
+  - title: 서비스 어플라이언스를 교체하십시오
+    url: "/sg100-1000/replacing-services-appliance.html"
+  - title: 서비스 어플라이언스에서 하나 또는 두 개의 전원 공급 장치를 교체합니다
+    url: "/sg100-1000/replacing-one-or-more-power-supplies-in-services-appliance.html"
+  - title: 서비스 어플라이언스에서 팬을 교체합니다
+    url: "/sg100-1000/replacing-fan-in-services-appliance.html"
+  - title: 서비스 어플라이언스에서 드라이브를 교체합니다
+    url: "/sg100-1000/replacing-drive-in-services-appliance.html"
+  - title: 서비스 어플라이언스의 링크 구성을 변경합니다
+    url: "/sg100-1000/changing-link-configuration-of-services-appliance.html"
+  - title: MTU 설정을 변경합니다
+    url: "/sg100-1000/changing-mtu-setting.html"
+  - title: DNS 서버 구성을 확인합니다
+    url: "/sg100-1000/checking-dns-server-configuration.html"
+  - title: 유지보수 모드에서 노드 암호화 모니터링(SG100 및 SG1000)
+    url: "/sg100-1000/monitoring-node-encryption-in-maintenance-mode.html"
+  - title: 키 관리 서버 구성을 지웁니다
+    url: "/sg100-1000/clearing-key-management-server-configuration.html"

@@ -1,0 +1,83 @@
+---
+permalink: rhel/where-to-go-next.html 
+sidebar: sidebar 
+keywords: what to do after red hat linux centos installation 
+summary: 설치를 완료한 후에는 일련의 통합 및 구성 단계를 수행해야 합니다. 일부 단계는 필수 사항이고 다른 단계는 선택 사항입니다. 
+---
+= 다음 단계로 넘어갑니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+설치를 완료한 후에는 일련의 통합 및 구성 단계를 수행해야 합니다. 일부 단계는 필수 사항이고 다른 단계는 선택 사항입니다.
+
+
+
+== 필수 작업
+
+* StorageGRID 시스템에 오브젝트를 저장하는 데 사용할 각 클라이언트 프로토콜(Swift 또는 S3)에 대한 테넌트 계정을 생성합니다.
+* 그룹 및 사용자 계정을 구성하여 시스템 액세스를 제어합니다. 필요에 따라 관리 그룹 및 사용자를 가져올 수 있도록 통합 ID 소스(예: Active Directory 또는 OpenLDAP)를 구성할 수 있습니다. 또는 로컬 그룹 및 사용자를 만들 수 있습니다.
+* 오브젝트를 StorageGRID 시스템에 업로드하는 데 사용할 S3 또는 Swift API 클라이언트 애플리케이션을 통합 및 테스트합니다.
+* 준비가 되면 개체 데이터를 보호하는 데 사용할 ILM(정보 수명 주기 관리) 규칙 및 ILM 정책을 구성합니다.
++
+
+NOTE: StorageGRID를 설치하면 기본 ILM 정책, 즉 기본 2 복사본 정책이 활성화됩니다. 이 정책에는 재고 ILM 규칙(복사본 2개 만들기)이 포함되며 다른 정책이 활성화되지 않은 경우 적용됩니다.
+
+* 설치에 어플라이언스 스토리지 노드가 포함된 경우 SANtricity 소프트웨어를 사용하여 다음 작업을 완료합니다.
++
+** 각 StorageGRID 어플라이언스에 연결하십시오.
+** AutoSupport 데이터가 수신되었는지 확인합니다.
+
+
+* StorageGRID 시스템에 아카이브 노드가 포함된 경우 아카이브 노드의 대상 외부 아카이브 스토리지 시스템에 대한 접속을 구성합니다.
+
+
+
+NOTE: 아카이브 노드에서 Tivoli Storage Manager를 외부 아카이브 스토리지 시스템으로 사용하는 경우 Tivoli Storage Manager도 구성해야 합니다.
+
+* StorageGRID 시스템 강화 지침을 검토하고 준수하여 보안 위험을 제거합니다.
+* 시스템 경고에 대한 이메일 알림을 구성합니다.
+
+
+
+
+== 선택적 태스크입니다
+
+* (레거시) 알람 시스템에서 알림을 수신하려면 알람에 대한 메일 그룹 및 이메일 알림을 구성합니다.
+* 배포를 계획하고 복구 패키지를 생성한 이후에 변경된 경우 그리드 노드 IP 주소를 업데이트합니다. 복구 및 유지 관리 지침에서 IP 주소 변경에 대한 정보를 참조하십시오.
+* 필요한 경우 스토리지 암호화를 구성합니다.
+* 필요한 경우 스토리지 압축을 구성하여 저장된 개체의 크기를 줄입니다.
+* 감사 클라이언트 액세스를 구성합니다. NFS 또는 CIFS 파일 공유를 통해 감사 목적으로 시스템에 대한 액세스를 구성할 수 있습니다. StorageGRID 관리 지침을 참조하십시오.
+
+
+
+NOTE: CIFS/Samba를 통한 감사 내보내기는 더 이상 사용되지 않으며 향후 StorageGRID 릴리즈에서 제거될 예정입니다.
+
+xref:../admin/index.adoc[StorageGRID 관리]
+
+xref:../s3/index.adoc[S3을 사용합니다]
+
+xref:../swift/index.adoc[Swift를 사용합니다]
+
+xref:../ilm/index.adoc[ILM을 사용하여 개체를 관리합니다]
+
+xref:../monitor/index.adoc[모니터링하고 문제를 해결합니다]
+
+xref:../maintain/index.adoc[복구 및 유지 관리]
+
+xref:../sg100-1000/index.adoc[SG100 및 SG1000 서비스 어플라이언스]
+
+xref:../sg5600/index.adoc[SG5600 스토리지 어플라이언스]
+
+xref:../sg5700/index.adoc[SG5700 스토리지 어플라이언스]
+
+xref:../sg6000/index.adoc[SG6000 스토리지 어플라이언스]
+
+xref:../release-notes/index.adoc[릴리스 정보]
+
+xref:../harden/index.adoc[시스템 강화]
+
+xref:../audit/index.adoc[감사 로그를 검토합니다]
+
+xref:../upgrade/index.adoc[소프트웨어 업그레이드]

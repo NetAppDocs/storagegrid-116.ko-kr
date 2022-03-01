@@ -1,0 +1,13 @@
+---
+permalink: sg5700/configuring-hardware-sg5712-60.html 
+sidebar: sidebar 
+keywords: storagegrid, sg5700, storage node, storage appliance, hardware, configure, configuration, set up, setup, network, networking 
+summary: 어플라이언스에 전원을 적용한 후 하드웨어를 모니터링하는 데 사용할 소프트웨어인 SANtricity 시스템 관리자를 구성해야 합니다. StorageGRID에서 사용할 네트워크 연결도 구성해야 합니다. 
+---
+= 하드웨어 구성(SG5700)
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+어플라이언스에 전원을 적용한 후 하드웨어를 모니터링하는 데 사용할 소프트웨어인 SANtricity 시스템 관리자를 구성해야 합니다. StorageGRID에서 사용할 네트워크 연결도 구성해야 합니다.

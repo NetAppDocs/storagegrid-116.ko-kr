@@ -1,0 +1,30 @@
+---
+permalink: admin/updating-storagegrid-license-information.html 
+sidebar: sidebar 
+keywords: storagegrid license, update license, add storage capacity 
+summary: 라이센스 조건이 변경될 때마다 StorageGRID 시스템의 라이센스 정보를 업데이트해야 합니다. 예를 들어 그리드에 대한 추가 스토리지 용량을 구입한 경우 라이센스 정보를 업데이트해야 합니다. 
+---
+= StorageGRID 라이센스 정보를 업데이트합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+라이센스 조건이 변경될 때마다 StorageGRID 시스템의 라이센스 정보를 업데이트해야 합니다. 예를 들어 그리드에 대한 추가 스토리지 용량을 구입한 경우 라이센스 정보를 업데이트해야 합니다.
+
+.무엇을 &#8217;필요로 할거야
+* StorageGRID 시스템에 적용할 새 라이센스 파일이 있습니다.
+* 특정 액세스 권한이 있습니다.
+* 프로비저닝 암호가 있습니다.
+
+
+.단계
+. 유지 관리 * > * 시스템 * > * 라이센스 * 를 선택합니다.
+. Provisioning Passphrase * 텍스트 상자에 StorageGRID 시스템의 프로비저닝 암호를 입력합니다.
+. 찾아보기 * 를 선택합니다.
+. 열기 대화 상자에서 새 사용권 파일('.txt')을 찾아 선택하고 * 열기 * 를 선택합니다.
++
+새 라이센스 파일의 유효성을 검사한 후 표시합니다.
+
+. 저장 * 을 선택합니다.
+

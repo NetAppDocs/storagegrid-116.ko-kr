@@ -1,0 +1,42 @@
+---
+permalink: sg6000/optional-remapping-network-ports-for-appliance-sg6000.html 
+sidebar: sidebar 
+keywords: storagegrid, sg6000, storage node, storage appliance, remapping, remap, map, mapping, network, ports 
+summary: 어플라이언스 스토리지 노드의 내부 포트를 다른 외부 포트에 다시 매핑해야 할 수 있습니다. 예를 들어, 방화벽 문제로 인해 포트를 다시 매핑해야 할 수 있습니다. 
+---
+= 옵션: 어플라이언스인 네트워크 포트를 재활용합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+어플라이언스 스토리지 노드의 내부 포트를 다른 외부 포트에 다시 매핑해야 할 수 있습니다. 예를 들어, 방화벽 문제로 인해 포트를 다시 매핑해야 할 수 있습니다.
+
+.무엇을 &#8217;필요로 할거야
+* 이전에 StorageGRID 어플라이언스 설치 프로그램에 액세스했습니다.
+* 로드 밸런서 엔드포인트를 구성하지 않았거나 구성하지 않을 계획입니다.
++
+
+NOTE: 포트를 재매핑하는 경우 동일한 포트를 사용하여 로드 밸런서 끝점을 구성할 수 없습니다. 로드 밸런서 끝점을 구성하고 이미 포트를 다시 매핑하려면 의 단계를 따릅니다 xref:../maintain/removing-port-remaps.adoc[포트 재맵을 제거합니다].
+
+
+
+.단계
+. StorageGRID 어플라이언스 설치 프로그램에서 * 네트워킹 구성 * > * 재매핑 포트 * 를 클릭합니다.
++
+Remap Port(재매핑 포트) 페이지가 나타납니다.
+
+. 네트워크 * 드롭다운 상자에서 그리드, 관리자 또는 클라이언트 중 다시 매핑할 포트의 네트워크를 선택합니다.
+. 프로토콜 * 드롭다운 상자에서 IP 프로토콜(TCP 또는 UDP)을 선택합니다.
+. Remap Direction * (재매핑 방향 *) 드롭다운 상자에서 이 포트에 대해 재매핑할 트래픽 방향(Inbound, Outbound 또는 Bi-directional)을 선택합니다.
+. 원래 포트 * 의 경우 재매핑할 포트 번호를 입력합니다.
+. Mapped-to Port*의 경우 대신 사용할 포트 번호를 입력합니다.
+. 규칙 추가 * 를 클릭합니다.
++
+새 포트 매핑이 테이블에 추가되고 다시 매핑이 즉시 적용됩니다.
+
++
+image::../media/remap_ports.gif[StorageGRID Webscale 어플라이언스 설치 프로그램에서 Remap 포트 옵션을 보여 주는 스크린샷]
+
+. 포트 매핑을 제거하려면 제거할 규칙의 라디오 버튼을 선택하고 * 선택한 규칙 제거 * 를 클릭합니다.
+

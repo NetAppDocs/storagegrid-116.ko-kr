@@ -1,0 +1,29 @@
+---
+permalink: sg6000/index.html 
+sidebar: sidebar 
+keywords: storagegrid, sg6000, storage node, storage appliance, overview, models, features 
+summary: 'StorageGRID SG6000 어플라이언스는 StorageGRID 시스템의 스토리지 노드로 작동하는 통합 스토리지 및 컴퓨팅 플랫폼입니다. 이러한 어플라이언스는 어플라이언스 스토리지 노드와 가상\(소프트웨어 기반\) 스토리지 노드를 결합하는 하이브리드 그리드 환경에서 사용할 수 있습니다.' 
+---
+= SG6000 어플라이언스: 개요
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID SG6000 어플라이언스는 StorageGRID 시스템의 스토리지 노드로 작동하는 통합 스토리지 및 컴퓨팅 플랫폼입니다. 이러한 어플라이언스는 어플라이언스 스토리지 노드와 가상(소프트웨어 기반) 스토리지 노드를 결합하는 하이브리드 그리드 환경에서 사용할 수 있습니다.
+
+SG6000 어플라이언스는 다음과 같은 기능을 제공합니다.
+
+* 다음 두 가지 모델로 제공됩니다.
++
+** SG6060은 60개의 드라이브를 포함하며 확장 쉘프를 지원합니다.
+** 24개의 SSD(Solid State Drive)를 제공하는 SGF6024
+
+
+* StorageGRID 스토리지 노드의 스토리지 및 컴퓨팅 요소 통합
+* 스토리지 노드 구축 및 구성을 단순화하기 위해 StorageGRID 어플라이언스 설치 프로그램을 포함합니다.
+* 스토리지 컨트롤러 및 드라이브를 관리 및 모니터링하기 위한 SANtricity 시스템 관리자를 포함합니다.
+* 컴퓨팅 컨트롤러의 하드웨어를 모니터링하고 진단하기 위한 BMC(베이스보드 관리 컨트롤러)를 포함합니다.
+* StorageGRID 그리드 네트워크 및 클라이언트 네트워크에 대한 10GbE 또는 25GbE 연결을 최대 4개까지 지원합니다.
+* FIPS(Federal Information Processing Standard) 드라이브 지원 이러한 드라이브를 SANtricity 시스템 관리자의 드라이브 보안 기능과 함께 사용하면 데이터에 대한 무단 액세스가 방지됩니다.
+

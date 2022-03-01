@@ -1,0 +1,70 @@
+---
+permalink: monitor/monitoring-system-health.html 
+sidebar: sidebar 
+keywords: how to monitor system health, how to view system health 
+summary: StorageGRID 시스템의 전반적인 상태를 매일 모니터링해야 합니다. 
+---
+= 시스템 상태를 모니터링합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 시스템의 전반적인 상태를 매일 모니터링해야 합니다.
+
+StorageGRID 시스템은 내결함성이 있으며 그리드의 일부를 사용할 수 없는 경우에도 계속 작동할 수 있습니다. StorageGRID 시스템에서 발생할 수 있는 문제의 첫 번째 징후는 경보 또는 경보(레거시 시스템)일 가능성이 높으며 시스템 작동에 문제가 있는 것은 아닙니다. 시스템 상태에 주의를 기울일 경우 운영 또는 그리드 효율성에 영향을 미치기 전에 사소한 문제를 감지하는 데 도움이 됩니다.
+
+Grid Manager 대시보드의 상태 패널에서는 시스템에 영향을 줄 수 있는 문제에 대한 요약을 제공합니다. 대시보드에 표시되는 모든 문제를 조사해야 합니다.
+
+
+NOTE: 알림이 트리거되는 즉시 알림을 받으려면 알림에 대한 e-메일 알림을 설정하거나 SNMP 트랩을 구성할 수 있습니다.
+
+.단계
+. Grid Manager에 로그인하여 대시보드를 봅니다.
+. Health(상태) 패널에서 정보를 검토합니다.
++
+image::../media/dashboard_health_panel.png[대시보드 상태 패널]
+
++
+문제가 발생하면 추가 세부 정보를 볼 수 있는 링크가 나타납니다.
+
++
+[cols="1a,2a"]
+|===
+| 링크 | 를 나타냅니다 
+
+
+ a| 
+그리드 세부 정보
+ a| 
+연결이 끊어진 노드가 있으면 나타납니다(연결 상태 알 수 없음 또는 관리 중단). 링크를 클릭하거나 파란색 또는 회색 아이콘을 클릭하여 영향을 받는 노드를 확인합니다.
+
+
+
+ a| 
+현재 경고
+ a| 
+현재 활성화된 알림이 있는 경우 나타납니다. 링크를 클릭하거나 * Critical *, * Major * 또는 * Minor * 를 클릭하여 * alerts * > * Current * 페이지에 대한 세부 정보를 확인합니다.
+
+
+
+ a| 
+최근에 해결된 경고
+ a| 
+지난 주에 트리거된 알림이 이제 해결된 경우 나타납니다. 링크를 클릭하면 * alerts * > * Resolved * 페이지에서 자세한 내용을 볼 수 있습니다.
+
+
+
+ a| 
+라이센스
+ a| 
+이 StorageGRID 시스템의 소프트웨어 라이센스에 문제가 있는 경우 나타납니다. 링크를 클릭하면 * 유지보수 * > * 시스템 * > * 라이센스 * 페이지에 대한 세부 정보를 볼 수 있습니다.
+
+|===
+
+
+.관련 정보
+* xref:../admin/index.adoc[StorageGRID 관리]
+* xref:set-up-email-alert-notifications.adoc[알림에 대한 이메일 알림을 설정합니다]
+* xref:using-snmp-monitoring.adoc[SNMP 모니터링을 사용합니다]
+

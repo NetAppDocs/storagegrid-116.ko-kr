@@ -1,0 +1,15 @@
+---
+permalink: admin/migrating-data-into-storagegrid.html 
+sidebar: sidebar 
+keywords: data migration, move data into storagegrid 
+summary: 대량의 데이터를 StorageGRID 시스템으로 마이그레이션하는 동시에 일상적인 작업을 위해 StorageGRID 시스템을 사용할 수 있습니다. 
+---
+= 데이터를 StorageGRID로 마이그레이션
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+대량의 데이터를 StorageGRID 시스템으로 마이그레이션하는 동시에 일상적인 작업을 위해 StorageGRID 시스템을 사용할 수 있습니다.
+
+다음 섹션에서는 대량의 데이터를 StorageGRID 시스템으로 마이그레이션하는 방법을 이해하고 계획하는 방법을 안내합니다. 이 가이드는 데이터 마이그레이션의 일반적인 가이드가 아니며 마이그레이션을 수행하기 위한 자세한 단계는 포함되어 있지 않습니다. 이 섹션의 지침과 지침을 따라 일상적인 작업을 방해하지 않으면서 데이터가 StorageGRID 시스템으로 효율적으로 마이그레이션되고 마이그레이션된 데이터가 StorageGRID 시스템에서 적절하게 처리되도록 하십시오.

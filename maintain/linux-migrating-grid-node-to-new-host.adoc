@@ -1,0 +1,37 @@
+---
+permalink: maintain/linux-migrating-grid-node-to-new-host.html 
+sidebar: sidebar 
+keywords: storagegrid, recover, linux, migrate node, migrating node, new host for node 
+summary: 'StorageGRID 노드를 한 Linux 호스트에서 다른 호스트로 마이그레이션하여 그리드의 기능이나 가용성에 영향을 주지 않고 호스트 유지 보수(OS 패치 적용 및 재부팅 등)를 수행할 수 있습니다.' 
+---
+= Linux: 그리드 노드를 새 호스트로 마이그레이션
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 노드를 한 Linux 호스트에서 다른 Linux 호스트로 마이그레이션하여 그리드의 기능 또는 가용성에 영향을 주지 않고 호스트 유지 관리(예: OS 패치 적용 및 재부팅)를 수행할 수 있습니다.
+
+한 Linux 호스트("소스 호스트")에서 다른 Linux 호스트(""대상 호스트")로 하나 이상의 노드를 마이그레이션합니다. 타겟 호스트는 이전에 StorageGRID를 사용할 준비가 되어 있어야 합니다.
+
+
+IMPORTANT: 마이그레이션 지원을 포함하도록 StorageGRID 배포를 계획한 경우에만 이 절차를 사용할 수 있습니다.
+
+그리드 노드를 새 호스트로 마이그레이션하려면 다음 두 조건이 모두 충족되어야 합니다.
+
+* 공유 스토리지는 모든 노드별 스토리지 볼륨에 사용됩니다
+* 네트워크 인터페이스는 호스트 간에 일관된 이름을 갖습니다
+
+
+
+NOTE: 운영 구축 시 단일 호스트에서 스토리지 노드를 두 개 이상 실행하지 마십시오. 각 스토리지 노드에 대해 전용 호스트를 사용하면 격리된 장애 도메인이 제공됩니다.
+
+관리 노드 또는 게이트웨이 노드와 같은 다른 유형의 노드를 동일한 호스트에 구축할 수 있습니다. 그러나 같은 유형의 여러 노드(예: 게이트웨이 노드 2개)가 있는 경우 같은 호스트에 모든 인스턴스를 설치하지 마십시오.
+
+자세한 내용은 사용 중인 Linux 운영 체제에 대한 StorageGRID 설치 지침의 "노드 마이그레이션 요구 사항"을 참조하십시오.
+
+xref:deploying-new-linux-hosts.adoc[새 Linux 호스트를 배포합니다]
+
+xref:../rhel/index.adoc[Red Hat Enterprise Linux 또는 CentOS를 설치합니다]
+
+xref:../ubuntu/index.adoc[Ubuntu 또는 Debian을 설치합니다]

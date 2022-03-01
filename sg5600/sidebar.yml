@@ -1,0 +1,152 @@
+---
+section: sg5600
+title: SG5600 스토리지 어플라이언스
+entries:
+- title: 개요
+  pdf-filename: StorageGRID SG5600 스토리지 어플라이언스
+  url: "/sg5600/index.html"
+  entries:
+  - title: StorageGRID 어플라이언스 기능
+    url: "/sg5600/storagegrid-appliance-features.html"
+  - title: 하드웨어 다이어그램
+    url: "/sg5600/hardware-diagrams.html"
+- title: 설치 및 구축 개요
+  url: "/sg5600/installation-and-deployment-overview.html"
+- title: 설치 준비(SG5600)
+  url: "/sg5600/preparing-for-installation.html"
+  entries:
+  - title: 사이트 준비(SG5600)
+    url: "/sg5600/preparing-site-sg5600.html"
+  - title: 박스 포장 풀기(SG5600)
+    url: "/sg5600/unpacking-boxes-sg5600.html"
+  - title: 추가 장비 및 툴 확보(SG5600)
+    url: "/sg5600/obtaining-additional-equipment-and-tools-sg5600.html"
+  - title: 서비스 랩톱 요구 사항
+    url: "/sg5600/service-laptop-requirements-sg5600.html"
+  - title: 어플라이언스 네트워크 연결 검토(SG5600)
+    url: "/sg5600/reviewing-appliance-network-connections-sg5600.html"
+    entries:
+    - title: E5500SG 컨트롤러 포트의 포트 연결 모드
+      url: "/sg5600/port-bond-modes-for-e5600sg-controller-ports.html"
+      entries:
+      - title: 10GbE 포트의 네트워크 연결 모드입니다
+        url: "/sg5600/network-bond-modes-for-10-gbe-ports.html"
+      - title: 1GbE 관리 포트의 네트워크 연결 모드
+        url: "/sg5600/network-bond-modes-for-1-gbe-managment-ports.html"
+  - title: 설치 정보 수집(SG5600)
+    url: "/sg5600/gathering-installation-information-sg5600.html"
+- title: 하드웨어 설치(SG5600)
+  url: "/sg5600/installing-hardware.html"
+  entries:
+  - title: 하드웨어 등록
+    url: "/sg5600/registering-hardware.html"
+  - title: 캐비닛 또는 랙에 어플라이언스 설치(SG5600)
+    url: "/sg5600/installing-appliance-in-cabinet-or-rack-sg5600.html"
+  - title: 케이블 어플라이언스(SG5600)
+    url: "/sg5600/cabling-appliance-sg5600.html"
+  - title: AC 전원 코드 연결(SG5600)
+    url: "/sg5600/connecting-ac-power-cords-sg5600.html"
+  - title: 전원 켜기(SG5600)
+    url: "/sg5600/turning-power-on-sg5600.html"
+  - title: SG5600 컨트롤러에서 부팅 상태를 확인하고 오류 코드를 검토합니다
+    url: "/sg5600/viewing-boot-up-status-and-reviewing-error-codes-on-sg5600-controllers.html"
+    entries:
+    - title: E5500SG 컨트롤러 7세그먼트 디스플레이 코드
+      url: "/sg5600/e5600sg-controller-seven-segment-display-codes.html"
+- title: 하드웨어 구성(SG5600)
+  url: "/sg5600/configuring-hardware.html"
+  entries:
+  - title: StorageGRID 연결 구성(SG5600)
+    url: "/sg5600/configuring-storagegrid-connections.html"
+    entries:
+    - title: StorageGRID 어플라이언스 설치 프로그램에 액세스합니다
+      url: "/sg5600/accessing-storagegrid-appliance-installer-sg5600.html"
+    - title: StorageGRID 어플라이언스 설치 프로그램 버전을 확인하고 업그레이드합니다
+      url: "/sg5600/verifying-and-upgrading-storagegrid-appliance-installer-version.html"
+    - title: 네트워크 링크 구성(SG5600)
+      url: "/sg5600/configuring-network-links-sg5600.html"
+    - title: IP 구성을 설정합니다
+      url: "/sg5600/setting-ip-configuration-sg5600.html"
+    - title: 네트워크 연결을 확인합니다
+      url: "/sg5600/verifying-network-connections.html"
+    - title: 포트 수준 네트워크 연결을 확인합니다
+      url: "/sg5600/verifying-port-level-network-connections.html"
+  - title: SANtricity 스토리지 관리자를 구성합니다
+    url: "/sg5600/configuring-santricity-storage-manager.html"
+    entries:
+    - title: E2700 컨트롤러의 IP 주소를 설정합니다
+      url: "/sg5600/setting-ip-address-for-e2700-controller.html"
+    - title: SANtricity 스토리지 관리자에 어플라이언스를 추가합니다
+      url: "/sg5600/adding-appliance-to-santricity-storage-manager.html"
+    - title: SANtricity 저장소 관리자를 설정합니다
+      url: "/sg5600/setting-up-santricity-storage-manager.html"
+      entries:
+      - title: AutoSupport를 구성합니다
+        url: "/sg5600/configuring-autosupport.html"
+      - title: AutoSupport 수령 확인
+        url: "/sg5600/verifying-receipt-of-autosupport.html"
+      - title: e-메일 및 SNMP 트랩 경고 알림을 구성합니다
+        url: "/sg5600/configuring-email-and-snmp-trap-alert-notifications.html"
+      - title: SANtricity 저장소 관리자의 암호를 설정합니다
+        url: "/sg5600/setting-passwords-for-santricity-storage-manager.html"
+  - title: '선택 사항: 노드 암호화를 활성화합니다'
+    url: "/sg5600/optional-enabling-node-encryption.html"
+  - title: '선택 사항: RAID6 모드로 변경(SG5660만 해당)'
+    url: "/sg5600/optional-changing-to-raid6-mode-sg5660-only.html"
+  - title: '옵션: 어플라이언스인 네트워크 포트를 재활용합니다'
+    url: "/sg5600/optional-remapping-network-ports-for-appliance-sg5600-and-sg5700.html"
+- title: 어플라이언스 스토리지 노드 구축
+  url: "/sg5600/deploying-appliance-storage-node.html"
+- title: 스토리지 어플라이언스 설치를 모니터링합니다
+  url: "/sg5600/monitoring-storage-appliance-installation.html"
+- title: 어플라이언스 설치 및 구성 자동화(SG5600)
+  url: "/sg5600/automating-appliance-installation-and-configuration.html"
+  entries:
+  - title: StorageGRID 어플라이언스 설치 프로그램을 사용하여 어플라이언스 구성을 자동화합니다
+    url: "/sg5600/automating-appliance-configuration-using-storagegrid-appliance-installer.html"
+  - title: configure-sga.py 스크립트를 사용하여 어플라이언스 노드의 설치 및 구성을 자동화합니다
+    url: "/sg5600/automating-installation-configuration-appliance-nodes-configure-sga-py-script.html"
+  - title: StorageGRID 구성 자동화
+    url: "/sg5600/automating-configuration-of-storagegrid.html"
+- title: REST API 설치 개요
+  url: "/sg5600/overview-of-installation-rest-apis.html"
+- title: 하드웨어 설치 문제 해결(SG5600)
+  url: "/sg5600/troubleshooting-hardware-installation.html"
+  entries:
+  - title: 하드웨어 설정이 멈춘 것 같습니다(SG5600).
+    url: "/sg5600/hardware-setup-progress-appears-to-hang.html"
+    entries:
+    - title: SANtricity OS 소프트웨어와 동기화하는 동안 오류가 발생했습니다
+      url: "/sg5600/he-error-error-synchronizing-with-santricity-os-software.html"
+  - title: 연결 문제 해결(SG5600)
+    url: "/sg5600/troubleshooting-connection-issues.html"
+  - title: StorageGRID 어플라이언스 설치 프로그램이 실행되는 동안 컨트롤러를 재부팅합니다
+    url: "/sg5600/rebooting-controller-while-storagegrid-appliance-installer-is-running.html"
+- title: SG5600 어플라이언스 유지
+  url: "/sg5600/maintaining-sg5600-appliance.html"
+  entries:
+  - title: 제품을 유지보수 모드로 전환합니다
+    url: "/sg5600/placing-appliance-into-maintenance-mode.html"
+  - title: 그리드 관리자를 사용하여 스토리지 컨트롤러의 SANtricity OS를 업그레이드합니다
+    url: "/sg5600/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg5600.html"
+  - title: 유지보수 모드를 사용하여 E2700 컨트롤러에서 SANtricity OS를 업그레이드합니다
+    url: "/sg5600/upgrading-santricity-os-on-e2700-controller-using-maintenance-mode.html"
+  - title: SANtricity 저장소 관리자를 사용하여 드라이브 펌웨어를 업그레이드합니다
+    url: "/sg5600/upgrading-drive-firmware-using-santricity-storage-manager.html"
+  - title: E2700 컨트롤러를 교체합니다
+    url: "/sg5600/replacing-e2700-controller.html"
+  - title: E5500SG 컨트롤러를 교체합니다
+    url: "/sg5600/replacing-e5600sg-controller.html"
+  - title: 다른 하드웨어 구성 요소를 교체합니다
+    url: "/sg5600/replacing-other-hardware-components-sg5600.html"
+  - title: E5500SG 컨트롤러의 링크 구성을 변경합니다
+    url: "/sg5600/changing-link-configuration-of-e5600sg-controller.html"
+  - title: MTU 설정을 변경합니다
+    url: "/sg5600/changing-mtu-setting.html"
+  - title: DNS 서버 구성을 확인합니다
+    url: "/sg5600/checking-dns-server-configuration.html"
+  - title: 유지보수 모드(SG5600)에서 노드 암호화 모니터링
+    url: "/sg5600/monitoring-node-encryption-in-maintenance-mode.html"
+    entries:
+    - title: 키 관리 서버 구성을 지웁니다
+      url: "/sg5600/clearing-key-management-server-configuration.html"

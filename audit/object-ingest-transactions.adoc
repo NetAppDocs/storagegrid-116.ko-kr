@@ -1,0 +1,82 @@
+---
+permalink: audit/object-ingest-transactions.html 
+sidebar: sidebar 
+keywords: storagegrid, audit, message, messages, transaction, transactions, Object ingest, S3 ingest, Swift ingest, S3, Swift, SPUT, ORLM, WPUT 
+summary: 'API 관련 \(S3 또는 Swift\) 감사 메시지를 찾아 감사 로그에서 클라이언트 수집 트랜잭션을 식별할 수 있습니다.' 
+---
+= 오브젝트 수집 트랜잭션
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+API 관련(S3 또는 Swift) 감사 메시지를 찾아 감사 로그에서 클라이언트 수집 트랜잭션을 식별할 수 있습니다.
+
+수집 트랜잭션 중에 생성된 모든 감사 메시지가 다음 표에 나와 있지 않습니다. 수집 트랜잭션을 추적하는 데 필요한 메시지만 포함됩니다.
+
+
+
+== S3 수집 감사 메시지
+
+|===
+| 코드 | 이름 | 설명 | 트레이스 | 을 참조하십시오 
+
+
+ a| 
+SPUT
+ a| 
+S3 PUT 트랜잭션
+ a| 
+S3 PUT 수집 트랜잭션이 성공적으로 완료되었습니다.
+ a| 
+CBID, S3BK, S3KY
+ a| 
+xref:sput-s3-put.adoc[SPUT: S3 PUT]
+
+
+
+ a| 
+ORLM
+ a| 
+개체 규칙이 충족되었습니다
+ a| 
+이 개체에 대한 ILM 정책이 충족되었습니다.
+ a| 
+CBID
+ a| 
+xref:orlm-object-rules-met.adoc[ORLM: 개체 규칙이 충족되었습니다]
+
+|===
+
+
+== SWIFT 수집 감사 메시지
+
+|===
+| 코드 | 이름 | 설명 | 트레이스 | 을 참조하십시오 
+
+
+ a| 
+WPUT
+ a| 
+스위프트 PUT 트랜잭션
+ a| 
+Swift Put 수집 트랜잭션이 성공적으로 완료되었습니다.
+ a| 
+CBID, WCON, WOBJ
+ a| 
+xref:wput-swift-put.adoc[WPUT: Swift Put]
+
+
+
+ a| 
+ORLM
+ a| 
+개체 규칙이 충족되었습니다
+ a| 
+이 개체에 대한 ILM 정책이 충족되었습니다.
+ a| 
+CBID
+ a| 
+xref:orlm-object-rules-met.adoc[ORLM: 개체 규칙이 충족되었습니다]
+
+|===

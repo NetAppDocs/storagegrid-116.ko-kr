@@ -1,0 +1,53 @@
+---
+permalink: fabricpool/creating-ha-group-for-fabricpool.html 
+sidebar: sidebar 
+keywords: fabricPool, high availability group, HA group, create, creating, virtual IP, VIP, preferred master, backup interface 
+summary: 'FabricPool와 함께 사용하도록 StorageGRID를 구성할 때 하나 이상의 고가용성 \(HA\) 그룹을 선택적으로 생성할 수 있습니다. HA 그룹은 관리 노드, 게이트웨이 노드 또는 둘 다에서 하나 이상의 네트워크 인터페이스로 구성됩니다.' 
+---
+= FabricPool에 대한 고가용성(HA) 그룹을 생성합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+FabricPool와 함께 사용하도록 StorageGRID를 구성할 때 HA(고가용성) 그룹을 하나 이상 선택적으로 생성할 수 있습니다. HA 그룹은 관리 노드, 게이트웨이 노드 또는 둘 다에서 하나 이상의 네트워크 인터페이스로 구성됩니다.
+
+.무엇을 &#8217;필요로 할거야
+* 를 사용하여 그리드 관리자에 로그인했습니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
+* 루트 액세스 권한이 있습니다.
+* VLAN을 사용하려는 경우 VLAN 인터페이스를 만들었습니다. 을 참조하십시오 xref:../admin/configure-vlan-interfaces.adoc[VLAN 인터페이스를 구성합니다].
+
+
+각 HA 그룹은 가상 IP 주소(VIP)를 사용하여 연결된 노드의 공유 서비스에 대한 고가용성 액세스를 제공합니다.
+
+이 작업에 대한 자세한 내용은 을 참조하십시오 xref:../admin/managing-high-availability-groups.adoc[고가용성 그룹을 관리합니다].
+
+.단계
+. 구성 * > * 네트워크 * > * 고가용성 그룹 * 을 선택합니다.
+. Create * 를 선택합니다.
+. 고유한 이름과 설명을 입력합니다(선택 사항).
+. 이 HA 그룹에 추가할 인터페이스를 하나 이상 선택하십시오.
++
+열 머리글을 사용하여 행을 정렬하거나 검색어를 입력하여 인터페이스를 보다 빠르게 찾을 수 있습니다.
+
+. 이 HA 그룹에 대한 기본 인터페이스 및 백업 인터페이스를 확인합니다.
++
+행을 끌어 놓아서 * Priority order * 열의 값을 변경합니다.
+
++
+목록의 첫 번째 인터페이스는 기본 인터페이스입니다. Primary 인터페이스는 장애가 발생하지 않는 한 Active 인터페이스입니다.
+
++
+HA 그룹에 둘 이상의 인터페이스가 포함되어 있고 활성 인터페이스에 장애가 발생하면 VIP 주소가 우선 순위 순서대로 첫 번째 백업 인터페이스로 이동합니다. 이 인터페이스에 장애가 발생하면 VIP 주소가 다음 백업 인터페이스로 이동합니다. 장애가 해결되면 VIP 주소가 사용 가능한 우선 순위가 가장 높은 인터페이스로 다시 이동됩니다.
+
+. CIDR 표기법 &#8212로 VIP 서브넷을 지정합니다. IPv4 주소 뒤에 슬래시와 서브넷 길이(0-32)를 입력합니다.
++
+네트워크 주소에는 호스트 비트가 설정되어 있지 않아야 합니다. 예를 들어, '192.16.0.0/22'가 있습니다.
+
+. 선택적으로, StorageGRID 액세스에 사용되는 ONTAP IP 주소가 StorageGRID VIP 주소와 동일한 서브넷에 없는 경우 StorageGRID VIP 로컬 게이트웨이 IP 주소를 입력합니다. 로컬 게이트웨이 IP 주소는 VIP 서브넷 내에 있어야 합니다.
+. HA 그룹에 대한 가상 IP 주소를 하나 이상 입력합니다. 최대 10개의 IP 주소를 추가할 수 있습니다. 모든 VIP는 VIP 서브넷 내에 있어야 합니다.
++
+IPv4 주소를 하나 이상 입력해야 합니다. 선택적으로 추가 IPv4 및 IPv6 주소를 지정할 수 있습니다.
+
+. Create HA group * 을 선택한 다음 * Finish * 를 선택합니다.
+

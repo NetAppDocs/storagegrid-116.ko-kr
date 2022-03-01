@@ -1,0 +1,13 @@
+---
+permalink: sg6000/configuring-hardware.html 
+sidebar: sidebar 
+keywords: storagegrid, sg6000, storage node, storage appliance, hardware, configure, configuration, set up, setup, network, networking 
+summary: 어플라이언스에 전원을 적용한 후 StorageGRID에서 사용할 네트워크 연결을 구성해야 합니다. 컨트롤러 쉘프의 스토리지 컨트롤러 및 기타 하드웨어를 모니터링하는 데 사용할 소프트웨어인 SANtricity 시스템 관리자를 구성해야 합니다. 또한 SG6000-CN 컨트롤러의 BMC 인터페이스에 액세스할 수 있는지 확인해야 합니다. 
+---
+= 하드웨어 구성(SG6000)
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+어플라이언스에 전원을 적용한 후 StorageGRID에서 사용할 네트워크 연결을 구성해야 합니다. 컨트롤러 쉘프의 스토리지 컨트롤러 및 기타 하드웨어를 모니터링하는 데 사용할 소프트웨어인 SANtricity 시스템 관리자를 구성해야 합니다. 또한 SG6000-CN 컨트롤러의 BMC 인터페이스에 액세스할 수 있는지 확인해야 합니다.

@@ -1,0 +1,140 @@
+---
+section: sg5700
+title: SG5700 스토리지 어플라이언스
+entries:
+- title: 개요
+  pdf-filename: StorageGRID SG5700 스토리지 어플라이언스
+  url: "/sg5700/index.html"
+  entries:
+  - title: StorageGRID 어플라이언스의 컨트롤러
+    url: "/sg5700/controllers-in-storagegrid-appliance.html"
+- title: 설치 및 구축 개요
+  url: "/sg5700/installation-and-deployment-overview.html"
+- title: 설치 준비(SG5700)
+  url: "/sg5700/preparing-for-installation.html"
+  entries:
+  - title: 사이트 준비(SG5700)
+    url: "/sg5700/preparing-site-sg5700.html"
+  - title: 박스 포장 풀기(SG5700)
+    url: "/sg5700/unpacking-boxes-sg5700.html"
+  - title: 추가 장비 및 도구 확보(SG5700)
+    url: "/sg5700/obtaining-additional-equipment-and-tools-sg5700.html"
+  - title: 어플라이언스 네트워크 연결 검토(SG5700)
+    url: "/sg5700/reviewing-appliance-network-connections-sg5700.html"
+    entries:
+    - title: E5500SG 컨트롤러 포트의 포트 연결 모드
+      url: "/sg5700/port-bond-modes-for-e5700sg-controller-ports.html"
+      entries:
+      - title: 10/25-GbE 포트의 네트워크 연결 모드
+        url: "/sg5700/network-bond-modes-for-10-25-gbe-ports.html"
+      - title: 1GbE 관리 포트의 네트워크 연결 모드
+        url: "/sg5700/network-bond-modes-for-1-gbe-ports.html"
+  - title: 설치 정보 수집(SG5700)
+    url: "/sg5700/gathering-installation-information-sg5700.html"
+- title: 하드웨어 설치(SG5700)
+  url: "/sg5700/installing-hardware.html"
+  entries:
+  - title: 하드웨어 등록
+    url: "/sg5700/registering-hardware.html"
+  - title: 캐비닛 또는 랙에 어플라이언스 설치(SG5700)
+    url: "/sg5700/installing-appliance-in-cabinet-or-rack-sg5700.html"
+  - title: 케이블 어플라이언스(SG5700)
+    url: "/sg5700/cabling-appliance-sg5700.html"
+  - title: 전원 코드 연결 및 전원 공급(SG5700)
+    url: "/sg5700/connecting-power-cords-and-applying-power-sg5700.html"
+  - title: SG5700 부팅 상태 코드를 봅니다
+    url: "/sg5700/viewing-sg5700-boot-up-status-codes.html"
+    entries:
+    - title: E5500SG 컨트롤러의 상태 표시등
+      url: "/sg5700/status-indicators-on-e5700sg-controller.html"
+- title: 하드웨어 구성(SG5700)
+  url: "/sg5700/configuring-hardware-sg5712-60.html"
+  entries:
+  - title: StorageGRID 연결 구성(SG5700)
+    url: "/sg5700/configuring-storagegrid-connections.html"
+    entries:
+    - title: StorageGRID 어플라이언스 설치 프로그램에 액세스합니다
+      url: "/sg5700/accessing-storagegrid-appliance-installer-sg5700.html"
+    - title: StorageGRID 어플라이언스 설치 프로그램 버전을 확인하고 업그레이드합니다
+      url: "/sg5700/verifying-and-upgrading-storagegrid-appliance-installer-version.html"
+    - title: 네트워크 링크 구성(SG5700)
+      url: "/sg5700/configuring-network-links-sg5700.html"
+    - title: IP 구성을 설정합니다
+      url: "/sg5700/setting-ip-configuration-sg5700.html"
+    - title: 네트워크 연결을 확인합니다
+      url: "/sg5700/verifying-network-connections.html"
+    - title: 포트 수준 네트워크 연결을 확인합니다
+      url: "/sg5700/verifying-port-level-network-connections.html"
+  - title: SANtricity 시스템 관리자(SG5700) 액세스 및 구성
+    url: "/sg5700/accessing-and-configuring-santricity-system-manager.html"
+    entries:
+    - title: SANtricity 시스템 관리자를 설정하고 액세스합니다
+      url: "/sg5700/setting-up-and-accessing-santricity-system-manager.html"
+    - title: SANtricity 시스템 관리자에서 하드웨어 상태를 검토합니다
+      url: "/sg5700/reviewing-hardware-status-in-santricity-system-manager.html"
+    - title: StorageGRID 어플라이언스 설치 프로그램을 사용하여 스토리지 컨트롤러의 IP 주소를 설정합니다
+      url: "/sg5700/setting-ip-addresses-for-storage-controllers-using-storagegrid-appliance-installer.html"
+  - title: '선택 사항: 노드 암호화를 활성화합니다'
+    url: "/sg5700/optional-enabling-node-encryption.html"
+  - title: '선택 사항: RAID 모드 변경(SG5760만 해당)'
+    url: "/sg5700/optional-changing-raid-mode-sg5760-only.html"
+  - title: '옵션: 어플라이언스인 네트워크 포트를 재활용합니다'
+    url: "/sg5700/optional-remapping-network-ports-for-appliance-sg5600-and-sg5700.html"
+- title: 어플라이언스 스토리지 노드 구축
+  url: "/sg5700/deploying-appliance-storage-node.html"
+- title: 스토리지 어플라이언스 설치를 모니터링합니다
+  url: "/sg5700/monitoring-storage-appliance-installation.html"
+- title: 어플라이언스 설치 및 구성 자동화(SG5700)
+  url: "/sg5700/automating-appliance-installation-and-configuration.html"
+  entries:
+  - title: StorageGRID 어플라이언스 설치 프로그램을 사용하여 어플라이언스 구성을 자동화합니다
+    url: "/sg5700/automating-appliance-configuration-using-storagegrid-appliance-installer.html"
+  - title: configure-sga.py 스크립트를 사용하여 어플라이언스 노드의 설치 및 구성을 자동화합니다
+    url: "/sg5700/automating-installation-configuration-appliance-nodes-configure-sga-py-script.html"
+  - title: StorageGRID 구성 자동화
+    url: "/sg5700/automating-configuration-of-storagegrid.html"
+- title: REST API 설치 개요
+  url: "/sg5700/overview-of-installation-rest-apis.html"
+- title: 하드웨어 설치 문제 해결(SG5700)
+  url: "/sg5700/troubleshooting-hardware-installation.html"
+  entries:
+  - title: 하드웨어 설정이 중단(SG5700)되는 것 같습니다.
+    url: "/sg5700/hardware-setup-appears-to-hang.html"
+    entries:
+    - title: SANtricity OS 소프트웨어와 동기화하는 동안 오류가 발생했습니다
+      url: "/sg5700/he-error-error-synchronizing-with-santricity-os-software.html"
+  - title: 연결 문제 해결(SG5700)
+    url: "/sg5700/troubleshooting-connection-issues.html"
+  - title: StorageGRID 어플라이언스 설치 프로그램이 실행되는 동안 컨트롤러를 재부팅합니다
+    url: "/sg5700/rebooting-controller-while-storagegrid-appliance-installer-is-running.html"
+- title: SG5700 어플라이언스 유지
+  url: "/sg5700/maintaining-sg5700-appliance.html"
+  entries:
+  - title: 제품을 유지보수 모드로 전환합니다
+    url: "/sg5700/placing-appliance-into-maintenance-mode.html"
+  - title: 스토리지 컨트롤러에서 SANtricity OS를 업그레이드합니다
+    url: "/sg5700/upgrading-santricity-os-on-storage-controller.html"
+    entries:
+    - title: 그리드 관리자를 사용하여 스토리지 컨트롤러의 SANtricity OS를 업그레이드합니다
+      url: "/sg5700/upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg5700.html"
+    - title: 유지보수 모드를 사용하여 E2800 컨트롤러에서 SANtricity OS를 업그레이드합니다
+      url: "/sg5700/upgrading-santricity-os-on-e2800-controller-using-maintenance-mode.html"
+  - title: SANtricity 시스템 관리자를 사용하여 드라이브 펌웨어를 업그레이드합니다
+    url: "/sg5700/upgrading-drive-firmware-using-santricity-system-manager.html"
+  - title: E2800 컨트롤러를 교체합니다
+    url: "/sg5700/replacing-e2800-controller.html"
+  - title: E5500SG 컨트롤러를 교체합니다
+    url: "/sg5700/replacing-e5700sg-controller.html"
+  - title: 다른 하드웨어 구성 요소를 교체합니다
+    url: "/sg5700/replacing-other-hardware-components-sg5700.html"
+  - title: E5500SG 컨트롤러의 링크 구성을 변경합니다
+    url: "/sg5700/changing-link-configuration-of-e5700sg-controller.html"
+  - title: MTU 설정을 변경합니다
+    url: "/sg5700/changing-mtu-setting.html"
+  - title: DNS 서버 구성을 확인합니다
+    url: "/sg5700/checking-dns-server-configuration.html"
+  - title: 유지보수 모드에서 노드 암호화 모니터링(SG5700)
+    url: "/sg5700/monitoring-node-encryption-in-maintenance-mode.html"
+    entries:
+    - title: 키 관리 서버 구성을 지웁니다
+      url: "/sg5700/clearing-key-management-server-configuration.html"

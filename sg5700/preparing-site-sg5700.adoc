@@ -1,0 +1,74 @@
+---
+permalink: sg5700/preparing-site-sg5700.html 
+sidebar: sidebar 
+keywords: storagegrid, sg5700, storage node, storage appliance, install, installation, site prep, site preparating, preparing site, site requirements, requirements, site, dimensions, weight, weights, temperature, humidity, altitude, airflow, heat, wiring, power, grounding, facility 
+summary: 제품을 설치하기 전에 StorageGRID 어플라이언스의 사양을 충족하는 사이트와 캐비닛 또는 랙이 맞는지 확인해야 합니다. 
+---
+= 사이트 준비(SG5700)
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+제품을 설치하기 전에 StorageGRID 어플라이언스의 사양을 충족하는 사이트와 캐비닛 또는 랙이 맞는지 확인해야 합니다.
+
+.단계
+. 사이트가 온도, 습도, 고도 범위, 공기 흐름, 열 손실 요구 사항을 충족하는지 확인합니다. 배선, 전원 및 접지. 자세한 내용은 NetApp Hardware Universe를 참조하십시오.
+. SG5760 모델을 설치하는 경우 해당 위치에서 240V AC 전원을 제공하는지 확인하십시오.
+. 이 크기의 선반에 맞게 19인치(48.3-cm) 캐비닛 또는 랙을 준비합니다(케이블 제외).
++
+|===
+| 어플라이언스 모델 | 높이 | 너비 | 깊이 | 최대 중량 
+
+
+ a| 
+SG5712
+
+(12개 드라이브)
+ a| 
+3.41in.
+
+(8.68cm)
+ a| 
+17.6인치
+
+(44.7cm)
+ a| 
+21.1in.
+
+(53.6cm)
+ a| 
+63.9lb
+
+(29.0kg)
+
+
+
+ a| 
+SG5760
+
+(60개 드라이브)
+ a| 
+6.87in.
+
+(17.46cm)
+ a| 
+17.66in.
+
+(44.86cm)
+ a| 
+38.25in.
+
+(97.16cm)
+ a| 
+250lb.
+
+(113kg)
+
+|===
+. 필요한 네트워크 스위치를 설치합니다. 호환성 정보는 NetApp 상호 운용성 매트릭스 툴을 참조하십시오.
+
+
+https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^]
+
+https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^]

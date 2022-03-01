@@ -1,0 +1,21 @@
+---
+permalink: sg5600/configuring-email-and-snmp-trap-alert-notifications.html 
+sidebar: sidebar 
+keywords: storagegrid, sg5600, storage node, storage appliance, email, notifications, alerts, alert, set up, setup, configure, configuration, snmp, traps 
+summary: SANtricity 스토리지 관리자는 어플라이언스 또는 해당 구성 요소 중 하나의 상태가 변경될 때 사용자에게 알릴 수 있습니다. 이를 알림 알림이라고 합니다. e-메일과 SNMP 트랩의 두 가지 방법으로 경고 알림을 받을 수 있습니다. 수신할 알림 알림을 구성해야 합니다. 
+---
+= e-메일 및 SNMP 트랩 경고 알림을 구성합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SANtricity 스토리지 관리자는 어플라이언스 또는 해당 구성 요소 중 하나의 상태가 변경될 때 사용자에게 알릴 수 있습니다. 이를 알림 알림이라고 합니다. e-메일과 SNMP 트랩의 두 가지 방법으로 경고 알림을 받을 수 있습니다. 수신할 알림 알림을 구성해야 합니다.
+
+.단계
+. SANtricity 저장소 관리자의 엔터프라이즈 관리 창에서 * 장치 * 탭을 선택한 다음 노드를 선택합니다.
+. Edit * > * Configure Alerts * 를 선택합니다.
+. e-메일 알림 알림을 구성하려면 * e-메일 * 탭을 선택합니다.
+. SNMP 트랩 경고 알림을 구성하려면 * SNMP * 탭을 선택합니다.
+. 필요한 경우 SANtricity 스토리지 관리자 온라인 도움말을 사용하여 작업을 완료합니다.
+

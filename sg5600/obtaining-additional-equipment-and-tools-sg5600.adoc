@@ -1,0 +1,41 @@
+---
+permalink: sg5600/obtaining-additional-equipment-and-tools-sg5600.html 
+sidebar: sidebar 
+keywords: storagegrid, sg5600, storage node, storage appliance, additional, equipment, tools 
+summary: SG5600 어플라이언스를 설치하기 전에 필요한 추가 장비 및 툴이 모두 있는지 확인하십시오. 
+---
+= 추가 장비 및 툴 확보(SG5600)
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SG5600 어플라이언스를 설치하기 전에 필요한 추가 장비 및 툴이 모두 있는지 확인하십시오.
+
+* * 스크류드라이버 *
++
+image::../media/appliance_screwdrivers.gif[스크류드라이버]
+
++
+필립스 번호 2 드라이버
+
++
+중형 일자 스크루드라이버
+
+* * ESD 손목 스트랩 *
++
+image::../media/appliance_wriststrap.gif[ESD 손목 스트랩]
+
+* * 이더넷 케이블 *
++
+image::../media/appliance_ethernet_cables.gif[이더넷 케이블]
+
+* * 이더넷 스위치 *
++
+image::../media/appliance_ethernet_switch_network_hub.gif[이더넷 허브]
+
+* * 서비스 노트북 *xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저]
++
+image::../media/appliance_laptop.gif[관리 스테이션]
+
+

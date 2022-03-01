@@ -1,0 +1,42 @@
+---
+permalink: sg100-1000/unpacking-boxes-sg100-and-sg1000.html 
+sidebar: sidebar 
+keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gateway Node, admin node, install, installation, unpack, unbox, prepare, inventory, components, contents 
+summary: StorageGRID 제품을 설치하기 전에 모든 상자의 포장을 풀고 내용물을 포장 명세서에 있는 품목과 비교합니다. 
+---
+= 박스 포장 풀기(SG100 및 SG1000)
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 제품을 설치하기 전에 모든 상자의 포장을 풀고 내용물을 포장 명세서에 있는 품목과 비교합니다.
+
+
+
+== 어플라이언스 하드웨어
+
+* SG100 또는 SG1000 *
++
+image::../media/sg6000_cn_front_without_bezel.gif[정면은 SG 100 또는 SG1000 서비스 어플라이언스를 구동합니다]
+
+* * 지침이 포함된 레일 키트 *
++
+image::../media/rail_kit.gif[레일 키트]
+
+
+
+
+
+== 전원 코드
+
+StorageGRID 제품 배송에는 다음 전원 코드가 포함됩니다.
+
+* * 해당 국가용 전원 코드 2개 *
++
+image::../media/power_cords.gif[전원 코드]
+
++
+캐비닛에는 제품과 함께 제공된 전원 코드 대신 사용하는 특수 전원 코드가 있을 수 있습니다.
+
+

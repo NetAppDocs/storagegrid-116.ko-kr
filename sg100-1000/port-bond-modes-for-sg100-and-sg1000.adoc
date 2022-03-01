@@ -1,0 +1,13 @@
+---
+permalink: sg100-1000/port-bond-modes-for-sg100-and-sg1000.html 
+sidebar: sidebar 
+keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gateway Node, admin node, port bond, port bonding, port bond mode, port-bond mode 
+summary: SG100 및 SG1000 어플라이언스에 대한 네트워크 링크를 구성할 때 그리드 네트워크 및 선택적 클라이언트 네트워크에 연결하는 포트와 선택적 관리 네트워크에 연결하는 1GbE 관리 포트에 포트 결합을 사용할 수 있습니다. 포트 본딩을 사용하면 StorageGRID 네트워크와 어플라이언스 간에 중복 경로를 제공하여 데이터를 보호할 수 있습니다. 
+---
+= SG100 및 SG1000 어플라이언스의 포트 결합 모드입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SG100 및 SG1000 어플라이언스에 대한 네트워크 링크를 구성할 때 그리드 네트워크 및 선택적 클라이언트 네트워크에 연결하는 포트와 선택적 관리 네트워크에 연결하는 1GbE 관리 포트에 포트 결합을 사용할 수 있습니다. 포트 본딩을 사용하면 StorageGRID 네트워크와 어플라이언스 간에 중복 경로를 제공하여 데이터를 보호할 수 있습니다.

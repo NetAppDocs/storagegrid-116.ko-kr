@@ -1,0 +1,41 @@
+---
+permalink: sg5600/verifying-receipt-of-autosupport.html 
+sidebar: sidebar 
+keywords: storagegrid, sg5600, storage node, storage appliance, verify, verification, verifying, confirm, confirmation, confirming, autosupport, auto-support, status 
+summary: 기술 지원 부서에서 AutoSupport 메시지를 수신하고 있는지 확인해야 합니다. 시스템에 대한 AutoSupport의 상태는 Active IQ 포털에서 확인할 수 있습니다. 이러한 메시지가 수신되었는지 확인하면 도움이 필요한 경우 기술 지원 부서에서 귀하의 정보를 확인할 수 있습니다. 
+---
+= AutoSupport 수령 확인
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+기술 지원 부서에서 AutoSupport 메시지를 수신하고 있는지 확인해야 합니다. 시스템에 대한 AutoSupport의 상태는 Active IQ 포털에서 확인할 수 있습니다. 이러한 메시지가 수신되었는지 확인하면 도움이 필요한 경우 기술 지원 부서에서 귀하의 정보를 확인할 수 있습니다.
+
+AutoSupport는 다음 상태 중 하나를 표시할 수 있습니다.
+
+* * 켜짐 *
++
+켜짐 상태는 기술 지원 부서에서 현재 시스템에서 AutoSupport 메시지를 수신하고 있음을 나타냅니다.
+
+* * 꺼짐 *
++
+꺼짐 상태는 지난 15일 동안 기술 지원 부서에서 시스템으로부터 주간 로그를 수신하지 못했거나 환경 또는 구성(예:)이 변경되었을 수 있기 때문에 AutoSupport를 사용하지 않도록 설정했을 수 있음을 나타냅니다.
+
+* * 거절 *
++
+거부 상태는 기술 지원 부서에 AutoSupport를 활성화하지 않을 것이라는 알림을 전달했음을 의미합니다.
+
+
+
+기술 지원 부서에서 시스템에서 주별 로그를 수신하면 AutoSupport 상태가 On으로 변경됩니다.
+
+.단계
+. NetApp Support 사이트 로 이동합니다 http://mysupport.netapp.com/["mysupport.netapp.com"^]Active IQ 포털에 로그인합니다.
+. AutoSupport 상태가 OFF인 상태에서 잘못된 것으로 판단될 경우 다음을 수행하십시오.
++
+.. 시스템 구성을 확인하여 AutoSupport가 켜져 있는지 확인합니다.
+.. 네트워크 환경 및 구성을 확인하여 시스템이 기술 지원 부서에 메시지를 보낼 수 있는지 확인합니다.
+
+
+

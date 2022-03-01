@@ -1,0 +1,35 @@
+---
+permalink: maintain/configuring-dns-servers.html 
+sidebar: sidebar 
+keywords: storagegrid, dns, configuring dns, configure dns, domain name system 
+summary: '도메인 이름 시스템 \(DNS\) 서버를 추가, 제거 및 업데이트하여 IP 주소 대신 FQDN\(정규화된 도메인 이름\) 호스트 이름을 사용할 수 있습니다.' 
+---
+= DNS 서버를 구성합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+IP 주소 대신 FQDN(정규화된 도메인 이름) 호스트 이름을 사용할 수 있도록 DNS(도메인 이름 시스템) 서버를 추가, 제거 및 업데이트할 수 있습니다.
+
+.무엇을 &#8217;필요로 할거야
+* 를 사용하여 그리드 관리자에 로그인해야 합니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
+* 유지 관리 또는 루트 액세스 권한이 있어야 합니다.
+* 구성할 DNS 서버의 IP 주소가 있어야 합니다.
+
+
+DNS 서버 정보를 지정하면 e-메일 또는 SNMP 알림 및 AutoSupport에 대한 IP 주소 대신 FQDN(정규화된 도메인 이름) 호스트 이름을 사용할 수 있습니다. DNS 서버를 두 개 이상 지정하는 것이 좋습니다.
+
+
+IMPORTANT: DNS 서버에 대해 2-6개의 IP 주소를 제공합니다. 일반적으로 네트워크 연결 시 각 사이트에서 로컬로 액세스할 수 있는 DNS 서버를 선택합니다. 이는 Is착륙한 사이트가 계속해서 DNS 서비스에 액세스할 수 있도록 하기 위한 것입니다. 그리드 전체 DNS 서버 목록을 구성한 후 를 사용할 수 있습니다 xref:modifying-dns-configuration-for-single-grid-node.adoc[각 노드에 대해 DNS 서버 목록을 추가로 사용자 지정합니다].
+
+DNS 서버 정보가 생략되거나 잘못 구성된 경우 각 그리드 노드의 SSM 서비스에서 NST 알람이 트리거됩니다. DNS가 올바르게 구성되고 새 서버 정보가 모든 그리드 노드에 도달하면 경보가 해제됩니다.
+
+.단계
+. 유지 관리 * > * 네트워크 * > * DNS 서버 * 를 선택합니다.
+. 서버 섹션에서 필요에 따라 업데이트를 추가하거나 DNS 서버 항목을 제거합니다.
++
+모범 사례는 사이트당 DNS 서버를 2개 이상 지정하는 것입니다. 최대 6개의 DNS 서버를 지정할 수 있습니다.
+
+. 저장 * 을 클릭합니다.
+

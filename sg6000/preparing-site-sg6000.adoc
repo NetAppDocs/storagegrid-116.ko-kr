@@ -1,0 +1,120 @@
+---
+permalink: sg6000/preparing-site-sg6000.html 
+sidebar: sidebar 
+keywords: storagegrid, sg6000, storage node, storage appliance, install, installation, site prep, site preparating, preparing site, site requirements, requirements, site, dimensions, weight, weights, temperature, humidity, altitude, airflow, heat, wiring, power, grounding, facility 
+summary: 제품을 설치하기 전에 StorageGRID 어플라이언스의 사양을 충족하는 사이트와 캐비닛 또는 랙이 맞는지 확인해야 합니다. 
+---
+= 사이트 준비(SG6000)
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+제품을 설치하기 전에 StorageGRID 어플라이언스의 사양을 충족하는 사이트와 캐비닛 또는 랙이 맞는지 확인해야 합니다.
+
+.단계
+. 사이트가 온도, 습도, 고도 범위, 공기 흐름, 열 손실 요구 사항을 충족하는지 확인합니다. 배선, 전원 및 접지. 자세한 내용은 NetApp Hardware Universe를 참조하십시오.
+. 해당 지역에서 SGF6024용 SG6060 또는 120V AC 전원에 대해 240V AC 전원을 공급하는지 확인하십시오.
+. 이 크기의 선반에 맞게 19인치(48.3-cm) 캐비닛 또는 랙을 준비합니다(케이블 제외).
++
+|===
+| 쉘프 유형 | 높이 | 너비 | 깊이 | 최대 중량 
+
+
+ a| 
+* E2860 컨트롤러 쉘프 * SG6060용
+ a| 
+6.87in.
+
+(17.46cm)
+ a| 
+17.66in.
+
+(44.86cm)
+ a| 
+38.25in.
+
+(97.16cm)
+ a| 
+250lb.
+
+(113kg)
+
+
+
+ a| 
+* SG6060용 선택적 확장 쉘프 * (1개 또는 2개)
+ a| 
+6.87in.
+
+(17.46cm)
+ a| 
+17.66in.
+
+(44.86cm)
+ a| 
+38.25in.
+
+(97.16cm)
+ a| 
+250lb.
+
+(113kg)
+
+
+
+ a| 
+SGF6024용 * EF570 컨트롤러 쉘프
+ a| 
+3.35인치
+
+(8.50cm)
+ a| 
+17.66in.
+
+(44.86cm)
+ a| 
+19.00인치
+
+(48.26cm)
+ a| 
+51.74lb.
+
+(23.47kg)
+
+
+
+ a| 
+각 어플라이언스에 * SG6000-CN 컨트롤러 *
+ a| 
+1.70in.
+
+(4.32cm)
+ a| 
+17.32in.
+
+(44.0cm)
+ a| 
+32.0in.
+
+(81.3cm)
+ a| 
+39lb.
+
+(17.7kg)
+
+|===
+. 제품을 설치할 위치를 결정합니다.
++
+
+CAUTION: E2860 컨트롤러 쉘프 또는 선택적 확장 쉘프를 설치할 경우 장비가 넘어가지 않도록 랙 또는 캐비닛 맨 아래에 하드웨어를 설치하십시오. 가장 무거운 장비가 캐비닛 또는 랙의 하단에 있는지 확인하려면 E2860 컨트롤러 쉘프 및 확장 쉘프 위에 SG6000-CN 컨트롤러를 설치합니다.
+
++
+
+IMPORTANT: 설치를 시작하기 전에 제품과 함께 제공된 0.5m 광 케이블 또는 제공된 케이블이 계획된 레이아웃에 충분한지 확인하십시오.
+
+
+
+https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^]
+
+https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^]

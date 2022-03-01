@@ -1,0 +1,13 @@
+---
+permalink: sg5600/installing-hardware.html 
+sidebar: sidebar 
+keywords: storagegrid, sg5600, storage node, storage appliance, hardware, install, installing 
+summary: 하드웨어 설치에는 하드웨어 구성 요소 설치, 구성 요소 케이블 연결 및 포트 구성 등 몇 가지 주요 작업이 포함됩니다. 
+---
+= 하드웨어 설치(SG5600)
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+하드웨어 설치에는 하드웨어 구성 요소 설치, 구성 요소 케이블 연결 및 포트 구성 등 몇 가지 주요 작업이 포함됩니다.

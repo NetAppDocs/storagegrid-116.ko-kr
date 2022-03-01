@@ -1,0 +1,45 @@
+---
+permalink: maintain/adding-donotstart-file-for-service.html 
+sidebar: sidebar 
+keywords: storagegrid, add do not start file, adding do not start file, service 
+summary: 그리드 노드의 해당 서비스 디렉터리에 DoNotStart 파일을 추가하여 개별 서비스가 시작되지 않도록 할 수 있습니다. 
+---
+= 서비스에 대한 DoNotStart 파일을 추가합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+그리드 노드의 해당 서비스 디렉터리에 DoNotStart 파일을 추가하여 개별 서비스가 시작되지 않도록 할 수 있습니다.
+
+"passwords.txt" 파일이 있어야 합니다.
+
+.단계
+. 그리드 노드에 로그인합니다.
++
+.. 'ssh admin@_grid_node_ip_' 명령을 입력합니다
+.. "passwords.txt" 파일에 나열된 암호를 입력합니다.
+.. 루트로 전환하려면 다음 명령을 입력합니다
+.. "passwords.txt" 파일에 나열된 암호를 입력합니다.
+
+
++
+루트로 로그인하면 프롬프트가 '$'에서 '#'로 바뀝니다.
+
+. DoNotStart 파일 추가: 'touch/etc/sv/_service_/DoNotStart
++
+여기서 서비스는 시작할 수 없는 서비스의 이름입니다. 예를 들면, 다음과 같습니다.
+
++
+[listing]
+----
+touch /etc/sv/ldr/DoNotStart
+----
++
+DoNotStart 파일이 만들어집니다. 파일 콘텐츠가 필요하지 않습니다.
+
++
+서버 관리자 또는 그리드 노드가 다시 시작되면 서버 관리자가 다시 시작되지만 서비스는 다시 시작되지 않습니다.
+
+. 명령 셸에서 'exit'를 로그아웃합니다
+

@@ -1,0 +1,25 @@
+---
+permalink: sg5600/viewing-boot-up-status-and-reviewing-error-codes-on-sg5600-controllers.html 
+sidebar: sidebar 
+keywords: storagegrid, sg5600, storage node, storage appliance, status, boot codes, boot, error codes, error, code, start, startup, start up, start-up, progress, e5600sg 
+summary: 각 컨트롤러에 있는 7세그먼트 디스플레이는 어플라이언스 전원이 켜질 때, 하드웨어가 초기화되는 동안, 그리고 하드웨어가 실패하여 초기화에서 다시 나올 때 상태 및 오류 코드를 표시합니다. 진행 상황 또는 문제 해결을 모니터링하는 경우, 코드의 순서를 순서대로 살펴봐야 합니다. 
+---
+= SG5600 컨트롤러에서 부팅 상태 및 오류 코드 검토
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+각 컨트롤러에 있는 7세그먼트 디스플레이는 어플라이언스 전원이 켜질 때, 하드웨어가 초기화되는 동안, 그리고 하드웨어가 실패하여 초기화에서 다시 나올 때 상태 및 오류 코드를 표시합니다. 진행 상황 또는 문제 해결을 모니터링하는 경우, 코드의 순서를 순서대로 살펴봐야 합니다.
+
+E5500SG 컨트롤러의 상태 및 오류 코드는 E2700 컨트롤러의 상태 및 오류 코드와 다릅니다.
+
+.단계
+. 부팅 중에 7세그먼트 디스플레이에 표시된 코드를 보고 진행 상황을 모니터링합니다.
+. E5500SG 컨트롤러에 대한 오류 코드를 검토하려면 7세그먼트 디스플레이 상태 및 오류 코드 정보를 참조하십시오.
+. E2700 컨트롤러의 오류 코드를 검토하려면 지원 사이트 에서 E2700 컨트롤러 설명서를 참조하십시오.
+
+
+xref:e5600sg-controller-seven-segment-display-codes.adoc[E5500SG 컨트롤러 7세그먼트 디스플레이 코드]
+
+http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61765["NetApp 설명서: E2700 시리즈"^]

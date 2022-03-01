@@ -1,0 +1,167 @@
+---
+permalink: admin/configuring-audit-clients-for-workgroup.html 
+sidebar: sidebar 
+keywords: audit client for workgroup 
+summary: 감사 메시지를 검색할 StorageGRID 배포의 각 관리자 노드에 대해 이 절차를 수행합니다. 
+---
+= Workgroup에 대한 감사 클라이언트를 구성합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+감사 메시지를 검색할 StorageGRID 배포의 각 관리자 노드에 대해 이 절차를 수행합니다.
+
+.무엇을 &#8217;필요로 할거야
+* 루트/관리자 계정 암호(해당 패키지에서 사용 가능)가 있는 "passwords.txt" 파일이 있습니다.
+* "Configuration.txt" 파일이 있습니다(해당 패키지에서 사용 가능).
+
+
+CIFS/Samba를 통한 감사 내보내기는 더 이상 사용되지 않으며 향후 StorageGRID 릴리즈에서 제거될 예정입니다.
+
+.단계
+. 기본 관리자 노드에 로그인합니다.
++
+.. 'ssh admin@_primary_Admin_Node_IP_' 명령을 입력합니다
+.. "passwords.txt" 파일에 나열된 암호를 입력합니다.
+.. 루트로 전환하려면 다음 명령을 입력합니다
+.. "passwords.txt" 파일에 나열된 암호를 입력합니다.
++
+루트로 로그인하면 프롬프트가 '$'에서 '#'로 바뀝니다.
+
+
+
+. 모든 서비스가 실행 중 또는 확인됨: 'toragegrid-status' 상태인지 확인합니다
++
+모든 서비스가 실행 중이거나 확인되지 않은 경우 계속하기 전에 문제를 해결하십시오.
+
+. 명령줄로 돌아가 * Ctrl * + * C * 를 누릅니다.
+. CIFS 구성 유틸리티 'config_cifs.rb'를 시작합니다
++
+[listing]
+----
+
+---------------------------------------------------------------------
+| Shares                 | Authentication         | Config          |
+---------------------------------------------------------------------
+| add-audit-share        | set-authentication     | validate-config |
+| enable-disable-share   | set-netbios-name       | help            |
+| add-user-to-share      | join-domain            | exit            |
+| remove-user-from-share | add-password-server    |                 |
+| modify-group           | remove-password-server |                 |
+|                        | add-wins-server        |                 |
+|                        | remove-wins-server     |                 |
+---------------------------------------------------------------------
+----
+. Windows Workgroup에 대한 인증을 설정합니다.
++
+인증이 이미 설정된 경우 권고 메시지가 나타납니다. 인증이 이미 설정된 경우 다음 단계로 이동합니다.
+
++
+.. Set-authentication을 입력한다
+.. Windows Workgroup 또는 Active Directory 설치를 묻는 메시지가 나타나면 워크그룹 을 입력합니다
+.. 메시지가 나타나면 워크그룹 이름('_workgroup_name_')을 입력합니다
+.. 메시지가 나타나면 의미 있는 NetBIOS 이름('_netbios_name_')을 만듭니다
++
+또는
+
++
+관리자 노드의 호스트 이름을 NetBIOS 이름으로 사용하려면 * Enter * 를 누릅니다.
+
++
+이 스크립트는 Samba 서버를 다시 시작하고 변경 사항이 적용됩니다. 이 작업은 1분 이내에 수행해야 합니다. 인증을 설정한 후 감사 클라이언트를 추가합니다.
+
+.. 메시지가 표시되면 * Enter * 를 누릅니다.
++
+CIFS 구성 유틸리티가 표시됩니다.
+
+
+
+. 감사 클라이언트 추가:
++
+.. add-audit-share를 입력합니다
++
+
+NOTE: 공유는 자동으로 읽기 전용으로 추가됩니다.
+
+.. 메시지가 나타나면 사용자 또는 그룹('_user_')을 추가합니다
+.. 메시지가 나타나면 감사 사용자 이름('_audit_user_name_')을 입력합니다
+.. 메시지가 나타나면 감사 사용자의 암호를 입력합니다: '_password_'
+.. 메시지가 나타나면 같은 암호를 다시 입력하여 확인합니다. '_password_'
+.. 메시지가 표시되면 * Enter * 를 누릅니다.
++
+CIFS 구성 유틸리티가 표시됩니다.
+
+
+
++
+
+NOTE: 디렉토리를 입력할 필요가 없습니다. 감사 디렉토리 이름이 미리 정의되어 있습니다.
+
+. 둘 이상의 사용자 또는 그룹이 감사 공유에 액세스할 수 있는 경우 추가 사용자를 추가합니다.
++
+.. Add-user-to-share를 입력합니다
++
+활성화된 공유의 번호 매기기 목록이 표시됩니다.
+
+.. 메시지가 나타나면 감사 내보내기 공유 번호('_share_number_')를 입력합니다
+.. 메시지가 나타나면 사용자 또는 그룹 'user'를 추가합니다
++
+또는 '그룹'을 선택합니다
+
+.. 메시지가 나타나면 감사 사용자 또는 그룹의 이름('_audit_user or audit_group_')을 입력합니다
+.. 메시지가 표시되면 * Enter * 를 누릅니다.
++
+CIFS 구성 유틸리티가 표시됩니다.
+
+.. 감사 공유에 대한 액세스 권한이 있는 추가 사용자 또는 그룹에 대해 이러한 하위 단계를 반복합니다.
+
+
+. 필요에 따라 'validate-config' 구성을 확인합니다
++
+서비스가 확인 및 표시됩니다. 다음 메시지는 무시해도 됩니다.
+
++
+[listing]
+----
+Can't find include file /etc/samba/includes/cifs-interfaces.inc
+Can't find include file /etc/samba/includes/cifs-filesystem.inc
+Can't find include file /etc/samba/includes/cifs-custom-config.inc
+Can't find include file /etc/samba/includes/cifs-shares.inc
+rlimit_max: increasing rlimit_max (1024) to minimum Windows limit (16384)
+----
++
+.. 메시지가 표시되면 * Enter * 를 누릅니다.
++
+감사 클라이언트 구성이 표시됩니다.
+
+.. 메시지가 표시되면 * Enter * 를 누릅니다.
++
+CIFS 구성 유틸리티가 표시됩니다.
+
+
+
+. CIFS 구성 유틸리티 'exit'를 닫습니다
+. 삼바 서비스를 시작한다: 'service smbd start'
+. StorageGRID 배포가 단일 사이트인 경우 다음 단계로 이동합니다.
++
+또는
+
++
+필요한 경우 StorageGRID 배포에 다른 사이트의 관리자 노드가 포함된 경우 필요에 따라 다음 감사 공유를 활성화합니다.
+
++
+.. 사이트의 관리 노드에 원격으로 로그인:
++
+... 'ssh admin@_grid_node_ip_' 명령을 입력합니다
+... "passwords.txt" 파일에 나열된 암호를 입력합니다.
+... 루트로 전환하려면 다음 명령을 입력합니다
+... "passwords.txt" 파일에 나열된 암호를 입력합니다.
+
+
+.. 각 추가 관리 노드에 대한 감사 공유를 구성하려면 단계를 반복합니다.
+.. 원격 관리 노드에 대한 원격 보안 셸 로그인을 'exit'로 닫습니다
+
+
+. 명령 셸에서 'exit'를 로그아웃합니다
+

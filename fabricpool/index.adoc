@@ -1,0 +1,75 @@
+---
+permalink: fabricpool/index.html 
+sidebar: sidebar 
+keywords: how to configure storagegrid for fabricpool, using fabricpool with storagegrid, 
+summary: NetApp ONTAP 소프트웨어를 사용하는 경우 NetApp FabricPool를 사용하여 비활성 또는 콜드 데이터를 NetApp StorageGRID 오브젝트 스토리지 시스템에 계층화할 수 있습니다. 
+---
+= StorageGRID for FabricPool 구성: 개요
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp ONTAP 소프트웨어를 사용하는 경우 NetApp FabricPool를 사용하여 비활성 또는 콜드 데이터를 NetApp StorageGRID 오브젝트 스토리지 시스템에 계층화할 수 있습니다.
+
+
+
+== 참조하십시오
+
+다음 지침을 따르십시오.
+
+* FabricPool에서 사용할 StorageGRID 오브젝트 스토리지 시스템 구성에 대한 개요를 제공합니다.
+* StorageGRID를 FabricPool 클라우드 계층으로 연결할 때 ONTAP에 제공하는 정보를 얻는 방법에 대해 알아보십시오.
+* StorageGRID ILM(정보 수명 주기 관리) 정책, StorageGRID 트래픽 분류 정책 및 FabricPool 워크로드에 대한 기타 StorageGRID 옵션을 구성하기 위한 모범 사례에 대해 알아보십시오.
+
+
+
+
+== 구성 워크플로우
+
+image::../media/fabricpool_storagegrid_workflow.png[FabricPool StorageGRID 워크플로]
+
+
+
+== 시작하기 전에
+
+* 비활성 ONTAP 데이터를 StorageGRID에 계층화하는 데 사용할 FabricPool 볼륨 계층화 정책을 결정합니다.
+* 스토리지 용량 및 성능 요구 사항을 충족하도록 StorageGRID 시스템 계획 및 설치
+* 그리드 관리자 및 테넌트 관리자를 포함한 StorageGRID 시스템 소프트웨어에 익숙해질 수 있습니다.
+* FabricPool 사용 및 구성에 대한 자세한 내용은 다음 추가 리소스를 검토하십시오.
++
+** https://www.netapp.com/pdf.html?item=/media/17239-tr4598pdf.pdf["TR-4598: ONTAP 9.9.1의 FabricPool 모범 사례"^]
+** https://docs.netapp.com/us-en/ontap/index.html["ONTAP 9 설명서"^]
+
+
+
+
+
+
+== FabricPool란 무엇입니까?
+
+FabricPool는 고성능 플래시 애그리게이트를 성능 계층으로 사용하고 오브젝트 저장소를 클라우드 계층으로 사용하는 ONTAP 하이브리드 스토리지 솔루션입니다. 데이터는 자주 액세스되는지 여부에 따라 운영 스토리지 미디어나 오브젝트 데이터 저장소에 저장됩니다. FabricPool 지원 애그리게이트를 사용하면 성능, 효율성 또는 보호 기능에 영향을 주지 않으면서 스토리지 비용을 절감할 수 있습니다.
+
+아키텍처를 변경할 필요가 없으며 중앙 ONTAP 스토리지 시스템에서 데이터 및 애플리케이션 환경을 계속 관리할 수 있습니다.
+
+
+
+== StorageGRID란 무엇입니까?
+
+StorageGRID는 파일 또는 블록 스토리지와 같은 다른 스토리지 아키텍처와 달리 데이터를 객체로 관리하는 스토리지 아키텍처입니다. 오브젝트는 버킷과 같은 단일 컨테이너 내부에 보관되며 다른 디렉토리 내의 디렉토리 내에 파일로 중첩되지 않습니다. 오브젝트 스토리지는 일반적으로 파일 또는 블록 스토리지보다 성능이 낮지만 확장성이 훨씬 더 높습니다. StorageGRID 버킷에는 페타바이트 단위의 데이터와 수십억 개의 오브젝트를 저장할 수 있습니다.
+
+
+
+== StorageGRID를 FabricPool 클라우드 계층으로 사용하는 이유
+
+FabricPool는 ONTAP 데이터를 StorageGRID를 비롯한 여러 오브젝트 저장소 공급자에 계층화할 수 있습니다. 버킷 또는 컨테이너 레벨에서 지원되는 최대 IOPS(초당 입출력 작업 수)를 설정할 수 있는 퍼블릭 클라우드와 달리, StorageGRID 성능은 시스템의 노드 수에 따라 확장됩니다. StorageGRID를 FabricPool 클라우드 계층으로 사용하면 자체 프라이빗 클라우드에 콜드 데이터를 유지하여 데이터를 최적의 성능으로 완벽하게 제어할 수 있습니다.
+
+또한 StorageGRID를 클라우드 계층으로 사용할 때는 FabricPool 라이센스가 필요하지 않습니다.
+
+
+
+== StorageGRID에서 여러 ONTAP 클러스터를 사용할 수 있습니까?
+
+다음 지침은 StorageGRID를 단일 ONTAP 클러스터에 연결하는 방법을 설명합니다. 그러나 동일한 StorageGRID 시스템을 여러 ONTAP 클러스터에 연결할 수 있습니다.
+
+여러 ONTAP 클러스터에서 단일 StorageGRID 시스템으로 데이터를 계층화하기 위한 유일한 요구사항은 각 클러스터에 다른 S3 버킷을 사용해야 한다는 것입니다. 요구 사항에 따라 모든 클러스터에 동일한 고가용성(HA) 그룹, 로드 밸런서 끝점 및 테넌트 계정을 사용하거나 각 클러스터에 대해 이러한 각 항목을 구성할 수 있습니다.

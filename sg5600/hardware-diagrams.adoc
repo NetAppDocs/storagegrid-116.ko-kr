@@ -1,0 +1,230 @@
+---
+permalink: sg5600/hardware-diagrams.html 
+sidebar: sidebar 
+keywords: storagegrid, sg5600, storage node, storage appliance, diagrams, hardware, components, locations, component, diagram, location, figures, figure, connector 
+summary: SG5612 및 SG5660 모델의 StorageGRID 어플라이언스 모델은 모두 E2700 컨트롤러와 E5500SG 컨트롤러를 포함합니다. 다이어그램을 검토하여 모델과 컨트롤러 간의 차이점을 확인해야 합니다. 
+---
+= 하드웨어 다이어그램
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SG5612 및 SG5660 모델의 StorageGRID 어플라이언스 모델은 모두 E2700 컨트롤러와 E5500SG 컨트롤러를 포함합니다. 다이어그램을 검토하여 모델과 컨트롤러 간의 차이점을 확인해야 합니다.
+
+
+
+== 모델 SG5612 2U: E2700 컨트롤러 및 E5500SG 컨트롤러 후면
+
+image::../media/sg5612_2u_rear_view.gif[SG5612의 후면 모습. 두 개의 컨트롤러 사용]
+
+|===
+| 속성 표시기 | 설명 
+
+
+ a| 
+1
+ a| 
+E2700 컨트롤러
+
+
+
+ a| 
+2
+ a| 
+E5500SG 컨트롤러
+
+|===
+
+
+== 모델 SG5660 4U: E2700 컨트롤러 및 E5500SG 컨트롤러 후면
+
+E2700 컨트롤러가 E5500SG 컨트롤러 위에 있습니다.
+
+image::../media/sg5660_4u_rear_view.gif[2개의 컨트롤러가 있는 SG5660의 후면 모습]
+
+|===
+| 속성 표시기 | 설명 
+
+
+ a| 
+1
+ a| 
+E2700 컨트롤러
+
+
+
+ a| 
+2
+ a| 
+E5500SG 컨트롤러
+
+|===
+
+
+== E2700 컨트롤러 후면
+
+image::../media/sga_controller_2700_diagram_callouts.gif[E2700 다이어그램]
+
+|===
+| 속성 표시기 | 설명 
+
+
+ a| 
+1
+ a| 
+관리 포트 1(SANtricity 저장소 관리자가 설치된 네트워크에 연결)
+
+
+
+ a| 
+2
+ a| 
+관리 포트 2(설치 중에 노트북에 연결하는 데 사용)
+
+
+
+ a| 
+3
+ a| 
+SAS 인터커넥트 포트 1
+
+
+
+ a| 
+4
+ a| 
+SAS 인터커넥트 포트 2
+
+
+
+ a| 
+5
+ a| 
+직렬 연결 포트
+
+
+
+ a| 
+6
+ a| 
+7개 세그먼트 디스플레이
+
+|===
+
+NOTE: E2700 컨트롤러 후면의 드라이브 확장(녹색) SAS 포트 2개는 사용되지 않습니다. StorageGRID 어플라이언스는 확장 드라이브 쉘프를 지원하지 않습니다.
+
+
+
+== E5500SG 컨트롤러 후면
+
+image::../media/sga_controller_5600_diagram_callouts.gif[E5600 다이어그램]
+
+|===
+| 속성 표시기 | 설명 
+
+
+ a| 
+1
+ a| 
+관리 포트 1 StorageGRID용 관리 네트워크에 연결합니다.
+
+
+
+ a| 
+2
+ a| 
+관리 포트 2 옵션:
+
+* StorageGRID용 관리 네트워크에 대한 중복 연결을 위해 관리 포트 1과 연결합니다.
+* 유선을 해제하고 임시 로컬 액세스(IP 169.254.0.1)를 위해 사용 가능한 상태로 둡니다.
+* 설치하는 동안 DHCP 할당 IP 주소를 사용할 수 없는 경우 IP 구성에 를 사용합니다.
+
+
+
+
+ a| 
+3
+ a| 
+SAS 인터커넥트 포트 1
+
+
+
+ a| 
+4
+ a| 
+SAS 인터커넥트 포트 2
+
+
+
+ a| 
+5
+ a| 
+10GbE 네트워크 포트 1의 장애 및 활성 상태 표시등
+
+
+
+ a| 
+6
+ a| 
+10GbE 네트워크 포트 2의 장애 및 활성 상태 표시등
+
+
+
+ a| 
+7
+ a| 
+10GbE 네트워크 포트 3의 장애 및 활성 상태 표시등
+
+
+
+ a| 
+8
+ a| 
+10GbE 네트워크 포트 4의 장애 및 활성 상태 표시등
+
+
+
+ a| 
+9
+ a| 
+주의 LED가 필요합니다
+
+
+
+ a| 
+10
+ a| 
+7개 세그먼트 디스플레이
+
+
+
+ a| 
+11
+ a| 
+10GbE 네트워크 포트 1
+
+
+
+ a| 
+12
+ a| 
+10GbE 네트워크 포트 2
+
+
+
+ a| 
+13
+ a| 
+10GbE 네트워크 포트 3
+
+
+
+ a| 
+14
+ a| 
+10GbE 네트워크 포트 4
+
+|===
+
+NOTE: StorageGRID 어플라이언스 E5500SG 컨트롤러의 호스트 인터페이스 카드(HIC)는 10Gb 이더넷 연결만 지원합니다. iSCSI 연결에는 사용할 수 없습니다.

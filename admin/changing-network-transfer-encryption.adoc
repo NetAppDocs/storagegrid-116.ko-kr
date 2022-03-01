@@ -1,0 +1,29 @@
+---
+permalink: admin/changing-network-transfer-encryption.html 
+sidebar: sidebar 
+keywords: network transfer encryption, TLS algorithm 
+summary: 'StorageGRID 시스템은 TLS(Transport Layer Security\)를 사용하여 그리드 노드 간의 내부 제어 트래픽을 보호합니다. 네트워크 전송 암호화 옵션은 TLS가 그리드 노드 간의 제어 트래픽을 암호화하는 데 사용하는 알고리즘을 설정합니다. 이 설정은 데이터 암호화에 영향을 주지 않습니다.' 
+---
+= 네트워크 전송 암호화를 변경합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 시스템은 TLS(Transport Layer Security)를 사용하여 그리드 노드 간의 내부 제어 트래픽을 보호합니다. 네트워크 전송 암호화 옵션은 TLS가 그리드 노드 간의 제어 트래픽을 암호화하는 데 사용하는 알고리즘을 설정합니다. 이 설정은 데이터 암호화에 영향을 주지 않습니다.
+
+.무엇을 &#8217;필요로 할거야
+* 를 사용하여 그리드 관리자에 로그인했습니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
+* 특정 액세스 권한이 있습니다.
+
+
+기본적으로 네트워크 전송 암호화는 AES256-SHA 알고리즘을 사용합니다. AES128-SHA 알고리즘을 사용하여 제어 트래픽을 암호화할 수도 있습니다.
+
+.단계
+. 구성 * > * 시스템 * > * 그리드 옵션 * 을 선택합니다.
+. 네트워크 옵션 섹션에서 네트워크 전송 암호화를 * AES128-SHA * 또는 * AES256-SHA * (기본값)로 변경합니다.
++
+image::../media/network_transfer_encryption.png[그리드 구성 네트워크 암호화]
+
+. 저장 * 을 선택합니다.
+

@@ -1,0 +1,36 @@
+---
+permalink: monitor/viewing-storage-tab.html 
+sidebar: sidebar 
+keywords: storage tab 
+summary: 스토리지 탭에는 스토리지 가용성 및 기타 스토리지 메트릭이 요약되어 있습니다. 
+---
+= Storage 탭을 봅니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 탭에는 스토리지 가용성 및 기타 스토리지 메트릭이 요약되어 있습니다.
+
+스토리지 탭은 모든 노드, 각 사이트 및 전체 그리드에 대해 표시됩니다.
+
+
+
+== 스토리지 사용 그래프
+
+스토리지 노드, 각 사이트 및 전체 그리드의 경우 스토리지 탭에는 시간 경과에 따라 오브젝트 데이터 및 오브젝트 메타데이터에 사용된 스토리지 양이 표시된 그래프가 포함됩니다.
+
+
+NOTE: 사이트 또는 그리드의 총 값에는 오프라인 노드와 같이 최소 5분 동안 보고된 메트릭이 없는 노드가 포함되지 않습니다.
+
+image::../media/nodes_storage_node_storage_tab.png[노드 > 스토리지 노드 > 스토리지 탭]
+
+
+
+== 디스크 디바이스, 볼륨 및 객체는 테이블을 저장합니다
+
+모든 노드의 경우 Storage 탭에는 노드의 디스크 디바이스 및 볼륨에 대한 세부 정보가 포함되어 있습니다. 스토리지 노드의 경우 오브젝트 저장소 테이블은 각 스토리지 볼륨에 대한 정보를 제공합니다.
+
+image::../media/nodes_page_storage_tables.png[노드 페이지 스토리지 테이블]
+
+xref:monitoring-storage-capacity.adoc[스토리지 용량을 모니터링합니다]

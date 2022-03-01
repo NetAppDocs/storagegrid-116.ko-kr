@@ -1,0 +1,47 @@
+---
+permalink: sg100-1000/preparing-site-sg100-and-sg1000.html 
+sidebar: sidebar 
+keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gateway Node, admin node, install, installation, site prep, site preparating, preparing site, site requirements, requirements, site, dimensions, weight, weights, temperature, humidity, altitude, airflow, heat, wiring, power, grounding, facility 
+summary: 제품을 설치하기 전에 StorageGRID 어플라이언스의 사양을 충족하는 사이트와 캐비닛 또는 랙이 맞는지 확인해야 합니다. 
+---
+= 사이트 준비(SG100 및 SG1000)
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+제품을 설치하기 전에 StorageGRID 어플라이언스의 사양을 충족하는 사이트와 캐비닛 또는 랙이 맞는지 확인해야 합니다.
+
+.단계
+. 사이트가 온도, 습도, 고도 범위, 공기 흐름, 열 손실 요구 사항을 충족하는지 확인합니다. 배선, 전원 및 접지. 자세한 내용은 NetApp Hardware Universe를 참조하십시오.
+. 현재 위치에서 AC 전원의 전압이 올바른지 확인합니다(120 - 240V AC 범위).
+. 이 크기의 선반에 맞게 19인치(48.3-cm) 캐비닛 또는 랙을 준비합니다(케이블 제외).
++
+|===
+| 높이 | 너비 | 깊이 | 최대 중량 
+
+
+ a| 
+1.70in.
+
+(4.32cm)
+ a| 
+17.32in.
+
+(44.0cm)
+ a| 
+32.0in.
+
+(81.3cm)
+ a| 
+39lb.
+
+(17.7kg)
+
+|===
+. 제품을 설치할 위치를 결정합니다.
+
+
+https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^]
+
+https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^]

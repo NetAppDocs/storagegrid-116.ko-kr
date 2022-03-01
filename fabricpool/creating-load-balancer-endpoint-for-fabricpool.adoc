@@ -1,0 +1,91 @@
+---
+permalink: fabricpool/creating-load-balancer-endpoint-for-fabricpool.html 
+sidebar: sidebar 
+keywords: fabricPool, load balancer, endpoint, load balancing, create, creating, certificate 
+summary: FabricPool와 함께 사용하도록 StorageGRID를 구성할 때는 로드 밸런서 끝점을 구성하고 로드 밸런서 끝점 인증서를 업로드해야 합니다. 이 인증서는 ONTAP와 StorageGRID 간의 연결을 보호하는 데 사용됩니다. 
+---
+= FabricPool용 로드 밸런서 끝점을 만듭니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+FabricPool와 함께 사용하도록 StorageGRID를 구성할 때는 로드 밸런서 끝점을 구성하고 로드 밸런서 끝점 인증서를 업로드해야 합니다. 이 인증서는 ONTAP와 StorageGRID 간의 연결을 보호하는 데 사용됩니다.
+
+.무엇을 &#8217;필요로 할거야
+* 를 사용하여 그리드 관리자에 로그인했습니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
+* 루트 액세스 권한이 있습니다.
+* 다음 파일이 있습니다.
++
+** 서버 인증서: 사용자 지정 서버 인증서 파일입니다.
+** 서버 인증서 개인 키: 사용자 지정 서버 인증서 개인 키 파일입니다.
+** CA 번들: 각 중간 발급 CA(인증 기관)의 인증서를 포함하는 단일 선택적 파일입니다. 파일에는 인증서 체인 순서에 연결된 PEM 인코딩된 CA 인증서 파일이 각각 포함되어야 합니다.
+
+
+
+
+이 작업에 대한 자세한 내용은 을 참조하십시오 xref:../admin/configuring-load-balancer-endpoints.adoc[로드 밸런서 엔드포인트를 구성합니다].
+
+.단계
+. 구성 * > * 네트워크 * > * 로드 밸런서 엔드포인트 * 를 선택합니다.
+. Create * 를 선택합니다.
++
+image::../media/load_balancer_endpoint_create_http.png[LB 끝점 작성]
+
+. 끝점 세부 정보를 입력합니다.
++
+[cols="1a,2a"]
+|===
+| 필드에 입력합니다 | 설명 
+
+
+ a| 
+이름
+ a| 
+끝점에 대한 설명 이름입니다
+
+
+
+ a| 
+포트
+ a| 
+로드 밸런싱에 사용할 StorageGRID 포트입니다. 이 필드의 기본값은 10433이지만 사용하지 않는 외부 포트는 입력할 수 있습니다. 80 또는 443을 입력하면 엔드포인트는 게이트웨이 노드에서만 구성됩니다. 이러한 포트는 관리 노드에 예약되기 때문입니다.
+
+* 참고: * 다른 그리드 서비스에서 사용하는 포트는 허용되지 않습니다. 를 참조하십시오xref:../network/network-port-reference.adoc[네트워크 포트 참조].
+
+StorageGRID를 FabricPool 클라우드 계층으로 연결할 때 ONTAP에 동일한 포트 번호를 제공해야 합니다.
+
+
+
+ a| 
+클라이언트 유형입니다
+ a| 
+S3 * 를 선택합니다.
+
+
+
+ a| 
+네트워크 프로토콜
+ a| 
+HTTPS * 를 선택합니다.
+
+* 참고 *: * HTTP * 사용은 지원되지만 권장되지 않습니다.
+
+|===
+. Continue * 를 선택합니다.
+. 바인딩 모드를 지정합니다.
++
+글로벌 * 설정(권장)을 사용하거나 이 끝점의 접근성을 다음 중 하나로 제한합니다.
+
++
+** 특정 노드의 특정 네트워크 인터페이스
+** 특정 HA(고가용성) 가상 IP 주소(VIP) 워크로드를 훨씬 더 높은 수준으로 격리해야 하는 경우에만 이 옵션을 사용하십시오.
+
+
+. Continue * 를 선택합니다.
+. 인증서 업로드 * (권장)를 선택한 다음 서버 인증서, 인증서 개인 키 및 선택적 CA 번들로 이동합니다.
+. Create * 를 선택합니다.
+
+
+
+NOTE: 끝점 인증서 변경 내용을 모든 노드에 적용하는 데 최대 15분이 걸릴 수 있습니다.

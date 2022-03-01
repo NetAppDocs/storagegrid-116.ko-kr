@@ -1,0 +1,30 @@
+---
+permalink: primer/downloading-recovery-package.html 
+sidebar: sidebar 
+keywords: recovery package, download, encryption keys 
+summary: 복구 패키지는 다운로드 가능한 .zip 파일로, StorageGRID 시스템을 설치, 확장, 업그레이드 및 유지 관리하는 데 필요한 배포 관련 파일 및 소프트웨어를 포함합니다. 
+---
+= 복구 패키지를 다운로드합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+복구 패키지는 다운로드 가능한 .zip 파일로, StorageGRID 시스템을 설치, 확장, 업그레이드 및 유지 관리하는 데 필요한 배포 관련 파일 및 소프트웨어를 포함합니다.
+
+또한 복구 패키지 파일에는 서버 호스트 이름 및 IP 주소를 포함한 시스템 관련 구성 및 통합 정보와 시스템 유지 관리, 업그레이드 및 확장 시 필요한 기밀 암호가 포함되어 있습니다. 기본 관리 노드의 장애로부터 복구하려면 복구 패키지가 필요합니다.
+
+StorageGRID 시스템을 설치할 때 복구 패키지 파일을 다운로드하고 이 파일의 내용에 성공적으로 액세스할 수 있는지 확인해야 합니다. 또한 유지 관리 또는 업그레이드 절차로 인해 StorageGRID 시스템의 그리드 토폴로지가 변경될 때마다 파일을 다운로드해야 합니다.
+
+image::../media/recovery_package.png[복구 패키지 페이지]
+
+복구 패키지 파일을 다운로드하고 콘텐츠를 추출할 수 있는지 확인한 후 복구 패키지 파일을 두 개의 안전하고 별도의 위치에 복사합니다.
+
+
+IMPORTANT: 복구 패키지 파일은 StorageGRID 시스템에서 데이터를 가져오는 데 사용할 수 있는 암호화 키와 암호가 포함되어 있으므로 보안을 유지해야 합니다.
+
+.관련 정보
+* xref:../upgrade/index.adoc[소프트웨어 업그레이드]
+* xref:../expand/index.adoc[그리드를 확장합니다]
+* xref:../maintain/index.adoc[복구 및 유지 관리]
+

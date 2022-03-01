@@ -1,0 +1,71 @@
+---
+permalink: sg6000/obtaining-additional-equipment-and-tools-sg6000.html 
+sidebar: sidebar 
+keywords: storagegrid, sg6000, storage node, storage appliance, additional, equipment, tools 
+summary: StorageGRID 제품을 설치하기 전에 필요한 추가 장비와 도구가 모두 있는지 확인하십시오. 
+---
+= 추가 장비 및 도구 확보(SG6000)
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 제품을 설치하기 전에 필요한 추가 장비와 도구가 모두 있는지 확인하십시오.
+
+하드웨어를 설치하고 구성하려면 다음 추가 장비가 필요합니다.
+
+* * 스크류드라이버 *
++
+image::../media/screwdrivers.gif[나사 드라이버 2개]
+
++
+필립스 번호 2 드라이버
+
++
+중형 일자 드라이버
+
+* * ESD 손목 스트랩 *
++
+image::../media/appliance_wriststrap.gif[ESD 손목 스트랩]
+
+* * 광 케이블 및 SFP 트랜시버 *
++
+image::../media/fc_cable_and_sfp.gif[광 케이블 및 SFP+ 트랜시버]
+
++
+다음 옵션 중 하나가 필요합니다.
+
++
+** SG6000-CN 컨트롤러에서 사용하려는 10/25-GbE 포트용 TwinAx 케이블 또는 광 케이블 1-4개
+** 광 케이블 및 10GbE 링크 속도를 사용할 경우 10/25-GbE 포트용 SFP+ 트랜시버 1-4개
+** 광 케이블과 25-GbE 링크 속도를 사용할 경우 10/25-GbE 포트용 SFP28 트랜시버 1~4개
+
+
+* RJ-45(Cat5/Cat5e/Cat6) 이더넷 케이블 *
++
+image::../media/ethernet_cables.png[이더넷 케이블]
+
+* * 서비스 노트북 *
++
+image::../media/sam_management_client.gif[서비스 노트북]
+
++
+xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저]
+
++
+1GbE(RJ-45) 포트
+
+* * 옵션 도구 *
++
+image::../media/optional_tools.gif[파워 드릴 및 손전등이 있습니다]
+
++
+Phillips 헤드 비트를 이용한 파워 드릴
+
++
+플래시
+
++
+60-드라이브 쉘프용 기계식 리프트
+
+

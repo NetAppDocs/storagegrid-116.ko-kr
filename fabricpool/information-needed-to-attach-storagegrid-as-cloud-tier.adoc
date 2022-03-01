@@ -1,0 +1,113 @@
+---
+permalink: fabricpool/information-needed-to-attach-storagegrid-as-cloud-tier.html 
+sidebar: sidebar 
+keywords: StorageGRID, fabricPool, ONTAP System Manager, ONTAP CLI, port, FQDN, object store name 
+summary: StorageGRID를 FabricPool의 클라우드 계층으로 연결하려면 먼저 StorageGRID에서 몇 가지 구성 단계를 수행하고 특정 값을 얻어야 합니다. 
+---
+= StorageGRID를 클라우드 계층으로 연결하는 데 필요한 정보
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID를 FabricPool의 클라우드 계층으로 연결하려면 먼저 StorageGRID에서 몇 가지 구성 단계를 수행하고 특정 값을 얻어야 합니다.
+
+다음 표에는 StorageGRID을 FabricPool의 클라우드 계층으로 연결할 때 ONTAP에 제공해야 하는 정보가 나와 있습니다. 이 섹션의 항목에서는 StorageGRID 그리드 관리자 및 테넌트 관리자를 사용하여 필요한 정보를 얻는 방법을 설명합니다.
+
+
+NOTE: 나열된 정확한 필드 이름과 ONTAP에 필요한 값을 입력하는 프로세스는 ONTAP CLI(스토리지 애그리게이트 오브젝트 저장소 구성 생성) 또는 ONTAP System Manager(* 스토리지 * > * 애그리게이트 및 디스크 * > * 클라우드 계층 *)를 사용하는지 여부에 따라 달라집니다.
+
+자세한 내용은 다음을 참조하십시오.
+
+* https://www.netapp.com/pdf.html?item=/media/17239-tr4598pdf.pdf["TR-4598: ONTAP 9.9.1의 FabricPool 모범 사례"^]
+* https://docs.netapp.com/us-en/ontap/index.html["ONTAP 9 설명서"^]
+
+
+[cols="1a,2a"]
+|===
+| ONTAP 필드 | 설명 
+
+
+ a| 
+오브젝트 저장소 이름
+ a| 
+고유하고 설명이 포함된 이름입니다. 예를 들어, 'storageGRID_Cloud_Tier'와 같습니다.
+
+
+
+ a| 
+공급자 유형입니다
+ a| 
+StorageGRID(ONTAP System Manager) 또는 SGWS(ONTAP CLI).
+
+
+
+ a| 
+포트
+ a| 
+FabricPool가 StorageGRID에 연결할 때 사용할 포트입니다. StorageGRID 로드 밸런서 끝점을 정의할 때 사용할 포트 번호를 결정합니다.
+
+xref:creating-load-balancer-endpoint-for-fabricpool.adoc[FabricPool용 로드 밸런서 끝점을 만듭니다]
+
+
+
+ a| 
+서버 이름입니다
+ a| 
+StorageGRID 로드 밸런서 끝점의 FQDN(정규화된 도메인 이름)입니다. 예를 들어, '3.storagegrid.company.com`.
+
+다음 사항에 유의하십시오.
+
+* 여기에서 지정하는 도메인 이름은 StorageGRID 로드 밸런서 끝점에 대해 업로드하는 CA 인증서의 도메인 이름과 일치해야 합니다.
+* 이 도메인 이름의 DNS 레코드는 StorageGRID에 연결하는 데 사용할 각 IP 주소에 매핑되어야 합니다.
+
+
+xref:configuring-dns-for-storagegrid-ip-addresses.adoc[StorageGRID IP 주소에 대해 DNS 서버를 구성합니다]
+
+
+
+ a| 
+컨테이너 이름입니다
+ a| 
+이 ONTAP 클러스터에 사용할 StorageGRID 버킷의 이름입니다. 예를 들어, '배합통'을 예로 들 수 있습니다. 이 버킷을 테넌트 관리자에서 생성하거나 ONTAP 9.10 System Manager부터 FabricPool 설정 마법사를 사용하여 버킷을 생성할 수 있습니다.
+
+다음 사항에 유의하십시오.
+
+* 구성을 생성한 후에는 버킷 이름을 변경할 수 없습니다.
+* 버킷은 버전 관리를 활성화할 수 없습니다.
+* 데이터를 StorageGRID에 계층화할 각 ONTAP 클러스터에 다른 버킷을 사용해야 합니다.
+
+
+xref:creating-s3-bucket-and-access-key.adoc[S3 버킷을 생성하고 액세스 키를 얻습니다]
+
+
+
+ a| 
+액세스 키 및 비밀 암호
+ a| 
+StorageGRID 테넌트 계정의 액세스 키 및 암호 액세스 키입니다.
+
+이러한 값은 테넌트 관리자에서 생성합니다.
+
+xref:creating-s3-bucket-and-access-key.adoc[S3 버킷을 생성하고 액세스 키를 얻습니다]
+
+
+
+ a| 
+SSL
+ a| 
+활성화해야 합니다.
+
+
+
+ a| 
+오브젝트 저장소 인증서
+ a| 
+StorageGRID 로드 밸런서 끝점을 만들 때 업로드한 CA 인증서입니다.
+
+* 참고: * 중간 CA가 StorageGRID 인증서를 발급한 경우 중간 CA 인증서를 제공해야 합니다. StorageGRID 인증서가 루트 CA에서 직접 발급된 경우 루트 CA 인증서를 제공해야 합니다.
+
+xref:creating-load-balancer-endpoint-for-fabricpool.adoc[FabricPool용 로드 밸런서 끝점을 만듭니다]
+
+|===
+필요한 StorageGRID 정보를 얻은 후 ONTAP로 이동하여 StorageGRID를 클라우드 계층으로 추가하고, 클라우드 계층을 Aggregate로 추가한 다음 볼륨 계층화 정책을 설정할 수 있습니다.

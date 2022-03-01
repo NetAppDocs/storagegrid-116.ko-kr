@@ -1,0 +1,53 @@
+---
+permalink: sg6000/unable-to-connect-to-appliance.html 
+sidebar: sidebar 
+keywords: storagegrid, sg6000, storage node, storage appliance, troubleshoot, troubleshooting, connect, connection, unable to connect, no connection 
+summary: 어플라이언스에 연결할 수 없는 경우 네트워크 문제가 있거나 하드웨어 설치가 성공적으로 완료되지 않았을 수 있습니다. 
+---
+= 어플라이언스에 연결할 수 없습니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+어플라이언스에 연결할 수 없는 경우 네트워크 문제가 있거나 하드웨어 설치가 성공적으로 완료되지 않았을 수 있습니다.
+
+.단계
+. SANtricity 시스템 관리자에 연결할 수 없는 경우:
++
+.. SANtricity 시스템 관리자의 관리 네트워크에 있는 스토리지 컨트롤러의 IP 주소(+'* ping_storage_controller_ip_ * ')를 사용하여 어플라이언스를 ping합니다
+.. Ping에서 응답이 없는 경우 올바른 IP 주소를 사용하고 있는지 확인합니다.
++
+스토리지 컨트롤러의 관리 포트 1에 대한 IP 주소를 사용합니다.
+
+.. IP 주소가 올바른 경우 어플라이언스 케이블 연결 및 네트워크 설정을 확인하십시오.
++
+그래도 문제가 해결되지 않으면 기술 지원 부서에 문의하십시오.
+
+.. Ping에 성공하면 웹 브라우저를 엽니다.
+.. SANtricity 시스템 관리자의 URL을 입력합니다: + ``https://_Storage_Controller_IP_*`
++
+SANtricity 시스템 관리자의 로그인 페이지가 나타납니다.
+
+
+
+. SG6000-CN 컨트롤러에 연결할 수 없는 경우:
++
+.. SG6000-CN 컨트롤러의 IP 주소를 사용하여 어플라이언스에 ping을 시도해 보십시오: + '* PING_SG6000-CN_Controller_IP_ * '
+.. Ping에서 응답이 없는 경우 올바른 IP 주소를 사용하고 있는지 확인합니다.
++
+그리드 네트워크, 관리 네트워크 또는 클라이언트 네트워크에서 어플라이언스의 IP 주소를 사용할 수 있습니다.
+
+.. IP 주소가 올바른 경우 어플라이언스 케이블 연결, SFP 트랜시버 및 네트워크 설정을 확인하십시오.
+.. SG6000-CN에 물리적으로 액세스할 수 있는 경우 영구 링크 로컬 IP인 169.254.0.1에 직접 연결하여 컨트롤러 네트워킹 구성을 확인하고 필요한 경우 업데이트할 수 있습니다. 자세한 지침은 의 2단계를 참조하십시오 xref:..//sg6000/accessing-storagegrid-appliance-installer-sg6000.adoc[StorageGRID 어플라이언스 설치 프로그램에 액세스합니다].
++
+그래도 문제가 해결되지 않으면 기술 지원 부서에 문의하십시오.
+
+.. Ping에 성공하면 웹 브라우저를 엽니다.
+.. StorageGRID 어플라이언스 설치 프로그램의 URL을 입력합니다. + ``https://_SG6000-CN_Controller_IP_:8443*`
++
+홈 페이지가 나타납니다.
+
+
+
+

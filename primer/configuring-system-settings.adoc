@@ -1,0 +1,41 @@
+---
+permalink: primer/configuring-system-settings.html 
+sidebar: sidebar 
+keywords: system settings, grid manager, configure, configuration, display options, grid options, key management server, S3 object lock, storage options 
+summary: 그리드 관리자에서 다양한 시스템 설정을 구성하여 StorageGRID 시스템의 작동을 미세 조정할 수 있습니다. 
+---
+= 시스템 설정을 구성합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+그리드 관리자에서 다양한 시스템 설정을 구성하여 StorageGRID 시스템의 작동을 미세 조정할 수 있습니다.
+
+
+
+== 표시 옵션
+
+표시 옵션을 사용하면 사용자 세션의 제한 시간을 지정하고 레거시 알람 및 이벤트 트리거 AutoSupport 메시지에 대한 이메일 알림을 표시하지 않을 수 있습니다.
+
+
+
+== 그리드 옵션
+
+그리드 옵션을 사용하여 저장된 오브젝트 압축, 저장된 오브젝트 암호화를 포함하여 StorageGRID 시스템에 저장된 모든 오브젝트에 대한 설정을 구성할 수 있습니다. 및 저장된 객체 해싱입니다.
+
+이 옵션을 사용하여 S3 및 Swift 클라이언트 작업에 대한 글로벌 설정을 지정할 수도 있습니다.
+
+
+
+== S3 오브젝트 잠금
+
+StorageGRID S3 오브젝트 잠금 기능은 Amazon S3(Amazon Simple Storage Service)의 S3 오브젝트 잠금과 동등한 오브젝트 보호 솔루션입니다. StorageGRID 시스템에 대해 글로벌 S3 오브젝트 잠금 설정을 활성화하면 S3 테넌트 계정에서 S3 오브젝트 잠금이 설정된 버킷을 생성할 수 있습니다. 그런 다음 테넌트는 S3 클라이언트 애플리케이션을 사용하여 해당 버킷의 오브젝트에 대한 보존 설정(종료 날짜, 법적 보류 또는 둘 다 유지)을 선택적으로 지정할 수 있습니다. 또한 S3 오브젝트 잠금이 활성화된 각 버킷에는 선택적으로 기본 보존 모드 및 보존 기간이 있을 수 있으며, 이 기간은 객체가 고유한 보존 설정 없이 버킷에 추가되는 경우에 적용됩니다.
+
+image::../media/s3_object_lock_architecture.png[S3 오브젝트 잠금 아키텍처]
+
+
+
+== 스토리지 옵션
+
+스토리지 옵션을 사용하면 객체 분할을 제어하고 스토리지 볼륨 워터마크 설정을 재정의하여 스토리지 노드의 사용 가능한 스토리지 공간을 관리할 수 있습니다.

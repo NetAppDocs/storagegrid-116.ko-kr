@@ -1,0 +1,13 @@
+---
+permalink: audit/audit-message-categories.html 
+sidebar: sidebar 
+keywords: storagegrid, audit, message, categories, category, group, groups, organization, class, classes 
+summary: 감사 메시지가 그룹화되는 다양한 범주를 숙지해야 합니다. 이러한 그룹은 메시지가 나타내는 활동 클래스에 따라 구성됩니다. 
+---
+= 감사 메시지 범주
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+감사 메시지가 그룹화되는 다양한 범주를 숙지해야 합니다. 이러한 그룹은 메시지가 나타내는 활동 클래스에 따라 구성됩니다.

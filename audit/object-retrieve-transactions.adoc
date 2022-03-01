@@ -1,0 +1,58 @@
+---
+permalink: audit/object-retrieve-transactions.html 
+sidebar: sidebar 
+keywords: storagegrid, audit, message, Object retrieve, messages, transaction, transactions, s3, swift, trace, SGET, WGET 
+summary: 'API 관련 \(S3 및 Swift\) 감사 메시지를 찾아 감사 로그에서 오브젝트 검색 트랜잭션을 식별할 수 있습니다.' 
+---
+= 객체 검색 트랜잭션입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+API 관련(S3 및 Swift) 감사 메시지를 찾아 감사 로그에서 오브젝트 검색 트랜잭션을 식별할 수 있습니다.
+
+다음 표에는 검색 트랜잭션 중에 생성된 모든 감사 메시지가 나와 있지 않습니다. 조회 트랜잭션을 추적하는 데 필요한 메시지만 포함됩니다.
+
+
+
+== S3 검색 감사 메시지
+
+[cols="1a,1a,2a,1a,1a"]
+|===
+| 코드 | 이름 | 설명 | 트레이스 | 을 참조하십시오 
+
+
+ a| 
+SGET
+ a| 
+S3 가져오기
+ a| 
+버킷에서 오브젝트를 검색하도록 요청했습니다.
+ a| 
+CBID, S3BK, S3KY
+ a| 
+xref:sget-s3-get.adoc[SGET: S3 GET]
+
+|===
+
+
+== SWIFT 검색 감사 메시지
+
+[cols="1a,1a,2a,1a,1a"]
+|===
+| 코드 | 이름 | 설명 | 트레이스 | 을 참조하십시오 
+
+
+ a| 
+윙입니다
+ a| 
+신속한 지원
+ a| 
+컨테이너에서 개체를 검색하도록 요청했습니다.
+ a| 
+CBID, WCON, WOBJ
+ a| 
+xref:wget-swift-get.adoc[wget: Swift get]
+
+|===

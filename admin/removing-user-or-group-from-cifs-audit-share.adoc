@@ -1,0 +1,83 @@
+---
+permalink: admin/removing-user-or-group-from-cifs-audit-share.html 
+sidebar: sidebar 
+keywords: cifs audit client 
+summary: 감사 공유에 액세스할 수 있는 마지막 사용자 또는 그룹은 제거할 수 없습니다. 
+---
+= CIFS 감사 공유에서 사용자 또는 그룹을 제거합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+감사 공유에 액세스할 수 있는 마지막 사용자 또는 그룹은 제거할 수 없습니다.
+
+.무엇을 &#8217;필요로 할거야
+* 루트 계정 암호(해당 패키지에서 사용 가능)가 있는 "passwords.txt" 파일이 있습니다.
+* "Configuration.txt" 파일이 있습니다(해당 패키지에서 사용 가능).
+
+
+CIFS/Samba를 통한 감사 내보내기는 더 이상 사용되지 않으며 향후 StorageGRID 릴리즈에서 제거될 예정입니다.
+
+.단계
+. 기본 관리자 노드에 로그인합니다.
++
+.. 'ssh admin@_primary_Admin_Node_IP_' 명령을 입력합니다
+.. "passwords.txt" 파일에 나열된 암호를 입력합니다.
+.. 루트로 전환하려면 다음 명령을 입력합니다
+.. "passwords.txt" 파일에 나열된 암호를 입력합니다.
++
+루트로 로그인하면 프롬프트가 '$'에서 '#'로 바뀝니다.
+
+
+
+. CIFS 구성 유틸리티 'config_cifs.rb'를 시작합니다
++
+[listing]
+----
+
+---------------------------------------------------------------------
+| Shares                 | Authentication         | Config          |
+---------------------------------------------------------------------
+| add-audit-share        | set-authentication     | validate-config |
+| enable-disable-share   | set-netbios-name       | help            |
+| add-user-to-share      | join-domain            | exit            |
+| remove-user-from-share | add-password-server    |                 |
+| modify-group           | remove-password-server |                 |
+|                        | add-wins-server        |                 |
+|                        | remove-wins-server     |                 |
+---------------------------------------------------------------------
+----
+. 사용자 또는 그룹 제거 시작: remove-user-from-share'
++
+관리 노드에 대해 사용 가능한 감사 공유 목록이 번호가 매겨진 형식으로 표시됩니다. 감사 공유는 audit-export로 표시됩니다.
+
+. 감사 공유 번호('_audit_share_number_')를 입력합니다
+. 사용자 또는 그룹을 제거하라는 메시지가 표시되면 사용자 또는 그룹 을 선택합니다
++
+감사 공유의 사용자 또는 그룹 번호가 매겨진 목록이 표시됩니다.
+
+. 제거할 사용자 또는 그룹에 해당하는 번호('_number_')를 입력합니다
++
+감사 공유가 업데이트되고 사용자 또는 그룹이 더 이상 감사 공유에 액세스할 수 없습니다. 예를 들면 다음과 같습니다.
+
++
+[listing]
+----
+Enabled shares
+ 1. audit-export
+Select the share to change: 1
+Remove user or group? [User/group]: User
+Valid users for this share
+1. audituser
+2. newaudituser
+Select the user to remove: 1
+
+Removed user "audituser" from share "audit-export".
+
+Press return to continue.
+----
+. CIFS 구성 유틸리티 'exit'를 닫습니다
+. StorageGRID 배포에 다른 사이트의 관리자 노드가 포함된 경우 필요에 따라 각 사이트에서 감사 공유를 비활성화합니다.
+. 구성이 완료되면 각 명령 셸에서 로그아웃합니다: "exit"
+

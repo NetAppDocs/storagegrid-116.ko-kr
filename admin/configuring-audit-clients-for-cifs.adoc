@@ -1,0 +1,16 @@
+---
+permalink: admin/configuring-audit-clients-for-cifs.html 
+sidebar: sidebar 
+keywords: audit client for cifs 
+summary: '감사 클라이언트를 구성하는 절차는 Windows Workgroup 또는 Windows Active Directory\(AD\)의 인증 방법에 따라 다릅니다. 추가된 감사 공유는 읽기 전용 공유로 자동 설정됩니다.' 
+---
+= CIFS에 대한 감사 클라이언트를 구성합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+감사 클라이언트를 구성하는 절차는 Windows Workgroup 또는 Windows AD(Active Directory)의 인증 방법에 따라 다릅니다. 추가된 감사 공유는 읽기 전용 공유로 자동 설정됩니다.
+
+
+NOTE: CIFS/Samba를 통한 감사 내보내기는 더 이상 사용되지 않으며 향후 StorageGRID 릴리즈에서 제거될 예정입니다.

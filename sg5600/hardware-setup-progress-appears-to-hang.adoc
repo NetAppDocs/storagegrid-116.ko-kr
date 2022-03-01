@@ -1,0 +1,60 @@
+---
+permalink: sg5600/hardware-setup-progress-appears-to-hang.html 
+sidebar: sidebar 
+keywords: storagegrid, sg5600, storage node, storage appliance, troubleshoot, troubleshooting, hardware, setup, hang, hangs, fails, failure, stop, terminate, terminates, stuck 
+summary: 하드웨어 장애 또는 케이블 연결 오류로 인해 E5600SG 컨트롤러가 부팅 처리를 완료하지 못하는 경우 StorageGRID 어플라이언스 설치 프로그램을 사용할 수 없습니다. 
+---
+= 하드웨어 설정이 멈춘 것 같습니다(SG5600).
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+하드웨어 장애 또는 케이블 연결 오류로 인해 E5600SG 컨트롤러가 부팅 처리를 완료하지 못하는 경우 StorageGRID 어플라이언스 설치 프로그램을 사용할 수 없습니다.
+
+.단계
+. 두 컨트롤러 중 하나에서 Needs Attention(주의 필요) LED를 확인하고 깜박이는 오류 코드를 확인합니다.
++
+전원이 켜지는 동안 하드웨어 초기화 중에 허용되는 서비스 조치 및 서비스 조치 필요 LED가 켜집니다. 하위 자릿수의 상위 소수점인 _DIAGNOSTIC LED_도 켜집니다. 7세그먼트 디스플레이는 두 컨트롤러에 공통되는 일련의 코드를 통해 실행됩니다. 이는 정상적인 현상이며 오류를 나타내는 것은 아닙니다. 하드웨어가 성공적으로 부팅되면 Service Action(서비스 작업) LED가 꺼지고 디스플레이가 펌웨어에 의해 구동됩니다.
+
+. E600SG 컨트롤러에 대한 7세그먼트 디스플레이의 코드를 검토합니다.
++
+
+NOTE: 설치 및 프로비저닝에 시간이 걸립니다. 일부 설치 단계에서는 몇 분 동안 StorageGRID 어플라이언스 설치 프로그램에 업데이트를 보고하지 않습니다.
+
++
+오류가 발생하면 7개 세그먼트 디스플레이에서 그와 같은 시퀀스가 깜박입니다.
+
+. 이러한 코드의 의미를 이해하려면 다음 리소스를 참조하십시오.
++
+|===
+| 컨트롤러 | 참조하십시오 
+
+
+ a| 
+E5500SG 컨트롤러
+ a| 
+** ""SANtricity OS 소프트웨어와 동기화 중 오류 발생""
+** "'E600SG 컨트롤러 7세그먼트 디스플레이 코드'"
+
+
+
+
+ a| 
+E2700 컨트롤러
+ a| 
+E-Series 설명서를 참조하십시오
+
+* 참고: * E-Series E5600 컨트롤러에 대해 설명된 코드는 어플라이언스의 E5500SG 컨트롤러에 적용되지 않습니다.
+
+|===
+. 그래도 문제가 해결되지 않으면 기술 지원 부서에 문의하십시오.
+
+
+xref:e5600sg-controller-seven-segment-display-codes.adoc[E5500SG 컨트롤러 7세그먼트 디스플레이 코드]
+
+xref:he-error-error-synchronizing-with-santricity-os-software.adoc[SANtricity OS 소프트웨어와 동기화하는 동안 오류가 발생했습니다]
+
+https://library.netapp.com/ecm/ecm_download_file/ECMLP2344477["E2700 컨트롤러 - 드라이브 트레이 및 관련 드라이브 트레이 설치 가이드"^]
+
+http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61765["NetApp 설명서: E2700 시리즈"^]

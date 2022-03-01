@@ -1,0 +1,51 @@
+---
+permalink: ilm/renaming-erasure-coding-profile.html 
+sidebar: sidebar 
+keywords: rename erasure coding profile, ec profile 
+summary: 삭제 코딩 프로필의 이름을 변경하여 프로필이 수행하는 작업을 보다 명확히 할 수 있습니다. 
+---
+= 삭제 코딩 프로파일의 이름을 바꿉니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+삭제 코딩 프로필의 이름을 변경하여 프로필이 수행하는 작업을 보다 명확히 할 수 있습니다.
+
+.무엇을 &#8217;필요로 할거야
+* 를 사용하여 그리드 관리자에 로그인했습니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
+* 특정 액세스 권한이 있습니다.
+
+
+.단계
+. ILM * > * 삭제 코딩 * 을 선택합니다.
++
+삭제 코딩 프로필 페이지가 나타납니다. 이름 바꾸기 * 및 * 비활성화 * 버튼이 모두 비활성화됩니다.
+
++
+image::../media/ec_profiles_rename_deactivate_disabled.png[삭제 코딩 프로필 이름 바꾸기 비활성화]
+
+. 이름을 바꿀 프로파일을 선택합니다.
++
+이름 바꾸기 * 및 * 비활성화 * 버튼이 활성화됩니다.
+
+. 이름 바꾸기 * 를 선택합니다.
++
+EC 프로파일 이름 바꾸기 대화 상자가 나타납니다.
+
++
+image::../media/ec_profile_rename.png[삭제 코딩 프로필 이름 바꾸기]
+
+. 삭제 코딩 프로필의 고유한 이름을 입력합니다.
++
+삭제 코딩 프로파일 이름은 ILM 규칙에 대한 배치 지침의 스토리지 풀 이름에 추가됩니다.
+
++
+image::../media/storage_pool_and_erasure_coding_profile.png[스토리지 풀 및 EC 프로파일 이름입니다]
+
++
+
+NOTE: 삭제 코딩 프로필 이름은 고유해야 합니다. 기존 프로파일의 이름을 사용하면 프로파일이 비활성화된 경우에도 유효성 검사 오류가 발생합니다.
+
+. 저장 * 을 선택합니다.
+

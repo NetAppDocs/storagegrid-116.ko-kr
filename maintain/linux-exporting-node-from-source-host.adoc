@@ -1,0 +1,75 @@
+---
+permalink: maintain/linux-exporting-node-from-source-host.html 
+sidebar: sidebar 
+keywords: storagegrid, recover, linux, export node, linux source host 
+summary: 그리드 노드를 종료하고 소스 Linux 호스트에서 내보냅니다. 
+---
+= Linux: 소스 호스트에서 노드를 내보냅니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+그리드 노드를 종료하고 소스 Linux 호스트에서 내보냅니다.
+
+소스 Linux 호스트에서 다음 명령을 실행합니다.
+
+. 소스 호스트에서 현재 실행 중인 모든 노드의 상태를 가져옵니다.
++
+[listing]
+----
+sudo storagegrid node status all
+----
++
+이름 설정 - 상태 실행 상태
+
++
+DC1-ADM1 configured running'입니다
+
++
+'dC1-ARC1 구성됨'
+
++
+dC1-GW1이 실행 중'으로 구성되었습니다
+
++
+'dC1-S1 configured running'입니다
+
++
+dC1-S2 configured running(dC1-S2 러닝 구성)
+
++
+dC1-S3이 실행 중 상태로 구성되었습니다
+
+. 마이그레이션하려는 노드의 이름을 확인하고 해당 노드의 실행 상태가 '실행 중'인 경우 중지합니다.
++
+[listing]
+----
+sudo storagegrid node stop DC1-S3
+----
++
+'노드 DC1-S3'를 선택합니다
+
++
+노드 종료를 위해 최대 630초간 기다리는 중입니다
+
+. 소스 호스트에서 노드를 내보냅니다.
++
+[listing]
+----
+sudo storagegrid node export DC1-S3
+----
++
+"노드 DC1-S3을 /dev/mapper/SGWs-dc1-s3-var-local로 내보내기를 마쳤습니다.
+
++
+''StorageGRID node import/dev/mapper/SGWs-dc1-s3-var-local'을 사용합니다.
+
++
+다시 가져오길 원해
+
+. 내보내기 명령의 출력에 제시된 가져오기 명령을 기록해 둡니다.
++
+다음 단계에서 타겟 호스트에서 이 명령을 실행합니다.
+
+

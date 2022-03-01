@@ -1,0 +1,49 @@
+---
+permalink: ilm/removing-cloud-storage-pool.html 
+sidebar: sidebar 
+keywords: remove cloud storage pool 
+summary: ILM 규칙에 사용되지 않고 오브젝트 데이터가 없는 클라우드 스토리지 풀을 제거할 수 있습니다. 
+---
+= 클라우드 스토리지 풀을 제거합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ILM 규칙에 사용되지 않고 오브젝트 데이터가 없는 클라우드 스토리지 풀을 제거할 수 있습니다.
+
+.무엇을 &#8217;필요로 할거야
+* 를 사용하여 그리드 관리자에 로그인했습니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
+* 특정 액세스 권한이 있습니다.
+* S3 버킷 또는 Azure 컨테이너에 오브젝트가 포함되지 않음을 확인했습니다. 클라우드 스토리지 풀에 객체가 포함된 경우 해당 풀을 제거하려고 하면 오류가 발생합니다. 을 참조하십시오 xref:troubleshooting-cloud-storage-pools.adoc[클라우드 스토리지 풀 문제 해결].
++
+
+NOTE: 클라우드 스토리지 풀을 생성할 때 StorageGRID은 마커 파일을 버킷 또는 컨테이너에 작성하여 클라우드 스토리지 풀로 식별합니다. x-ntap-sgs-cloud-pool-uuuid라는 이름의 이 파일은 제거하지 마십시오.
+
+* 풀을 사용했을 수 있는 ILM 규칙을 이미 제거했습니다.
+
+
+.단계
+. ILM * > * 스토리지 풀 * 을 선택합니다.
++
+스토리지 풀 페이지가 나타납니다.
+
+. 현재 ILM 규칙에 사용되지 않는 클라우드 스토리지 풀의 라디오 버튼을 선택합니다.
++
+ILM 규칙에 사용되는 Cloud Storage Pool은 제거할 수 없습니다. 제거 * 버튼이 비활성화됩니다.
+
++
+image::../media/cloud_storage_pool_used_in_ilm_rule.png[ILM 규칙에 사용된 클라우드 스토리지 풀]
+
+. 제거 * 를 선택합니다.
++
+확인 경고가 표시됩니다.
+
++
+image::../media/cloud_storage_pool_remove.gif[클라우드 스토리지 풀 제거]
+
+. OK * 를 선택합니다.
++
+클라우드 스토리지 풀이 제거됩니다.
+
+

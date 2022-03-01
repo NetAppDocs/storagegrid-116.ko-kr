@@ -1,0 +1,13 @@
+---
+permalink: s3/index.html 
+sidebar: sidebar 
+keywords: about s3, s3 overview 
+summary: 'StorageGRID는 REST\(Representational State Transfer\) 웹 서비스 세트로 구현되는 S3(Simple Storage Service) API를 지원합니다. S3 REST API를 지원하므로 StorageGRID 시스템을 사용하는 사내 오브젝트 스토리지와 S3 웹 서비스를 위해 개발된 서비스 지향 애플리케이션을 연결할 수 있습니다. 따라서 클라이언트 애플리케이션의 현재 S3 REST API 호출 사용에 대한 변경이 최소화됩니다.' 
+---
+= S3:개요를 사용합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID는 REST(Representational State Transfer) 웹 서비스 세트로 구현되는 S3(Simple Storage Service) API를 지원합니다. S3 REST API를 지원하므로 StorageGRID 시스템을 사용하는 사내 오브젝트 스토리지와 S3 웹 서비스를 위해 개발된 서비스 지향 애플리케이션을 연결할 수 있습니다. 따라서 클라이언트 애플리케이션의 현재 S3 REST API 호출 사용에 대한 변경이 최소화됩니다.

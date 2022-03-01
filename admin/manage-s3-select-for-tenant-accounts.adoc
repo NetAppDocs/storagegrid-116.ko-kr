@@ -1,0 +1,46 @@
+---
+permalink: admin/manage-s3-select-for-tenant-accounts.html 
+sidebar: sidebar 
+keywords: s3 select, selectobjectcontent, best practices 
+summary: 특정 S3 테넌트가 S3 선택을 사용하여 개별 오브젝트에 SelectObjectContent 요청을 발급하도록 허용할 수 있습니다. 
+---
+= 관리 S3 테넌트 계정에 대해 선택
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+특정 S3 테넌트가 S3 선택을 사용하여 개별 오브젝트에 SelectObjectContent 요청을 발급하도록 허용할 수 있습니다.
+
+S3 Select를 사용하면 데이터베이스와 관련 리소스를 배치하지 않고도 대량의 데이터를 효율적으로 검색할 수 있습니다. 또한, 데이터를 검색하는 데 드는 비용과 대기 시간도 줄어듭니다.
+
+
+
+== S3 Select란 무엇입니까?
+
+S3 Select를 사용하면 S3 클라이언트가 SelectObjectContent 요청을 사용하여 오브젝트에서 필요한 데이터만 필터링 및 검색할 수 있습니다. S3 Select의 StorageGRID 구현에는 S3 Select 명령 및 기능의 하위 집합이 포함됩니다.
+
+
+
+== S3 Select 사용에 대한 고려 사항 및 요구 사항
+
+StorageGRID에서 S3 선택 쿼리에 대해 다음을 수행해야 합니다.
+
+* 쿼리할 객체가 CSV 형식이거나 CSV 형식 파일이 포함된 GZIP 또는 BZIP2 압축 파일입니다.
+* 테넌트는 그리드 관리자가 S3 선택 기능을 부여해야 합니다. Allow S3 Select * When(S3 선택 허용 * 시기) 을 선택합니다 xref:creating-tenant-account.adoc[테넌트 생성] 또는 xref:editing-tenant-account.adoc[테넌트 편집].
+* SelectObjectContent 요청은 로 보내야 합니다 xref:configuring-load-balancer-endpoints.adoc[StorageGRID 로드 밸런서 엔드포인트]. 엔드포인트에서 사용하는 관리 및 게이트웨이 노드는 SG100 또는 SG1000 어플라이언스 노드 또는 VMware 기반 소프트웨어 노드여야 합니다.
+
+
+다음 제한 사항을 참고하십시오.
+
+* 베어 메탈 로드 밸런서 노드는 지원되지 않습니다.
+* 쿼리는 스토리지 노드로 직접 보낼 수 없습니다.
+* 더 이상 사용되지 않는 CLB 서비스를 통해 전송된 쿼리는 지원되지 않습니다.
+
+
+
+IMPORTANT: SelectObjectContent 요청은 모든 S3 클라이언트 및 모든 테넌트의 로드 밸런서 성능을 줄일 수 있습니다. 신뢰할 수 있는 테넌트에만 필요한 경우에만 이 기능을 사용하도록 설정합니다.
+
+를 참조하십시오 xref:../s3/use-s3-select.adoc[S3 Select 사용에 대한 지침].
+
+를 눌러 봅니다 xref:../monitor/reviewing-support-metrics.adoc[Grafana 차트] 시간의 경과에 따른 S3 Select 작업의 경우 Grid Manager에서 * 지원 * > * 도구 * > * 메트릭 * 을 선택합니다.

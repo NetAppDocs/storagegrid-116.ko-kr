@@ -1,0 +1,134 @@
+---
+permalink: audit/object-storage-audit-messages.html 
+sidebar: sidebar 
+keywords: storagegrid, audit, object storage, object management, object retrieval, node transfer, verification, APCT, ARCB, ARCE, ARCT, AREM, ASCE, ASCT, ATCE, AVCC, CBSE, CBRE, SCMT, SREM 
+summary: 따라서 오브젝트 스토리지 감사 범주에 속하는 감사 메시지를 잘 알고 있어야 합니다. 이러한 이벤트는 StorageGRID 시스템 내에서 개체의 스토리지 및 관리와 관련된 이벤트입니다. 여기에는 오브젝트 스토리지 및 검색, 그리드 노드에서 그리드 노드 전송, 검증도 포함됩니다. 
+---
+= 오브젝트 스토리지 감사 메시지
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+따라서 오브젝트 스토리지 감사 범주에 속하는 감사 메시지를 잘 알고 있어야 합니다. 이러한 이벤트는 StorageGRID 시스템 내에서 개체의 스토리지 및 관리와 관련된 이벤트입니다. 여기에는 오브젝트 스토리지 및 검색, 그리드 노드에서 그리드 노드 전송, 검증도 포함됩니다.
+
+|===
+| 코드 | 설명 | 을 참조하십시오 
+
+
+ a| 
+APCT
+ a| 
+클라우드 계층에서 아카이브 제거: 아카이브된 오브젝트 데이터는 S3 API를 통해 StorageGRID에 연결되는 외부 아카이브 스토리지 시스템에서 삭제됩니다.
+ a| 
+xref:apct-archive-purge-from-cloud-tier.adoc[APCT: 클라우드-계층에서 아카이브 제거]
+
+
+
+ a| 
+ARCB
+ a| 
+아카이브 오브젝트 검색 시작: ARC 서비스는 외부 아카이브 스토리지 시스템에서 오브젝트 데이터 검색을 시작합니다.
+ a| 
+xref:arcb-archive-object-retrieve-begin.adoc[ARCB: 아카이브 객체 검색이 시작됩니다]
+
+
+
+ a| 
+ARCE
+ a| 
+Archive Object Retrieve End(아카이브 객체 검색 종료): 외부 아카이브 스토리지 시스템에서 객체 데이터를 검색했으며 ARC 서비스가 검색 작업의 상태를 보고합니다.
+ a| 
+xref:arce-archive-object-retrieve-end.adoc[ARCE: 아카이브 객체 검색 종료]
+
+
+
+ a| 
+ARCT
+ a| 
+클라우드 계층에서 아카이브 검색: S3 API를 통해 StorageGRID에 연결되는 외부 아카이브 스토리지 시스템에서 아카이빙된 오브젝트 데이터를 검색합니다.
+ a| 
+xref:arct-archive-retrieve-from-cloud-tier.adoc[ARCT: 클라우드 계층에서 아카이브 검색]
+
+
+
+ a| 
+합니다
+ a| 
+아카이브 객체 제거: 외부 아카이브 스토리지 시스템에서 콘텐츠 블록이 성공적으로 삭제되었거나 삭제되지 않았습니다.
+ a| 
+xref:arem-archive-object-remove.adoc[AREM: 아카이브 객체 제거]
+
+
+
+ a| 
+ASCE
+ a| 
+Archive Object Store End(아카이브 오브젝트 저장소 종료): 컨텐츠 블록이 외부 아카이브 스토리지 시스템에 기록되고 ARC 서비스가 쓰기 작업의 상태를 보고합니다.
+ a| 
+xref:asce-archive-object-store-end.adoc[ASCE: 아카이브 객체 저장소 종료]
+
+
+
+ a| 
+ASCT
+ a| 
+Archive Store Cloud-Tier: 오브젝트 데이터는 S3 API를 통해 StorageGRID에 연결되는 외부 아카이브 스토리지 시스템에 저장됩니다.
+ a| 
+xref:asct-archive-store-cloud-tier.adoc[ASCT: Archive Store Cloud - Tier(아카이브 저장소 클라우드 - 계층)]
+
+
+
+ a| 
+ATCHE
+ a| 
+아카이브 오브젝트 저장소 시작: 외부 아카이브 스토리지에 콘텐츠 블록 쓰기가 시작되었습니다.
+ a| 
+xref:atce-archive-object-store-begin.adoc[ATCHE: 아카이브 오브젝트 저장소가 시작됩니다]
+
+
+
+ a| 
+AVCC
+ a| 
+Archive Validate Cloud-Tier Configuration: 제공된 계정 및 버킷 설정이 성공적으로 검증되었는지 또는 확인되지 않았습니다.
+ a| 
+xref:avcc-archive-validate-cloud-tier-configuration.adoc[AVCC: Archive Validate Cloud-Tier Configuration]
+
+
+
+ a| 
+카운터보어
+ a| 
+Object Send End(개체 보내기 종료): 소스 엔터티가 그리드 노드 간 데이터 전송 작업을 완료했습니다.
+ a| 
+xref:cbse-object-send-end.adoc[CBSE: 객체 보내기 종료]
+
+
+
+ a| 
+CBRE
+ a| 
+오브젝트 수신 종료: 대상 엔터티가 그리드 노드에서 그리드 노드 데이터 전송 작업을 완료했습니다.
+ a| 
+xref:cbre-object-receive-end.adoc[CBRE: 객체 수신 종료]
+
+
+
+ a| 
+SCMT
+ a| 
+오브젝트 저장소 커밋: 콘텐츠 블록이 완전히 저장되고 확인되었으므로 이제 요청할 수 있습니다.
+ a| 
+xref:scmt-object-store-commit.adoc[SCMT: 오브젝트 저장소 커밋]
+
+
+
+ a| 
+SREM
+ a| 
+오브젝트 저장소 제거: 콘텐츠 블록이 그리드 노드에서 삭제되었으며 더 이상 직접 요청할 수 없습니다.
+ a| 
+xref:srem-object-store-remove.adoc[SREM: 오브젝트 저장소 제거]
+
+|===

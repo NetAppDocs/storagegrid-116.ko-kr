@@ -1,0 +1,23 @@
+---
+permalink: monitor/index.html 
+sidebar: sidebar 
+keywords: monitor StorageGRID 
+summary: 이 지침을 사용하여 StorageGRID 시스템을 모니터링하고 발생할 수 있는 문제를 평가하고 해결합니다. 
+---
+= 모니터링 및 문제 해결: 개요
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이 지침을 사용하여 StorageGRID 시스템을 모니터링하고 발생할 수 있는 문제를 평가하고 해결합니다.
+
+
+
+== 참조하십시오
+
+다음 지침은 그리드 관리자를 사용하여 StorageGRID 시스템을 모니터링하는 방법에 대해 설명합니다. 정기적으로 모니터링해야 하는 정보, 경고 및 기존 경보를 관리하는 방법, 모니터링을 위해 SNMP를 사용하는 방법, 메트릭 및 진단을 비롯한 추가 StorageGRID 데이터를 얻는 방법에 대해 알아봅니다.
+
+또한 StorageGRID 시스템의 문제를 해결하는 방법과 모든 시스템 경고, 기존 경보 및 로그 파일에 대해 설명합니다.
+
+StorageGRID 시스템을 설치한 후 이 시스템을 모니터링 및 지원할 경우 다음 지침을 따르십시오.

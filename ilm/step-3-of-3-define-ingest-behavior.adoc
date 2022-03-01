@@ -1,0 +1,73 @@
+---
+permalink: ilm/step-3-of-3-define-ingest-behavior.html 
+sidebar: sidebar 
+keywords: ilm rule step 3, define ingest behavior 
+summary: 'ILM 규칙 생성 마법사의 3단계\(수집 동작 정의\)에서 이 규칙으로 필터링된 개체가 수집되는 즉시 보호할 방법을 선택할 수 있습니다.' 
+---
+= 3단계 중 3단계: 수집 동작 정의
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ILM 규칙 생성 마법사의 3단계(수집 동작 정의)를 사용하면 이 규칙으로 필터링되는 개체가 수집될 때 보호되는 방법을 선택할 수 있습니다.
+
+StorageGRID는 나중에 ILM 평가를 위해 임시 복사본을 만들고 개체를 대기열에 지정하거나 규칙의 배치 지침을 즉시 충족하도록 복사본을 만들 수 있습니다.
+
+image::../media/define_ingest_behavior_for_ilm_rule.png[ILM 규칙 3단계 중 3단계를 생성합니다]
+
+.단계
+. 오브젝트가 수집될 때 사용할 데이터 보호 옵션을 선택합니다.
++
+[cols="1a,2a"]
+|===
+| 옵션을 선택합니다 | 설명 
+
+
+ a| 
+엄격한
+ a| 
+수집 시 항상 이 규칙의 배치를 사용합니다. 이 규칙의 배치를 사용할 수 없는 경우 인제스트가 실패합니다.
+
+
+
+ a| 
+균형
+ a| 
+최적의 ILM 효율성 수집 시 이 규칙의 배치를 시도합니다. 가능하지 않은 경우 임시 사본을 생성합니다.
+
+
+
+ a| 
+이중 커밋
+ a| 
+수집 시 중간 복사본을 생성하고 이 규칙의 배치를 나중에 적용합니다.
+
+|===
++
+Balanced는 대부분의 경우에 적합한 데이터 보안과 효율성을 함께 제공합니다. 엄격한 커밋 또는 이중 커밋은 일반적으로 특정 요구 사항을 충족하는 데 사용됩니다.
+
++
+을 참조하십시오 xref:data-protection-options-for-ingest.adoc[데이터 보호를 위한 수집 옵션] 및 xref:advantages-disadvantages-of-ingest-options.adoc[데이터 보호 옵션의 장점, 단점 및 제한] 를 참조하십시오.
+
++
+[NOTE]
+====
+Strict 또는 Balanced 옵션을 선택하고 규칙에서 다음 배치 중 하나를 사용하는 경우 오류 메시지가 나타납니다.
+
+** 0일의 클라우드 스토리지 풀
+** 0일의 아카이브 노드
+** 규칙이 사용자 정의 생성 시간을 참조 시간으로 사용하는 경우 클라우드 스토리지 풀 또는 아카이브 노드
+
+
+====
+. 저장 * 을 선택합니다.
++
+ILM 규칙이 저장됩니다. ILM 정책에 추가되고 정책이 활성화될 때까지 규칙이 활성 상태가 되지 않습니다.
+
+
+
+.관련 정보
+* xref:example-5-ilm-rules-and-policy-for-strict-ingest-behavior.adoc[예 5: 엄격한 수집 동작을 위한 ILM 규칙 및 정책]
+* xref:creating-ilm-policy.adoc[ILM 정책을 생성합니다]
+

@@ -1,0 +1,116 @@
+---
+permalink: sg6000/installation-and-deployment-overview.html 
+sidebar: sidebar 
+keywords: storagegrid, sg6000, storage node, storage appliance, Installation, deployment, Install, deploy, Installing, deploying 
+summary: StorageGRID를 처음 구축할 때 하나 이상의 StorageGRID 스토리지 어플라이언스를 설치하거나 나중에 확장을 위해 어플라이언스 스토리지 노드를 추가할 수 있습니다. 복구 작업의 일부로 어플라이언스 스토리지 노드를 설치해야 할 수도 있습니다. 
+---
+= 설치 및 구축 개요
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID를 처음 구축할 때 하나 이상의 StorageGRID 스토리지 어플라이언스를 설치하거나 나중에 확장을 위해 어플라이언스 스토리지 노드를 추가할 수 있습니다. 복구 작업의 일부로 어플라이언스 스토리지 노드를 설치해야 할 수도 있습니다.
+
+StorageGRID 시스템에서 필요한 버전의 StorageGRID 소프트웨어를 사용하고 있습니다.
+
+|===
+| 어플라이언스 | 필수 StorageGRID 버전입니다 
+
+
+ a| 
+확장 쉘프가 없는 SG6060
+ a| 
+11.1.1 이상
+
+
+
+ a| 
+확장 쉘프가 있는 SG6060(하나 또는 두 개)
+ a| 
+11.3 이상
+
+* 참고: * 초기 배포 후에 확장 셸프를 추가하는 경우 버전 11.4 이상을 사용해야 합니다.
+
+
+
+ a| 
+SGF6024
+ a| 
+11.3 이상
+
+|===
+
+
+== 설치 및 구축 작업
+
+StorageGRID 스토리지 어플라이언스를 StorageGRID 시스템에 추가하는 작업은 다음과 같은 네 가지 주요 단계로 이루어집니다.
+
+. 설치 준비:
++
+** 설치 사이트 준비 중
+** 박스 포장 풀기 및 내용물 확인
+** 추가 장비 및 도구 확보
+** IP 주소 및 네트워크 정보를 수집하는 중입니다
+** 선택 사항: 모든 어플라이언스 데이터를 암호화하려는 경우 외부 키 관리 서버(KMS) 구성 StorageGRID 관리 지침에 있는 외부 키 관리에 대한 자세한 내용을 참조하십시오.
+
+
+. 하드웨어 설치:
++
+** 하드웨어를 등록하는 중입니다
+** 캐비닛 또는 랙에 제품 설치
+** 드라이브 설치
+** 확장 쉘프 옵션 설치(모델 SG6060만 해당, 최대 2개의 확장 쉘프)
+** 어플라이언스 케이블 연결
+** 전원 코드 연결 및 전원 공급
+** 부팅 상태 코드 보기
+
+
+. 하드웨어 구성:
++
+** SANtricity 시스템 관리자에 액세스하여 SANtricity 시스템 관리자 설정을 구성합니다
+** StorageGRID 어플라이언스 설치 프로그램에 액세스하여 스토리지 컨트롤러의 관리 포트 1에 대한 정적 IP 주소를 설정하고 StorageGRID 네트워크에 연결하는 데 필요한 링크 및 네트워크 IP 설정을 구성합니다
+** SG6000-CN 컨트롤러의 베이스보드 관리 컨트롤러(BMC) 인터페이스에 액세스합니다
+** 선택 사항: 외부 KMS를 사용하여 어플라이언스 데이터를 암호화하려는 경우 노드 암호화 사용
+** 선택 사항: RAID 모드 변경
+
+
+. 어플라이언스를 스토리지 노드로 구축:
++
+|===
+| 작업 | 지침 
+
+
+ a| 
+새로운 StorageGRID 시스템에 어플라이언스 스토리지 노드 구축
+ a| 
+xref:deploying-appliance-storage-node.adoc[어플라이언스 스토리지 노드 구축]
+
+
+
+ a| 
+기존 StorageGRID 시스템에 어플라이언스 스토리지 노드 추가
+ a| 
+StorageGRID 시스템 확장을 위한 지침
+
+
+
+ a| 
+스토리지 노드 복구 작업의 일부로 어플라이언스 스토리지 노드 구축
+ a| 
+복구 및 유지 관리 지침
+
+|===
+
+
+xref:preparing-for-installation.adoc[설치 준비(SG6000)]
+
+xref:installing-hardware.adoc[하드웨어 설치(SG6000)]
+
+xref:configuring-hardware.adoc[하드웨어 구성(SG6000)]
+
+xref:../expand/index.adoc[그리드를 확장합니다]
+
+xref:../maintain/index.adoc[복구 및 유지 관리]
+
+xref:../admin/index.adoc[StorageGRID 관리]

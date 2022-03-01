@@ -1,0 +1,58 @@
+---
+permalink: audit/audit-message-format.html 
+sidebar: sidebar 
+keywords: storagegrid, audit, message formats, message format 
+summary: StorageGRID 시스템 내에서 교환되는 감사 메시지에는 모든 메시지에 공통되는 표준 정보 및 보고되는 이벤트 또는 활동을 설명하는 특정 콘텐츠가 포함됩니다. 
+---
+= 감사 메시지 형식
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 시스템 내에서 교환되는 감사 메시지에는 모든 메시지에 공통되는 표준 정보 및 보고되는 이벤트 또는 활동을 설명하는 특정 콘텐츠가 포함됩니다.
+
+감사-설명 및 감사-합계 도구가 제공하는 요약 정보가 부족한 경우 이 섹션을 참조하여 모든 감사 메시지의 일반적인 형식을 파악하십시오.
+
+다음은 감사 로그 파일에 표시될 수 있는 감사 메시지의 예입니다.
+
+[listing]
+----
+2014-07-17T03:50:47.484627
+[AUDT:[RSLT(FC32):VRGN][AVER(UI32):10][ATIM(UI64):1405569047484627][ATYP(FC32):SYSU][ANID(UI32):11627225][AMID(FC32):ARNI][ATID(UI64):9445736326500603516]]
+----
+각 감사 메시지에는 특성 요소의 문자열이 포함됩니다. 전체 문자열은 대괄호("[]")로 묶이고 문자열의 각 특성 요소에는 다음과 같은 특성이 있습니다.
+
+* 괄호 '[]'로 묶습니다
+* 감사 메시지를 나타내는 AUDT 문자열에 의해 도입되었습니다
+* 앞 또는 뒤에 구분 기호(쉼표 또는 공백 없음)를 사용하지 않습니다
+* 줄 바꿈 문자 '\n'에 의해 종료되었습니다
+
+
+각 요소에는 특성 코드, 데이터 형식 및 다음 형식으로 보고된 값이 포함됩니다.
+
+[listing]
+----
+[ATTR(type):value][ATTR(type):value]...
+[ATTR(type):value]\n
+----
+메시지의 특성 요소 수는 메시지의 이벤트 유형에 따라 달라집니다. 특성 요소는 특정 순서로 나열되지 않습니다.
+
+다음 목록에서는 특성 요소에 대해 설명합니다.
+
+* ATTR은 보고되는 특성에 대한 4자리 코드입니다. 모든 감사 메시지에 공통적으로 적용되는 일부 특성 및 이벤트별 특성이 있습니다.
+* type은 UI64, FC32 등 값의 프로그래밍 데이터 형식의 4자리 식별자입니다. 형식은 괄호 '( )'로 묶습니다.
+* 값 은 특성의 내용으로 일반적으로 숫자 또는 텍스트 값입니다. 값은 항상 콜론(':')을 따릅니다. CStr 데이터 형식의 값은 큰따옴표 " ""로 둘러싸입니다.
+
+
+xref:using-audit-explain-tool.adoc[감사 설명 도구를 사용합니다]
+
+xref:using-audit-sum-tool.adoc[감사 합계 도구를 사용합니다]
+
+xref:audit-messages-main.adoc[감사 메시지]
+
+xref:common-elements-in-audit-messages.adoc[감사 메시지의 공통 요소]
+
+xref:data-types.adoc[데이터 유형]
+
+xref:audit-message-examples.adoc[감사 메시지 예]

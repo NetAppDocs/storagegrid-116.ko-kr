@@ -1,0 +1,112 @@
+---
+permalink: s3/use-s3-object-lock-default-bucket-retention.html 
+sidebar: sidebar 
+keywords: s3 object lock, default bucket retention 
+summary: 버킷에 S3 오브젝트 잠금이 활성화된 경우 버킷에 추가된 각 오브젝트에 적용되는 기본 보존 모드와 기본 보존 기간을 지정할 수 있습니다. 
+---
+= S3 오브젝트 잠금 기본 버킷 보존을 사용합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+버킷에 S3 오브젝트 잠금이 활성화된 경우 버킷에 추가된 각 오브젝트에 적용되는 기본 보존 모드와 기본 보존 기간을 지정할 수 있습니다.
+
+* 버킷 생성 중에 버킷에 대해 S3 오브젝트 잠금을 설정하거나 해제할 수 있습니다.
+* 버킷에 대해 S3 오브젝트 잠금이 활성화된 경우 버킷의 기본 보존을 구성할 수 있습니다.
+* 기본 보존 구성은 다음을 지정합니다.
++
+** 기본 보존 모드: StorageGRID는 "규정 준수" 모드만 지원합니다.
+** 기본 보존 기간(일 또는 년).
+
+
+
+
+
+
+== 개체 잠금 구성을 가져옵니다
+
+객체 잠금 구성 가져오기 요청을 사용하면 버킷에 대해 객체 잠금이 설정되어 있는지 확인하고, 활성화된 경우 버킷에 대해 기본 보존 모드 및 보존 기간이 구성되어 있는지 확인할 수 있습니다.
+
+새로운 오브젝트 버전이 버킷에 수집되면 "x-amz-object-lock-mode"가 지정되지 않은 경우 기본 보존 모드가 적용됩니다. x-amz-object-lock-retain-until-date를 지정하지 않으면 기본 보존 기간을 사용하여 Retain-until-date를 계산합니다.
+
+이 작업을 완료하려면 S3:GetBucketObjectLockConfiguration 권한이 있거나 계정 루트여야 합니다.
+
+
+
+=== 요청 예
+
+[listing, subs="specialcharacters,quotes"]
+----
+GET /bucket?object-lock HTTP/1.1
+Host: _host_
+Accept-Encoding: identity
+User-Agent: aws-cli/1.18.106 Python/3.8.2 Linux/4.4.0-18362-Microsoft botocore/1.17.29
+x-amz-date: _date_
+x-amz-content-sha256: _authorization string_
+Authorization: _authorization string_
+----
+
+
+=== 응답 예
+
+[listing]
+----
+HTTP/1.1 200 OK
+x-amz-id-2: iVmcB7OXXJRkRH1FiVq1151/T24gRfpwpuZrEG11Bb9ImOMAAe98oxSpXlknabA0LTvBYJpSIXk=
+x-amz-request-id: B34E94CACB2CEF6D
+Date: Fri, 04 Sep 2020 22:47:09 GMT
+Transfer-Encoding: chunked
+Server: AmazonS3
+
+<?xml version="1.0" encoding="UTF-8"?>
+<ObjectLockConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
+    <ObjectLockEnabled>Enabled</ObjectLockEnabled>
+    <Rule>
+        <DefaultRetention>
+            <Mode>COMPLIANCE</Mode>
+            <Years>6</Years>
+        </DefaultRetention>
+    </Rule>
+</ObjectLockConfiguration>
+----
+
+
+== 개체 잠금 구성을 배치합니다
+
+객체 잠금 구성 요청을 사용하면 객체 잠금이 활성화된 버킷의 기본 보존 모드 및 기본 보존 기간을 수정할 수 있습니다. 이전에 구성한 기본 보존 설정을 제거할 수도 있습니다.
+
+새로운 오브젝트 버전이 버킷에 수집되면 "x-amz-object-lock-mode"가 지정되지 않은 경우 기본 보존 모드가 적용됩니다. x-amz-object-lock-retain-until-date를 지정하지 않으면 기본 보존 기간을 사용하여 Retain-until-date를 계산합니다.
+
+오브젝트 버전을 수집한 후 기본 보존 기간을 수정하면 오브젝트 버전의 보존 기한은 그대로 유지되고 새 기본 보존 기간을 사용하여 다시 계산되지 않습니다.
+
+이 작업을 완료하려면 S3:PutBucketObjectLockConfiguration 권한이 있거나 계정 루트여야 합니다.
+
+PUT 요청에는 Content-MD5 요청 헤더를 지정해야 합니다.
+
+
+
+=== 요청 예
+
+[listing, subs="specialcharacters,quotes"]
+----
+PUT /bucket?object-lock HTTP/1.1
+Accept-Encoding: identity
+Content-Length: 308
+Host: _host_
+Content-MD5: _request header_
+User-Agent: s3sign/1.0.0 requests/2.24.0 python/3.8.2
+X-Amz-Date: _date_
+X-Amz-Content-SHA256: _authorization string_
+Authorization: _authorization string_
+
+<ObjectLockConfiguration>
+    <ObjectLockEnabled>Enabled</ObjectLockEnabled>
+    <Rule>
+        <DefaultRetention>
+            <Mode>COMPLIANCE</Mode>
+            <Years>6</Years>
+        </DefaultRetention>
+    </Rule>
+</ObjectLockConfiguration>
+----

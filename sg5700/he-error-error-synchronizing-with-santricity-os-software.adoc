@@ -1,0 +1,21 @@
+---
+permalink: sg5700/he-error-error-synchronizing-with-santricity-os-software.html 
+sidebar: sidebar 
+keywords: storagegrid, sg5700, storage node, storage appliance, troubleshooting, HE, error, synchronize, synchronizing, sunconization, SANtricity OS Software, santricity 
+summary: StorageGRID 어플라이언스 설치 프로그램이 SANtricity OS 소프트웨어와 동기화할 수 없는 경우 컴퓨팅 컨트롤러의 7세그먼트 디스플레이에 해당 오류 코드가 표시됩니다. 
+---
+= SANtricity OS 소프트웨어와 동기화하는 동안 오류가 발생했습니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 어플라이언스 설치 프로그램이 SANtricity OS 소프트웨어와 동기화할 수 없는 경우 컴퓨팅 컨트롤러의 7세그먼트 디스플레이에 해당 오류 코드가 표시됩니다.
+
+오류 코드가 표시되는 경우 이 수정 조치를 수행하십시오.
+
+.단계
+. 두 컨트롤러 사이에 있는 두 개의 상호 연결 케이블을 확인하고 케이블과 SFP+ 트랜시버가 단단히 연결되어 있는지 확인합니다.
+. 필요에 따라 케이블 또는 SFP+ 트랜시버 중 하나 또는 둘 다를 교체하고 다시 시도하십시오.
+. 그래도 문제가 해결되지 않으면 기술 지원 부서에 문의하십시오.
+

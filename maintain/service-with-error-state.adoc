@@ -1,0 +1,57 @@
+---
+permalink: maintain/service-with-error-state.html 
+sidebar: sidebar 
+keywords: storagegrid, recover, service error state, error, error state 
+summary: 서비스가 오류 상태로 전환되면 서비스를 다시 시작하십시오. 
+---
+= 오류 상태의 서비스
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+서비스가 오류 상태로 전환되면 서비스를 다시 시작하십시오.
+
+"passwords.txt" 파일이 있어야 합니다.
+
+Server Manager는 서비스를 모니터링하고 예기치 않게 중지된 서비스를 다시 시작합니다. 서비스에 오류가 발생하면 Server Manager가 서비스를 다시 시작합니다. 5분 내에 서비스 시작 시도가 세 번 실패하면 서비스가 오류 상태로 전환됩니다. 서버 관리자가 다시 시작하지 않습니다.
+
+.단계
+. 그리드 노드에 로그인합니다.
++
+.. 'ssh admin@_grid_node_ip_' 명령을 입력합니다
+.. "passwords.txt" 파일에 나열된 암호를 입력합니다.
+.. 루트로 전환하려면 다음 명령을 입력합니다
+.. "passwords.txt" 파일에 나열된 암호를 입력합니다.
+
+
++
+루트로 로그인하면 프롬프트가 '$'에서 '#'로 바뀝니다.
+
+. 서비스의 오류 상태 'service_serviceename_status'를 확인합니다
++
+예를 들면 다음과 같습니다.
+
++
+[listing]
+----
+service ldr status
+----
++
+서비스가 오류 상태인 경우 '_serviceName_in error state'라는 메시지가 반환됩니다. 예를 들면 다음과 같습니다.
+
++
+[listing]
+----
+ldr in error state
+----
++
+
+NOTE: 서비스 상태가 '비활성화'인 경우 의 지침을 참조하십시오 xref:removing-donotstart-file-for-service.adoc[서비스에 대한 DoNotStart 파일 제거].
+
+. 'service_serviceename_restart' 서비스를 다시 시작하여 오류 상태를 제거하려고 시도합니다
++
+서비스가 다시 시작되지 않으면 기술 지원 부서에 문의하십시오.
+
+. 명령 셸에서 'exit'를 로그아웃합니다
+

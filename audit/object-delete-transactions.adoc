@@ -1,0 +1,56 @@
+---
+permalink: audit/object-delete-transactions.html 
+sidebar: sidebar 
+keywords: storagegrid, audit, message, messages, transaction, transactions, Object delete, S3 delete, Swift delete, S3, Swift, SDEL, WDEL 
+summary: 'API 관련 \(S3 및 Swift\) 감사 메시지를 찾아 감사 로그에서 오브젝트 삭제 트랜잭션을 식별할 수 있습니다.' 
+---
+= 객체 삭제 트랜잭션입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+API 관련(S3 및 Swift) 감사 메시지를 찾아 감사 로그에서 오브젝트 삭제 트랜잭션을 식별할 수 있습니다.
+
+다음 표에는 삭제 트랜잭션 중에 생성된 모든 감사 메시지가 나와 있지 않습니다. 삭제 트랜잭션을 추적하는 데 필요한 메시지만 포함됩니다.
+
+
+
+== S3 감사 메시지 삭제
+
+|===
+| 코드 | 이름 | 설명 | 트레이스 | 을 참조하십시오 
+
+
+ a| 
+SDEL
+ a| 
+S3 삭제
+ a| 
+버킷에서 오브젝트를 삭제하도록 요청했습니다.
+ a| 
+CBID, S3KY
+ a| 
+xref:sdel-s3-delete.adoc[SDEL: S3 삭제]
+
+|===
+
+
+== 감사 메시지를 신속하게 삭제합니다
+
+|===
+| 코드 | 이름 | 설명 | 트레이스 | 을 참조하십시오 
+
+
+ a| 
+WDEL
+ a| 
+스위프트 삭제
+ a| 
+컨테이너 또는 컨테이너에서 개체를 삭제하도록 요청했습니다.
+ a| 
+CBID, WOBJ
+ a| 
+xref:wdel-swift-delete.adoc[WDEL: Swift 삭제]
+
+|===

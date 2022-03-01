@@ -1,0 +1,29 @@
+---
+permalink: sg5700/upgrading-santricity-os-on-storage-controller.html 
+sidebar: sidebar 
+keywords: storagegrid, sg5700, storage node, storage appliance, controller, storage controller, upgrade, upgrading, SANtricity OS, SANtricity 
+summary: '스토리지 컨트롤러가 최적의 상태로 작동하도록 하려면 StorageGRID 어플라이언스에 적합한 SANtricity OS의 최신 유지 관리 릴리즈로 업그레이드해야 합니다. NetApp 상호 운용성 매트릭스 툴(IMT\)을 참조하여 사용 중인 버전을 확인하십시오. 도움이 필요한 경우 기술 지원 팀에 문의하십시오.' 
+---
+= 스토리지 컨트롤러에서 SANtricity OS를 업그레이드합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+스토리지 컨트롤러가 최적의 상태로 작동하도록 하려면 StorageGRID 어플라이언스에 적합한 SANtricity OS의 최신 유지 관리 릴리즈로 업그레이드해야 합니다. NetApp 상호 운용성 매트릭스 툴(IMT) 을 참조하여 사용해야 하는 버전을 확인하십시오. 도움이 필요한 경우 기술 지원 팀에 문의하십시오.
+
+* 스토리지 컨트롤러가 SANtricity OS 08.42.20.00(11.42) 이상을 사용하는 경우 그리드 관리자를 사용하여 업그레이드를 수행합니다.
++
+xref:upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg5700.adoc[그리드 관리자를 사용하여 스토리지 컨트롤러의 SANtricity OS를 업그레이드합니다]
+
+* 스토리지 컨트롤러가 08.42.20.00(11.42) 이전의 SANtricity OS 버전을 사용하는 경우 유지보수 모드를 사용하여 업그레이드를 수행합니다.
++
+xref:upgrading-santricity-os-on-e2800-controller-using-maintenance-mode.adoc[유지보수 모드를 사용하여 E2800 컨트롤러에서 SANtricity OS를 업그레이드합니다]
+
+
+
+https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^]
+
+https://mysupport.netapp.com/site/products/all/details/eseries-santricityos/downloads-tab["NetApp 다운로드: SANtricity OS"^]
+
+xref:../monitor/index.adoc[모니터링하고 문제를 해결합니다]

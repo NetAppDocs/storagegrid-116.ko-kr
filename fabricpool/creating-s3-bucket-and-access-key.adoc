@@ -1,0 +1,90 @@
+---
+permalink: fabricpool/creating-s3-bucket-and-access-key.html 
+sidebar: sidebar 
+keywords: fabricPool, S3 bucket, bucket, access key, secret access key 
+summary: FabricPool 워크로드에 StorageGRID를 사용하기 전에 FabricPool 데이터용 S3 버킷을 생성해야 합니다. 또한 FabricPool에 사용할 테넌트 계정에 대한 액세스 키와 비밀 액세스 키를 얻어야 합니다. 
+---
+= S3 버킷을 생성하고 액세스 키를 얻습니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+FabricPool 워크로드에 StorageGRID를 사용하기 전에 FabricPool 데이터용 S3 버킷을 생성해야 합니다. 또한 FabricPool에 사용할 테넌트 계정에 대한 액세스 키와 비밀 액세스 키를 얻어야 합니다.
+
+.무엇을 &#8217;필요로 할거야
+* FabricPool 사용을 위해 테넌트 계정을 만들었습니다.
+
+
+다음 지침은 StorageGRID 테넌트 관리자를 사용하여 버킷을 생성하고 액세스 키를 얻는 방법을 설명합니다. 테넌트 관리 API 또는 StorageGRID S3 REST API를 사용하여 이러한 작업을 수행할 수도 있습니다. 또는 ONTAP 9.10을 사용하는 경우 대신 FabricPool 설정 마법사를 사용하여 버킷을 생성할 수 있습니다.
+
+자세한 내용:
+
+* xref:../tenant/index.adoc[테넌트 계정을 사용합니다]
+* xref:../s3/index.adoc[S3을 사용합니다]
+
+
+.단계
+. 테넌트 관리자에 로그인합니다.
++
+다음 중 하나를 수행할 수 있습니다.
+
++
+** Grid Manager의 Tenant Accounts 페이지에서 테넌트의 * Sign In * 링크를 선택하고 자격 증명을 입력합니다.
+** 웹 브라우저에 테넌트 계정의 URL을 입력하고 자격 증명을 입력합니다.
+
+
+. FabricPool 데이터용 S3 버킷을 생성합니다.
++
+사용하려는 각 ONTAP 클러스터에 대해 고유한 버킷을 생성해야 합니다.
+
++
+.. 스토리지(S3) * > * 버킷 * 을 선택합니다.
+.. Create bucket * 을 선택합니다.
+.. FabricPool와 함께 사용할 StorageGRID 버킷의 이름을 입력합니다. 예를 들어, '배합통'을 예로 들 수 있습니다.
++
+
+IMPORTANT: 버킷을 생성한 후에는 버킷 이름을 변경할 수 없습니다.
+
++
+버킷 이름은 다음 규칙을 준수해야 합니다.
+
++
+*** 각 StorageGRID 시스템에서 고유해야 합니다(테넌트 계정에서만 고유한 것은 아님).
+*** DNS를 준수해야 합니다.
+*** 3자 이상 63자 이하여야 합니다.
+*** 인접한 레이블이 마침표로 구분된 하나 이상의 레이블일 수 있습니다. 각 레이블은 소문자 또는 숫자로 시작하고 끝나야 하며 소문자, 숫자 및 하이픈만 사용할 수 있습니다.
+*** 텍스트 형식의 IP 주소처럼 보이지 않아야 합니다.
+*** 가상 호스팅 스타일 요청에서 기간을 사용하지 않아야 합니다. 마침표는 서버 와일드카드 인증서 확인에 문제를 일으킬 수 있습니다.
+
+
+.. 이 버킷의 영역을 선택합니다.
++
+기본적으로 모든 버킷은 us-east-1 영역에 생성됩니다.
+
++
+image::../media/create_bucket_for_fabricpool.png[FabricPool용 버킷 생성]
+
+.. Create bucket * 을 선택합니다.
+
+
++
+
+NOTE: FabricPool 버킷의 경우 권장되는 버킷 정합성 수준은 "재기록 후"입니다. "사용 가능" 정합성 수준은 권장되지 않습니다. 을 참조하십시오 xref:../tenant/changing-consistency-level.adoc[정합성 보장 수준을 변경합니다].
+
+. 액세스 키와 비밀 액세스 키를 생성합니다.
++
+.. 스토리지(S3) * > * 내 액세스 키 * 를 선택합니다.
+.. Create key * 를 선택합니다.
+.. Create access key * 를 선택합니다.
+.. 액세스 키 ID와 비밀 액세스 키를 안전한 위치에 복사하거나 * Download.csv * 를 선택하여 액세스 키 ID와 비밀 액세스 키가 포함된 스프레드시트 파일을 저장합니다.
++
+StorageGRID를 FabricPool 클라우드 계층으로 구성할 때 ONTAP에 이러한 값을 입력합니다.
+
++
+
+IMPORTANT: 나중에 새 액세스 키와 비밀 액세스 키를 생성하는 경우 ONTAP가 중단 없이 StorageGRID에 데이터를 저장하고 검색할 수 있도록 ONTAP에서 해당 값을 즉시 업데이트해야 합니다.
+
+
+
+

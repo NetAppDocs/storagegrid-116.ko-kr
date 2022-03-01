@@ -1,0 +1,89 @@
+---
+permalink: sg5600/replacing-other-hardware-components-sg5600.html 
+sidebar: sidebar 
+keywords: storagegrid, sg5600, storage node, storage appliance, Replacing, replace, hardware, components, remove, removing, removal, install, installing, installation, drive, fan, power supply, battery 
+summary: StorageGRID 제품에서 드라이브, 팬, 전원 공급 장치 또는 배터리를 교체해야 할 수 있습니다. 
+---
+= 다른 하드웨어 구성 요소를 교체합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 제품에서 드라이브, 팬, 전원 공급 장치 또는 배터리를 교체해야 할 수 있습니다.
+
+.무엇을 &#8217;필요로 할거야
+* E-Series 하드웨어 교체 절차가 있습니다.
+* 제품이 다 되었습니다 xref:placing-appliance-into-maintenance-mode.adoc[유지보수 모드로 전환] 구성 요소 교체 절차에서 제품을 종료해야 하는 경우
+
+
+드라이브, 전원 팬 캐니스터, 팬 캐니스터, 전원 캐니스터, 배터리 교체 또는 드라이브 드로어는 E2700 및 E5600 스토리지 어레이의 표준 절차를 참조하십시오. 하드웨어 자체의 제거 및 교체에 대한 단계별 지침에 초점을 맞춥니다. 대부분의 SANtricity 스토리지 관리자 절차는 어플라이언스에 적용되지 않습니다.
+
+
+
+== SG5612 구성 요소 교체 지침
+
+|===
+| FRU | 을 참조하십시오 
+
+
+ a| 
+드라이브
+ a| 
+E2600, E2700, E5400, E5500, E5600 또는 12 드라이브 또는 24 드라이브 트레이의 드라이브 교체를 위한 E-Series 지침의 단계를 따르십시오.
+
+
+
+ a| 
+전원 팬 캐니스터
+ a| 
+E5612 또는 E5624 컨트롤러-드라이브 트레이에서 장애가 발생한 전원 팬 캐니스터를 교체하는 E-Series 지침에 따라 작업을 수행하십시오
+
+
+
+ a| 
+E2700 컨트롤러의 배터리(컨트롤러 분리 필요)
+ a| 
+의 단계를 따릅니다 xref:replacing-e2700-controller.adoc[E2700 컨트롤러를 교체합니다]기존 컨트롤러에 새 배터리를 설치합니다.
+
+|===
+
+
+== SG5660 구성요소 교체 지침
+
+|===
+| FRU | 을 참조하십시오 
+
+
+ a| 
+드라이브
+ a| 
+E2660, E2760, E5460, E5560 또는 E5660 트레이의 드라이브 교체에 대한 E-Series 지침 의 단계를 따릅니다.
+
+
+
+ a| 
+전원 캐니스터
+ a| 
+E5660 컨트롤러-드라이브 트레이에서 장애가 발생한 전원 캐니스터를 교체하는 E-Series 지침에 따라 작업을 수행합니다
+
+
+
+ a| 
+팬 캐니스터
+ a| 
+E5660 컨트롤러-드라이브 트레이에서 장애가 발생한 팬 캐니스터를 교체하는 E-Series 지침에 따라 작업을 수행합니다
+
+
+
+ a| 
+E2700 컨트롤러의 배터리(컨트롤러 분리 필요)
+ a| 
+의 단계를 따릅니다 xref:replacing-e2700-controller.adoc[E2700 컨트롤러를 교체합니다]기존 컨트롤러에 새 배터리를 설치합니다.
+
+|===
+https://mysupport.netapp.com/info/web/ECMP11751516.html["NetApp E-Series 및 EF-Series 하드웨어 교체 절차 를 참조하십시오"^]
+
+http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61765["NetApp 설명서: E2700 시리즈"^]
+
+http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61893["NetApp 설명서: E5600 시리즈"^]

@@ -1,0 +1,13 @@
+---
+permalink: sg5600/setting-up-santricity-storage-manager.html 
+sidebar: sidebar 
+keywords: storagegrid, sg5600, storage node, storage appliance, SANtricity Storage Manager, SANtricity, Storage Manager, configure, configuring, setup, set up, setting up 
+summary: SANtricity 저장소 관리자에 액세스한 후 이를 사용하여 하드웨어 설정을 구성할 수 있습니다. 일반적으로 StorageGRID 시스템에서 어플라이언스를 스토리지 노드로 구축하기 전에 이러한 설정을 구성합니다. 
+---
+= SANtricity 저장소 관리자를 설정합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+SANtricity 저장소 관리자에 액세스한 후 이를 사용하여 하드웨어 설정을 구성할 수 있습니다. 일반적으로 StorageGRID 시스템에서 어플라이언스를 스토리지 노드로 구축하기 전에 이러한 설정을 구성합니다.

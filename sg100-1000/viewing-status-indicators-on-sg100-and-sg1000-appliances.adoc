@@ -1,0 +1,118 @@
+---
+permalink: sg100-1000/viewing-status-indicators-on-sg100-and-sg1000-appliances.html 
+sidebar: sidebar 
+keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gateway Node, admin node, status, indicators, lights, leds, light, led, switch , button, power, reset, identify, alarm, ssd, indicator, boot codes, boot, code, start, startup, start up, start-up, progress 
+summary: 이 제품에는 어플라이언스 컨트롤러 및 2개의 SSD의 상태를 확인하는 데 도움이 되는 표시등이 포함되어 있습니다. 
+---
+= SG100 및 SG1000 어플라이언스의 상태 표시기를 봅니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+이 제품에는 어플라이언스 컨트롤러 및 2개의 SSD의 상태를 확인하는 데 도움이 되는 표시등이 포함되어 있습니다.
+
+
+
+== 제품 표시등 및 버튼
+
+image::../media/sg6000_cn_front_indicators.gif[전면 표시등 - SG1000]
+
+|===
+|  | 디스플레이 | 상태 
+
+
+ a| 
+1
+ a| 
+전원 단추
+ a| 
+* 파란색: 제품의 전원이 켜져 있습니다.
+* 꺼짐: 제품의 전원이 꺼져 있습니다.
+
+
+
+
+ a| 
+2
+ a| 
+재설정 버튼
+ a| 
+이 단추를 사용하여 컨트롤러를 하드 리셋합니다.
+
+
+
+ a| 
+3
+ a| 
+식별 버튼
+ a| 
+이 단추는 깜박임, 켜짐(켜짐) 또는 꺼짐 으로 설정할 수 있습니다.
+
+* 파란색, 깜박임: 캐비닛이나 랙에 있는 제품을 나타냅니다.
+* 파란색, 켜짐: 캐비닛이나 랙에 있는 제품을 나타냅니다.
+* 꺼짐: 캐비닛이나 랙에서 제품을 육안으로 확인할 수 없습니다.
+
+
+
+
+ a| 
+4
+ a| 
+알람 LED
+ a| 
+* 황색, 켜짐: 오류가 발생했습니다.
++
+* 참고: * 부팅 및 오류 코드를 보려면 BMC 인터페이스에 액세스해야 합니다.
+
+* 꺼짐: 오류가 없습니다.
+
+
+|===
+
+
+== 일반 부팅 코드
+
+부팅하거나 제품을 하드 리셋한 후 다음과 같은 현상이 발생합니다.
+
+. BMC(베이스보드 관리 컨트롤러)는 발생한 오류를 포함하여 부팅 순서의 코드를 기록합니다.
+. 전원 단추가 켜집니다.
+. 부팅 중에 오류가 발생하면 알람 LED가 켜집니다.
++
+부팅 및 오류 코드를 보려면 BMC 인터페이스에 액세스해야 합니다.
+
+
+
+
+
+== SSD 표시등
+
+image::../media/ssd_indicators.png[SSD 표시등]
+
+|===
+| LED | 디스플레이 | 상태 
+
+
+ a| 
+1
+ a| 
+드라이브 상태/장애
+ a| 
+* 파란색(계속 켜짐): 드라이브가 온라인 상태입니다
+* 주황색(깜박임): 드라이브 오류가 발생했습니다
+* 꺼짐: 슬롯이 비어 있습니다
+
+
+
+
+ a| 
+2
+ a| 
+드라이브가 활성 상태입니다
+ a| 
+파란색(깜박임): 드라이브에 액세스하는 중입니다
+
+|===
+xref:troubleshooting-hardware-installation-sg100-and-sg1000.adoc[하드웨어 설치 문제 해결(SG100 및 SG1000)]
+
+xref:configuring-bmc-interface-sg1000.adoc[BMC 인터페이스 구성(SG100 및 SG1000)]

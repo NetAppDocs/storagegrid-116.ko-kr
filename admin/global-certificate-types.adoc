@@ -1,0 +1,15 @@
+---
+permalink: admin/global-certificate-types.html 
+sidebar: sidebar 
+keywords: rsa, ecdsa, custom certificate encryption 
+summary: 'StorageGRID 시스템은 RSA 또는 ECDSA(Elliptic Curve Digital Signature Algorithm)로 암호화된 서버 인증서를 지원합니다.' 
+---
+= 지원되는 서버 인증서 유형입니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 시스템은 RSA 또는 ECDSA(Elliptic Curve Digital Signature Algorithm)로 암호화된 사용자 지정 인증서를 지원합니다.
+
+StorageGRID가 REST API에 대한 클라이언트 연결을 보호하는 방법에 대한 자세한 내용은 을 참조하십시오 xref:../s3/index.adoc[S3을 사용합니다] 또는 xref:../swift/index.adoc[Swift를 사용합니다].

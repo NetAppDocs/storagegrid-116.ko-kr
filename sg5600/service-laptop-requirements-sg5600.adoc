@@ -1,0 +1,26 @@
+---
+permalink: sg5600/service-laptop-requirements-sg5600.html 
+sidebar: sidebar 
+keywords: storagegrid, sg5600, storage node, storage appliance, service, laptop, console 
+summary: StorageGRID 어플라이언스 하드웨어를 설치하기 전에 서비스 랩톱에 필요한 최소 리소스가 있는지 확인해야 합니다. 
+---
+= 서비스 랩톱 요구 사항
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 어플라이언스 하드웨어를 설치하기 전에 서비스 랩톱에 필요한 최소 리소스가 있는지 확인해야 합니다.
+
+하드웨어 설치에 필요한 서비스 랩톱은 다음 요구 사항을 충족해야 합니다.
+
+* Microsoft Windows 운영 체제
+* 네트워크 포트
+* xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저]
+* NetApp SANtricity 스토리지 관리자 버전 11.40 이상
+* SSH 클라이언트(예: PuTTY)
+
+
+xref:../admin/web-browser-requirements.adoc[웹 브라우저 요구 사항]
+
+http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61197["NetApp 문서: SANtricity 스토리지 관리자"^]

@@ -1,0 +1,32 @@
+---
+permalink: sg6000/hardware-setup-appears-to-hang.html 
+sidebar: sidebar 
+keywords: storagegrid, sg6000, storage node, storage appliance, troubleshoot, troubleshooting, hardware, setup, hang, hangs, fails, failure, stop, terminate, terminates, stuck 
+summary: 하드웨어 장애 또는 케이블 연결 오류로 인해 스토리지 컨트롤러 또는 SG6000-CN 컨트롤러가 부팅 처리를 완료하지 못하는 경우 StorageGRID 어플라이언스 설치 프로그램을 사용할 수 없습니다. 
+---
+= 하드웨어 설치가 중단된 것 같습니다(SG6000).
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+하드웨어 장애 또는 케이블 연결 오류로 인해 스토리지 컨트롤러 또는 SG6000-CN 컨트롤러가 부팅 처리를 완료하지 못하는 경우 StorageGRID 어플라이언스 설치 프로그램을 사용할 수 없습니다.
+
+.단계
+. 스토리지 컨트롤러의 경우 7세그먼트 디스플레이에서 코드를 확인합니다.
++
+전원을 켜는 동안 하드웨어가 초기화되는 동안 2개의 7세그먼트 디스플레이에는 일련의 코드가 표시됩니다. 하드웨어가 성공적으로 부팅되면 7세그먼트 디스플레이 모두 99로 표시됩니다.
+
+. SG6000-CN 컨트롤러의 LED와 BMC에 표시되는 부팅 및 오류 코드를 검토합니다.
+. 문제 해결에 도움이 필요한 경우 기술 지원 부서에 문의하십시오.
+
+
+xref:viewing-boot-up-status-codes-for-sg6000-storage-controllers.adoc[SG6000 스토리지 컨트롤러의 부팅 상태 코드를 봅니다]
+
+https://library.netapp.com/ecmdocs/ECMLP2588751/html/frameset.html["E5700 및 E2800 시스템 모니터링 가이드"^]
+
+xref:viewing-status-indicators-and-buttons-on-sg6000-cn-controller.adoc[SG6000-CN 컨트롤러의 상태 표시등 및 단추를 봅니다]
+
+xref:viewing-boot-up-codes-for-sg6000-cn-controller.adoc[SG6000-CN 컨트롤러의 부팅 코드를 봅니다]
+
+xref:viewing-error-codes-for-sg6000-cn-controller.adoc[SG6000-CN 컨트롤러의 오류 코드를 봅니다]

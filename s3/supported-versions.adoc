@@ -1,0 +1,38 @@
+---
+permalink: s3/supported-versions.html 
+sidebar: sidebar 
+keywords: supported versions, version support 
+summary: StorageGRID는 다음과 같은 S3 및 HTTP 버전을 지원합니다. 
+---
+= 지원되는 버전
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID는 다음과 같은 S3 및 HTTP 버전을 지원합니다.
+
+|===
+| 항목 | 버전 
+
+
+ a| 
+S3 사양
+ a| 
+_Simple Storage Service API Reference_2006-03-01
+
+
+
+ a| 
+HTTP
+ a| 
+1.1
+
+HTTP에 대한 자세한 내용은 HTTP/1.1(RFC 7230-35)을 참조하십시오.
+
+* 참고 *: StorageGRID는 HTTP/1.1 파이프라이닝을 지원하지 않습니다.
+
+|===
+https://datatracker.ietf.org/doc/html/rfc2616["IETF RFC 2616:HTTP/1.1(Hypertext Transfer Protocol)"]
+
+http://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html["AWS(Amazon Web Services) 문서: Amazon Simple Storage Service API Reference 를 참조하십시오"]

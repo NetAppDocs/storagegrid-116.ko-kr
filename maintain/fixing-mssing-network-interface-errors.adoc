@@ -1,0 +1,25 @@
+---
+permalink: maintain/fixing-mssing-network-interface-errors.html 
+sidebar: sidebar 
+keywords: storagegrid, network interface, network interface error 
+summary: 호스트 네트워크가 올바르게 구성되지 않았거나 이름의 철자가 틀린 경우 StorageGRID가 /etc/StorageGrid/nodes/<node-name\>.conf 파일에 지정된 매핑을 확인할 때 오류가 발생합니다. 
+---
+= 누락된 네트워크 인터페이스 오류를 수정합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+호스트 네트워크가 올바르게 구성되지 않았거나 이름의 철자가 틀린 경우 StorageGRID가 '/etc/StorageGrid/nodes/_node-name_.conf' 파일에 지정된 매핑을 확인할 때 오류가 발생합니다.
+
+이 패턴과 일치하는 오류 또는 경고가 나타날 수 있습니다.
+
+node_node-name_...에 대한 구성 파일 '/etc/StorageGrid/nodes/_node-name_.conf'를 확인하는 중입니다 'ERROR:_NODE-NAME_:GRID_NETWORK_TARGET=_HOST-INTERFACE-NAME_""_NODE-NAME_: Interface'_HOST-INTERFACE-NAME_'이(가) 없습니다.
+
+그리드 네트워크, 관리 네트워크 또는 클라이언트 네트워크에 대한 오류가 보고될 수 있습니다. 이 오류는 '/etc/StorageGrid/nodes/_node-name_.conf' 파일이 표시된 StorageGRID 네트워크를 '_host-interface-name_'이라는 호스트 인터페이스에 매핑하지만 현재 호스트에 해당 이름의 인터페이스가 없음을 의미합니다.
+
+이 오류가 발생하면 의 단계를 완료했는지 확인합니다 xref:deploying-new-linux-hosts.adoc[새 Linux 호스트를 배포합니다]. 원래 호스트에서 사용된 모든 호스트 인터페이스에 동일한 이름을 사용합니다.
+
+노드 구성 파일과 일치하도록 호스트 인터페이스의 이름을 지정할 수 없는 경우 노드 구성 파일을 편집하고 GRID_NETWORK_TARGET, ADMIN_NETWORK_TARGET 또는 CLIENT_NETWORK_TARGET의 값을 변경하여 기존 호스트 인터페이스와 일치시킬 수 있습니다.
+
+호스트 인터페이스가 적절한 물리적 네트워크 포트 또는 VLAN에 대한 액세스를 제공하고 인터페이스가 Bond 또는 Bridge 장치를 직접 참조하지 않는지 확인합니다. 호스트의 연결 디바이스 위에 VLAN(또는 기타 가상 인터페이스)을 구성하거나 브리지 및 가상 이더넷(veth) 쌍을 사용해야 합니다.

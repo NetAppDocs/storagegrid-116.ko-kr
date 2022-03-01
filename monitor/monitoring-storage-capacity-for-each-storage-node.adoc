@@ -1,0 +1,72 @@
+---
+permalink: monitor/monitoring-storage-capacity-for-each-storage-node.html 
+sidebar: sidebar 
+keywords: monitor node storage capacity 
+summary: 각 스토리지 노드의 총 사용 가능 공간을 모니터링하여 노드에 새 오브젝트 데이터를 위한 충분한 공간이 있는지 확인해야 합니다. 
+---
+= 각 스토리지 노드의 스토리지 용량을 모니터링합니다
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+각 스토리지 노드의 총 사용 가능 공간을 모니터링하여 노드에 새 오브젝트 데이터를 위한 충분한 공간이 있는지 확인해야 합니다.
+
+.무엇을 &#8217;필요로 할거야
+* 를 사용하여 그리드 관리자에 로그인해야 합니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
+
+
+사용 가능한 공간 은 오브젝트를 저장할 수 있는 저장 공간의 양입니다. 스토리지 노드의 사용 가능한 총 공간은 노드 내의 모든 오브젝트 저장소에 사용 가능한 공간을 추가하여 계산합니다.
+
+image::../media/calculating_watermarks.gif[사용 가능한 총 공간에 대한 개념적 도면]
+
+.단계
+. nodes * > *_Storage Node_ * > * Storage * 를 선택합니다.
++
+노드에 대한 그래프와 표가 나타납니다.
+
+. 커서를 Storage Used-object 데이터 그래프 위에 놓습니다.
++
+다음 값이 표시됩니다.
+
++
+** * 사용됨(%) *: 오브젝트 데이터에 사용된 총 사용 가능 공간의 비율입니다.
+** * 사용됨 *: 오브젝트 데이터에 사용된 총 사용 가능 공간의 양입니다.
+** * 복제된 데이터 *: 이 노드, 사이트 또는 그리드에 복제된 객체 데이터의 양을 추정하는 것입니다.
+** * 삭제 코딩 데이터 *: 이 노드, 사이트 또는 그리드에 삭제 코딩 처리된 오브젝트 데이터의 양을 예측합니다.
+** * 총 *: 이 노드, 사이트 또는 그리드에서 사용 가능한 총 공간입니다. 사용된 값은 'toragegrid_storage_Utilization_data_bytes' 메트릭입니다.
+
+
++
+image::../media/nodes_page_storage_used_object_data.png[노드 페이지 스토리지 사용된 오브젝트 데이터]
+
+. 그래프 아래에 있는 Volumes and Object Stores(볼륨 및 오브젝트 저장소) 표에서 사용 가능한 값을 검토합니다.
++
+
+NOTE: 이러한 값의 그래프를 보려면 차트 아이콘을 클릭합니다 image:../media/icon_chart_new_for_11_5.png["차트 아이콘"] 를 클릭합니다.
+
++
+image::../media/nodes_page_storage_tables.png[개체는 테이블을 저장합니다]
+
+. 시간에 따른 값을 모니터링하여 사용 가능한 스토리지 공간이 사용되는 속도를 예측합니다.
+. 정상적인 시스템 운영을 유지하려면 사용 가능한 공간이 소비되기 전에 스토리지 노드를 추가하고, 스토리지 볼륨을 추가하거나, 오브젝트 데이터를 아카이빙합니다.
++
+확장 시기를 계획할 때 추가 스토리지를 조달 및 설치하는 데 걸리는 시간을 고려하십시오.
+
++
+
+NOTE: ILM 정책에서 삭제 코딩을 사용하는 경우 기존 스토리지 노드의 비율이 약 70%일 때 확장을 수행하여 추가해야 할 노드 수를 줄일 수 있습니다.
+
++
+스토리지 확장 계획에 대한 자세한 내용은 StorageGRID 확장 지침을 참조하십시오.
+
++
+스토리지 노드에 오브젝트 데이터를 저장하기 위한 공간이 부족할 때 * Low object data storage * 경고가 트리거됩니다.
+
+
+
+xref:../admin/index.adoc[StorageGRID 관리]
+
+xref:troubleshooting-storagegrid-system.adoc[오브젝트 부족 데이터 스토리지 경고 문제를 해결합니다]
+
+xref:../expand/index.adoc[그리드를 확장합니다]

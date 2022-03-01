@@ -1,0 +1,22 @@
+---
+permalink: sg5700/configuring-storagegrid-connections.html 
+sidebar: sidebar 
+keywords: storagegrid, sg5700, storage node, storage appliance, storagegrid connections, connections, configure, setup, set up 
+summary: 'StorageGRID 어플라이언스를 StorageGRID 그리드에 스토리지 노드로 구축하기 전에 어플라이언스와 사용할 네트워크 간의 연결을 구성해야 합니다. E700SG 컨트롤러\(어플라이언스의 컴퓨팅 컨트롤러\)에 포함된 StorageGRID 어플라이언스 설치 프로그램으로 이동하여 네트워킹을 구성할 수 있습니다.' 
+---
+= StorageGRID 연결 구성(SG5700)
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 어플라이언스를 StorageGRID 그리드에 스토리지 노드로 구축하기 전에 어플라이언스와 사용할 네트워크 간의 연결을 구성해야 합니다. E700SG 컨트롤러(어플라이언스의 컴퓨팅 컨트롤러)에 포함된 StorageGRID 어플라이언스 설치 프로그램으로 이동하여 네트워킹을 구성할 수 있습니다.
+
+.단계
+* xref:accessing-storagegrid-appliance-installer-sg5700.adoc[StorageGRID 어플라이언스 설치 프로그램에 액세스합니다]
+* xref:verifying-and-upgrading-storagegrid-appliance-installer-version.adoc[StorageGRID 어플라이언스 설치 프로그램 버전을 확인하고 업그레이드합니다]
+* xref:configuring-network-links-sg5700.adoc[네트워크 링크 구성(SG5700)]
+* xref:setting-ip-configuration-sg5700.adoc[IP 구성을 설정합니다]
+* xref:verifying-network-connections.adoc[네트워크 연결을 확인합니다]
+* xref:verifying-port-level-network-connections.adoc[포트 수준 네트워크 연결을 확인합니다]
+

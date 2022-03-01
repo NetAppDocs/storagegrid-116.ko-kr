@@ -1,0 +1,45 @@
+---
+permalink: sg5600/troubleshooting-connection-issues.html 
+sidebar: sidebar 
+keywords: storagegrid, sg5600, storage node, storage appliance, troubleshoot, troubleshooting, connection 
+summary: StorageGRID 어플라이언스 설치 중에 연결 문제가 발생하면 나열된 수정 조치 단계를 수행해야 합니다. 
+---
+= 연결 문제 해결(SG5600)
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+StorageGRID 어플라이언스 설치 중에 연결 문제가 발생하면 나열된 수정 조치 단계를 수행해야 합니다.
+
+
+
+== 네트워크를 통해 StorageGRID 어플라이언스에 연결할 수 없습니다
+
+어플라이언스에 연결할 수 없는 경우 네트워크 문제가 있거나 하드웨어 설치가 성공적으로 완료되지 않았을 수 있습니다.
+
+* * 문제 *
++
+제품에 연결할 수 없습니다.
+
+* * 원인 *
++
+이 문제는 네트워크 문제가 있거나 하드웨어 설치가 성공적으로 완료되지 않은 경우에 발생할 수 있습니다.
+
+* * 시정 조치 *
++
+.. 어플라이언스를 Ping합니다: + `* PING_E5600_CONTROLLER_IP_ * '
+.. 브라우저를 열고 다음을 입력하여 StorageGRID 어플라이언스 설치 프로그램에 액세스합니다. + ``https://_Management_Port_IP_:8443*`
++
+Management_Port_IP의 경우, E600SG 컨트롤러의 관리 포트 1에 대한 IP 주소를 입력합니다(물리적 설치 중에 프로비저닝됨).
+
+.. Configure Admin network * 를 클릭하고 IP를 확인합니다.
+.. ping에서 응답을 받는 경우 포트 8443이 방화벽에서 열려 있는지 확인합니다.
+.. 어플라이언스를 재부팅합니다.
+.. 설치 웹 페이지를 새로 고칩니다.
+.. 그래도 연결 문제가 해결되지 않으면 NetApp Support 사이트 에서 기술 지원을 문의하십시오 http://mysupport.netapp.com/["mysupport.netapp.com"^].
+
+
+
+
+xref:e5600sg-controller-seven-segment-display-codes.adoc[E5500SG 컨트롤러 7세그먼트 디스플레이 코드]
