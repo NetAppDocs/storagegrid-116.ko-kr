@@ -5,6 +5,7 @@ keywords: FabricPool, requirements, ILM, information lifecycle management, ILM r
 summary: 'FabricPool를 사용하여 데이터를 StorageGRID에 계층화하려는 경우 StorageGRID 정보 라이프사이클 관리\(ILM\) 규칙을 만들기 위한 요구사항과 FabricPool 데이터 관리를 위한 ILM 정책을 이해해야 합니다. FabricPool 데이터에 적용되는 ILM 규칙이 중단되지 않도록 해야 합니다.' 
 ---
 = FabricPool 데이터에 StorageGRID 정보 수명 주기 관리 사용
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

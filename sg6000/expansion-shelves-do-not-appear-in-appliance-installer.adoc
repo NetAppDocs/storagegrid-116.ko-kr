@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance troubleshooting, 
 summary: SG6060용 확장 셸프가 설치되어 있고 StorageGRID 어플라이언스 설치 프로그램에 나타나지 않는 경우 셸프가 완전히 설치되어 전원이 켜져 있는지 확인해야 합니다. 
 ---
 = 확장 셸프가 Appliance Installer에 나타나지 않습니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

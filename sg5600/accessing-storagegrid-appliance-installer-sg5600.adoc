@@ -5,6 +5,7 @@ keywords: storagegrid, sg5600, storage node, storage appliance, appliance instal
 summary: '어플라이언스와 세 StorageGRID 네트워크(그리드 네트워크, 관리자 네트워크\(선택 사항\) 및 클라이언트 네트워크\(선택 사항\) 간의 연결을 구성하려면 StorageGRID 어플라이언스 설치 프로그램에 액세스해야 합니다.' 
 ---
 = StorageGRID 어플라이언스 설치 프로그램에 액세스합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

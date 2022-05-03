@@ -5,6 +5,7 @@ keywords: storagegrid, sg5600, storage node, storage appliance, overview, models
 summary: StorageGRID SG5600 어플라이언스는 StorageGRID 그리드에서 스토리지 노드로 작동하는 통합 스토리지 및 컴퓨팅 플랫폼입니다. 
 ---
 = StorageGRID SG5600 어플라이언스 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

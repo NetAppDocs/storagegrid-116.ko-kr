@@ -5,6 +5,7 @@ keywords: fabricPool, load balancer, endpoint, load balancing, create, creating,
 summary: FabricPool와 함께 사용하도록 StorageGRID를 구성할 때는 로드 밸런서 끝점을 구성하고 로드 밸런서 끝점 인증서를 업로드해야 합니다. 이 인증서는 ONTAP와 StorageGRID 간의 연결을 보호하는 데 사용됩니다. 
 ---
 = FabricPool용 로드 밸런서 끝점을 만듭니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

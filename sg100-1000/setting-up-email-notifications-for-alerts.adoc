@@ -5,6 +5,7 @@ keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gat
 summary: 경고가 발생할 때 e-메일 알림을 보내려면 BMC 인터페이스를 사용하여 SMTP 설정, 사용자, LAN 대상, 경고 정책 및 이벤트 필터를 구성해야 합니다. 
 ---
 = 알림에 대한 이메일 알림을 설정합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

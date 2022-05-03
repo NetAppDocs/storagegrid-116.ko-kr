@@ -5,6 +5,7 @@ keywords: storagegrid, recover, primary admin node, reset preferred sender, rese
 summary: 복구 중인 운영 관리 노드가 현재 경고 알림, 알람 알림 및 AutoSupport 메시지의 기본 설정 송신자로 설정된 경우 이 설정을 재구성해야 합니다. 
 ---
 = 복구된 기본 관리자 노드에서 기본 보낸 사람을 재설정합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

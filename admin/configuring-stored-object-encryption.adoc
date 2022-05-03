@@ -5,6 +5,7 @@ keywords: stored object encryption, grid options, encrypt
 summary: 개체 저장소가 손상된 경우 읽을 수 있는 형식으로 데이터를 검색할 수 없도록 하려면 저장된 개체를 암호화할 수 있습니다. 기본적으로 객체는 암호화되지 않습니다. 
 ---
 = 저장된 개체 암호화를 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

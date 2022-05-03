@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, hardware, instal
 summary: 하드웨어 설치에는 SG6000-CN 컨트롤러 및 스토리지 컨트롤러 쉘프를 캐비닛 또는 랙에 설치하고, 케이블을 연결하고, 전원을 적용해야 합니다. 
 ---
 = 하드웨어 설치(SG6000)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

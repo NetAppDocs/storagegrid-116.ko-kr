@@ -5,6 +5,7 @@ keywords: load balancer service, how load balancing works
 summary: 로드 밸런서 서비스는 들어오는 네트워크 연결을 클라이언트 애플리케이션에서 스토리지 노드로 배포합니다. 로드 밸런싱을 사용하려면 Grid Manager를 사용하여 부하 분산 엔드포인트를 구성해야 합니다. 
 ---
 = 로드 밸런싱 작동 방식 - 로드 밸런서 서비스
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, Replacing, repla
 summary: SG6000-CN 컨트롤러에는 이중화를 위한 2개의 전원 공급 장치가 있습니다. 전원 공급 장치 중 하나에 장애가 발생하면 가능한 한 빨리 교체해야 컴퓨팅 컨트롤러에 중복 전원이 공급되는지 확인할 수 있습니다. 
 ---
 = SG6000-CN 컨트롤러의 전원 공급 장치를 교체합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

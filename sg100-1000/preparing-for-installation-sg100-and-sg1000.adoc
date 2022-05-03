@@ -5,6 +5,7 @@ keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gat
 summary: StorageGRID 어플라이언스 설치를 준비하는 과정에서 사이트 준비 및 필요한 모든 하드웨어, 케이블 및 도구 확보 작업이 수반됩니다. 또한 IP 주소와 네트워크 정보도 수집해야 합니다. 
 ---
 = 설치 준비(SG100 및 SG1000)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

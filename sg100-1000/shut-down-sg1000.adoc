@@ -5,6 +5,7 @@ keywords: storagegrid, sg1000, SG100, power off, turn off, shut off, shutdown, s
 summary: 서비스 어플라이언스를 종료하여 하드웨어 유지 관리를 수행합니다. 
 ---
 = 서비스 어플라이언스를 종료합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

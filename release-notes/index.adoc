@@ -5,6 +5,7 @@ keywords: release notes
 summary: 새로운 기능, 제거되거나 사용되지 않는 기능, 해결된 문제 및 알려진 문제에 대한 릴리스 관련 정보를 얻습니다. 
 ---
 = 릴리스 정보
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: storagegrid, sg5700, storage node, storage appliance, mtu, set, settin
 summary: 어플라이언스 노드에 대한 IP 주소를 구성할 때 할당한 MTU 설정을 변경할 수 있습니다. 
 ---
 = MTU 설정을 변경합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

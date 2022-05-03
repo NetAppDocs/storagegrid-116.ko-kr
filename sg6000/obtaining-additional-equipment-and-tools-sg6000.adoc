@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, additional, equi
 summary: StorageGRID 제품을 설치하기 전에 필요한 추가 장비와 도구가 모두 있는지 확인하십시오. 
 ---
 = 추가 장비 및 도구 확보(SG6000)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

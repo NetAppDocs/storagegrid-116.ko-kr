@@ -5,6 +5,7 @@ keywords: storagegrid, ip address, configure ip address, configuring ip address,
 summary: IP 변경 도구를 사용하여 그리드 노드에 대한 IP 주소를 구성하여 네트워크 구성을 수행할 수 있습니다. 
 ---
 = IP 주소를 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

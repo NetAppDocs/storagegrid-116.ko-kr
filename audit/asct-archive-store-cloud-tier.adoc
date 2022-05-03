@@ -5,6 +5,7 @@ keywords: storagegrid, audit, message, ASCT, Archive Store Cloud-Tier
 summary: 이 메시지는 아카이브 오브젝트 데이터가 S3 API를 통해 StorageGRID에 연결되는 외부 아카이브 스토리지 시스템에 저장될 때 생성됩니다. 
 ---
 = ASCT: Archive Store Cloud - Tier(아카이브 저장소 클라우드 - 계층)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

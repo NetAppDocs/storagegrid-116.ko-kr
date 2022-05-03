@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, sg6000-cn, hba, 
 summary: '교체할 Fibre Channel 호스트 버스 어댑터 \(HBA\)가 확실하지 않은 경우 이 절차를 수행하여 확인하십시오.' 
 ---
 = 교체할 Fibre Channel HBA를 확인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

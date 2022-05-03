@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, overview, models
 summary: 'StorageGRID SG6000 어플라이언스는 StorageGRID 시스템의 스토리지 노드로 작동하는 통합 스토리지 및 컴퓨팅 플랫폼입니다. 이러한 어플라이언스는 어플라이언스 스토리지 노드와 가상\(소프트웨어 기반\) 스토리지 노드를 결합하는 하이브리드 그리드 환경에서 사용할 수 있습니다.' 
 ---
 = SG6000 어플라이언스: 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: eseries, santricity, system manager, asup, autosupport, technical supp
 summary: 스토리지 어플라이언스 관리 포트가 아니라 StorageGRID 관리 노드를 통해 E-Series SANtricity System Manager AutoSupport 메시지를 기술 지원 부서에 보낼 수 있습니다. 
 ---
 = StorageGRID를 통해 E-Series AutoSupport 메시지 전송
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

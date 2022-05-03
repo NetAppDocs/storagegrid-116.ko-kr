@@ -5,6 +5,7 @@ keywords: platform service, cloudmirror replication, event notification, search 
 summary: S3 테넌트 계정에 대해 플랫폼 서비스를 설정하는 경우 테넌트가 이러한 서비스를 사용하는 데 필요한 외부 리소스에 액세스할 수 있도록 그리드를 구성해야 합니다. 
 ---
 = S3 테넌트 계정에 대한 플랫폼 서비스 관리
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

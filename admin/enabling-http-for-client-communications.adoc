@@ -5,6 +5,7 @@ keywords: enable http, clb connections, storage node connections
 summary: 기본적으로 클라이언트 응용 프로그램은 스토리지 노드에 대한 모든 연결 또는 게이트웨이 노드의 더 이상 사용되지 않는 CLB 서비스에 대해 HTTPS 네트워크 프로토콜을 사용합니다. 비프로덕션 그리드를 테스트할 때와 같이 이러한 연결에 대해 HTTP를 선택적으로 활성화할 수 있습니다. 
 ---
 = 클라이언트 통신을 위해 HTTP를 활성화합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

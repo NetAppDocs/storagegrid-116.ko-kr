@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, boot codes, boot
 summary: 어플라이언스에 전원을 공급하면 BMC는 SG6000-CN 컨트롤러에 대한 일련의 부팅 코드를 기록합니다. 이러한 코드는 여러 가지 방법으로 볼 수 있습니다. 
 ---
 = SG6000-CN 컨트롤러의 부팅 코드를 봅니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

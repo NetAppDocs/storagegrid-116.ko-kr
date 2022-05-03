@@ -5,6 +5,7 @@ keywords: delete ilm rule, edit ilm rule, clone ilm rule, ilm queue
 summary: ILM 규칙 및 ILM 정책을 만든 후에는 스토리지 요구 사항이 변경됨에 따라 해당 구성을 수정하여 해당 규칙을 계속 사용할 수 있습니다. 
 ---
 = ILM 규칙 및 ILM 정책 작업
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

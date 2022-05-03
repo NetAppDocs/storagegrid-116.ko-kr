@@ -5,6 +5,7 @@ keywords: storagegrid, audit, message, data, types, UI32, UI64, FC32, IPAD, CSTR
 summary: 감사 메시지에 정보를 저장하는 데 사용되는 데이터 유형은 다양합니다. 
 ---
 = 데이터 유형
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

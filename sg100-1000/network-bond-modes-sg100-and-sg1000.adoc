@@ -5,6 +5,7 @@ keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gat
 summary: 서비스 어플라이언스의 네트워킹 포트는 그리드 네트워크 및 클라이언트 네트워크 연결을 위한 고정 포트 결합 모드 또는 집계 포트 결합 모드를 지원합니다. 
 ---
 = 네트워크 연결 모드
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

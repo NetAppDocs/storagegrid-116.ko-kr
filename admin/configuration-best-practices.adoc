@@ -5,6 +5,7 @@ keywords: tsm configuration, tivoli storage manager, archive to tape
 summary: TSM 서버를 사이징하고 구성할 때는 아카이브 노드와 함께 작동하도록 최적화하기 위해 이를 최적화하는 모범 사례를 적용해야 합니다. 
 ---
 = 구성 모범 사례
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

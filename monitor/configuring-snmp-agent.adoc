@@ -5,6 +5,7 @@ keywords: configuring, snmp agent, snmp
 summary: 읽기 전용 MIB 액세스 및 알림에 타사 SNMP 관리 시스템을 사용하려는 경우 StorageGRID SNMP 에이전트를 구성할 수 있습니다. 
 ---
 = SNMP 에이전트를 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

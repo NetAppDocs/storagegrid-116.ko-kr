@@ -5,6 +5,7 @@ keywords: storagegrid, audit, message, VLST, User Initiated Volume Lost
 summary: 이 메시지는 /proc/cMSI/Volume_lost 명령이 실행될 때마다 발행됩니다. 
 ---
 = VLST: 사용자가 시작한 볼륨이 손실되었습니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

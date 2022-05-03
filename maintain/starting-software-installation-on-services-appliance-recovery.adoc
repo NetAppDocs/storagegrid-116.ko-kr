@@ -5,6 +5,7 @@ keywords: storagegrid, recover, services appliance, start software installation
 summary: SG100 또는 SG1000 서비스 어플라이언스에 게이트웨이 노드 또는 관리 노드를 설치하려면 어플라이언스에 포함된 StorageGRID 어플라이언스 설치 프로그램을 사용합니다. 
 ---
 = 서비스 어플라이언스에서 소프트웨어 설치를 시작합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

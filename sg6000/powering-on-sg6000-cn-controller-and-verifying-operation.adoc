@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, power on, turn o
 summary: 유지 관리를 완료한 후 컨트롤러 전원을 켭니다. 
 ---
 = SG6000-CN 컨트롤러의 전원을 켜고 작동을 확인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: untrusted client network
 summary: 클라이언트 네트워크를 사용하는 경우 명시적으로 구성된 끝점에서만 인바운드 클라이언트 트래픽을 허용하여 악의적인 공격으로부터 StorageGRID를 보호할 수 있습니다. 
 ---
 = 신뢰할 수 없는 클라이언트 네트워크 관리: 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

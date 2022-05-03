@@ -5,6 +5,7 @@ keywords: storagegrid, recover, archive node
 summary: 아카이브 노드를 교체한 후 그리드 관리자에서 복구 시작 을 선택하여 새 노드를 장애가 발생한 노드에 대한 교체품으로 구성해야 합니다. 
 ---
 = 복구 시작 을 선택하여 아카이브 노드를 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

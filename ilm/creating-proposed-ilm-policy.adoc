@@ -5,6 +5,7 @@ keywords: how to create ILM policy, proposed policy
 summary: 제안된 ILM 정책을 처음부터 새로 만들거나 동일한 규칙 집합으로 시작하려는 경우 현재 활성 정책을 복제할 수 있습니다. 
 ---
 = 제안된 ILM 정책을 생성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

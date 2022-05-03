@@ -5,6 +5,7 @@ keywords: verify cifs, cift audit share
 summary: 감사 공유는 읽기 전용입니다. 로그 파일은 컴퓨터 응용 프로그램에서 읽기 위한 것이며 파일 열기에 대한 확인은 포함되지 않습니다. 감사 로그 파일이 Windows 탐색기 창에 표시된다는 것은 충분한 검증으로 간주됩니다. 연결 확인 후 모든 창을 닫습니다. 
 ---
 = CIFS 감사 통합을 확인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

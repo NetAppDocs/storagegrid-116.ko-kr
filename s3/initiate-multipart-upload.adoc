@@ -5,6 +5,7 @@ keywords: initiate multipart upload, uploads
 summary: 다중 파트 업로드 시작 작업은 개체에 대한 다중 파트 업로드를 시작하고 업로드 ID를 반환합니다. 
 ---
 = 멀티파트 업로드를 시작합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

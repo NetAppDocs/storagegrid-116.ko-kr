@@ -5,6 +5,7 @@ keywords: erasure coding, rebalance, ec rebalance, site rebalance
 summary: 스토리지 노드 추가를 위해 확장을 수행하는 경우 ILM 정책에 코드 데이터를 삭제할 수 있는 하나 이상의 ILM 규칙이 포함된 경우 확장이 완료된 후 EC 균형 조정 절차를 수행해야 할 수 있습니다. 
 ---
 = 삭제 코딩 데이터의 재조정에 대한 고려사항
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

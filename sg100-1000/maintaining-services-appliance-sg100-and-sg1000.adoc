@@ -5,6 +5,7 @@ keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gat
 summary: 제품에 대한 유지보수 절차를 수행해야 할 수 있습니다. 이 섹션의 절차에서는 어플라이언스가 이미 게이트웨이 노드 또는 StorageGRID 시스템의 관리 노드로 구축되었다고 가정합니다. 
 ---
 = 제품을 유지보수하십시오
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

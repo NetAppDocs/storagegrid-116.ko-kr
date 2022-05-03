@@ -5,6 +5,7 @@ keywords: rsa, ecdsa, custom certificate encryption
 summary: 'StorageGRID 시스템은 RSA 또는 ECDSA(Elliptic Curve Digital Signature Algorithm)로 암호화된 서버 인증서를 지원합니다.' 
 ---
 = 지원되는 서버 인증서 유형입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

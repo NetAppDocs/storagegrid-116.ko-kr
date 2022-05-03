@@ -5,6 +5,7 @@ keywords: site decommission
 summary: StorageGRID 시스템에서 데이터 센터 사이트를 제거해야 할 수 있습니다. 사이트를 제거하려면 사이트를 해제해야 합니다. 
 ---
 = 사이트 파기
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

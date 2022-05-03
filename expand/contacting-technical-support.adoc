@@ -5,6 +5,7 @@ keywords: contact technical support
 summary: 그리드 확장 프로세스 중에 해결할 수 없는 오류가 발생하거나 그리드 작업이 실패하면 기술 지원 부서에 문의하십시오. 
 ---
 = 기술 지원 부서에 문의하십시오
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

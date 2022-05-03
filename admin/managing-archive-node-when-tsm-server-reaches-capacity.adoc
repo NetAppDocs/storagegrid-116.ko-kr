@@ -5,6 +5,7 @@ keywords: archive node, tsm server, full capacity, node is full
 summary: TSM 서버에서 관리하는 TSM 데이터베이스나 아카이브 미디어 스토리지가 용량에 근접하는 경우 TSM 서버에서 아카이브 노드를 알릴 수 없습니다. TSM 서버의 사전 모니터링을 통해 이러한 상황을 방지할 수 있습니다. 
 ---
 = TSM 서버가 용량에 도달하면 아카이브 노드를 관리합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

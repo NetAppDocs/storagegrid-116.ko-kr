@@ -5,6 +5,7 @@ keywords: storagegrid, sg5600, storage node, storage appliance, additional, equi
 summary: SG5600 어플라이언스를 설치하기 전에 필요한 추가 장비 및 툴이 모두 있는지 확인하십시오. 
 ---
 = 추가 장비 및 툴 확보(SG5600)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

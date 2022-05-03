@@ -5,6 +5,7 @@ keywords: use S3 Select, S3 Select
 summary: StorageGRID는 다음과 같은 AWS S3 Select 절, 데이터 유형, 연산자 및 SELECT 오브젝트 내용 명령에 대한 예약된 키워드를 지원합니다. 
 ---
 = S3 Select를 사용합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

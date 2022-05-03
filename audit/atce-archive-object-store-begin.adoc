@@ -5,6 +5,7 @@ keywords: storagegrid, audit, message, ATCE, Archive Object Store Begin
 summary: 이 메시지는 외부 아카이브 스토리지에 콘텐츠 블록을 쓰는 작업이 시작되었음을 나타냅니다. 
 ---
 = ATCHE: 아카이브 오브젝트 저장소가 시작됩니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

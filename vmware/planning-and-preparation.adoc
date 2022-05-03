@@ -5,6 +5,7 @@ keywords: how to plan before installation
 summary: 그리드 노드를 배포하고 StorageGRID 그리드를 구성하기 전에 절차를 완료하기 위한 단계와 요구 사항을 숙지해야 합니다. 
 ---
 = 설치 전(VMware)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

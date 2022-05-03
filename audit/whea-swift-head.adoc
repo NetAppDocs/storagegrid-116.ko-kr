@@ -5,6 +5,7 @@ keywords: storagegrid, audit, message, WHEA, Swift HEAD
 summary: Swift 클라이언트가 헤드 트랜잭션을 실행할 때 계정, 컨테이너 또는 개체의 존재 여부를 확인하고 관련 메타데이터를 검색하도록 요청합니다. 이 메시지는 트랜잭션이 성공하면 서버에서 발행됩니다. 
 ---
 = WHEA: 스위프트 헤드
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

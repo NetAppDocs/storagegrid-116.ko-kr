@@ -5,6 +5,7 @@ keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gat
 summary: StorageGRID를 처음 구축할 때 하나 이상의 StorageGRID 서비스 어플라이언스를 설치하거나 나중에 확장의 일부로 서비스 어플라이언스 노드를 추가할 수 있습니다. 
 ---
 = 설치 및 구축 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

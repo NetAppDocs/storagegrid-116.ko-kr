@@ -5,6 +5,7 @@ keywords: storagegrid, version, current version, previous version
 summary: 업그레이드를 시작하기 전에 사용 가능한 최신 핫픽스가 적용된 이전 버전의 StorageGRID가 현재 설치되어 있는지 확인해야 합니다. 
 ---
 = 설치된 StorageGRID 버전을 확인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

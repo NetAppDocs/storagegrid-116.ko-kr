@@ -5,6 +5,7 @@ keywords: red hat enterprise linux, rhel, centos linux
 summary: 'RHEL(Red Hat Enterprise Linux) 또는 CentOS Linux 환경에 StorageGRID 시스템을 설치하는 과정은 세 가지 기본 단계로 구성됩니다.' 
 ---
 = Red Hat Enterprise Linux 또는 CentOS 설치: 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

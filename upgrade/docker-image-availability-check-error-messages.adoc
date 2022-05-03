@@ -5,6 +5,7 @@ keywords: upgrade, error message, docker image availability
 summary: '업그레이드 프로세스를 시작하려고 할 때 "다음 문제는 Docker 이미지 가용성 검사 유효성 검사 제품군으로 확인되었습니다"라는 오류 메시지가 나타날 수 있습니다. 업그레이드를 완료하기 전에 모든 문제를 해결해야 합니다.' 
 ---
 = "Docker 이미지 가용성 검사" 오류 메시지
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

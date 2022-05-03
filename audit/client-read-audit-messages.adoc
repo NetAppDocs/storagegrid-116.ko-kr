@@ -5,6 +5,7 @@ keywords: storagegrid, audit, message, messages, client read, SGET, SHEA, WGET, 
 summary: 클라이언트 읽기 감사 메시지는 S3 또는 Swift 클라이언트 애플리케이션이 오브젝트 검색을 요청할 때 기록됩니다. 
 ---
 = 클라이언트가 감사 메시지를 읽습니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

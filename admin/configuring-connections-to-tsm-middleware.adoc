@@ -5,6 +5,7 @@ keywords: archive node connection to tsm, tivoli storage manager
 summary: '아카이브 노드가 TSM(Tivoli Storage Manager) 미들웨어와 통신하려면 먼저 여러 설정을 구성해야 합니다.' 
 ---
 = TSM 미들웨어에 대한 연결을 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

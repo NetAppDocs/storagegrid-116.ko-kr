@@ -5,6 +5,7 @@ keywords: storagegrid, audit, message, AVCC, Archive Validate Cloud-Tier Configu
 summary: '이 메시지는 Cloud Tiering - Simple Storage Service\(S3\) 타겟 유형에 대해 구성 설정이 검증될 때 생성됩니다.' 
 ---
 = AVCC: Archive Validate Cloud-Tier Configuration
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

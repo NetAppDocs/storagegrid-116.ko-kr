@@ -5,6 +5,7 @@ keywords: clb service, connection load balancer
 summary: '게이트웨이 노드의 연결 로드 밸런서\(CLB\) 서비스는 더 이상 사용되지 않습니다. 이제 로드 밸런서 서비스가 권장되는 로드 밸런싱 메커니즘입니다.' 
 ---
 = 로드 밸런싱 작동 방식 - CLB 서비스(더 이상 사용되지 않음)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

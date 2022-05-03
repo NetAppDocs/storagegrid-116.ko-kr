@@ -5,6 +5,7 @@ keywords: simulate ilm policy
 summary: 정책을 활성화하고 운영 데이터에 적용하기 전에 테스트 개체에 대해 제안된 정책을 시뮬레이션해야 합니다. 시뮬레이션 창은 정책을 활성화하고 생산 환경의 데이터에 적용하기 전에 테스트를 위해 안전한 독립 실행형 환경을 제공합니다. 
 ---
 = ILM 정책을 시뮬레이션합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

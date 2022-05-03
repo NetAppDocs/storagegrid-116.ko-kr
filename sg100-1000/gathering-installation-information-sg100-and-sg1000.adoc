@@ -5,6 +5,7 @@ keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gat
 summary: StorageGRID 어플라이언스를 설치 및 구성할 때 이더넷 스위치 포트, IP 주소, 포트 및 네트워크 연결 모드에 대한 정보를 결정하고 수집해야 합니다. 어플라이언스에 연결하는 각 네트워크에 필요한 정보를 기록합니다. 이러한 값은 하드웨어를 설치하고 구성하는 데 필요합니다. 
 ---
 = 설치 정보 수집(SG100 및 SG1000)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

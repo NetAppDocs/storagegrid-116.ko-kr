@@ -5,6 +5,7 @@ keywords: snmp, simple network management protocol, agent, trap, inform, mib
 summary: 'SNMP(Simple Network Management Protocol)\(SNMP\)를 사용하여 StorageGRID를 모니터링하려는 경우 그리드 관리자를 사용하여 SNMP 에이전트를 구성할 수 있습니다.' 
 ---
 = SNMP 모니터링을 사용합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

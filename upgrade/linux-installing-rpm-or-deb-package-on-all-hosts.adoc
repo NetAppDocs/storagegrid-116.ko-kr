@@ -5,6 +5,7 @@ keywords: upgrade, linux, rpm, deb,
 summary: StorageGRID 노드가 Linux 호스트에 배포된 경우 업그레이드를 시작하기 전에 각 호스트에 추가 RPM 또는 DEB 패키지를 설치해야 합니다. 
 ---
 = Linux: 모든 호스트에 RPM 또는 DEB 패키지를 설치합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

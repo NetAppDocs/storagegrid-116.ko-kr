@@ -5,6 +5,7 @@ keywords: admin proxy, autosupport, non-transparent proxy
 summary: 'HTTP 또는 HTTPS를 사용하여 AutoSupport 메시지를 보내는 경우 관리 노드와 기술 지원(AutoSupport\) 간에 투명하지 않은 프록시 서버를 구성할 수 있습니다.' 
 ---
 = 관리자 프록시 설정을 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

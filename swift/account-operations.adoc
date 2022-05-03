@@ -5,6 +5,7 @@ keywords: swift account operations
 summary: 다음 Swift API 작업은 어카운트에 대해 수행됩니다. 
 ---
 = 계정 작업
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

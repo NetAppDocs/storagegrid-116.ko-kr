@@ -5,6 +5,7 @@ keywords: manage load balancing, balance workload, client ingest, client retriev
 summary: StorageGRID 로드 밸런싱 기능을 사용하여 S3 및 Swift 클라이언트에서 수집 및 검색 워크로드를 처리할 수 있습니다. 로드 밸런싱은 여러 스토리지 노드에 워크로드와 연결을 분산하여 속도와 연결 용량을 극대화합니다. 
 ---
 = 부하 분산 관리: 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

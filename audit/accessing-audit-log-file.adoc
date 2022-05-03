@@ -5,6 +5,7 @@ keywords: storagegrid, audit, log, log file, access, accessing
 summary: '감사 공유는 활성 audit.log 파일과 압축된 감사 로그 파일을 포함합니다. 감사 로그에 쉽게 액세스할 수 있도록 NFS 및 CIFS에 대한 감사 공유에 대한 클라이언트 액세스를 구성할 수 있습니다\(CIFS는 사용되지 않음\). 관리자 노드의 명령줄에서 직접 감사 로그 파일에 액세스할 수도 있습니다.' 
 ---
 = 감사 로그 파일에 액세스합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: how to manage alerts, what are alerts, what are alarms
 summary: StorageGRID 경고 시스템은 주의가 필요한 운영 문제를 알려주도록 설계되었습니다. 기존 경보 시스템은 더 이상 사용되지 않습니다. 
 ---
 = 경보 및 경보 관리: 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

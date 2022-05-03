@@ -5,6 +5,7 @@ keywords: storagegrid, recover, linux, start node
 summary: 마이그레이션된 노드의 유효성을 검증한 후 타겟 Linux 호스트에서 명령을 실행하여 노드를 시작합니다. 
 ---
 = Linux: 마이그레이션된 노드를 시작합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

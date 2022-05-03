@@ -5,6 +5,7 @@ keywords: replace VMware node
 summary: VMware에서 호스팅되어 장애가 발생한 StorageGRID 노드를 복구할 때는 장애가 발생한 노드를 제거하고 복구 노드를 구축해야 합니다. 
 ---
 = 모든 그리드 노드 유형: VMware 노드 교체
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

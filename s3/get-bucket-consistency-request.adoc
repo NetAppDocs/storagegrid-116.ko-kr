@@ -5,6 +5,7 @@ keywords: S3 REST API, S3 operations, GET bucket consistency request
 summary: Get Bucket 정합성 보장 요청을 사용하면 특정 버킷에 적용되는 정합성 보장 수준을 확인할 수 있습니다. 
 ---
 = 버킷 정합성 보장 요청 가져오기
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

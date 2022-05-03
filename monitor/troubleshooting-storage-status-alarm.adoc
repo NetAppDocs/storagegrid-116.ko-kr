@@ -5,6 +5,7 @@ keywords: how to troubleshoot storage status alarm, how to troubleshoot ssts ala
 summary: '스토리지 노드에 객체 저장을 위한 여유 공간이 부족한 경우 SSTS(Storage Status) 경보가 트리거됩니다.' 
 ---
 = SSTS(Storage Status) 경보 문제를 해결합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

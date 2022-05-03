@@ -5,6 +5,7 @@ keywords: storagegrid, recover, storage node
 summary: 스토리지 노드를 교체한 후 그리드 관리자에서 복구 시작 을 선택하여 장애가 발생한 노드의 대체 노드로 새 노드를 구성해야 합니다. 
 ---
 = 복구 시작 을 선택하여 스토리지 노드를 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

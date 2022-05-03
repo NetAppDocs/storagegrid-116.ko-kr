@@ -5,6 +5,7 @@ keywords: grid primer, what is storagegrid, storagegrid basics
 summary: 이 소개를 사용하여 StorageGRID 시스템에 대한 개요를 살펴보고 StorageGRID 아키텍처와 네트워킹 토폴로지, 데이터 관리 기능 및 사용자 인터페이스에 대해 알아보십시오. 
 ---
 = 그리드 프라이머: 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: archive node, tsm server, tivoli storage manager, archive store
 summary: 아카이브 노드가 TSM 미들웨어 서버에 연결된 경우 아카이브 노드의 아카이브 저장소 상태를 온라인 또는 오프라인으로 구성할 수 있습니다. 또한 아카이브 노드가 처음 시작될 때 아카이브 저장소를 비활성화하거나 관련 알람에 대해 추적 중인 실패 수를 재설정할 수 있습니다. 
 ---
 = TSM에 대한 아카이브 상태 및 카운터를 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, Replacing, repla
 summary: SG6000-CN 컨트롤러가 최적의 상태로 작동하지 않거나 오류가 발생한 경우 교체해야 할 수 있습니다. 
 ---
 = SG6000-CN 컨트롤러를 교체합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

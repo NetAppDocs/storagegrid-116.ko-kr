@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, wire, wiring, ca
 summary: '네트워크 케이블을 연결한 후 SG6000-CN 컨트롤러 및 스토리지 컨트롤러 2개 또는 확장 셸프(옵션)에 전원을 공급할 준비가 되었습니다.' 
 ---
 = 전원 코드 연결 및 전원 공급(SG6000)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

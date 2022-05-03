@@ -5,6 +5,7 @@ keywords: storagegrid, missing block device, block device error
 summary: '시스템은 복구된 각 노드가 유효한 블록 디바이스 특수 파일 또는 블록 디바이스 특수 파일에 대한 유효한 소프트링크에 매핑되는지 확인합니다. StorageGRID가 "/etc/StorageGrid/nodes/_node-name_.conf" 파일에서 잘못된 매핑을 찾으면 누락된 블록 디바이스 오류가 표시됩니다.' 
 ---
 = 누락된 블록 장치 오류를 수정합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

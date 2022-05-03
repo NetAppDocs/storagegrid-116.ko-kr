@@ -5,6 +5,7 @@ keywords: activate ilm policy, information lifecycle policy
 summary: ILM 규칙을 제안된 ILM 정책에 추가하고, 정책을 시뮬레이션하고, 정책이 예상대로 작동하는지 확인한 후에는 제안된 정책을 활성화할 준비가 된 것입니다. 
 ---
 = ILM 정책을 활성화합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

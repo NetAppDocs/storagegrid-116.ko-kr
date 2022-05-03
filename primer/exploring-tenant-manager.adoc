@@ -5,6 +5,7 @@ keywords: what is the tenant manager, tenant manager dashboard
 summary: 테넌트 관리자는 테넌트 사용자가 액세스하여 스토리지 계정을 구성, 관리 및 모니터링하는 브라우저 기반 그래픽 인터페이스입니다. 
 ---
 = 테넌트 관리자를 탐색합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

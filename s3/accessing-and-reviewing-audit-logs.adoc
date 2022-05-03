@@ -5,6 +5,7 @@ keywords: access audit logs, review audit logs, view audit logs
 summary: 감사 메시지는 StorageGRID 서비스에서 생성되고 텍스트 로그 파일에 저장됩니다. 감사 로그의 API 관련 감사 메시지는 시스템의 상태를 평가하는 데 도움이 되는 중요한 보안, 운영 및 성능 모니터링 데이터를 제공합니다. 
 ---
 = 감사 로그 액세스 및 검토
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

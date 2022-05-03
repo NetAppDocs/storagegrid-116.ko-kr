@@ -5,6 +5,7 @@ keywords: how to view resolved alerts
 summary: 해결된 알림의 기록을 검색하고 볼 수 있습니다. 
 ---
 = 해결된 경고를 봅니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

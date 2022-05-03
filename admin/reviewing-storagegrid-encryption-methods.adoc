@@ -5,6 +5,7 @@ keywords: encryption, encrypting data, best practices
 summary: StorageGRID는 데이터 암호화를 위한 다양한 옵션을 제공합니다. 사용 가능한 방법을 검토하여 데이터 보호 요구 사항을 충족하는 방법을 결정해야 합니다. 
 ---
 = StorageGRID 암호화 방법을 검토합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

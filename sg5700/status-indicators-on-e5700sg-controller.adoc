@@ -5,6 +5,7 @@ keywords: storagegrid, sg5700, storage node, storage appliance, status, indicato
 summary: 어플라이언스 전원이 켜지고 하드웨어가 초기화되는 동안 E700SG 컨트롤러의 7세그먼트 디스플레이와 LED에 상태 및 오류 코드가 표시됩니다. 이러한 디스플레이를 사용하여 상태를 확인하고 오류를 해결할 수 있습니다. 
 ---
 = E5500SG 컨트롤러의 상태 표시등
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

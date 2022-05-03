@@ -5,6 +5,7 @@ keywords: storagegrid, sg5600, storage node, storage appliance, controller, e270
 summary: 그리드 관리자를 사용하여 SANtricity OS 소프트웨어를 업그레이드할 수 없는 경우 유지보수 모드 절차를 사용하여 업그레이드를 적용하십시오. 
 ---
 = 유지보수 모드를 사용하여 E2700 컨트롤러에서 SANtricity OS를 업그레이드합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

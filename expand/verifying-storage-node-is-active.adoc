@@ -5,6 +5,7 @@ keywords: expand, expansion, add storage nodes, verify node is active
 summary: 새 스토리지 노드를 추가하는 확장 작업이 완료되면 StorageGRID 시스템은 자동으로 새 스토리지 노드를 사용하여 시작해야 합니다. StorageGRID 시스템을 사용하여 새 스토리지 노드가 활성 상태인지 확인해야 합니다. 
 ---
 = 스토리지 노드가 활성 상태인지 확인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

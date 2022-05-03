@@ -5,6 +5,7 @@ keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gat
 summary: 이 제품에는 어플라이언스 컨트롤러 및 2개의 SSD의 상태를 확인하는 데 도움이 되는 표시등이 포함되어 있습니다. 
 ---
 = SG100 및 SG1000 어플라이언스의 상태 표시기를 봅니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

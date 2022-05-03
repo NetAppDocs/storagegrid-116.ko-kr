@@ -5,6 +5,7 @@ keywords: storagegrid, recover, restore grid node, restore node, validate grid n
 summary: 장애가 발생한 그리드 노드에 대해 그리드 구성 파일을 복원한 다음 그리드 구성 파일의 유효성을 검사하고 오류를 해결해야 합니다. 
 ---
 = 그리드 노드 복원 및 검증
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

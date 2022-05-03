@@ -5,6 +5,7 @@ keywords: storagegrid, recover, archive node
 summary: 아카이브 노드를 복구하려면 먼저 노드를 교체해야 합니다. 
 ---
 = 아카이브 노드를 교체합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

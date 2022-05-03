@@ -5,6 +5,7 @@ keywords: cifs audit client
 summary: 감사 공유에 액세스할 수 있는 마지막 사용자 또는 그룹은 제거할 수 없습니다. 
 ---
 = CIFS 감사 공유에서 사용자 또는 그룹을 제거합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

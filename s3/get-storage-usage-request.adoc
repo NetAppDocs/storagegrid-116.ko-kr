@@ -5,6 +5,7 @@ keywords: S3 REST API, S3 operations, GET storage usage request
 summary: Get Storage Usage 요청은 계정이 사용하는 총 스토리지 양과 계정과 연결된 각 버킷에 대해 알려줍니다. 
 ---
 = 스토리지 사용 요청 가져오기
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

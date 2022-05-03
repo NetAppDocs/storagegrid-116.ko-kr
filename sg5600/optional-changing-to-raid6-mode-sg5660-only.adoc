@@ -5,6 +5,7 @@ keywords: storagegrid, sg5600, storage node, storage appliance, raid, raid mode,
 summary: '60개 드라이브가 포함된 SG5660을 사용하는 경우 볼륨 구성을 기본 권장 설정인 DDP\(동적 디스크 풀\)에서 RAID6로 변경할 수 있습니다. StorageGRID 어플라이언스 스토리지 노드를 구축하기 전에만 모드를 변경할 수 있습니다.' 
 ---
 = 선택 사항: RAID6 모드로 변경(SG5660만 해당)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

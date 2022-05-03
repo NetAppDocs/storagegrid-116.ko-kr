@@ -5,6 +5,7 @@ keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gat
 summary: StorageGRID 어플라이언스 설치 프로그램과 다른 노드 간의 액세스가 방화벽에 의해 방해 받지 않도록 하려면 StorageGRID 어플라이언스 설치 관리자가 지정된 IP 주소 또는 주소 범위의 특정 TCP 포트 또는 포트 집합에 연결할 수 있는지 확인합니다. 
 ---
 = 포트 수준 네트워크 연결을 확인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

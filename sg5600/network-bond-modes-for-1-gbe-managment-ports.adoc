@@ -5,6 +5,7 @@ keywords: storagegrid, sg5600, storage node, storage appliance, Network bond, Ne
 summary: E5500SG 컨트롤러에 있는 2개의 1GbE 관리 포트의 경우 독립 네트워크 연결 모드 또는 Active-Backup 네트워크 연결 모드를 선택하여 옵션 관리 네트워크에 연결할 수 있습니다. 
 ---
 = 1GbE 관리 포트의 네트워크 연결 모드
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

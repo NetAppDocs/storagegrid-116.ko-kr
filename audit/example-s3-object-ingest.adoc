@@ -5,6 +5,7 @@ keywords: storagegrid, audit, example, S3, object ingest
 summary: '아래의 감사 메시지 시리즈는 S3 클라이언트가 스토리지 노드(LDR 서비스\)에 개체를 인제스트할 때 감사 로그에 생성되고 저장되는 감사 메시지의 예입니다.' 
 ---
 = 예: S3 오브젝트 수집
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

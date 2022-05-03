@@ -5,6 +5,7 @@ keywords: active http connection benefits
 summary: '스토리지 노드 또는 게이트웨이 노드의 CLB 서비스\(더 이상 사용되지 않음\)에 직접 연결하는 경우 HTTP 연결이 지속적으로 트랜잭션을 수행하더라도 활성 HTTP 연결 기간을 최대 10분으로 제한해야 합니다.' 
 ---
 = 활성 HTTP 연결의 이점
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

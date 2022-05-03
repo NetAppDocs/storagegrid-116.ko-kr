@@ -5,6 +5,7 @@ keywords: s3 bucket event notification, sequencer key
 summary: 'StorageGRID에서 지정된 이벤트에 대한 알림을 대상 Amazon SNS(Simple Notification Service)\로 보내도록 하려면 S3 버킷에 대한 이벤트 알림을 활성화할 수 있습니다.' 
 ---
 = 버킷에 대한 알림을 이해합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: swift container operations
 summary: StorageGRID는 Swift 계정당 최대 1,000개의 컨테이너를 지원합니다. 컨테이너에서 다음과 같은 Swift API 작업이 수행됩니다. 
 ---
 = 컨테이너 작업
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

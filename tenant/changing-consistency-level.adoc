@@ -5,6 +5,7 @@ keywords: how to change tenant consistency level, read after new write, read-aft
 summary: S3 테넌트를 사용하는 경우 테넌트 관리자 또는 테넌트 관리 API를 사용하여 S3 버킷의 오브젝트에 대해 수행된 작업의 정합성 제어를 변경할 수 있습니다. 
 ---
 = 정합성 보장 수준을 변경합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: post, post object restore, object
 summary: S3 POST 오브젝트 복원 요청을 사용하여 클라우드 스토리지 풀에 저장된 오브젝트를 복원할 수 있습니다. 
 ---
 = 사후 개체 복원
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

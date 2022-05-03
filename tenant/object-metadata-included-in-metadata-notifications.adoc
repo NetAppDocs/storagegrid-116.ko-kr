@@ -5,6 +5,7 @@ keywords: object metadata notification
 summary: 이 표에는 검색 통합이 활성화된 경우 대상 끝점으로 전송되는 JSON 문서에 포함된 모든 필드가 나열됩니다. 
 ---
 = 메타데이터 알림에 포함된 개체 메타데이터입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: S3 regions, region, ilm rules
 summary: ILM 규칙은 S3 버킷을 생성한 영역을 기준으로 오브젝트를 필터링할 수 있으므로 여러 지역의 오브젝트를 다른 스토리지 위치에 저장할 수 있습니다. 규칙에서 S3 버킷 영역을 필터로 사용하려면 먼저 시스템의 버킷에서 사용할 수 있는 영역을 생성해야 합니다. 
 ---
 = 영역 구성(옵션 및 S3만 해당)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

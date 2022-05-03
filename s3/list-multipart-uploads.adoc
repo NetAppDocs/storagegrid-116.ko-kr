@@ -5,6 +5,7 @@ keywords: list multipart uploads, uploads, multipart uploads, bucket
 summary: 다중 파트 업로드 나열 작업은 버킷에 대해 진행 중인 다중 파트 업로드를 나열합니다. 
 ---
 = 다중 파트 업로드 나열
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

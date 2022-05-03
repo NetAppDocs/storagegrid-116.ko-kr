@@ -5,6 +5,7 @@ keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gat
 summary: 하드웨어 장애 또는 케이블 연결 오류로 인해 어플라이언스가 부팅 프로세스를 완료하지 못하는 경우 StorageGRID 어플라이언스 설치 프로그램을 사용할 수 없습니다. 
 ---
 = 하드웨어 설치가 중단된 것 같습니다(SG100 및 SG1000).
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

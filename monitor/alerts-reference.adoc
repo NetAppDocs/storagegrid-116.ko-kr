@@ -5,6 +5,7 @@ keywords: alerts reference
 summary: 다음 표에는 모든 기본 StorageGRID 경고가 나와 있습니다. 필요에 따라 시스템 관리 방식에 맞게 사용자 지정 경고 규칙을 만들 수 있습니다. 
 ---
 = 경고 참조
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

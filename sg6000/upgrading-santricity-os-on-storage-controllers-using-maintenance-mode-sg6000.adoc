@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, controller, stor
 summary: '현재 SANtricity OS가 08.42.20.00\(11.42\)보다 오래된 스토리지 컨트롤러의 경우 유지보수 모드 절차를 사용하여 업그레이드를 적용해야 합니다.' 
 ---
 = 유지보수 모드를 사용하여 스토리지 컨트롤러에서 SANtricity OS를 업그레이드합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

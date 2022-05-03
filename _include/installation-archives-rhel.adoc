@@ -1,4 +1,5 @@
 = 
+:allow-uri-read: 
 
 
 'STORageGRID-Webscale-_VERSION_-RPM-_UniqueID_.zip'

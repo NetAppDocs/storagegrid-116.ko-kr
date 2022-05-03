@@ -5,6 +5,7 @@ keywords: storagegrid, audit, message, ARCE, Archive Object Retrieve End
 summary: 이 메시지는 아카이브 노드가 외부 아카이브 스토리지 시스템에서 객체 데이터를 검색하려고 시도할 때 생성됩니다. 성공하면 요청된 개체 데이터가 아카이브 위치에서 완전히 읽혀져 성공적으로 확인되었음을 나타내는 메시지가 표시됩니다. 객체 데이터를 검색하여 확인한 후 요청 서비스로 전달합니다. 
 ---
 = ARCE: 아카이브 객체 검색 종료
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

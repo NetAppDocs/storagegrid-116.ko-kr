@@ -5,6 +5,7 @@ keywords: storagegrid, audit, message, IDEL, ILM Initiated Delete
 summary: ILM이 개체 삭제 프로세스를 시작할 때 이 메시지가 생성됩니다. 
 ---
 = IDEL: ILM 삭제 시작
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

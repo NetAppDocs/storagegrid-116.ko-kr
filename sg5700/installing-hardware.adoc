@@ -5,6 +5,7 @@ keywords: storagegrid, sg5700, storage node, storage appliance, hardware, instal
 summary: 하드웨어 설치에는 제품을 캐비닛이나 랙에 설치하고, 케이블을 연결하고, 전원을 공급해야 합니다. 
 ---
 = 하드웨어 설치(SG5700)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

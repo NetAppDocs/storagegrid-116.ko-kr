@@ -5,6 +5,7 @@ keywords: storagegrid, sg5700, storage node, storage appliance, troubleshooting,
 summary: StorageGRID 어플라이언스 설치 프로그램이 SANtricity OS 소프트웨어와 동기화할 수 없는 경우 컴퓨팅 컨트롤러의 7세그먼트 디스플레이에 해당 오류 코드가 표시됩니다. 
 ---
 = SANtricity OS 소프트웨어와 동기화하는 동안 오류가 발생했습니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

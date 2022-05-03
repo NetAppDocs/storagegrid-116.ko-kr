@@ -5,6 +5,7 @@ keywords: networking for platform services, networking for cloud storage pools
 summary: StorageGRID 플랫폼 서비스 또는 클라우드 스토리지 풀을 사용하려는 경우 대상 엔드포인트에 연결할 수 있도록 그리드 네트워킹 및 방화벽을 구성해야 합니다. 
 ---
 = 플랫폼 서비스 및 클라우드 스토리지 풀을 위한 네트워킹 및 포트
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

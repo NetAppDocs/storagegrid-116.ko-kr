@@ -5,6 +5,7 @@ keywords: fabricPool, load balancer, endpoint, load balancing, Layer 7, cloud ti
 summary: StorageGRID를 FabricPool 클라우드 계층으로 연결하기 전에 StorageGRID 그리드 관리자를 사용하여 하나 이상의 로드 밸런서 끝점을 구성해야 합니다. 
 ---
 = 로드 밸런싱에 대한 모범 사례
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

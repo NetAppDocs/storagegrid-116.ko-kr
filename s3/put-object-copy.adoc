@@ -5,6 +5,7 @@ keywords: object, add object, put, put object request
 summary: S3 PUT 오브젝트 복사 요청을 사용하여 S3에 이미 저장된 오브젝트 복사본을 생성할 수 있습니다. Put Object - Copy 작업은 GET 및 PUT를 수행하는 작업과 동일합니다. 
 ---
 = 개체 - 복사 를 선택합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

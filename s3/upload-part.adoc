@@ -5,6 +5,7 @@ keywords: s3 upload part operation
 summary: 파트 업로드 작업은 개체에 대해 여러 부분으로 업로드되는 파트를 업로드합니다. 
 ---
 = 부품 업로드
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

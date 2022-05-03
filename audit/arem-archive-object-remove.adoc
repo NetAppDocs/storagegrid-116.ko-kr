@@ -5,6 +5,7 @@ keywords: storagegrid, audit, message, AREM, Archive Object Remove
 summary: 아카이브 객체 제거 감사 메시지는 컨텐츠 블록이 아카이브 노드에서 성공적으로 삭제되었거나 삭제되지 않았음을 나타냅니다. 결과가 성공적이면 아카이브 노드가 외부 아카이브 스토리지 시스템에 StorageGRID가 객체 위치를 해제했음을 알렸습니다. 객체가 외부 아카이브 스토리지 시스템에서 제거되었는지 여부는 시스템 유형과 해당 구성에 따라 달라집니다. 
 ---
 = AREM: 아카이브 객체 제거
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

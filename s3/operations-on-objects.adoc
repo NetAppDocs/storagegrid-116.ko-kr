@@ -5,6 +5,7 @@ keywords: bucket, buckets, operations on buckets
 summary: 이 섹션에서는 StorageGRID 시스템이 객체에 대해 S3 REST API 작업을 구축하는 방법에 대해 설명합니다. 
 ---
 = 객체에 대한 작업
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

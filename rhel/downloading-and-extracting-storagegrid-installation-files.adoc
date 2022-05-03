@@ -5,6 +5,7 @@ keywords: red hat linux installation files, how to download installation files
 summary: StorageGRID 설치 아카이브를 다운로드하고 필요한 파일을 추출해야 합니다. 
 ---
 = StorageGRID 설치 파일을 다운로드하고 압축을 풉니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

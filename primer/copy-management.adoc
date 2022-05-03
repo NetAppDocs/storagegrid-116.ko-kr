@@ -5,6 +5,7 @@ keywords: object data, ilm policy, ilm rules, replicated copy, replication, eras
 summary: 개체 데이터는 활성 ILM 정책 및 해당 ILM 규칙에 의해 관리됩니다. ILM 규칙은 복제 또는 삭제 코딩 복사본을 만들어 오브젝트 데이터의 손실로부터 보호합니다. 
 ---
 = 복사 관리
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: how to create cloud storage pool
 summary: '클라우드 스토리지 풀을 생성할 때 StorageGRID에서 오브젝트를 저장할 외부 버킷 또는 컨테이너의 이름과 위치, 클라우드 공급자 유형\(Amazon S3 또는 Azure Blob Storage\) 및 StorageGRID이 외부 버킷 또는 컨테이너에 액세스하는 데 필요한 정보를 지정합니다.' 
 ---
 = 클라우드 스토리지 풀을 생성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

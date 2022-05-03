@@ -5,6 +5,7 @@ keywords: erasure coding scheme
 summary: ILM 규칙에 대한 삭제 코딩 프로파일을 구성할 때 사용할 스토리지 풀을 구성하는 스토리지 노드 및 사이트의 수에 따라 사용 가능한 삭제 코딩 체계를 선택합니다. 삭제 코딩 스키마를 통해 각 오브젝트에 대해 생성되는 데이터 조각과 패리티 조각의 수를 제어합니다. 
 ---
 = 어떤 삭제 코딩 구성인지
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

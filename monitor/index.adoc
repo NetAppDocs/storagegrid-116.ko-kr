@@ -5,6 +5,7 @@ keywords: monitor StorageGRID
 summary: 이 지침을 사용하여 StorageGRID 시스템을 모니터링하고 발생할 수 있는 문제를 평가하고 해결합니다. 
 ---
 = 모니터링 및 문제 해결: 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

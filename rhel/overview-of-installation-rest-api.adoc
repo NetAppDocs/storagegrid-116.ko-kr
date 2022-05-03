@@ -5,6 +5,7 @@ keywords: installation overview red hat linux
 summary: StorageGRID는 설치 작업을 수행하기 위한 StorageGRID 설치 API를 제공합니다. 
 ---
 = 설치 REST API 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

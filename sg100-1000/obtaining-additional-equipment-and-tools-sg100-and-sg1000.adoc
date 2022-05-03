@@ -5,6 +5,7 @@ keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gat
 summary: StorageGRID 제품을 설치하기 전에 필요한 추가 장비와 도구가 모두 있는지 확인하십시오. 
 ---
 = 추가 장비 및 도구 확보(SG100 및 SG1000)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

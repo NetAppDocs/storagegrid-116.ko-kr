@@ -5,6 +5,7 @@ keywords: syslog server, external syslog server, sizing, sizing syslog server, a
 summary: 다음 지침에 따라 외부 syslog 서버에 필요한 용량을 예측합니다. 
 ---
 = 외부 syslog 서버에 대한 고려 사항
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

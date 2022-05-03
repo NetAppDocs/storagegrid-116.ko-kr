@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, sg6060, expansio
 summary: 스토리지 용량을 늘리려면 StorageGRID 시스템에 구축된 SG6060에 1~2개의 확장 쉘프를 추가할 수 있습니다. 
 ---
 = 구축된 SG6060에 확장 쉘프를 추가합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

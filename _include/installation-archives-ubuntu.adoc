@@ -1,4 +1,5 @@
 = 
+:allow-uri-read: 
 
 
 'storageGRID-Webscale-_version_-deb-_UniqueID_.zip'

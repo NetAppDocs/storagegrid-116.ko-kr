@@ -5,6 +5,7 @@ keywords: storagegrid, audit, message, messages, system, ECOC, ETAF, GNRG, GNUR,
 summary: '시스템 감사 범주에 속하는 감사 메시지에 익숙해야 합니다. 이러한 이벤트는 감사 시스템 자체, 그리드 노드 상태, 시스템 전체 작업 활동(그리드 작업\) 및 서비스 백업 작업과 관련된 이벤트로, 잠재적인 문제를 해결할 수 있습니다.' 
 ---
 = 시스템 감사 메시지
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

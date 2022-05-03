@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, install, install
 summary: 하드웨어 유지 관리가 완료되면 컨트롤러를 캐비닛 또는 랙에 다시 설치합니다. 
 ---
 = 캐비닛 또는 랙에 SG6000-CN 컨트롤러를 다시 설치합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

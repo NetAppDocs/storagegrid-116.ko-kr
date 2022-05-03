@@ -5,6 +5,7 @@ keywords: archive node configuration
 summary: StorageGRID 시스템은 아카이브 노드를 무기한으로 저장되고 항상 액세스할 수 있는 위치로 관리합니다. 
 ---
 = 아카이브 노드 구성 및 작업
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

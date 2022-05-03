@@ -5,6 +5,7 @@ keywords: fabricPool, tenant, SSO
 summary: FabricPool용 그리드 관리자에서 테넌트 계정을 만들어야 합니다. 
 ---
 = FabricPool에 대한 테넌트 계정을 생성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

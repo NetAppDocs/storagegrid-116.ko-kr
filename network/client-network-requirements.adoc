@@ -5,6 +5,7 @@ keywords: client network
 summary: 클라이언트 네트워크는 선택 사항입니다. 클라이언트 네트워크를 구성하려는 경우 다음 고려 사항에 유의하십시오. 
 ---
 = 클라이언트 네트워크 요구 사항
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

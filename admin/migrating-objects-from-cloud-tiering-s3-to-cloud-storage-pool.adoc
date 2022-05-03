@@ -5,6 +5,7 @@ keywords: cloud tiering
 summary: '현재 Cloud Tiering - Simple Storage Service\(S3\) 기능을 사용하여 오브젝트 데이터를 S3 버킷으로 계층화하려는 경우 대신 오브젝트를 Cloud Storage Pool로 마이그레이션하는 것을 고려해 보십시오. 클라우드 스토리지 풀은 StorageGRID 시스템의 모든 스토리지 노드를 활용하는 확장 가능한 접근 방식을 제공합니다.' 
 ---
 = Cloud Tiering-S3에서 Cloud Storage Pool로 오브젝트 마이그레이션
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

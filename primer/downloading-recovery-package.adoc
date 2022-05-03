@@ -5,6 +5,7 @@ keywords: recovery package, download, encryption keys
 summary: 복구 패키지는 다운로드 가능한 .zip 파일로, StorageGRID 시스템을 설치, 확장, 업그레이드 및 유지 관리하는 데 필요한 배포 관련 파일 및 소프트웨어를 포함합니다. 
 ---
 = 복구 패키지를 다운로드합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

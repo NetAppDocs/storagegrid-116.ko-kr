@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, admin node, link
 summary: SG6000-CN 컨트롤러의 이더넷 링크 구성을 변경할 수 있습니다. 포트 연결 모드, 네트워크 연결 모드 및 링크 속도를 변경할 수 있습니다. 
 ---
 = SG6000-CN 컨트롤러의 링크 구성을 변경합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

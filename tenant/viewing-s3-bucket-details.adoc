@@ -5,6 +5,7 @@ keywords: how to view s3 bucket details
 summary: 테넌트 계정에서 버킷 및 버킷 설정 목록을 볼 수 있습니다. 
 ---
 = S3 버킷 세부 정보를 봅니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

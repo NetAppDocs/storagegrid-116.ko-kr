@@ -5,6 +5,7 @@ keywords: red hat linux deployment tools, how to automate installation
 summary: StorageGRID 설치의 일부 또는 전부를 자동화할 수 있습니다. 
 ---
 = 구축 툴
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

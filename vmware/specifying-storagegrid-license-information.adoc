@@ -5,6 +5,7 @@ keywords: how to specify the StorageGRID license information
 summary: StorageGRID 시스템의 이름을 지정하고 NetApp에서 제공하는 라이센스 파일을 업로드해야 합니다. 
 ---
 = StorageGRID 라이센스 정보를 지정합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

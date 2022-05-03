@@ -5,6 +5,7 @@ keywords: storagegrid, recover, storage node failure
 summary: 단일 스토리지 노드가 오프라인이고 다른 스토리지 노드에 15일 이상 연결되지 않은 경우 노드에서 Cassandra를 재구성해야 합니다. 
 ---
 = 스토리지 노드를 15일 이상 복구합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

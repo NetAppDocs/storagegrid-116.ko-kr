@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, overview, models
 summary: StorageGRID SGF6024에는 24개의 솔리드 스테이트 드라이브가 포함된 컴퓨팅 컨트롤러와 스토리지 컨트롤러 쉘프가 포함되어 있습니다. 
 ---
 = SGF6024 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

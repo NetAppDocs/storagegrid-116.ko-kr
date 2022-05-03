@@ -5,6 +5,7 @@ keywords: ingest options, balanced ingest, strict ingest, dual-commit ingest
 summary: ILM 규칙을 생성할 때 수집 시 개체를 보호하기 위한 세 가지 옵션 중 하나인 이중 커밋, 균형 또는 엄격 을 지정합니다. 선택한 사항에 따라 StorageGRID은 임시 복사본을 만들고 나중에 ILM 평가를 위해 오브젝트를 큐에 대기시키거나 동기식 배치를 사용하여 ILM 요구 사항을 충족하도록 즉시 복사본을 만듭니다. 
 ---
 = 데이터 보호를 위한 수집 옵션
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

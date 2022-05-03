@@ -5,6 +5,7 @@ keywords: software upgrade, hotfix, santricity
 summary: StorageGRID 시스템을 최신 상태로 유지하고 효율적으로 작동하도록 하기 위해 다양한 유지보수 절차를 수행합니다. Grid Manager는 유지보수 작업 수행 프로세스를 용이하게 하는 도구와 옵션을 제공합니다. 
 ---
 = 유지 관리를 수행합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

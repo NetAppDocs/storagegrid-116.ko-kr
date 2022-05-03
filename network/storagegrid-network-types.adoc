@@ -5,6 +5,7 @@ keywords: network types, grid traffic, admin traffic, client traffic, grid netwo
 summary: StorageGRID 시스템의 그리드 노드는 그리드 트래픽, 관리 트래픽 및 클라이언트 트래픽을 처리합니다. 이러한 세 가지 유형의 트래픽을 관리하고 제어 및 보안을 제공하도록 네트워킹을 적절히 구성해야 합니다. 
 ---
 = StorageGRID 네트워크 유형입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

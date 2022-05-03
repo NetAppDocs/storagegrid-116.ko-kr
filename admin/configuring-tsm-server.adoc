@@ -5,6 +5,7 @@ keywords: tsm server, tivoli storage manager
 summary: 이 섹션에서는 TSM Best Practice에 따라 TSM 서버를 준비하는 방법에 대한 샘플 지침을 제공합니다. 
 ---
 = TSM 서버를 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: domain policy for tsm, tivoli storage manager policy
 summary: 아카이브 노드에서 전송된 데이터를 저장하도록 TSM 서버를 구성하려면 도메인 정책을 생성한 다음 활성화해야 합니다. 
 ---
 = 도메인 정책을 만들고 활성화합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

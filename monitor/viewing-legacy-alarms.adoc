@@ -5,6 +5,7 @@ keywords: legacy alarms
 summary: '경보\(기존 시스템\)는 시스템 속성이 알람 임계값에 도달할 때 트리거됩니다. Current Alarms(현재 알람) 페이지에서 현재 활성화된 알람을 볼 수 있습니다.' 
 ---
 = 레거시 알람을 봅니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: object, add object, put, put object request
 summary: S3 PUT 오브젝트 요청을 사용하여 오브젝트를 버킷에 추가할 수 있습니다. 
 ---
 = 개체 를 넣습니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

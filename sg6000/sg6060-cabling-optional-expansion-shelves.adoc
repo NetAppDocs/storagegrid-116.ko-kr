@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, cabling, cable, 
 summary: 확장 쉘프를 사용하는 경우 E2860 컨트롤러 쉘프에 연결해야 합니다. 각 SG6060 어플라이언스에는 최대 2개의 확장 쉘프가 있을 수 있습니다. 
 ---
 = SG6060: 케이블 옵션 확장 쉘프 케이블링
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

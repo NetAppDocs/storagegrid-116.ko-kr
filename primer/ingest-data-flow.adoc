@@ -5,6 +5,7 @@ keywords: object data, ingest
 summary: 수집 또는 저장 작업은 클라이언트와 StorageGRID 시스템 간에 정의된 데이터 흐름으로 구성됩니다. 
 ---
 = 수집 데이터 흐름
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

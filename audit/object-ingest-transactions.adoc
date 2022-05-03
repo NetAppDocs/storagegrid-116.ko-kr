@@ -5,6 +5,7 @@ keywords: storagegrid, audit, message, messages, transaction, transactions, Obje
 summary: 'API 관련 \(S3 또는 Swift\) 감사 메시지를 찾아 감사 로그에서 클라이언트 수집 트랜잭션을 식별할 수 있습니다.' 
 ---
 = 오브젝트 수집 트랜잭션
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

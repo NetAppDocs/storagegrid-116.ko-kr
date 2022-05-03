@@ -5,6 +5,7 @@ keywords: storagegrid, server manager, log file
 summary: Server Manager를 사용할 때 문제가 발생하면 로그 파일을 확인하십시오. 
 ---
 = Server Manager 로그 파일에 액세스합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

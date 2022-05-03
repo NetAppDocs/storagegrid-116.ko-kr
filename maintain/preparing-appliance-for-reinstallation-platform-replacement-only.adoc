@@ -5,6 +5,7 @@ keywords: storagegrid, recover, appliance, reinstallation appliance, reinstall a
 summary: 서비스 어플라이언스에서 호스팅되는 그리드 노드를 복구할 때는 먼저 StorageGRID 소프트웨어 재설치를 위한 어플라이언스를 준비해야 합니다. 
 ---
 = 재설치 준비를 위한 어플라이언스 재설치 준비(플랫폼 교체만 해당)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

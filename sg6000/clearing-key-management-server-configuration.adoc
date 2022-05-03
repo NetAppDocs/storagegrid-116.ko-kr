@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, kms, key managem
 summary: 'KMS\(키 관리 서버) 구성을 지우면 어플라이언스에서 노드 암호화가 비활성화됩니다. KMS 구성을 삭제한 후에는 어플라이언스의 데이터가 영구적으로 삭제되며 더 이상 액세스할 수 없습니다. 이 데이터는 복구할 수 없습니다.' 
 ---
 = 키 관리 서버 구성을 지웁니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

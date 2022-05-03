@@ -5,6 +5,7 @@ keywords: storagegrid, sg5600, storage node, storage appliance, diagrams, hardwa
 summary: SG5612 및 SG5660 모델의 StorageGRID 어플라이언스 모델은 모두 E2700 컨트롤러와 E5500SG 컨트롤러를 포함합니다. 다이어그램을 검토하여 모델과 컨트롤러 간의 차이점을 확인해야 합니다. 
 ---
 = 하드웨어 다이어그램
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

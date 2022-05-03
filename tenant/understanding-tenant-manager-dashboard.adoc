@@ -5,6 +5,7 @@ keywords: how to understand tenant manager dashboard
 summary: '테넌트 관리자 대시보드는 테넌트 계정의 구성과 테넌트의 버킷 \(S3\) 또는 컨테이너 \(Swift\)에 있는 개체에서 사용하는 공간의 양에 대한 개요를 제공합니다. 테넌트에 할당량이 있는 경우 대시보드에는 사용된 할당량의 양과 남아 있는 양이 표시됩니다. 테넌트 계정과 관련된 오류가 있는 경우 대시보드 에 오류가 표시됩니다.' 
 ---
 = 테넌트 관리자 대시보드 이해
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

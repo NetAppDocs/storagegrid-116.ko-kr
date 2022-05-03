@@ -5,6 +5,7 @@ keywords: storagegrid, sg5600, storage node, storage appliance, features
 summary: StorageGRID SG5600 어플라이언스는 새로운 StorageGRID 시스템을 구축하거나 기존 시스템의 용량을 확장하기 위한 통합 스토리지 솔루션을 제공합니다. 
 ---
 = StorageGRID 어플라이언스 기능
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

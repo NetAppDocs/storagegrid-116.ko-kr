@@ -5,6 +5,7 @@ keywords: s3 connection, swift connection, connect to storagegrid
 summary: 그리드 관리자는 S3 및 Swift 테넌트가 클라이언트 애플리케이션을 StorageGRID 시스템에 연결하여 데이터를 저장 및 검색하는 방법을 제어하는 구성 옵션을 관리합니다. 다양한 클라이언트 및 테넌트 요구 사항을 충족하는 여러 가지 옵션이 있습니다. 
 ---
 = S3 및 Swift 클라이언트 연결에 대해 설명합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: storagegrid, sg5700, storage node, storage appliance, install, informa
 summary: StorageGRID 어플라이언스를 설치 및 구성할 때 이더넷 스위치 포트, IP 주소, 포트 및 네트워크 연결 모드에 대한 정보를 결정하고 수집해야 합니다. 
 ---
 = 설치 정보 수집(SG5700)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

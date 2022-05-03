@@ -5,6 +5,7 @@ keywords: ilm rule advanced filtering
 summary: 고급 필터링을 사용하면 메타데이터 기반의 특정 개체에만 적용되는 ILM 규칙을 만들 수 있습니다. 규칙에 대한 고급 필터링을 설정할 때 일치시킬 메타데이터 유형을 선택하고 연산자를 선택한 다음 메타데이터 값을 지정합니다. 개체가 평가되면 고급 필터와 일치하는 메타데이터가 있는 개체에만 ILM 규칙이 적용됩니다. 
 ---
 = ILM 규칙에서 고급 필터를 사용합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

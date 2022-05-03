@@ -5,6 +5,7 @@ keywords: storagegrid, hotfix
 summary: 핫픽스를 적용하기 전에 필요한 모든 자료를 확보해야 합니다. 
 ---
 = 핫픽스에 필요한 자료를 얻습니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, Installation, de
 summary: StorageGRID를 처음 구축할 때 하나 이상의 StorageGRID 스토리지 어플라이언스를 설치하거나 나중에 확장을 위해 어플라이언스 스토리지 노드를 추가할 수 있습니다. 복구 작업의 일부로 어플라이언스 스토리지 노드를 설치해야 할 수도 있습니다. 
 ---
 = 설치 및 구축 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

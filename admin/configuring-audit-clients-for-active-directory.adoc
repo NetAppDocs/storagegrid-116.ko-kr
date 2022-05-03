@@ -5,6 +5,7 @@ keywords: audit client for ad, active directory
 summary: 감사 메시지를 검색할 StorageGRID 배포의 각 관리자 노드에 대해 이 절차를 수행합니다. 
 ---
 = Active Directory에 대한 감사 클라이언트를 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

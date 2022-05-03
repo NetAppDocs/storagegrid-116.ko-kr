@@ -5,6 +5,7 @@ keywords: what is a storage node, how many storage nodes
 summary: '스토리지 노드: 오브젝트 데이터 및 메타데이터를 관리하고 저장합니다. 각 StorageGRID 시스템에는 3개 이상의 스토리지 노드가 있어야 합니다. 여러 사이트가 있는 경우 StorageGRID 시스템 내의 각 사이트에도 3개의 스토리지 노드가 있어야 합니다.' 
 ---
 = 스토리지 노드란?
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, install, install
 summary: 캐비닛 또는 랙에 SG6000-CN 컨트롤러용 레일 세트를 설치한 다음 레일을 따라 컨트롤러를 밀어넣습니다. 
 ---
 = SG6000-CN: 캐비닛 또는 랙에 설치합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

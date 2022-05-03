@@ -5,6 +5,7 @@ keywords: storagegrid, recover, linux, linux host, bare metal host, baremetal ho
 summary: 로드 밸런서 서비스에 대한 끝점을 구성하려는 경우 포트 재매핑의 매핑된-대상 포트로 이미 구성된 포트를 사용하려면 먼저 기존 포트 재매핑을 제거해야 합니다. 그렇지 않으면 끝점이 적용되지 않습니다. 베어 메탈 호스트에서 StorageGRID를 실행 중인 경우 포트 재맵을 제거하는 일반 절차 대신 이 절차를 따르십시오. 노드의 모든 포트 매핑을 제거하고 노드를 다시 시작하기 위해 충돌하는 재매핑된 포트가 있는 각 관리 노드와 게이트웨이 노드에 대한 노드 구성 파일을 편집해야 합니다. 
 ---
 = 베어 메탈 호스트에서 포트 재맵을 제거합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

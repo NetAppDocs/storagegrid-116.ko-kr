@@ -5,6 +5,7 @@ keywords: archive node, store failure count
 summary: '보관 노드가 S3 API를 통해 보관 스토리지 시스템에 연결된 경우 저장 실패 수를 재설정할 수 있습니다. 이 값은 ARVF\(저장 실패\) 경보를 지우는 데 사용할 수 있습니다.' 
 ---
 = S3 API 연결에 대한 저장소 실패 횟수를 재설정합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: manage high availability group, ha groups, admin node, gateway node, a
 summary: '여러 관리 및 게이트웨이 노드의 네트워크 인터페이스를 고가용성 \(HA\) 그룹으로 그룹화할 수 있습니다. HA 그룹의 액티브 인터페이스에 장애가 발생하면 백업 인터페이스에서 워크로드를 관리할 수 있습니다.' 
 ---
 = 고가용성(HA) 그룹 관리: 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: fabricPool, DNS, domain name system, FQDN, fully qualified domain name
 summary: '고가용성 그룹 및 로드 밸런서 끝점을 구성한 후에는 ONTAP 시스템의 도메인 이름 시스템\(DNS\)에 StorageGRID 서버 이름\(정규화된 도메인 이름\)을 FabricPool가 연결에 사용할 IP 주소에 연결하는 레코드가 포함되어 있는지 확인해야 합니다.' 
 ---
 = StorageGRID IP 주소에 대해 DNS 서버를 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: storagegrid, audit, message, WGET, Swift GET
 summary: Swift 클라이언트가 가져오기 트랜잭션을 실행할 때 개체를 검색하거나 컨테이너의 개체를 나열하거나 계정의 컨테이너를 나열하도록 요청합니다. 이 메시지는 트랜잭션이 성공하면 서버에서 발행됩니다. 
 ---
 = wget: Swift get
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

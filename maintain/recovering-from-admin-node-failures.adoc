@@ -5,6 +5,7 @@ keywords: storagegrid, recover, admin node failure
 summary: 관리 노드의 복구 프로세스는 기본 관리 노드인지 또는 비기본 관리 노드인지에 따라 달라집니다. 
 ---
 = 관리자 노드 오류에서 복구
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: lifecycle management, lifecycle, monitoring, ILM, information lifecycl
 summary: 'ILM(정보 수명 주기 관리) 시스템은 그리드에 저장된 모든 개체에 대한 데이터 관리를 제공합니다. ILM 작업을 모니터링하여 그리드에서 현재 로드를 처리할 수 있는지 또는 더 많은 리소스가 필요한지 여부를 이해해야 합니다.' 
 ---
 = 정보 수명 주기 관리를 모니터링합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

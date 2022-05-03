@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, sg6000-cn, contr
 summary: 컨트롤러 덮개를 분리하여 내부 구성요소에 유지보수 액세스를 제공합니다. 
 ---
 = SG6000-CN 컨트롤러 덮개를 분리합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: fabricPool, high availability group, HA group, create, creating, virtu
 summary: 'FabricPool와 함께 사용하도록 StorageGRID를 구성할 때 하나 이상의 고가용성 \(HA\) 그룹을 선택적으로 생성할 수 있습니다. HA 그룹은 관리 노드, 게이트웨이 노드 또는 둘 다에서 하나 이상의 네트워크 인터페이스로 구성됩니다.' 
 ---
 = FabricPool에 대한 고가용성(HA) 그룹을 생성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

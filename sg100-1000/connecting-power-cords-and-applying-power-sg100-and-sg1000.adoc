@@ -5,6 +5,7 @@ keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gat
 summary: 네트워크 케이블을 연결한 후 어플라이언스에 전원을 공급할 준비가 되었습니다. 
 ---
 = 전원 코드를 연결하고 전원을 공급합니다(SG100 및 SG1000).
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

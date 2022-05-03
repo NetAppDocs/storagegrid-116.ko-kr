@@ -5,6 +5,7 @@ keywords: what are link costs, site latency
 summary: 링크 비용을 사용하면 둘 이상의 데이터 센터 사이트가 있을 때 요청된 서비스를 제공하는 데이터 센터 사이트의 우선 순위를 지정할 수 있습니다. 링크 비용을 조정하여 사이트 간 지연 시간을 반영할 수 있습니다. 
 ---
 = 링크 비용은 얼마입니까
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

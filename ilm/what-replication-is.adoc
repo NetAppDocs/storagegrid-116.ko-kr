@@ -5,6 +5,7 @@ keywords: replication, object copies
 summary: 복제는 StorageGRID에서 오브젝트 데이터를 저장하는 데 사용하는 두 가지 방법 중 하나입니다. 객체가 복제를 사용하는 ILM 규칙과 일치하면 시스템에서 정확한 오브젝트 데이터 복사본을 생성하고 스토리지 노드 또는 아카이브 노드에 복사본을 저장합니다. 
 ---
 = 복제란
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

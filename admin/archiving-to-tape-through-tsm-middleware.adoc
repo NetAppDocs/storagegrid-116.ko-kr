@@ -5,6 +5,7 @@ keywords: tivoli storage manager, tsm server, archive node, tape
 summary: '테이프 라이브러리를 포함하여 랜덤 또는 순차 액세스 스토리지 디바이스에 오브젝트 데이터를 저장하고 검색하기 위한 논리 인터페이스를 제공하는 TSM(Tivoli Storage Manager) 서버를 타겟으로 하는 아카이브 노드를 구성할 수 있습니다.' 
 ---
 = TSM 미들웨어를 통해 테이프로 아카이빙
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

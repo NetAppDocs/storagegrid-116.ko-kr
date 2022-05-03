@@ -5,6 +5,7 @@ keywords: storagegrid, recover, system drive warning, storage node
 summary: 스토리지 노드의 장애가 발생한 시스템 드라이브를 복구하기 전에 다음 경고를 검토해야 합니다. 
 ---
 = 스토리지 노드 시스템 드라이브 복구에 대한 경고를 검토합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: storagegrid, recover, archive node failure
 summary: 아카이브 노드 장애를 복구하려면 정확한 작업 시퀀스를 완료해야 합니다. 
 ---
 = 아카이브 노드 장애에서 복구
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

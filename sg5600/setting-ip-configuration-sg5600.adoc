@@ -5,6 +5,7 @@ keywords: storagegrid, sg5600, storage node, storage appliance, configure, setup
 summary: StorageGRID 어플라이언스 설치 프로그램을 사용하여 StorageGRID 그리드, 관리자 및 클라이언트 네트워크의 어플라이언스 스토리지 노드에 사용되는 IP 주소 및 라우팅 정보를 구성합니다. 
 ---
 = IP 구성을 설정합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

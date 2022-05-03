@@ -5,6 +5,7 @@ keywords: swift api endpoint support
 summary: StorageGRID는 정보 URL, 인증 URL 및 스토리지 URL과 같은 Swift API 엔드포인트를 지원합니다. 
 ---
 = 지원되는 Swift API 엔드포인트
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

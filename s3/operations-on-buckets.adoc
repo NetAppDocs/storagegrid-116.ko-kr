@@ -5,6 +5,7 @@ keywords: bucket, buckets, operations on buckets
 summary: StorageGRID 시스템은 각 S3 테넌트 계정에 대해 최대 1,000개의 버킷을 지원합니다. 
 ---
 = 버킷 작업
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

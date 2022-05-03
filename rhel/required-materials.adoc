@@ -5,6 +5,7 @@ keywords: installation materials red hat linux
 summary: StorageGRID를 설치하기 전에 필요한 자료를 수집하고 준비해야 합니다. 
 ---
 = 필수 자료
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

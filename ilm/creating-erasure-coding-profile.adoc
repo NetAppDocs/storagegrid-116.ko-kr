@@ -5,6 +5,7 @@ keywords: create EC profile, erasure coding profile
 summary: 삭제 코딩 프로필을 생성하려면 스토리지 노드가 포함된 스토리지 풀을 삭제 코딩 체계와 연결합니다. 이 연관은 생성된 데이터 및 패리티 조각의 수와 시스템이 이러한 조각을 배포하는 위치를 결정합니다. 
 ---
 = 삭제 코딩 프로필을 생성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

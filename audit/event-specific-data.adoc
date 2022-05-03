@@ -5,6 +5,7 @@ keywords: storagegrid, audit, message, event, data
 summary: 감사 로그의 각 감사 메시지는 시스템 이벤트와 관련된 데이터를 기록합니다. 
 ---
 = 이벤트 관련 데이터
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

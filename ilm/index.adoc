@@ -5,6 +5,7 @@ keywords: information lifecycle management overview, about information lifecycle
 summary: 'ILM(정보 수명 주기 관리) 규칙 및 정책을 구성하여 StorageGRID 시스템의 개체를 관리할 수 있습니다. ILM 규칙 및 정책은 StorageGRID이 개체 데이터의 복사본을 만들고 배포하는 방법과 시간이 지남에 따라 이러한 복사본을 관리하는 방법을 지시합니다.' 
 ---
 = ILM을 사용하여 개체 관리: 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

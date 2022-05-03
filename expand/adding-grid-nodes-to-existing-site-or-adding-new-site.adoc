@@ -5,6 +5,7 @@ keywords: grid node, add node, add site, expand, expansion
 summary: 다음 절차에 따라 그리드 노드를 기존 사이트에 추가하거나 새 사이트를 추가할 수 있지만 두 가지 유형의 확장을 동시에 수행할 수는 없습니다. 
 ---
 = 기존 사이트에 그리드 노드를 추가하거나 새 사이트를 추가합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

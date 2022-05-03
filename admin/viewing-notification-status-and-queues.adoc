@@ -5,6 +5,7 @@ keywords: NMS service, network management system, interface engine
 summary: '관리 노드의 NMS(네트워크 관리 시스템) 서비스는 메일 서버에 알림을 보냅니다. 인터페이스 엔진 페이지에서 NMS 서비스의 현재 상태와 해당 알림 대기열의 크기를 볼 수 있습니다.' 
 ---
 = 알림 상태 및 대기열을 봅니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

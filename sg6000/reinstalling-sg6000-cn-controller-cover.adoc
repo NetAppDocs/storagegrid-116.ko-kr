@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, sg6000-cn, contr
 summary: 내부 하드웨어 유지보수가 완료되면 컨트롤러 덮개를 다시 설치합니다. 
 ---
 = SG6000-CN 컨트롤러 덮개를 다시 설치합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: archive node optimization
 summary: '아카이브 노드의 세션을 구성하여 TSM\(Tivoli Server Manager\)에 연결하는 아카이브 노드의 성능을 최적화할 수 있습니다.' 
 ---
 = TSM 미들웨어 세션에 맞게 아카이브 노드를 최적화합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

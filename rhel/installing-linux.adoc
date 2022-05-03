@@ -5,6 +5,7 @@ keywords: how to install on red hat linux, how to install on centos
 summary: 모든 그리드 호스트에 Red Hat Enterprise Linux 또는 CentOS Linux를 설치해야 합니다. NetApp 상호 운용성 매트릭스 툴을 사용하여 지원되는 버전 목록을 확인하십시오. 
 ---
 = Linux를 설치합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

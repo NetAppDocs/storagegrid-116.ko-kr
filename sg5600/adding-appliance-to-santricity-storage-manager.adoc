@@ -5,6 +5,7 @@ keywords: storagegrid, sg5600, storage node, storage appliance, Adding, add, app
 summary: 어플라이언스의 E2700 컨트롤러를 SANtricity 스토리지 관리자에 연결한 다음 어플라이언스를 스토리지 어레이로 추가합니다. 
 ---
 = SANtricity 스토리지 관리자에 어플라이언스를 추가합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

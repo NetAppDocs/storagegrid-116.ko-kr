@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, controller, cont
 summary: StorageGRID SG6000 어플라이언스의 각 모델에는 모델에 따라 1U 엔클로저의 SG6000-CN 컴퓨팅 컨트롤러와 2U 또는 4U 엔클로저의 이중 E-Series 스토리지 컨트롤러가 포함됩니다. 각 컨트롤러 유형에 대한 자세한 내용은 다이어그램을 참조하십시오. 
 ---
 = SG6000 어플라이언스의 컨트롤러
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

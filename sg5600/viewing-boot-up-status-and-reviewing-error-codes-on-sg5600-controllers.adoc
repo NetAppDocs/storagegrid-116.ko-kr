@@ -5,6 +5,7 @@ keywords: storagegrid, sg5600, storage node, storage appliance, status, boot cod
 summary: 각 컨트롤러에 있는 7세그먼트 디스플레이는 어플라이언스 전원이 켜질 때, 하드웨어가 초기화되는 동안, 그리고 하드웨어가 실패하여 초기화에서 다시 나올 때 상태 및 오류 코드를 표시합니다. 진행 상황 또는 문제 해결을 모니터링하는 경우, 코드의 순서를 순서대로 살펴봐야 합니다. 
 ---
 = SG5600 컨트롤러에서 부팅 상태 및 오류 코드 검토
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

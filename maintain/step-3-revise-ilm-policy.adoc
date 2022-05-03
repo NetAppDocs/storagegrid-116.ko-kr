@@ -5,6 +5,7 @@ keywords: storagegrid, recover, revise ilm policy
 summary: '서비스 해제 사이트 마법사의 3단계\(ILM 정책 수정\)에서 활성 ILM 정책에 의해 사이트가 참조되는지 확인할 수 있습니다.' 
 ---
 = 3단계: ILM 정책 수정
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: how to configure search integration service
 summary: 검색 통합 서비스는 개체가 생성, 삭제 또는 해당 메타데이터 또는 태그가 업데이트될 때마다 대상 검색 인덱스에 개체 메타데이터를 보냅니다. 
 ---
 = 검색 통합 서비스를 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

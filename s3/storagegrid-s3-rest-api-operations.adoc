@@ -5,6 +5,7 @@ keywords: S3 REST API, S3 operations
 summary: StorageGRID 시스템별 S3 REST API에 작업이 추가됩니다. 
 ---
 = StorageGRID S3 REST API 작업
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

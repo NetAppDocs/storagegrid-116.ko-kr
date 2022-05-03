@@ -5,6 +5,7 @@ keywords: swift object operations
 summary: 객체에 대해 다음과 같은 Swift API 작업이 수행됩니다. 
 ---
 = 오브젝트 작업
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

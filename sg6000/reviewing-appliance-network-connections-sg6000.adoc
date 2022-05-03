@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, network connecti
 summary: StorageGRID 어플라이언스를 설치하기 전에 어플라이언스에 연결할 수 있는 네트워크를 이해해야 합니다. 
 ---
 = 어플라이언스 네트워크 연결 검토(SG6000)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: storagegrid, recover, appliance, appliance install
 summary: 어플라이언스 스토리지 노드에 StorageGRID를 설치하려면 어플라이언스에 포함된 StorageGRID 어플라이언스 설치 프로그램을 사용합니다. 
 ---
 = StorageGRID 어플라이언스 설치를 시작합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

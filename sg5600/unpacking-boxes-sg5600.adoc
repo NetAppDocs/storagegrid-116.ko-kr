@@ -5,6 +5,7 @@ keywords: storagegrid, sg5600, storage node, storage appliance, install, install
 summary: StorageGRID 제품을 설치하기 전에 모든 상자의 포장을 풀고 내용물을 포장 명세서에 있는 품목과 비교합니다. 
 ---
 = 박스 포장 풀기(SG5600)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

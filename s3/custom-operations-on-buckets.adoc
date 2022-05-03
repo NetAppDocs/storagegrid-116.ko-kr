@@ -5,6 +5,7 @@ keywords: operations, buckets, custom, custom operations on buckets
 summary: StorageGRID 시스템은 S3 REST API에 추가되고 시스템에 고유한 맞춤형 버킷 작업을 지원합니다. 
 ---
 = 버킷에 대한 사용자 지정 작업
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

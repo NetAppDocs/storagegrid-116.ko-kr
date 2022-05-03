@@ -5,6 +5,7 @@ keywords: swift rest api operations
 summary: StorageGRID 시스템별 Swift REST API에 작업이 추가됩니다. 
 ---
 = StorageGRID Swift REST API 작업
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: storagegrid, appliance node clone, appliance node cloning, node clone,
 summary: '클론 생성 프로세스는 소스 노드 \(어플라이언스 교체 \)와 타겟 \(새 \) 어플라이언스 간에 데이터를 전송하는 데 며칠이 걸릴 수 있습니다.' 
 ---
 = 클론 어플라이언스 노드
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

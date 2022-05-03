@@ -5,6 +5,7 @@ keywords: platform service support
 summary: 'StorageGRID 플랫폼 서비스를 사용하면 StorageGRID 테넌트 계정에서 원격 S3 버킷, SNS(Simple Notification Service) 엔드포인트 또는 Elasticsearch 클러스터와 같은 외부 서비스를 활용하여 그리드에 의해 제공되는 서비스를 확장할 수 있습니다.' 
 ---
 = StorageGRID 플랫폼 서비스 지원
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: expansion, configuration
 summary: 확장을 완료한 후에는 추가 통합 및 구성 단계를 수행해야 합니다. 
 ---
 = 확장 후 구성 단계
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

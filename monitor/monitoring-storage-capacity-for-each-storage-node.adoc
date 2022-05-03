@@ -5,6 +5,7 @@ keywords: monitor node storage capacity
 summary: 각 스토리지 노드의 총 사용 가능 공간을 모니터링하여 노드에 새 오브젝트 데이터를 위한 충분한 공간이 있는지 확인해야 합니다. 
 ---
 = 각 스토리지 노드의 스토리지 용량을 모니터링합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

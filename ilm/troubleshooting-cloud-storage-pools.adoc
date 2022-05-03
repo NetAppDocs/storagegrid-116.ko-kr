@@ -5,6 +5,7 @@ keywords: cloud storage pool, troubleshoot
 summary: 클라우드 스토리지 풀을 생성, 편집 또는 삭제할 때 오류가 발생하는 경우 다음 문제 해결 단계를 사용하여 문제를 해결하십시오. 
 ---
 = 클라우드 스토리지 풀 문제 해결
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

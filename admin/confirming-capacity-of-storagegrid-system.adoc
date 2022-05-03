@@ -5,6 +5,7 @@ keywords: data migration, data capacity for migration
 summary: 대량의 데이터를 StorageGRID 시스템으로 마이그레이션하기 전에 StorageGRID 시스템에 예상되는 볼륨을 처리할 수 있는 디스크 용량이 있는지 확인하십시오. 
 ---
 = StorageGRID 시스템의 용량을 확인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

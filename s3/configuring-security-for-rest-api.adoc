@@ -5,6 +5,7 @@ keywords: configure rest api security
 summary: REST API에 대해 구현된 보안 조치를 검토하고 시스템 보안 방법을 이해해야 합니다. 
 ---
 = REST API에 대한 보안을 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

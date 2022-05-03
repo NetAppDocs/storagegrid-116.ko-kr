@@ -5,6 +5,7 @@ keywords: storagegrid, audit, example, S3, object deletion
 summary: 'S3 클라이언트가 스토리지 노드 \(LDR 서비스\)에서 오브젝트를 삭제하면 감사 메시지가 생성되고 감사 로그에 저장됩니다.' 
 ---
 = 예: S3 오브젝트 삭제
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

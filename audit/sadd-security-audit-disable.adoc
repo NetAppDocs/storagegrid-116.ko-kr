@@ -5,6 +5,7 @@ keywords: storagegrid, audit, message, SADD, Security Audit Disable
 summary: '이 메시지는 발신 서비스 \(노드 ID\)가 감사 메시지 로깅을 해제했으며 감사 메시지가 더 이상 수집되거나 전달되지 않음을 나타냅니다.' 
 ---
 = 추가: 보안 감사 비활성화
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

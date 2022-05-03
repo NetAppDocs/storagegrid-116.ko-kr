@@ -5,6 +5,7 @@ keywords: storagegrid, audit, tool, audit-sum, audit sum, write, read, head, del
 summary: '감사 합계 도구를 사용하여 감사 메시지 쓰기, 읽기, 헤드 수 계산 및 삭제 작업을 수행하고 각 작업 유형에 대한 최소, 최대 및 평균 시간\(또는 크기\)을 확인할 수 있습니다.' 
 ---
 = 감사 합계 도구를 사용합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

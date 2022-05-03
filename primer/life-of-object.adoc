@@ -5,6 +5,7 @@ keywords: what is the object lifecycle
 summary: 개체의 수명은 다양한 단계로 구성됩니다. 각 단계는 객체와 함께 발생하는 작업을 나타냅니다. 
 ---
 = 개체의 수명입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

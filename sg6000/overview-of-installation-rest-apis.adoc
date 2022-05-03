@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, installation RES
 summary: StorageGRID는 설치 작업을 수행하기 위한 두 가지 REST API, 즉 StorageGRID 설치 API와 StorageGRID 어플라이언스 설치 관리자 API를 제공합니다. 
 ---
 = REST API 설치 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

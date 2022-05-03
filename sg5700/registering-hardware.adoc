@@ -5,6 +5,7 @@ keywords: storagegrid, sg5700, storage node, storage appliance, hardware, regist
 summary: 어플라이언스 하드웨어를 등록하면 지원 혜택이 제공됩니다. 
 ---
 = 하드웨어 등록
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

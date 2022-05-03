@@ -5,6 +5,7 @@ keywords: Hardening guidelines, certificates
 summary: 설치 중에 생성된 기본 인증서를 사용자 지정 인증서로 교체해야 합니다. 
 ---
 = 서버 인증서에 대한 강화 지침
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

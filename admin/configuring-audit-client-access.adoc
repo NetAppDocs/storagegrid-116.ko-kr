@@ -5,6 +5,7 @@ keywords: audit client, ams, audit management service
 summary: '관리 노드는 감사 관리 시스템\(AMS\) 서비스를 통해 감사 대상 시스템 이벤트를 감사 공유를 통해 사용할 수 있는 로그 파일에 기록합니다. 이 로그 파일은 설치 시 각 관리 노드에 추가됩니다. 감사 로그에 쉽게 액세스할 수 있도록 CIFS 및 NFS 모두에 대한 감사 공유에 대한 클라이언트 액세스를 구성할 수 있습니다.' 
 ---
 = 감사 클라이언트 액세스를 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

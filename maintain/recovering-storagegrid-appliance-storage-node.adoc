@@ -5,6 +5,7 @@ keywords: storagegrid, recover, appliance storage node failure
 summary: 장애가 발생한 StorageGRID 어플라이언스 스토리지 노드를 복구하는 절차는 시스템 드라이브 손실 또는 스토리지 볼륨 손실에서 복구하든 동일합니다. 
 ---
 = 어플라이언스 스토리지 노드를 복구합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

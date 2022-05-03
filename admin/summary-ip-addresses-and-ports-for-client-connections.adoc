@@ -5,6 +5,7 @@ keywords: ip addresses for client, how to connect to storagegrid, ports, vip
 summary: '클라이언트 애플리케이션은 그리드 노드의 IP 주소와 해당 노드에 있는 서비스의 포트 번호를 사용하여 StorageGRID에 연결할 수 있습니다. 고가용성 \(HA\) 그룹을 구성한 경우 클라이언트 응용 프로그램은 HA 그룹의 가상 IP 주소를 사용하여 연결할 수 있습니다.' 
 ---
 = 요약: 클라이언트 연결을 위한 IP 주소 및 포트
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

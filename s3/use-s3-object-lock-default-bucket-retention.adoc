@@ -5,6 +5,7 @@ keywords: s3 object lock, default bucket retention
 summary: 버킷에 S3 오브젝트 잠금이 활성화된 경우 버킷에 추가된 각 오브젝트에 적용되는 기본 보존 모드와 기본 보존 기간을 지정할 수 있습니다. 
 ---
 = S3 오브젝트 잠금 기본 버킷 보존을 사용합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

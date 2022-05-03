@@ -5,6 +5,7 @@ keywords: bucket access policies, group access policies
 summary:  
 ---
 = 버킷 및 그룹 액세스 정책
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

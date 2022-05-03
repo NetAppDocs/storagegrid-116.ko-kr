@@ -5,6 +5,7 @@ keywords: storagegrid, sg5700, storage node, storage appliance, troubleshoot, tr
 summary: 하드웨어 장애 또는 케이블 연결 오류로 인해 E700SG 컨트롤러가 부팅 프로세스를 완료하지 못하는 경우 StorageGRID 어플라이언스 설치 프로그램을 사용할 수 없습니다. 
 ---
 = 하드웨어 설정이 중단(SG5700)되는 것 같습니다.
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

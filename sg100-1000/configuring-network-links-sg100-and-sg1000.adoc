@@ -5,6 +5,7 @@ keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gat
 summary: 어플라이언스를 그리드 네트워크, 클라이언트 네트워크 및 관리 네트워크에 연결하는 데 사용되는 포트에 대한 네트워크 링크를 구성할 수 있습니다. 링크 속도와 포트 및 네트워크 연결 모드를 설정할 수 있습니다. 
 ---
 = 네트워크 링크 구성(SG100 및 SG1000)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

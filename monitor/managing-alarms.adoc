@@ -5,6 +5,7 @@ keywords: alarms, managing, manage alarms global alarms, custom alarms, triggeri
 summary: StorageGRID 알람 시스템은 정상 작동 중에 가끔 발생하는 문제 지점을 식별하는 데 사용되는 레거시 시스템입니다. 
 ---
 = 알람 관리(기존 시스템)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

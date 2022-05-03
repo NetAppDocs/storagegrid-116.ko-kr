@@ -5,6 +5,7 @@ keywords: firewall access, firewall ports, external firewall
 summary: 방화벽을 통해 액세스를 제어하려면 외부 방화벽에서 특정 포트를 열거나 닫습니다. 
 ---
 = 방화벽을 통한 액세스 제어
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

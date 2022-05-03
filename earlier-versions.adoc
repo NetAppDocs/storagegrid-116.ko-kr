@@ -6,6 +6,7 @@ summary: NetApp StorageGRID 소프트웨어의 이전 릴리즈에 대한 문서
 ---
 = 더 빠른 버전의 NetApp StorageGRID 설명서
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

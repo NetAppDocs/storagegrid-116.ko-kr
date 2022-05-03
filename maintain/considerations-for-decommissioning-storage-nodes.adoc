@@ -5,6 +5,7 @@ keywords: storagegrid, decommission
 summary: 스토리지 노드를 폐기하려는 경우 StorageGRID이 해당 노드에서 오브젝트 데이터 및 메타데이터를 관리하는 방법을 이해해야 합니다. 
 ---
 = 스토리지 노드 파기 관련 고려 사항
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

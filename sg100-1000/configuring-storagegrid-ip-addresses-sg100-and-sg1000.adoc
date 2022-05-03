@@ -5,6 +5,7 @@ keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gat
 summary: StorageGRID 어플라이언스 설치 프로그램을 사용하여 StorageGRID 그리드, 관리자 및 클라이언트 네트워크에서 서비스 어플라이언스에 사용되는 IP 주소 및 라우팅 정보를 구성합니다. 
 ---
 = StorageGRID IP 주소를 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

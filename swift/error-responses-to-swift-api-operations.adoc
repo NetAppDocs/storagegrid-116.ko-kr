@@ -5,6 +5,7 @@ keywords: swift api error responses
 summary: 가능한 오류 응답을 이해하면 작업 문제를 해결하는 데 도움이 됩니다. 
 ---
 = Swift API 작업에 대한 오류 응답
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

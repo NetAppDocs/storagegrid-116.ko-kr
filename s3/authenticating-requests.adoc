@@ -5,6 +5,7 @@ keywords: authenticate requests, authenticating, requests
 summary: StorageGRID 시스템은 S3 API를 사용하여 오브젝트에 대한 인증된 액세스와 익명 액세스를 모두 지원합니다. 
 ---
 = 요청을 인증합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

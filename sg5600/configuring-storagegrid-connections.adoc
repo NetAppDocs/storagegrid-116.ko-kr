@@ -5,6 +5,7 @@ keywords: storagegrid, sg5600, storage node, storage appliance, storagegrid conn
 summary: 'StorageGRID 어플라이언스를 StorageGRID 그리드에 스토리지 노드로 구축하기 전에 어플라이언스와 사용할 네트워크 간의 연결을 구성해야 합니다. E54600 SG 컨트롤러\(어플라이언스의 컴퓨팅 컨트롤러\)에 포함된 StorageGRID 어플라이언스 설치 프로그램으로 이동하여 네트워킹을 구성할 수 있습니다.' 
 ---
 = StorageGRID 연결 구성(SG5600)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

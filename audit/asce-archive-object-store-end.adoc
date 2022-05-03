@@ -5,6 +5,7 @@ keywords: storagegrid, audit, message, ASCE, Archive Object Store End
 summary: 이 메시지는 외부 아카이브 스토리지 시스템에 콘텐츠 블록을 쓰는 작업이 종료되었음을 나타냅니다. 
 ---
 = ASCE: 아카이브 객체 저장소 종료
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: fabricpool, ONTAP certificates
 summary: 엄격한 호스트 이름 유효성 검사를 수행하고 FabricPool를 사용하는 ONTAP 클라이언트와 같은 엄격한 호스트 이름 유효성 검사를 사용하지 않는 S3 클라이언트의 경우 로드 밸런서 끝점을 구성할 때 서버 인증서를 생성하거나 업로드할 수 있습니다. 
 ---
 = FabricPool용 StorageGRID 인증서를 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

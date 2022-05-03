@@ -5,6 +5,7 @@ keywords: storagegrid, archive node, tsm, tsm middleware, middleware
 summary: 아카이브 노드는 TSM 미들웨어 서버를 통해 테이프나 S3 API를 통해 클라우드로 대상을 겨냥하도록 구성할 수 있습니다. 구성한 후에는 아카이브 노드 타겟을 변경할 수 없습니다. 
 ---
 = TSM 미들웨어를 위한 아카이브 노드 유지 보수
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

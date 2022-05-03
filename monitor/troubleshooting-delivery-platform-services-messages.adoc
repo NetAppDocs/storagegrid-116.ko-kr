@@ -5,6 +5,7 @@ keywords: how to troubleshoot delivery of platform services message, how to trou
 summary: '플랫폼 서비스 메시지가 데이터를 수용할 수 없는 대상으로 전달될 경우 그리드 관리자에서 SMTT(Total Events) 경보가 트리거됩니다.' 
 ---
 = 플랫폼 서비스 메시지 전달 문제 해결(SMTT 알람)
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/

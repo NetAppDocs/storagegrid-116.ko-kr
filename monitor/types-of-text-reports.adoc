@@ -5,6 +5,7 @@ keywords: how to use text reports
 summary: 텍스트 보고서는 NMS 서비스에서 처리한 속성 데이터 값의 텍스트 표현을 표시합니다. 보고하는 기간에 따라 두 가지 유형의 보고서가 생성됩니다. 즉, 주 미만의 기간에 대한 원시 텍스트 보고서와 주 이상의 기간에 대한 텍스트 보고서를 집계합니다. 
 ---
 = 텍스트 보고서를 사용합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

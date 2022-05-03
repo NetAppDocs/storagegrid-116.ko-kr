@@ -5,6 +5,7 @@ keywords: how to create ILM policy, policy for S3 object lock
 summary: 전역 S3 개체 잠금 설정이 활성화된 경우 정책 생성 단계가 약간 다릅니다. ILM 정책이 S3 오브젝트 잠금이 설정된 버킷의 요구사항을 준수하는지 확인해야 합니다. 
 ---
 = S3 오브젝트 잠금이 활성화된 후 ILM 정책을 생성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

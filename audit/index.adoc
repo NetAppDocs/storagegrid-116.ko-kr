@@ -5,6 +5,7 @@ keywords: storagegrid, audit, message, log, structure, content
 summary: 이 지침에는 StorageGRID 감사 메시지 및 감사 로그의 구조 및 내용에 대한 정보가 포함되어 있습니다. 이 정보를 사용하여 시스템 활동의 감사 추적을 읽고 분석할 수 있습니다. 
 ---
 = 감사 로그 검토: 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

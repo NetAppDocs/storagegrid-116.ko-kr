@@ -5,6 +5,7 @@ keywords: alarms, monitor alarms, snmp notification, snmp
 summary: 다음 표에는 SNMP 알림을 생성하는 기존 경보가 나열되어 있습니다. 경고와 달리 모든 알람에서 SNMP 알림이 생성되는 것은 아닙니다. 나열된 알람만 SNMP 알림을 생성하고, 표시된 심각도 이상에서만 알림을 생성합니다. 
 ---
 = SNMP 알림을 생성하는 알람(레거시 시스템)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: how to configure load balancer endpoint, how to attach certificate to 
 summary: 로드 밸런서 끝점은 게이트웨이 및 관리 노드의 StorageGRID 로드 밸런서에 연결할 때 사용할 수 있는 포트 및 네트워크 프로토콜 S3 및 Swift 클라이언트를 결정합니다. 
 ---
 = 로드 밸런서 엔드포인트를 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

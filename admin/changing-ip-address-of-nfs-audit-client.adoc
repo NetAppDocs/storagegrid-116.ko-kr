@@ -5,6 +5,7 @@ keywords: NFS audit client, change IP address
 summary: NFS 감사 클라이언트의 IP 주소를 변경해야 하는 경우 다음 단계를 완료합니다. 
 ---
 = NFS 감사 클라이언트의 IP 주소를 변경합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

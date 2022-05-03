@@ -5,6 +5,7 @@ keywords: storagegrid, recovery
 summary: 그리드 노드에 장애가 발생할 경우 장애가 발생한 물리적 또는 가상 서버를 교체하고, StorageGRID 소프트웨어를 재설치하고, 복구 가능한 데이터를 복구하여 복구할 수 있습니다. 
 ---
 = 그리드 노드 복구 절차
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

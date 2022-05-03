@@ -5,6 +5,7 @@ keywords: swift options request
 summary: 옵션 요청은 개별 Swift 서비스의 사용 가능 여부를 확인합니다. 옵션 요청은 URL에 지정된 스토리지 노드 또는 게이트웨이 노드에 의해 처리됩니다. 
 ---
 = 옵션 요청
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

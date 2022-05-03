@@ -5,6 +5,7 @@ keywords: determing ilm policy, ilm for migrated data
 summary: StorageGRID 시스템의 ILM 정책은 복사본 수, 복사본이 저장되는 위치 및 복사본 보유 기간을 결정합니다. ILM 정책은 시간 경과에 따라 개체를 필터링하고 개체 데이터를 관리하는 방법을 설명하는 ILM 규칙 집합으로 구성되어 있습니다. 
 ---
 = 마이그레이션된 데이터에 대한 ILM 정책을 결정합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

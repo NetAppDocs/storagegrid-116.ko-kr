@@ -5,6 +5,7 @@ keywords: storagegrid, hotfix
 summary: 핫픽스를 적용하면 StorageGRID 시스템의 노드에 일련의 누적 소프트웨어 업데이트가 적용됩니다. 
 ---
 = 핫픽스 적용 시 고려 사항
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: how to configure Docker storage volume
 summary: Docker를 설치하기 전에 Docker 스토리지 볼륨을 포맷하고 /var/lib/docker에 마운트해야 할 수 있습니다. 
 ---
 = Docker 스토리지 볼륨을 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

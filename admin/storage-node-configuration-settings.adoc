@@ -5,6 +5,7 @@ keywords: storage node, configuration settings, counters
 summary: '각 스토리지 노드는 여러 가지 구성 설정 및 카운터를 사용합니다. 현재 설정을 보거나 카운터를 재설정하여 경보를 지워야 할 수도 있습니다.\(기존 시스템\)' 
 ---
 = 스토리지 노드 구성 설정입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

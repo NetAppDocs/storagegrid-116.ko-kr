@@ -5,6 +5,7 @@ keywords: object, delete, deletion, object lock, bucket lifecycle, expiration, i
 summary: 클라이언트가 삭제 작업을 수행하거나 개체의 수명이 만료될 때 모든 개체 복사본이 StorageGRID 시스템에서 제거되어 자동 제거가 트리거됩니다. 개체 삭제에 대해 정의된 데이터 흐름이 있습니다. 
 ---
 = 데이터 흐름을 삭제합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

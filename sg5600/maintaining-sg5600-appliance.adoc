@@ -5,6 +5,7 @@ keywords: storagegrid, sg5600, storage node, storage appliance, maintain, mainta
 summary: E2700 컨트롤러에서 SANtricity OS 소프트웨어를 업그레이드하거나 E2700 컨트롤러 또는 E5500SG 컨트롤러를 교체하거나 특정 구성요소를 교체해야 할 수 있습니다. 이 섹션의 절차에서는 어플라이언스가 이미 StorageGRID 시스템의 스토리지 노드로 구축되었다고 가정합니다. 
 ---
 = SG5600 어플라이언스 유지
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

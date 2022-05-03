@@ -5,6 +5,7 @@ keywords: what is information lifecycle rule, ilm rule
 summary: '개체를 관리하려면 ILM(정보 수명 주기 관리) 규칙 집합을 만들고 이를 ILM 정책으로 구성합니다. 시스템으로 수집된 모든 오브젝트는 활성 정책에 따라 평가됩니다. 정책의 규칙이 개체의 메타데이터와 일치하면 규칙의 지침에 따라 StorageGRID에서 해당 개체를 복사 및 저장하기 위해 수행할 작업이 결정됩니다.' 
 ---
 = ILM 규칙이란 무엇입니까
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

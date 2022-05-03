@@ -5,6 +5,7 @@ keywords: how to use s3 console
 summary: S3 콘솔을 사용하여 S3 버킷의 오브젝트를 볼 수 있습니다. 
 ---
 = Experimental S3 Console을 사용합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

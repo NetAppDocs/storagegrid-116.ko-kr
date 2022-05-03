@@ -5,6 +5,7 @@ keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gat
 summary: 제품을 설치하기 전에 StorageGRID 어플라이언스의 사양을 충족하는 사이트와 캐비닛 또는 랙이 맞는지 확인해야 합니다. 
 ---
 = 사이트 준비(SG100 및 SG1000)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

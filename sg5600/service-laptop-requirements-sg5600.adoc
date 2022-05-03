@@ -5,6 +5,7 @@ keywords: storagegrid, sg5600, storage node, storage appliance, service, laptop,
 summary: StorageGRID 어플라이언스 하드웨어를 설치하기 전에 서비스 랩톱에 필요한 최소 리소스가 있는지 확인해야 합니다. 
 ---
 = 서비스 랩톱 요구 사항
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

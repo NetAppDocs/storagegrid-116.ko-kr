@@ -5,6 +5,7 @@ keywords: fabricPool, high availability group, HA group, active-active, active-b
 summary: 'StorageGRID를 FabricPool 클라우드 계층으로 첨부하기 전에 StorageGRID 그리드 관리자를 사용하여 고가용성\(HA\) 그룹을 구성해야 합니다.' 
 ---
 = 고가용성 그룹에 대한 Best Practice
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

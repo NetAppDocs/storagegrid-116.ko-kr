@@ -5,6 +5,7 @@ keywords: storagegrid, sg5700, storage node, storage appliance, controllers, con
 summary: StorageGRID 어플라이언스의 SG5712 및 SG5760 모델에는 모두 E5500SG 컨트롤러와 E2800 컨트롤러가 포함됩니다. 컨트롤러 간의 차이점을 알아보려면 다이어그램을 검토해야 합니다. 
 ---
 = StorageGRID 어플라이언스의 컨트롤러
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

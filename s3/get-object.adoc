@@ -5,6 +5,7 @@ keywords: get object
 summary: S3 오브젝트 가져오기 요청을 사용하여 S3 버킷에서 오브젝트를 검색할 수 있습니다. 
 ---
 = 객체 가져오기
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

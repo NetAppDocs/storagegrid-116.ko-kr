@@ -5,6 +5,7 @@ keywords: cloud storage pool with C2S, commercial cloud services, c2s access por
 summary: 'C2S(Commercial Cloud Services) S3 서비스를 클라우드 스토리지 풀로 사용하려면 C2S 액세스 포털\(CAP\)을 인증 유형으로 구성해야 합니다. 그러면 StorageGRID가 C2S 계정의 S3 버킷을 액세스하기 위한 임시 자격 증명을 요청할 수 있습니다.' 
 ---
 = C2S S3: 클라우드 스토리지 풀에 대한 인증 세부 정보를 지정합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

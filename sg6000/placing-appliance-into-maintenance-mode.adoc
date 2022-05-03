@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, maintenance mode
 summary: 특정 유지보수 절차를 수행하기 전에 제품을 유지보수 모드로 전환해야 합니다. 
 ---
 = 제품을 유지보수 모드로 전환합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

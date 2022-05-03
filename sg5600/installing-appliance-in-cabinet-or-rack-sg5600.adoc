@@ -5,6 +5,7 @@ keywords: storagegrid, sg5600, storage node, storage appliance, install, install
 summary: 캐비닛이나 랙에 레일을 설치한 다음 제품을 레일에 밀어 넣으십시오. SG5660을 사용하는 경우 어플라이언스를 설치한 후 드라이브를 설치해야 합니다. 
 ---
 = 캐비닛 또는 랙에 어플라이언스 설치(SG5600)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

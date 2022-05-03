@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, remove, removing
 summary: 캐비닛 또는 랙에서 SG6000-CN 컨트롤러를 분리하여 상단 덮개에 액세스하거나 컨트롤러를 다른 위치로 이동합니다. 
 ---
 = 캐비닛 또는 랙에서 SG6000-CN 컨트롤러를 제거합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: troubleshoot autosupport, asup message
 summary: AutoSupport 메시지 전송 시도가 실패하면 StorageGRID 시스템은 AutoSupport 메시지 유형에 따라 다른 작업을 수행합니다. 지원\>도구\>AutoSupport\>결과 를 선택하여 AutoSupport 메시지의 상태를 확인할 수 있습니다. 
 ---
 = AutoSupport 메시지 문제 해결
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: multipart upload, object, object size
 summary: 전체 다중 파트 업로드 작업은 이전에 업로드한 파트를 조립하여 개체의 여러 부분 업로드를 완료합니다. 
 ---
 = 멀티파트 업로드를 완료합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

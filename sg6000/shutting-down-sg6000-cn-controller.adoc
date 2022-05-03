@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, power off, turn 
 summary: SG6000-CN 컨트롤러를 종료하여 하드웨어 유지 관리를 수행합니다. 
 ---
 = SG6000-CN 컨트롤러를 종료합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

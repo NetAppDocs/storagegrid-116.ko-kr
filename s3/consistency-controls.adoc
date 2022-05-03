@@ -5,6 +5,7 @@ keywords: consistency controls
 summary: 일관성 제어는 애플리케이션의 요구에 따라 오브젝트의 가용성과 서로 다른 스토리지 노드 및 사이트 전체에서 오브젝트의 일관성 간에 균형을 조정합니다. 
 ---
 = 일관성 제어
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

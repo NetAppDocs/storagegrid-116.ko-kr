@@ -5,6 +5,7 @@ keywords: how data migration affects operations
 summary: StorageGRID 시스템은 오브젝트 스토리지 및 검색을 위한 효율적인 작업을 제공하고 오브젝트 데이터 및 메타데이터의 중복 복사본을 지속적으로 생성하여 데이터 손실로부터 데이터를 완벽하게 보호하도록 설계되었습니다. 
 ---
 = 마이그레이션이 운영에 미치는 영향
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

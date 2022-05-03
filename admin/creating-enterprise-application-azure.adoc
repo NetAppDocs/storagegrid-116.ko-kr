@@ -5,6 +5,7 @@ keywords: enterprise application, azure ad, single sign on, sso
 summary: Azure AD를 사용하여 시스템의 각 관리 노드에 대한 엔터프라이즈 애플리케이션을 생성합니다. 
 ---
 = Azure AD에서 엔터프라이즈 애플리케이션을 생성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

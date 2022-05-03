@@ -5,6 +5,7 @@ keywords: ha groups, best practices, high availability group options
 summary: 다음 다이어그램에서는 HA 그룹을 구성할 수 있는 다양한 방법의 예를 제공합니다. 각 옵션에는 장단점이 있습니다. 
 ---
 = HA 그룹에 대한 구성 옵션
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

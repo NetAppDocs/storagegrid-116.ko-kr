@@ -1,4 +1,5 @@
 = repair-data 스크립트 정보
+:allow-uri-read: 
 
 
 .무엇을 &#8217;필요로 할거야

@@ -5,6 +5,7 @@ keywords: storagegrid, sg5700, storage node, storage appliance, wire, wiring, ca
 summary: 어플라이언스에 전원을 공급하면 두 컨트롤러가 모두 부팅됩니다. 
 ---
 = 전원 코드 연결 및 전원 공급(SG5700)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

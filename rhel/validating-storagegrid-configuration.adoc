@@ -5,6 +5,7 @@ keywords: how to validate red hat linux centos configuration
 summary: 각 StorageGRID 노드에 대해 /etc/StorageGrid/nodes에서 구성 파일을 생성한 후 해당 파일의 내용을 확인해야 합니다. 
 ---
 = StorageGRID 구성을 검증합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

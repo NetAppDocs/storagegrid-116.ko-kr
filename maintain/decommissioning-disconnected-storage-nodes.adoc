@@ -5,6 +5,7 @@ keywords: storagegrid, connected nodes, decommission node, storage node, disconn
 summary: 스토리지 노드의 접속이 끊어지는 동안 스토리지 노드의 서비스를 해제할 경우 어떤 일이 발생할지 이해해야 합니다. 상태는 Unknown 또는 Administratively Down\ 입니다. 
 ---
 = 연결이 끊긴 스토리지 노드의 서비스 해제
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

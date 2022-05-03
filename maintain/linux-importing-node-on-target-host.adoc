@@ -5,6 +5,7 @@ keywords: storagegrid, recover, linux, import node, importing node, target host
 summary: 소스 호스트에서 노드를 내보낸 후 타겟 Linux 호스트에서 노드를 가져오고 유효성을 검사합니다. 검증에서 노드가 소스 호스트와 동일한 블록 스토리지 및 네트워크 인터페이스 디바이스를 액세스할 수 있는지 확인합니다. 
 ---
 = Linux: 대상 호스트에서 노드 가져오기
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

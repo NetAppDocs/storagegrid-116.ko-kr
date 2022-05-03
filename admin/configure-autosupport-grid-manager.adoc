@@ -5,6 +5,7 @@ keywords: how to configure autosupport, what is autosupport-on-demand
 summary: StorageGRID를 처음 설치할 때 AutoSupport 기능 및 개별 AutoSupport 옵션을 활성화하거나 나중에 활성화할 수 있습니다. 
 ---
 = AutoSupport를 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

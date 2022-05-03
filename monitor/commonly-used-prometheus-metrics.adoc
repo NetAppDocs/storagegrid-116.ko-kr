@@ -5,6 +5,7 @@ keywords: prometheus, Prometheus metrics, metrics
 summary: 관리 노드의 Prometheus 서비스는 모든 노드의 서비스에서 시계열 메트릭을 수집합니다. Prometheus는 1,000개 이상의 메트릭을 수집하지만 가장 중요한 StorageGRID 작업을 모니터링하려면 상대적으로 적은 수의 수치가 필요합니다. 
 ---
 = 일반적으로 사용되는 Prometheus 메트릭입니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

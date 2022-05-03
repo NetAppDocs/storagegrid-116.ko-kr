@@ -5,6 +5,7 @@ keywords: archive node connection to s3, arc service
 summary: S3 인터페이스를 사용하여 아카이브 노드에 연결하는 경우 S3 API에 대한 연결 설정을 구성해야 합니다. 이러한 설정이 구성될 때까지 ARC 서비스는 외부 아카이브 스토리지 시스템과 통신할 수 없기 때문에 주요 알람 상태를 유지합니다. 
 ---
 = S3 API에 대한 연결 설정을 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gat
 summary: StorageGRID 어플라이언스 설치 중에 연결 문제가 발생하면 나열된 수정 조치 단계를 수행해야 합니다. 
 ---
 = 연결 문제 해결(SG100 및 SG1000)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

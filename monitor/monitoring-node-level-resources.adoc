@@ -5,6 +5,7 @@ keywords: monitoring, monitoring node-level resources, grid nodes
 summary: 개별 그리드 노드를 모니터링하여 리소스 활용도 수준을 확인해야 합니다. 
 ---
 = 노드 레벨 리소스를 모니터링합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

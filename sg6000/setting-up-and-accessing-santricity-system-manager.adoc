@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, SANtricity Syste
 summary: 스토리지 컨트롤러의 하드웨어를 모니터링하거나 E-Series AutoSupport를 구성하려면 스토리지 컨트롤러의 SANtricity System Manager에 액세스해야 할 수 있습니다. 
 ---
 = SANtricity 시스템 관리자를 설정하고 액세스합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

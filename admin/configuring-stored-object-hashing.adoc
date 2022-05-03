@@ -5,6 +5,7 @@ keywords: stored object hashing, hashing algorithm, sha-1, sha-256
 summary: 저장된 개체 해싱 옵션은 개체 무결성을 확인하는 데 사용되는 해시 알고리즘을 지정합니다. 
 ---
 = 저장된 객체 해싱을 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

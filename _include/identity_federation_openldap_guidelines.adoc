@@ -1,4 +1,5 @@
 = MemberOf 및 구체화 오버레이
+:allow-uri-read: 
 
 
 OpenLDAP 서버를 ID 페더레이션에 사용하려면 OpenLDAP 서버에서 특정 설정을 구성해야 합니다.

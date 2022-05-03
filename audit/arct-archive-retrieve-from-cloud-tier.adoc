@@ -5,6 +5,7 @@ keywords: storagegrid, audit, message, ARCT, Archive Retrieve from Cloud-Tier
 summary: 이 메시지는 S3 API를 통해 StorageGRID에 연결되는 외부 아카이브 스토리지 시스템에서 아카이빙된 오브젝트 데이터를 검색할 때 생성됩니다. 
 ---
 = ARCT: 클라우드 계층에서 아카이브 검색
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

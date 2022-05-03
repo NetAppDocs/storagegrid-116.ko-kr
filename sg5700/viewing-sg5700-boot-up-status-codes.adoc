@@ -5,6 +5,7 @@ keywords: storagegrid, sg5700, storage node, storage appliance, boot codes, boot
 summary: 각 컨트롤러에 7개의 세그먼트가 표시되면 어플라이언스 전원이 켜질 때 상태 및 오류 코드가 표시됩니다. 
 ---
 = SG5700 부팅 상태 코드를 봅니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, boot codes, boot
 summary: 각 스토리지 컨트롤러에는 컨트롤러 전원이 켜질 때 상태 코드를 제공하는 7개의 세그먼트 디스플레이가 있습니다. 상태 코드는 E2800 컨트롤러와 EF570 컨트롤러에서 동일합니다. 
 ---
 = SG6000 스토리지 컨트롤러의 부팅 상태 코드를 봅니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

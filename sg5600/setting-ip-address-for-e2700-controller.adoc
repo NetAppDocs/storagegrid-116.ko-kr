@@ -5,6 +5,7 @@ keywords: storagegrid, sg5600, storage node, storage appliance, storage controll
 summary: E2700 컨트롤러의 관리 포트 1은 SANtricity 스토리지 관리자를 위한 관리 네트워크에 어플라이언스를 연결합니다. StorageGRID 어플라이언스의 하드웨어 및 컨트롤러 펌웨어에 대한 관리 연결이 끊어지지 않도록 하려면 E2700 컨트롤러의 정적 IP 주소를 설정해야 합니다. 
 ---
 = E2700 컨트롤러의 IP 주소를 설정합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

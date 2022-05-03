@@ -5,6 +5,7 @@ keywords: storagegrid, sg5700, storage node, storage appliance, Replacing, repla
 summary: StorageGRID 제품에서 컨트롤러 배터리, 드라이브, 팬 또는 전원 공급 장치를 교체해야 할 수 있습니다. 
 ---
 = 다른 하드웨어 구성 요소를 교체합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

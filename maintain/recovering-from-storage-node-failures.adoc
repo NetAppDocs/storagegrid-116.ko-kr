@@ -5,6 +5,7 @@ keywords: storagegrid, recover, storage node failure
 summary: 장애가 발생한 스토리지 노드를 복구하는 절차는 장애 유형과 장애가 발생한 스토리지 노드 유형에 따라 다릅니다. 
 ---
 = 스토리지 노드 장애 복구
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

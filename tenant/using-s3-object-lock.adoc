@@ -5,6 +5,7 @@ keywords: how to use s3 object lock
 summary: 오브젝트가 보존 규정 요구사항을 충족해야 하는 경우 StorageGRID의 S3 오브젝트 잠금 기능을 사용할 수 있습니다. 
 ---
 = 테넌트에 S3 오브젝트 잠금을 사용합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

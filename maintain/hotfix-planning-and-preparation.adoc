@@ -5,6 +5,7 @@ keywords: storagegrid, hotfix, prepare for a hotfix, plan for a hotfix
 summary: StorageGRID 시스템에 대한 중단을 최소화하기 위해 핫픽스를 적용하기 전에 계획을 세워야 합니다. 
 ---
 = 핫픽스를 계획하고 준비합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

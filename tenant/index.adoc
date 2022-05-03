@@ -5,6 +5,7 @@ keywords: use tenant account
 summary: '테넌트 계정을 사용하면 S3(Simple Storage Service) REST API 또는 Swift REST API를 사용하여 StorageGRID 시스템에 오브젝트를 저장하고 검색할 수 있습니다.' 
 ---
 = 테넌트 계정 사용: 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

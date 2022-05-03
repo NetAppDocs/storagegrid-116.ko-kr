@@ -5,6 +5,7 @@ keywords: autosupport, active IQ, logs, audit.log, metrics, diagnostics
 summary: 그리드 관리자는 StorageGRID 시스템에 문제가 발생한 경우 기술 지원 부서에 문의할 수 있는 옵션을 제공합니다. 
 ---
 = StorageGRID 지원 옵션을 사용합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

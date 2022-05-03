@@ -5,6 +5,7 @@ keywords: verify ilm policy, object metadata lookup
 summary: ILM 정책을 활성화한 후 대표 테스트 개체를 StorageGRID 시스템으로 수집해야 합니다. 그런 다음 개체 메타데이터 조회를 수행하여 복사본이 의도한 대로 작성되고 올바른 위치에 배치되고 있는지 확인해야 합니다. 
 ---
 = 개체 메타데이터 조회를 통해 ILM 정책을 확인합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

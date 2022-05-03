@@ -5,6 +5,7 @@ keywords: monitor object ingest rates, view object ingest rates, monitor object 
 summary: 오브젝트 수집 및 검색 속도와 오브젝트 수, 쿼리, 검증을 위한 메트릭을 모니터링할 수 있습니다. 클라이언트 응용 프로그램이 StorageGRID 시스템에서 개체를 읽고, 쓰고, 수정하는 데 성공한 시도 및 실패한 시도 횟수를 볼 수 있습니다. 
 ---
 = 오브젝트 수집 및 검색 속도 모니터링
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

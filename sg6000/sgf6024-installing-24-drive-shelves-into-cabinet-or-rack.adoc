@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, install, install
 summary: 캐비닛 또는 랙에 EF570 컨트롤러 셸프용 레일 세트를 설치한 다음 레일을 따라 어레이를 밀어 올려야 합니다. 
 ---
 = SGF6024: 캐비닛 또는 랙에 24 드라이브 쉘프를 설치합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

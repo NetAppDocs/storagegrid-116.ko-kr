@@ -5,6 +5,7 @@ keywords: audit log actions tracked
 summary: StorageGRID 감사 로그에서 여러 버킷 작업 및 오브젝트 작업을 추적합니다. 
 ---
 = 감사 로그에서 S3 작업을 추적했습니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

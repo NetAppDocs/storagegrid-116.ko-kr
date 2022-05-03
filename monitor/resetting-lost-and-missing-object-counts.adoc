@@ -5,6 +5,7 @@ keywords: how to reset lost object count, how to reset missing object count
 summary: StorageGRID 시스템을 조사하고 기록된 손실된 개체가 모두 영구적으로 손실되거나 잘못된 알람인지 확인한 후 손실된 개체 속성의 값을 0으로 다시 설정할 수 있습니다. 
 ---
 = 분실 및 누락된 개체 수를 재설정합니다
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/

@@ -5,6 +5,7 @@ keywords: create ILM policy, information lifecycle policy considerations
 summary: ILM 정책을 만들 때는 먼저 ILM 규칙을 선택하고 정렬해야 합니다. 그런 다음 이전에 수집된 개체에 대해 제안된 정책을 시뮬레이션하여 해당 정책의 동작을 확인합니다. 제안된 정책이 의도한 대로 작동하고 있다고 만족하면 이를 활성화하여 활성 정책을 생성할 수 있습니다. 
 ---
 = ILM 정책 생성: 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: S3 Select, object retrieval
 summary: S3 클라이언트가 개체에서 S3 Select 쿼리를 실행하면 감사 메시지가 생성되고 감사 로그에 저장됩니다. 
 ---
 = 예: S3 오브젝트에서 선택합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

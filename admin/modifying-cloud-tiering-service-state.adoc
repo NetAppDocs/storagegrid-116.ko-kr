@@ -5,6 +5,7 @@ keywords: cloud tiering
 summary: Cloud Tiering Service의 상태를 변경하여 S3 API를 통해 연결되는 타겟 외부 아카이브 스토리지 시스템에 대한 아카이브 노드의 읽기 및 쓰기 기능을 제어할 수 있습니다. 
 ---
 = Cloud Tiering Service 상태를 수정합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

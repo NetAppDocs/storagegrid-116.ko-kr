@@ -5,6 +5,7 @@ keywords: storagegrid, recover, linux, export node, linux source host
 summary: 그리드 노드를 종료하고 소스 Linux 호스트에서 내보냅니다. 
 ---
 = Linux: 소스 호스트에서 노드를 내보냅니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

@@ -5,6 +5,7 @@ keywords: lost objects, investigating, objects
 summary: Objects Lost * 경고가 트리거되면 즉시 조사해야 합니다. 영향을 받는 개체에 대한 정보를 수집하고 기술 지원 부서에 문의하십시오. 
 ---
 = 손실된 개체를 조사합니다
+:allow-uri-read: 
 :experimental: 
 :icons: font
 :imagesdir: ../media/

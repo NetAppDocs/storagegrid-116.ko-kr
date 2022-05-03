@@ -5,6 +5,7 @@ keywords: S3 REST API, S3 operations, deprecated bucket requests for compliance
 summary: SGCompliance XML 요소는 사용되지 않습니다. 이전 버전에서는 이 StorageGRID 사용자 정의 요소를 PUT 버킷 요청의 선택적 XML 요청 본문에 포함하여 준수 버킷을 생성할 수 있었습니다. 
 ---
 = 사용되지 않음: 규정 준수를 위해 버킷 요청 수정을 배치합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

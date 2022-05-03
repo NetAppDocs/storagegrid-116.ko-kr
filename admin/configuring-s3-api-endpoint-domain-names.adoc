@@ -5,6 +5,7 @@ keywords: s3 api, endpoint domain names, virtual hosted-style requests
 summary: S3 가상 호스팅 스타일 요청을 지원하려면 Grid Manager를 사용하여 S3 클라이언트가 연결하는 끝점 도메인 이름 목록을 구성해야 합니다. 
 ---
 = S3 API 엔드포인트 도메인 이름을 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

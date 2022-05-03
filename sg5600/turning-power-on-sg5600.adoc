@@ -5,6 +5,7 @@ keywords: storagegrid, sg5600, storage node, storage appliance, power on, power,
 summary: 엔클로저의 전원을 켜면 두 컨트롤러에 전원이 제공됩니다. 
 ---
 = 전원 켜기(SG5600)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

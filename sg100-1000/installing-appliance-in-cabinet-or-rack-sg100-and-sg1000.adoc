@@ -5,6 +5,7 @@ keywords: storagegrid, sg100, sg1000, service appliance, services appliance, gat
 summary: 캐비닛이나 랙에 제품 레일 세트를 설치한 다음 제품을 레일에 밀어 넣으십시오. 
 ---
 = 캐비닛 또는 랙에 어플라이언스 설치(SG100 및 SG1000)
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

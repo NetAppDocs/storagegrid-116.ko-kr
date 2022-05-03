@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, sg6000-cn, hba, 
 summary: 교체용 Fibre Channel HBA가 제거된 위치와 동일한 위치에 설치됩니다. 
 ---
 = Fibre Channel HBA를 다시 설치합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

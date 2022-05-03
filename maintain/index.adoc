@@ -5,6 +5,7 @@ keywords: maintain overview, maintenance overview, about maintain, about mainten
 summary: 다음 지침에 따라 StorageGRID 시스템을 유지보수하고 장애로부터 복구합니다. 
 ---
 = 복구 및 유지 관리: 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

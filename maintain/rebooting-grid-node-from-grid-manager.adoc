@@ -5,6 +5,7 @@ keywords: storagegrid, recover, reboot node, grid manager
 summary: Grid Manager에서 그리드 노드를 재부팅하면 타겟 노드에 reboot 명령이 실행됩니다. 
 ---
 = Grid Manager에서 그리드 노드를 재부팅합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

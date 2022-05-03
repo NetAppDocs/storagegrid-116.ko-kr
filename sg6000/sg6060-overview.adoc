@@ -5,6 +5,7 @@ keywords: storagegrid, sg6000, storage node, storage appliance, overview, models
 summary: StorageGRID SG6060 어플라이언스에는 2개의 스토리지 컨트롤러와 60개의 드라이브를 포함하는 스토리지 컨트롤러 쉘프가 포함되어 있습니다. 선택적으로 60개 드라이브 확장 쉘프를 어플라이언스에 추가할 수 있습니다. 
 ---
 = SG6060 개요
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

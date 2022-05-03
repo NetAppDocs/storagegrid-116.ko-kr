@@ -5,6 +5,7 @@ keywords: how to create Swift tenant groups
 summary: 통합 그룹을 가져오거나 로컬 그룹을 생성하여 Swift 테넌트 계정에 대한 액세스 권한을 관리할 수 있습니다. 하나 이상의 그룹에 Swift 관리자 권한이 있어야 합니다. 이 권한은 Swift 테넌트 계정의 컨테이너 및 개체를 관리하는 데 필요합니다. 
 ---
 = Swift 테넌트의 그룹을 생성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

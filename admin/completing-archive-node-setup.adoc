@@ -5,6 +5,7 @@ keywords: archive node setup
 summary: 설치 프로세스를 완료한 후에는 아카이브 노드가 작동하지 않습니다. StorageGRID 시스템에서 TSM 아카이브 노드에 객체를 저장하려면 먼저 TSM 서버의 설치 및 구성을 완료하고 TSM 서버와 통신하도록 아카이브 노드를 구성해야 합니다. 
 ---
 = 아카이브 노드 설정을 완료합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

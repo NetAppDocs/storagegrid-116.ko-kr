@@ -5,6 +5,7 @@ keywords: storage pool guidelines
 summary: 스토리지 풀을 구성 및 사용할 때는 다음 지침을 따르십시오. 
 ---
 = 스토리지 풀 생성 지침
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

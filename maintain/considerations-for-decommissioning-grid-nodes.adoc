@@ -5,6 +5,7 @@ keywords: storagegrid, decommission
 summary: 이 절차를 시작하여 하나 이상의 노드를 폐기하기 전에 각 노드 유형을 제거할 때의 영향을 이해해야 합니다. 노드가 성공적으로 해제되면 해당 서비스가 비활성화되고 노드가 자동으로 종료됩니다. 
 ---
 = 그리드 노드 해제에 대한 고려 사항
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

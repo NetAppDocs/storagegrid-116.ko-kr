@@ -5,6 +5,7 @@ keywords: swift configure tenant account, swift configure tenant connection
 summary: 클라이언트 응용 프로그램에서 연결을 허용하도록 StorageGRID를 구성하려면 하나 이상의 테넌트 계정을 만들고 연결을 설정해야 합니다. 
 ---
 = 테넌트 계정 및 연결을 구성합니다
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 

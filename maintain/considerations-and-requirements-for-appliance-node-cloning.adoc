@@ -5,6 +5,7 @@ keywords: storagegrid, clone appliance node, cloning appliance node
 summary: 어플라이언스 노드를 클론 복제하기 전에 고려 사항 및 요구 사항을 이해해야 합니다. 
 ---
 = 어플라이언스 노드 클론 생성을 위한 고려 사항 및 요구 사항
+:allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
