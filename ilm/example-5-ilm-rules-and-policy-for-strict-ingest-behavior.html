@@ -45,12 +45,52 @@
   <link rel="stylesheet" href='/ko-kr/storagegrid-116/css/na-utility.css' type='text/css'>
   <link rel="stylesheet" href='/ko-kr/storagegrid-116/css/na-sidebar.css' type='text/css'>
   <link rel='stylesheet' href='/ko-kr/storagegrid-116/css/clouddocs.css' type='text/css'>
+  <link rel='stylesheet' href='/ko-kr/storagegrid-116/css/custom-dropdown.css' type='text/css'>
   <link rel='stylesheet' href='/ko-kr/storagegrid-116/css/na-pagenav.css' type='text/css'>
 
   
   <link rel="stylesheet" href="/ko-kr/storagegrid-116/css/landing-page.css" type="text/css">
   <link rel="stylesheet" href="/ko-kr/storagegrid-116/css/tabbed-blocks.css" type="text/css">
-  <link rel='stylesheet' href='/ko-kr/storagegrid-116/css/na-feature.css' type='text/css'><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!-- Canonical url -->
+  <link rel='stylesheet' href='/ko-kr/storagegrid-116/css/na-feature.css' type='text/css'><!-- Top level site integrations --><script>
+    if (document.location.hostname === "docs.netapp.com") {
+      var head = document.getElementsByTagName('head')[0];
+      var onetrustConsent = document.createElement("script");
+      onetrustConsent.type = "text/javascript";
+      onetrustConsent.src = "https://cdn.cookielaw.org/consent/72570c5c-fe30-465f-b0e0-b77f7fb4ae34/OtAutoBlock.js";
+      head.appendChild(onetrustConsent);
+
+      var onetrustScript = document.createElement("script");
+      onetrustScript.type = "text/javascript";
+      onetrustScript.src = "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js";
+      onetrustScript.charset = "UTF-8";
+      onetrustScript.dataset.documentLanguage = "true";
+      onetrustScript.dataset.domainScript = "72570c5c-fe30-465f-b0e0-b77f7fb4ae34";
+      head.appendChild(onetrustScript);
+    }
+
+    function OptanonWrapper() { }
+
+    if (document.location.hostname === "docs.netapp.com") {
+      var adobe = document.createElement("script");
+      adobe.type = "text/plain";
+      adobe.className = "optanon-category-C0002";
+      adobe.src = "//assets.adobedtm.com/60287eadf1ee/c284da483c83/launch-e9ff3acac59f.min.js";
+      head.appendChild(adobe);
+
+      var google = document.createElement("script");
+      google.type = "text/plain";
+      google.className = "optanon-category-C0002";
+      google.src = "https://www.googletagmanager.com/gtag/js?id=UA-81697994-3";
+      head.appendChild(google);
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-81697994-3');
+    }
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 
   <!-- Used for Product Family Page Sidebar Visibility --><!-- Used to import Promise for IE. Required for SearchKit -->
@@ -60,15 +100,6 @@
 
   <script src='/ko-kr/storagegrid-116/js/na-utility.js'></script>
   <script src='/ko-kr/storagegrid-116/js/clouddocs.js'></script>
-  <script>
-  if (document.location.hostname === "docs.netapp.com") {
-    var head = document.getElementsByTagName('head')[0];
-    var adobe = document.createElement("script");
-    adobe.type = "text/javascript";
-    adobe.src = "//assets.adobedtm.com/60287eadf1ee/c284da483c83/launch-e9ff3acac59f.min.js";
-    head.appendChild(adobe);
-  }
-  </script>
   <script src='/ko-kr/storagegrid-116/js/jquery.navgoco.min.js'></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <script src='/ko-kr/storagegrid-116/js/toc.js'></script>
@@ -121,16 +152,8 @@
               $("#tg-sb-icon").toggleClass('fa-toggle-off');
           });
       });
-  </script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-81697994-3"></script>
-  <script>
-  if (document.location.hostname === "docs.netapp.com") {
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-81697994-3');
-  }
   </script>
-  <script src='/ko-kr/storagegrid-116/js/version-dropdown.js'></script>
+  <script src='/ko-kr/storagegrid-116/js/custom-dropdown.js'></script>
   <script src='/ko-kr/storagegrid-116/js/FileSaver.min.js'></script>
   <script src='/ko-kr/storagegrid-116/js/jszip-utils.min.js'></script>
   <script src='/ko-kr/storagegrid-116/js/jszip.min.js'></script>
@@ -138,20 +161,15 @@
 </head>
 
 
-  <body class role="document">
+  <body class role="document" data-flavor="">
     <div id="page" class="n-off-canvas-menu">
       <div class="n-off-canvas-menu__menu"><!--TODO: Add offcanvas code --></div>
       <div class="n-off-canvas-menu__content-wrap">
         <header class="site-header" id="banner">
   
   <!-- Start Page Toolbar -->
-  <div class="page-nav-toolbar">
-    <div id="version-dropdown"></div>
-    <div class="page-nav-contribute"  >
-      <a target="_blank" href="https://github.com/NetAppDocs/storagegrid-116/issues/new?body=Page%3A%20[예 5: 엄격한 수집 동작을 위한 ILM 규칙 및 정책](https://docs.netapp.com/ko-kr/storagegrid-116/ilm/example-5-ilm-rules-and-policy-for-strict-ingest-behavior.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/storagegrid-116/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a>
-      <a target="_blank" href="https://github.com/NetAppDocs/storagegrid-116/blob/main/ilm/example-5-ilm-rules-and-policy-for-strict-ingest-behavior.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/storagegrid-116/images/edit-sm.svg" class="github-icon" />이 페이지 편집</a>
-      <a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/storagegrid-116/images/article-sm.svg" class="github-icon" />기여하는 방법 자세히 알아보기</a>
-    </div>
+  
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/storagegrid-116/issues/new?body=Page%3A%20[예 5: 엄격한 수집 동작을 위한 ILM 규칙 및 정책](https://docs.netapp.com/ko-kr/storagegrid-116/ilm/example-5-ilm-rules-and-policy-for-strict-ingest-behavior.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/storagegrid-116/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a><a target="_blank" href="https://github.com/NetAppDocs/storagegrid-116/blob/main/ilm/example-5-ilm-rules-and-policy-for-strict-ingest-behavior.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/storagegrid-116/images/edit-sm.svg" class="github-icon" />이 페이지 편집</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/storagegrid-116/images/article-sm.svg" class="github-icon" />기여하는 방법 자세히 알아보기</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">이 페이지의 내용</div>
@@ -161,6 +179,7 @@
       </nav>
     </div>
   </div>
+  
   
   <!-- Start top_hat -->
   <div class="n-top-hat">
@@ -244,7 +263,8 @@
           data-did-you-mean="{suggestion}을(를) 검색해보십시오." 
           data-no-results-found-did-you-mean="{query}에 대한 결과를 찾을 수 없습니다. {suggestion}을(를) 검색하려 하셨습니까?" 
           data-results-found="{hitCount}개의 결과를 찾음"  
-          data-sk-es-pf-indexes=""></div>
+          data-sk-es-pf-indexes=""
+          data-flavor=""></div>
           <button class="n-property-bar__search-toggle-button" type="button">
             <svg class="n-icon-search n-property-bar__search-toggle-button-icon" aria-labelledby="title">
               <title>search</title>
@@ -272,13 +292,15 @@
           <ul class="n-menu__list">
             <li class="n-menu__list-column">
               <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/storagegrid-116/ilm/example-5-ilm-rules-and-policy-for-strict-ingest-behavior.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
                   <a href="https://docs.netapp.com/us-en/storagegrid-116/ilm/example-5-ilm-rules-and-policy-for-strict-ingest-behavior.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
                 </li><li class="n-menu__list-item n-menu__list-item--level-1">
                   <a href="https://docs.netapp.com/ja-jp/storagegrid-116/ilm/example-5-ilm-rules-and-policy-for-strict-ingest-behavior.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
                 </li><li class="n-menu__list-item n-menu__list-item--level-1">
+                  <a href="https://docs.netapp.com/ko-kr/storagegrid-116/ilm/example-5-ilm-rules-and-policy-for-strict-ingest-behavior.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
+                </li><li class="n-menu__list-item n-menu__list-item--level-1">
                   <a href="https://docs.netapp.com/zh-cn/storagegrid-116/ilm/example-5-ilm-rules-and-policy-for-strict-ingest-behavior.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
+                </li><li class="n-menu__list-item n-menu__list-item--level-1">
+                  <a href="https://docs.netapp.com/zh-tw/storagegrid-116/ilm/example-5-ilm-rules-and-policy-for-strict-ingest-behavior.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
                 </li></ul>
             </li>
           </ul>
@@ -333,6 +355,9 @@
 </div>
 <div class="n-pdf-body-container">
   <ul id="toggleContainerPdf" class="n-pdf-body" style="display:none;"><li class="pdf-ux-container">
+        
+        
+        
         <a target="_blank" href="/ko-kr/storagegrid-116/pdfs/fullsite-sidebar/StorageGRID_11_6_문서.pdf" >
           <img src="/ko-kr/storagegrid-116/images/pdf.png" width="16" height="16"/>이 문서 사이트의 PDF</a>
 
@@ -343,6 +368,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/시작하십시오.pdf" 
@@ -356,6 +384,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/그리드_프라이머.pdf" 
@@ -375,6 +406,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/오브젝트_관리.pdf" 
@@ -390,6 +424,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/오브젝트_라이프사이클.pdf" 
@@ -431,6 +468,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/StorageGRID_사용_방법.pdf" 
@@ -460,6 +500,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/작업을_모니터링합니다.pdf" 
@@ -514,6 +557,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/네트워킹_지침.pdf" 
@@ -531,6 +577,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/네트워크_토폴로지_예.pdf" 
@@ -565,6 +614,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/배포별_네트워킹_고려_사항.pdf" 
@@ -597,6 +649,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/네트워크_포트_참조.pdf" 
@@ -641,6 +696,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/어플라이언스_하드웨어를_설치하고_유지_관리합니다.pdf" 
@@ -654,6 +712,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/SG100_및_SG1000_서비스_어플라이언스.pdf" 
@@ -673,6 +734,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/설치_준비_SG100_및_SG1000_.pdf" 
@@ -692,6 +756,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/어플라이언스_네트워크_연결_검토_SG100_및_SG1000_.pdf" 
@@ -705,6 +772,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/SG100_및_SG1000_어플라이언스의_포트_결합_모드.pdf" 
@@ -751,6 +821,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/하드웨어_설치_SG100_및_SG1000_.pdf" 
@@ -783,6 +856,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/StorageGRID_접속_구성_SG100_및_SG1000_.pdf" 
@@ -817,6 +893,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/BMC_인터페이스_구성_SG100_및_SG1000_.pdf" 
@@ -851,6 +930,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/서비스_어플라이언스_노드를_배포합니다.pdf" 
@@ -870,6 +952,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/어플라이언스_설치_및_구성_자동화_SG100_및_SG1000_.pdf" 
@@ -909,6 +994,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/하드웨어_설치_문제_해결_SG100_및_SG1000_.pdf" 
@@ -941,6 +1029,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/제품을_유지보수하십시오.pdf" 
@@ -998,6 +1089,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/SG6000_스토리지_어플라이언스.pdf" 
@@ -1011,6 +1105,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/StorageGRID_SG6000_스토리지_어플라이언스.pdf" 
@@ -1041,6 +1138,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/설치_준비_SG6000_.pdf" 
@@ -1060,6 +1160,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/어플라이언스_네트워크_연결_검토_SG6000_.pdf" 
@@ -1073,6 +1176,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/SG6000_CN_컨트롤러의_포트_결합_모드.pdf" 
@@ -1119,6 +1225,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/하드웨어_설치_SG6000_.pdf" 
@@ -1161,6 +1270,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/하드웨어_구성_SG6000_.pdf" 
@@ -1174,6 +1286,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/StorageGRID_연결_구성_SG6000_.pdf" 
@@ -1208,6 +1323,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/SG6000_SANtricity_System_Manager__액세스_및_구성.pdf" 
@@ -1236,6 +1354,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/BMC_인터페이스_SG6000__구성.pdf" 
@@ -1287,6 +1408,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/어플라이언스_설치_및_구성_자동화_SG6000_.pdf" 
@@ -1317,6 +1441,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/하드웨어_설치_문제_해결_SG6000_.pdf" 
@@ -1336,6 +1463,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/연결_문제_해결_SG6000_.pdf" 
@@ -1373,6 +1503,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/SG6000_어플라이언스를_유지보수하십시오.pdf" 
@@ -1388,6 +1521,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/스토리지_컨트롤러에서_SANtricity_OS를_업그레이드합니다.pdf" 
@@ -1444,6 +1580,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/SG6000_CN_컨트롤러의_파이버_채널_HBA를_교체합니다.pdf" 
@@ -1500,6 +1639,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/SG5700_스토리지_어플라이언스.pdf" 
@@ -1513,6 +1655,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/StorageGRID_SG5700_스토리지_어플라이언스.pdf" 
@@ -1539,6 +1684,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/설치_준비_SG5700_.pdf" 
@@ -1558,6 +1706,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/어플라이언스_네트워크_연결_검토_SG5700_.pdf" 
@@ -1571,6 +1722,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/E5500SG_컨트롤러_포트의_포트_연결_모드.pdf" 
@@ -1617,6 +1771,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/하드웨어_설치_SG5700_.pdf" 
@@ -1638,6 +1795,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/SG5700_부팅_상태_코드를_봅니다.pdf" 
@@ -1671,6 +1831,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/하드웨어_구성_SG5700_.pdf" 
@@ -1684,6 +1847,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/StorageGRID_연결_구성_SG5700_.pdf" 
@@ -1718,6 +1884,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/SANtricity_시스템_관리자_SG5700__액세스_및_구성.pdf" 
@@ -1765,6 +1934,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/어플라이언스_설치_및_구성_자동화_SG5700_.pdf" 
@@ -1795,6 +1967,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/하드웨어_설치_문제_해결_SG5700_.pdf" 
@@ -1808,6 +1983,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/하드웨어_설정이_중단_SG5700_되는_것_같습니다_.pdf" 
@@ -1845,6 +2023,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/SG5700_어플라이언스_유지.pdf" 
@@ -1860,6 +2041,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/스토리지_컨트롤러에서_SANtricity_OS를_업그레이드합니다.pdf" 
@@ -1900,6 +2084,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/유지보수_모드에서_노드_암호화_모니터링_SG5700_.pdf" 
@@ -1942,6 +2129,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/SG5600_스토리지_어플라이언스.pdf" 
@@ -1955,6 +2145,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/StorageGRID_SG5600_스토리지_어플라이언스.pdf" 
@@ -1983,6 +2176,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/설치_준비_SG5600_.pdf" 
@@ -2004,6 +2200,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/어플라이언스_네트워크_연결_검토_SG5600_.pdf" 
@@ -2017,6 +2216,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/E5500SG_컨트롤러_포트의_포트_연결_모드.pdf" 
@@ -2063,6 +2265,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/하드웨어_설치_SG5600_.pdf" 
@@ -2086,6 +2291,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/SG5600_컨트롤러에서_부팅_상태를_확인하고_오류_코드를_검토합니다.pdf" 
@@ -2119,6 +2327,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/하드웨어_구성_SG5600_.pdf" 
@@ -2132,6 +2343,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/StorageGRID_연결_구성_SG5600_.pdf" 
@@ -2166,6 +2380,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/SANtricity_스토리지_관리자를_구성합니다.pdf" 
@@ -2183,6 +2400,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/SANtricity_저장소_관리자를_설정합니다.pdf" 
@@ -2241,6 +2461,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/어플라이언스_설치_및_구성_자동화_SG5600_.pdf" 
@@ -2271,6 +2494,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/하드웨어_설치_문제_해결_SG5600_.pdf" 
@@ -2284,6 +2510,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/하드웨어_설정이_멈춘_것_같습니다_SG5600__.pdf" 
@@ -2321,6 +2550,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/SG5600_어플라이언스_유지.pdf" 
@@ -2354,6 +2586,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/유지보수_모드_SG5600_에서_노드_암호화_모니터링.pdf" 
@@ -2405,6 +2640,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/소프트웨어_설치_및_업그레이드.pdf" 
@@ -2418,6 +2656,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/StorageGRID_소프트웨어를_업그레이드합니다.pdf" 
@@ -2441,6 +2682,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/업그레이드를_계획하고_준비합니다.pdf" 
@@ -2475,6 +2719,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/StorageGRID_소프트웨어를_업그레이드합니다.pdf" 
@@ -2503,6 +2750,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/업그레이드_문제를_해결합니다.pdf" 
@@ -2542,6 +2792,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/Red_Hat_Enterprise_Linux_또는_CentOS를_설치합니다.pdf" 
@@ -2557,6 +2810,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/Red_Hat_또는_CentOS_설치를_계획하고_준비합니다.pdf" 
@@ -2584,6 +2840,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/호스트_준비_Red_Hat_또는_CentOS_.pdf" 
@@ -2625,6 +2884,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/가상_그리드_노드_배포_Red_Hat_또는_CentOS_.pdf" 
@@ -2657,6 +2919,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/그리드_및_전체_설치_구성_Red_Hat_또는_CentOS_.pdf" 
@@ -2718,6 +2983,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/Ubuntu_또는_Debian을_설치합니다.pdf" 
@@ -2733,6 +3001,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/Ubuntu_또는_Debian_설치를_계획하고_준비합니다.pdf" 
@@ -2760,6 +3031,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/호스트_준비_Ubuntu_또는_Debian_.pdf" 
@@ -2805,6 +3079,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/가상_그리드_노드_배포_Ubuntu_또는_Debian_.pdf" 
@@ -2837,6 +3114,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/그리드_구성_및_전체_설치_Ubuntu_또는_Debian_.pdf" 
@@ -2898,6 +3178,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/VMware를_설치합니다.pdf" 
@@ -2913,6 +3196,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/VMware_설치_계획_및_준비.pdf" 
@@ -2947,6 +3233,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/가상_머신_그리드_노드_구축_VMware_.pdf" 
@@ -2975,6 +3264,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/그리드_구성_및_설치_완료_VMware_.pdf" 
@@ -3043,6 +3335,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/시스템_관리를_수행합니다.pdf" 
@@ -3056,6 +3351,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/StorageGRID_관리.pdf" 
@@ -3071,6 +3369,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/StorageGRID를_시작하십시오.pdf" 
@@ -3098,6 +3399,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/API를_사용합니다.pdf" 
@@ -3119,6 +3423,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/SSO_Single_Sign_On_가_활성화된_경우_API를_사용합니다.pdf" 
@@ -3165,6 +3472,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/StorageGRID에_대한_액세스를_제어합니다.pdf" 
@@ -3192,6 +3502,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/SSO_Single_Sign_On__사용.pdf" 
@@ -3241,6 +3554,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/보안_설정을_관리합니다.pdf" 
@@ -3254,6 +3570,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/인증서를_관리합니다.pdf" 
@@ -3269,6 +3588,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/서버_인증서를_구성합니다.pdf" 
@@ -3312,6 +3634,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/키_관리_서버를_구성합니다.pdf" 
@@ -3356,6 +3681,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/프록시_설정을_관리합니다.pdf" 
@@ -3382,6 +3710,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/신뢰할_수_없는_클라이언트_네트워크를_관리합니다.pdf" 
@@ -3417,6 +3748,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/테넌트_관리.pdf" 
@@ -3440,6 +3774,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/플랫폼_서비스_관리.pdf" 
@@ -3481,6 +3818,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/S3_및_Swift_클라이언트_연결을_구성합니다.pdf" 
@@ -3500,6 +3840,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/고가용성_그룹을_관리합니다.pdf" 
@@ -3530,6 +3873,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/로드_밸런싱_관리.pdf" 
@@ -3575,6 +3921,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/네트워크_및_연결을_관리합니다.pdf" 
@@ -3596,6 +3945,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/트래픽_분류_정책을_관리합니다.pdf" 
@@ -3628,6 +3980,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/링크_비용_관리.pdf" 
@@ -3663,6 +4018,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/AutoSupport를_사용합니다.pdf" 
@@ -3695,6 +4053,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/스토리지_노드_관리.pdf" 
@@ -3712,6 +4073,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/스토리지_옵션_관리.pdf" 
@@ -3740,6 +4104,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/저장된_개체에_대한_전역_설정을_구성합니다.pdf" 
@@ -3781,6 +4148,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/관리_노드_관리.pdf" 
@@ -3806,6 +4176,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/감사_클라이언트_액세스를_구성합니다.pdf" 
@@ -3819,6 +4192,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/CIFS에_대한_감사_클라이언트를_구성합니다.pdf" 
@@ -3853,6 +4229,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/NFS에_대한_감사_클라이언트를_구성합니다.pdf" 
@@ -3901,6 +4280,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/아카이브_노드_관리.pdf" 
@@ -3916,6 +4298,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/S3_API를_통해_클라우드에_아카이브.pdf" 
@@ -3948,6 +4333,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/TSM_미들웨어를_통해_테이프로_아카이빙.pdf" 
@@ -3984,6 +4372,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/Tivoli_Storage_Manager_통합.pdf" 
@@ -4001,6 +4392,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/아카이브_노드_설정을_완료합니다.pdf" 
@@ -4016,6 +4410,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/TSM_서버를_구성합니다.pdf" 
@@ -4071,6 +4468,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/데이터를_StorageGRID로_마이그레이션.pdf" 
@@ -4110,6 +4510,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/ILM을_사용하여_개체를_관리합니다.pdf" 
@@ -4125,6 +4528,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/ILM_및_오브젝트_라이프사이클.pdf" 
@@ -4140,6 +4546,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/오브젝트를_섭취하는_방법.pdf" 
@@ -4166,6 +4575,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/오브젝트_저장_방법_복제_또는_삭제_코딩_.pdf" 
@@ -4215,6 +4627,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/스토리지_등급__스토리지_풀__EC_프로파일_및_영역을_생성합니다.pdf" 
@@ -4230,6 +4645,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/스토리지_풀을_구성합니다.pdf" 
@@ -4268,6 +4686,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/클라우드_스토리지_풀_사용.pdf" 
@@ -4291,6 +4712,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/클라우드_스토리지_풀을_생성합니다.pdf" 
@@ -4334,6 +4758,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/삭제_코딩_프로파일을_구성합니다.pdf" 
@@ -4373,6 +4800,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/ILM_규칙을_생성합니다.pdf" 
@@ -4388,6 +4818,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/단계_1_3__기본_사항_정의.pdf" 
@@ -4412,6 +4845,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/단계_2_3__배치_정의.pdf" 
@@ -4449,6 +4885,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/ILM_정책을_생성합니다.pdf" 
@@ -4485,6 +4924,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/ILM과_함께_S3_오브젝트_잠금을_사용합니다.pdf" 
@@ -4517,6 +4959,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/ILM_규칙_및_정책의_예.pdf" 
@@ -4571,6 +5016,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/시스템_강화.pdf" 
@@ -4605,6 +5053,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/FabricPool를_구성합니다.pdf" 
@@ -4620,6 +5071,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/StorageGRID를_클라우드_계층으로_연결.pdf" 
@@ -4682,6 +5136,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/StorageGRID를_사용합니다.pdf" 
@@ -4695,6 +5152,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/테넌트_계정을_사용합니다.pdf" 
@@ -4710,6 +5170,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/로그인_및_로그아웃_방법.pdf" 
@@ -4738,6 +5201,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/테넌트_관리_API.pdf" 
@@ -4766,6 +5232,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/시스템_액세스를_관리합니다.pdf" 
@@ -4781,6 +5250,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/그룹을_관리합니다.pdf" 
@@ -4828,6 +5300,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/S3_테넌트_계정_관리.pdf" 
@@ -4841,6 +5316,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/S3_액세스_키를_관리합니다.pdf" 
@@ -4875,6 +5353,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/S3_버킷을_관리합니다.pdf" 
@@ -4924,6 +5405,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/S3_플랫폼_서비스_관리.pdf" 
@@ -4937,6 +5421,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/플랫폼_서비스란_무엇입니까_.pdf" 
@@ -4967,6 +5454,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/플랫폼_서비스_끝점을_구성합니다.pdf" 
@@ -5005,6 +5495,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/검색_통합_서비스를_사용합니다.pdf" 
@@ -5053,6 +5546,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/S3을_사용합니다.pdf" 
@@ -5066,6 +5562,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/StorageGRID에서_S3를_사용합니다.pdf" 
@@ -5096,6 +5595,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/StorageGRID에서_S3_REST_API를_구현하는_방법.pdf" 
@@ -5128,6 +5630,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/S3_REST_API에서_지원되는_작업_및_제한_사항.pdf" 
@@ -5145,6 +5650,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/버킷_작업.pdf" 
@@ -5173,6 +5681,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/객체에_대한_작업.pdf" 
@@ -5213,6 +5724,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/멀티파트_업로드_작업.pdf" 
@@ -5256,6 +5770,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/StorageGRID_S3_REST_API_작업.pdf" 
@@ -5285,6 +5802,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/레거시_규정_준수를_위한_더_이상_사용되지_않는_버킷_요청.pdf" 
@@ -5326,6 +5846,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/운영_모니터링_및_감사.pdf" 
@@ -5341,6 +5864,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/감사_로그_액세스_및_검토.pdf" 
@@ -5374,6 +5900,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/활성__유휴_및_동시_HTTP_연결의_이점.pdf" 
@@ -5413,6 +5942,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/Swift를_사용합니다.pdf" 
@@ -5426,6 +5958,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/StorageGRID와_함께_Swift를_사용합니다.pdf" 
@@ -5456,6 +5991,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/Swift_REST_API가_작업을_지원했습니다.pdf" 
@@ -5514,6 +6052,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/StorageGRID_모니터링_및_유지_관리.pdf" 
@@ -5527,6 +6068,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/모니터링하고_문제를_해결합니다.pdf" 
@@ -5544,6 +6088,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/노드_페이지를_봅니다.pdf" 
@@ -5586,6 +6133,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/정기적으로_모니터링해야_하는_정보.pdf" 
@@ -5599,6 +6149,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/시스템_상태를_모니터링합니다.pdf" 
@@ -5656,6 +6209,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/경고_및_알람을_관리합니다.pdf" 
@@ -5673,6 +6229,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/알림을_관리합니다.pdf" 
@@ -5698,6 +6257,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/경고_알림을_관리합니다.pdf" 
@@ -5748,6 +6310,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/외부_syslog_서버를_사용합니다.pdf" 
@@ -5774,6 +6339,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/SNMP_모니터링을_사용합니다.pdf" 
@@ -5800,6 +6368,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/추가_StorageGRID_데이터를_수집합니다.pdf" 
@@ -5846,6 +6417,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/StorageGRID_시스템_문제를_해결합니다.pdf" 
@@ -5861,6 +6435,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/오브젝트_및_스토리지_문제를_해결합니다.pdf" 
@@ -5880,6 +6457,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/분실하거나_누락된_오브젝트_데이터_문제를_해결합니다.pdf" 
@@ -5948,6 +6528,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/알람_기준_레거시_시스템_.pdf" 
@@ -5972,6 +6555,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/로그_파일_참조.pdf" 
@@ -6011,6 +6597,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/그리드를_확장합니다.pdf" 
@@ -6026,6 +6615,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/StorageGRID_확장_계획.pdf" 
@@ -6039,6 +6631,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/스토리지_용량을_추가합니다.pdf" 
@@ -6086,6 +6681,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/스토리지_볼륨을_추가합니다.pdf" 
@@ -6114,6 +6712,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/그리드_노드_또는_사이트를_추가합니다.pdf" 
@@ -6144,6 +6745,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/확장된_시스템을_구성합니다.pdf" 
@@ -6189,6 +6793,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/복구_및_유지_관리.pdf" 
@@ -6202,6 +6809,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/StorageGRID_복구_및_유지_관리.pdf" 
@@ -6226,6 +6836,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/StorageGRID_핫픽스_절차.pdf" 
@@ -6262,6 +6875,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/그리드_노드_복구_절차.pdf" 
@@ -6281,6 +6897,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/스토리지_노드_장애_복구.pdf" 
@@ -6296,6 +6915,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/어플라이언스_스토리지_노드를_복구합니다.pdf" 
@@ -6332,6 +6954,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/시스템_드라이브가_손상되지_않은_스토리지_볼륨_장애로부터_복구합니다.pdf" 
@@ -6364,6 +6989,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/시스템_드라이브_오류에서_복구합니다.pdf" 
@@ -6407,6 +7035,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/관리자_노드_오류에서_복구.pdf" 
@@ -6420,6 +7051,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/운영_관리_노드_오류에서_복구.pdf" 
@@ -6456,6 +7090,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/운영_관리자_노드가_아닌_노드에서_복구합니다.pdf" 
@@ -6501,6 +7138,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/게이트웨이_노드에서_복구.pdf" 
@@ -6527,6 +7167,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/아카이브_노드_장애에서_복구.pdf" 
@@ -6557,6 +7200,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/모든_그리드_노드_유형__Linux_노드_교체.pdf" 
@@ -6572,6 +7218,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/그리드_노드를_호스트에_복구합니다.pdf" 
@@ -6585,6 +7234,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/그리드_노드_복원_및_검증.pdf" 
@@ -6635,6 +7287,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/장애가_발생한_노드를_서비스_어플라이언스로_교체합니다.pdf" 
@@ -6676,6 +7331,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/서비스_해제_절차.pdf" 
@@ -6689,6 +7347,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/그리드_노드_해제.pdf" 
@@ -6702,6 +7363,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/그리드_노드의_해제에_대비합니다.pdf" 
@@ -6715,6 +7379,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/그리드_노드_해제에_대한_고려_사항.pdf" 
@@ -6730,6 +7397,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/스토리지_노드_파기_관련_고려_사항.pdf" 
@@ -6803,6 +7473,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/사이트_파기.pdf" 
@@ -6850,6 +7523,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/네트워크_유지보수_절차.pdf" 
@@ -6865,6 +7541,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/IP_주소를_구성합니다.pdf" 
@@ -6895,6 +7574,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/기존_노드에_인터페이스를_추가합니다.pdf" 
@@ -6923,6 +7605,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/DNS_서버를_구성합니다.pdf" 
@@ -6960,6 +7645,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/호스트_레벨_및_미들웨어_절차.pdf" 
@@ -6973,6 +7661,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/Linux__그리드_노드를_새_호스트로_마이그레이션.pdf" 
@@ -7014,6 +7705,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/그리드_노드_절차.pdf" 
@@ -7051,6 +7745,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/그리드_노드를_재부팅합니다.pdf" 
@@ -7081,6 +7778,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/그리드의_모든_노드를_끕니다.pdf" 
@@ -7107,6 +7807,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/DoNotStart_파일을_사용합니다.pdf" 
@@ -7133,6 +7836,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/서버_관리자_문제를_해결합니다.pdf" 
@@ -7168,6 +7874,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/어플라이언스_노드_클론_복제.pdf" 
@@ -7205,6 +7914,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/감사_로그를_검토합니다.pdf" 
@@ -7218,6 +7930,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/StorageGRID_감사_로그를_검토합니다.pdf" 
@@ -7246,6 +7961,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/감사_로그_파일_및_메시지_형식.pdf" 
@@ -7259,6 +7977,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/감사_로그_파일_형식.pdf" 
@@ -7285,6 +8006,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/감사_메시지_형식.pdf" 
@@ -7324,6 +8048,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/감사_메시지_및_개체_수명_주기.pdf" 
@@ -7337,6 +8064,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/오브젝트_수집_트랜잭션.pdf" 
@@ -7361,6 +8091,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/객체_삭제_트랜잭션입니다.pdf" 
@@ -7385,6 +8118,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/객체_검색_트랜잭션입니다.pdf" 
@@ -7411,6 +8147,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/메타데이터_업데이트_메시지.pdf" 
@@ -7444,6 +8183,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/감사_메시지.pdf" 
@@ -7457,6 +8199,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/감사_메시지_범주.pdf" 
@@ -7489,6 +8234,9 @@
     
       <ul class="subfolders" style="display:none;">
         <li class="pdf-ux-container">
+          
+          
+          
           <a target="_blank" 
             
               href="/ko-kr/storagegrid-116/pdfs/sidebar/감사_메시지_참조.pdf" 
@@ -10394,6 +11142,7 @@
 <!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
 <script>$("li.active").parents('li').toggleClass("active");</script>
 
+
   </div>
   
 
@@ -10442,20 +11191,9 @@
 <p class="page-details">
   
     
-    <time datetime="2022-03-18 20:40:56 +0000">03/18/2022</time>
+    <time datetime="2022-05-03 06:53:02 +0000">05/03/2022</time>
     
   
-
-<span>기여자
-  <a target="_blank" href="https://github.com/netapp-madkat">
-    <img  class="avatar avatar-small"
-          alt="netapp-madkat"
-          width="20" height="20"
-          src="https://avatars.githubusercontent.com/u/83318378?v=4"
-          style="border-radius: 50%;"/>
-  </a>
-  
-</span>
 
 
 </p>
@@ -10717,98 +11455,122 @@
   <div class="n-footer__bottom">
     <div class="n-container">
       <div class="n-footer__bottom-left">
-
         <div class="n-footer__copyright">
           <ul class="n-footer__copyright-list">
             <li class="n-footer__copyright-link">
-            <a href="https://www.netapp.com/us/legal/copyright.aspx">© 2022 NetApp, Inc.</a>
+              <a href="https://www.netapp.com/us/legal/copyright.aspx">© 2022 NetApp, Inc.</a>
             </li>
-
-</ul>
-</div>
-<div class="n-footer__social-links">
-<ul class="n-footer__social-link-list">
-<li class="n-footer__social-link-list-item">
-<a class="n-footer__social-link" data-ntap-social="follow-blog" href="https://blog.netapp.com" target="_blank" title="blog" alt="blog">
-<span class="n-footer__social-link-text">blog</span>
-<svg class="n-icon-blog n-footer__social-link-icon" aria-labelledby="title">
-  <title>blog@</title>
-  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ko-kr/storagegrid-116/common/svg/sprite.svg#blog"></use>
-</svg>
-
-</a>
-</li>
-<li class="n-footer__social-link-list-item">
-<a class="n-footer__social-link" data-ntap-social="follow-community" href="https://community.netapp.com/" target="_blank" title="community" alt="community">
-<span class="n-footer__social-link-text">community</span>
-<svg class="n-icon-community n-footer__social-link-icon" aria-labelledby="title">
-<title>community@</title>
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ko-kr/storagegrid-116/common/svg/sprite.svg#comments"></use>
-</svg>
-
-</a>
-</li>
-<li class="n-footer__social-link-list-item">
-<a class="n-footer__social-link" data-ntap-social="follow-twitter" href="https://twitter.com/netapp" target="_blank" title="twitter" alt="twitter">
-<span class="n-footer__social-link-text">twitter</span>
-<svg class="n-icon-twitter n-footer__social-link-icon" aria-labelledby="title">
-<title>twitter@</title>
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ko-kr/storagegrid-116/common/svg/sprite.svg#twitter"></use>
-</svg>
-
-</a>
-</li>
-<li class="n-footer__social-link-list-item">
-<a class="n-footer__social-link" data-ntap-social="follow-facebook" href="https://www.facebook.com/NetApp" target="_blank" title="facebook" alt="facebook">
-<span class="n-footer__social-link-text">facebook</span>
-<svg class="n-icon-facebook n-footer__social-link-icon" aria-labelledby="title">
-<title>facebook@</title>
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ko-kr/storagegrid-116/common/svg/sprite.svg#facebook"></use>
-</svg>
-
-</a>
-</li>
-<li class="n-footer__social-link-list-item">
-<a class="n-footer__social-link" data-ntap-social="follow-linkedin" href="https://www.linkedin.com/company/netapp" target="_blank" title="linkedin" alt="linkedin">
-<span class="n-footer__social-link-text">linkedin</span>
-<svg class="n-icon-linkedin n-footer__social-link-icon" aria-labelledby="title">
-<title>linkedin@</title>
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ko-kr/storagegrid-116/common/svg/sprite.svg#linkedin"></use>
-</svg>
-
-</a>
-</li>
-<li class="n-footer__social-link-list-item">
-<a class="n-footer__social-link" data-ntap-social="follow-youtube" href="https://www.youtube.com/user/NetAppTV" target="_blank" title="youtube" alt="youtube">
-<span class="n-footer__social-link-text">youtube</span>
-<svg class="n-icon-youtube n-footer__social-link-icon" aria-labelledby="title">
-<title>youtube@</title>
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ko-kr/storagegrid-116/common/svg/sprite.svg#youtube"></use>
-</svg>
-
-</a>
-</li>
-<li class="n-footer__social-link-list-item">
-<a class="n-footer__social-link" data-ntap-social="follow-slideshare" href="https://www.slideshare.net/NetApp" target="_blank" title="slideshare" alt="slideshare">
-<span class="n-footer__social-link-text">slideshare</span>
-<svg class="n-icon-slideshare n-footer__social-link-icon" aria-labelledby="title">
-<title>slideshare@</title>
-<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ko-kr/storagegrid-116/common/svg/sprite.svg#slideshare"></use>
-</svg>
-
-</a>
-</li>
-</ul>
-</div>
-
-</div>
-<div class="n-footer__bottom-right">
-  <p class="n-footer__fine-print">웹 사이트에 대한 피드백이 있으십니까?<a target="_self" href="javascript:netapp_mailto()" class="n-footer__copyright">의견을 공유해 주십시오</a>
-  <a href="https://docs.netapp.com/ko-kr/announcements/" class="n-footer__copyright">공지 사항</a>
-  </p>
-</div>
-</div>
-</div>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/terms-of-use/">이용 약관</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/privacy-policy/">개인 정보 보호 정책</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://www.netapp.com/company/legal/cookie-policy/">쿠키 정책</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a class="ot-sdk-show-settings">쿠키 설정</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="n-footer__bottom-right">
+        <div class="n-footer__copyright">
+          <ul class="n-footer__copyright-list">
+            <li class="n-footer__copyright-link">
+              <span class="n-footer__fine-print">웹 사이트에 대한 피드백이 있으십니까?</span>
+              <a target="_self" href="javascript:netapp_mailto()">의견을 공유해 주십시오</a>
+            </li>
+            <li class="n-footer__copyright-link">
+              <a href="https://docs.netapp.com/ko-kr/announcements/">공지 사항</a>
+            </li>
+          </ul>
+        </div>
+        <div class="n-footer__social-links">
+          <ul class="n-footer__social-link-list">
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-blog" href="https://blog.netapp.com"
+                target="_blank" title="blog" alt="blog">
+                <span class="n-footer__social-link-text">blog</span>
+                <svg class="n-icon-blog n-footer__social-link-icon" aria-labelledby="title">
+                  <title>blog@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/ko-kr/storagegrid-116/common/svg/sprite.svg#blog"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-community" href="https://community.netapp.com/"
+                target="_blank" title="community" alt="community">
+                <span class="n-footer__social-link-text">community</span>
+                <svg class="n-icon-community n-footer__social-link-icon" aria-labelledby="title">
+                  <title>community@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/ko-kr/storagegrid-116/common/svg/sprite.svg#comments"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-twitter" href="https://twitter.com/netapp"
+                target="_blank" title="twitter" alt="twitter">
+                <span class="n-footer__social-link-text">twitter</span>
+                <svg class="n-icon-twitter n-footer__social-link-icon" aria-labelledby="title">
+                  <title>twitter@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/ko-kr/storagegrid-116/common/svg/sprite.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-facebook" href="https://www.facebook.com/NetApp"
+                target="_blank" title="facebook" alt="facebook">
+                <span class="n-footer__social-link-text">facebook</span>
+                <svg class="n-icon-facebook n-footer__social-link-icon" aria-labelledby="title">
+                  <title>facebook@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/ko-kr/storagegrid-116/common/svg/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-linkedin"
+                href="https://www.linkedin.com/company/netapp" target="_blank" title="linkedin" alt="linkedin">
+                <span class="n-footer__social-link-text">linkedin</span>
+                <svg class="n-icon-linkedin n-footer__social-link-icon" aria-labelledby="title">
+                  <title>linkedin@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/ko-kr/storagegrid-116/common/svg/sprite.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-youtube"
+                href="https://www.youtube.com/user/NetAppTV" target="_blank" title="youtube" alt="youtube">
+                <span class="n-footer__social-link-text">youtube</span>
+                <svg class="n-icon-youtube n-footer__social-link-icon" aria-labelledby="title">
+                  <title>youtube@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/ko-kr/storagegrid-116/common/svg/sprite.svg#youtube"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="n-footer__social-link-list-item">
+              <a class="n-footer__social-link" data-ntap-social="follow-slideshare"
+                href="https://www.slideshare.net/NetApp" target="_blank" title="slideshare" alt="slideshare">
+                <span class="n-footer__social-link-text">slideshare</span>
+                <svg class="n-icon-slideshare n-footer__social-link-icon" aria-labelledby="title">
+                  <title>slideshare@</title>
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xlink:href="/ko-kr/storagegrid-116/common/svg/sprite.svg#slideshare"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 </footer>
 
       </div><!-- Elasticsearch JS -->
