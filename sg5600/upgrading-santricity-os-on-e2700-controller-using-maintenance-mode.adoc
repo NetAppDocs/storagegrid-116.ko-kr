@@ -15,7 +15,7 @@ summary: 그리드 관리자를 사용하여 SANtricity OS 소프트웨어를 �
 
 .무엇을 &#8217;필요로 할거야
 * 업그레이드에 사용 중인 SANtricity OS 버전이 어플라이언스와 호환되는지 확인하려면 NetApp 상호 운용성 매트릭스 툴(IMT)을 참조하십시오.
-* Grid Manager를 사용하지 않는 경우 E54600 SG 컨트롤러를 유지보수 모드로 전환해야 합니다. 컨트롤러를 유지보수 모드로 전환하면 E2700 컨트롤러 연결이 중단됩니다. 링크 구성을 변경하기 전에 반드시 필요합니다 xref:placing-appliance-into-maintenance-mode.adoc[E5500SG 컨트롤러를 유지보수 모드로 설정합니다].
+* E5600 컨트롤러를 에 장착해야 합니다 xref:placing-appliance-into-maintenance-mode.adoc[유지보수 모드] Grid Manager를 사용하지 않는 경우 컨트롤러를 유지보수 모드로 전환하면 E2700 컨트롤러 연결이 중단됩니다.
 +
 
 NOTE: StorageGRID 어플라이언스를 유지보수 모드로 전환하면 원격 액세스가 불가능한 경우가 드물게 있습니다.
@@ -28,6 +28,7 @@ NOTE: StorageGRID 어플라이언스를 유지보수 모드로 전환하면 원�
 IMPORTANT: 배포 모델 및 ILM 정책에 따라 한 번에 둘 이상의 StorageGRID 어플라이언스를 업그레이드할 경우 데이터를 사용할 수 없게 될 수 있습니다.
 
 .단계
+. 제품이 에 있는지 확인하십시오 xref:placing-appliance-into-maintenance-mode.adoc[유지보수 모드].
 . 서비스 랩톱에서 SANtricity 저장소 관리자 에 액세스하고 로그인합니다.
 . 관리 클라이언트에 새 SANtricity OS 소프트웨어 파일 및 NVSRAM 파일을 다운로드합니다.
 +

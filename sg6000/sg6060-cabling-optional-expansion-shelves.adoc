@@ -4,28 +4,28 @@ sidebar: sidebar
 keywords: storagegrid, sg6000, storage node, storage appliance, cabling, cable, wiring, wire, expansion shelf, sg6060 
 summary: 확장 쉘프를 사용하는 경우 E2860 컨트롤러 쉘프에 연결해야 합니다. 각 SG6060 어플라이언스에는 최대 2개의 확장 쉘프가 있을 수 있습니다. 
 ---
-= SG6060: 케이블 옵션 확장 쉘프 케이블링
+= SG6060 및 SG6060X: 확장 셸프 케이블 연결(옵션
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-확장 쉘프를 사용하는 경우 E2860 컨트롤러 쉘프에 연결해야 합니다. 각 SG6060 어플라이언스에는 최대 2개의 확장 쉘프가 있을 수 있습니다.
+확장 쉘프를 사용하는 경우 E2860 컨트롤러 쉘프에 연결해야 합니다. 각 SG6060 또는 SG6060X 어플라이언스에 대해 최대 2개의 확장 셸프를 가질 수 있습니다.
 
 .무엇을 &#8217;필요로 할거야
 * 각 확장 쉘프와 함께 2개의 SAS 케이블이 제공됩니다.
 * E2860 컨트롤러 쉘프가 포함된 캐비닛 또는 랙에 확장 쉘프를 설치했습니다.
 +
-xref:sg6060-installing-60-drive-shelves-into-cabinet-or-rack.adoc[SG6060: 캐비닛 또는 랙에 60 드라이브 쉘프 설치]
+xref:sg6060-installing-60-drive-shelves-into-cabinet-or-rack.adoc[SG6060 및 SG6060X: 캐비닛 또는 랙에 60 드라이브 쉘프를 설치합니다]
 
 
 
 다이어그램에 표시된 대로 각 확장 쉘프를 E2860 컨트롤러 쉘프에 연결합니다.
 
-이 도면에는 2개의 확장 쉘프가 나와 있습니다. IOM A가 하나만 있는 경우 IOM A를 컨트롤러 A에 연결하고 IOM B를 컨트롤러 B에 연결합니다
+이 도면에서는 SG6060의 두 확장 셸프(SG6060X의 확장 케이블 연결은 동일함)에 대한 케이블 연결을 보여 줍니다. 확장 쉘프가 하나인 경우 IOM A를 컨트롤러 A에 연결하고 IOM B를 컨트롤러 B에 연결합니다
 
-image::../media/expansion_shelves_connections_sg6060.png[SG6060 확장 셸프 연결]
+image::../media/expansion_shelves_connections_sg6060.png[SG6060 및 SG6060X 확장 셸프 연결]
 
 [cols="1a,2a"]
 |===

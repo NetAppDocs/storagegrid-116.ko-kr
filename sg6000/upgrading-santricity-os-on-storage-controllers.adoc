@@ -30,6 +30,6 @@ IMPORTANT: 스토리지 어플라이언스에 대한 SANtricity OS를 업그레�
 
 https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^]
 
-https://mysupport.netapp.com/site/products/all/details/eseries-santricityos/downloads-tab["NetApp 다운로드: SANtricity OS"^]
+https://mysupport.netapp.com/site/products/all/details/storagegrid-appliance/downloads-tab["NetApp 다운로드: StorageGRID 어플라이언스"^]
 
 xref:../monitor/index.adoc[모니터링하고 문제를 해결합니다]

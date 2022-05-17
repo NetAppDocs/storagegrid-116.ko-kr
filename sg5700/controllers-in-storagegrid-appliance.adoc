@@ -4,14 +4,22 @@ sidebar: sidebar
 keywords: storagegrid, sg5700, storage node, storage appliance, controllers, controller, e5700sg, e2800, ports, port, connectors, connector 
 summary: StorageGRID 어플라이언스의 SG5712 및 SG5760 모델에는 모두 E5500SG 컨트롤러와 E2800 컨트롤러가 포함됩니다. 컨트롤러 간의 차이점을 알아보려면 다이어그램을 검토해야 합니다. 
 ---
-= StorageGRID 어플라이언스의 컨트롤러
+= StorageGRID 5700 어플라이언스의 컨트롤러
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
 
 
 [role="lead"]
-StorageGRID 어플라이언스의 SG5712 및 SG5760 모델에는 모두 E5500SG 컨트롤러와 E2800 컨트롤러가 포함됩니다. 컨트롤러 간의 차이점을 알아보려면 다이어그램을 검토해야 합니다.
+StorageGRID 어플라이언스의 12 드라이브 SG5712 및 SG5712X 및 60 드라이브 SG5760 및 SG5760X 모델에는 모두 E5500SG 컴퓨팅 컨트롤러와 E-Series E2800 스토리지 컨트롤러가 포함됩니다.
+
+* SG5712 및 SG5760은 E2800A 컨트롤러를 사용합니다.
+* SG5712X 및 SG5760X는 E2800B 컨트롤러를 사용합니다.
++
+ The E2800A and E2800B controllers are identical in specification and function except for the location of the interconnect ports.
+
+
+컨트롤러 간의 차이점을 알아보려면 다이어그램을 검토해야 합니다.
 
 
 
@@ -108,7 +116,11 @@ StorageGRID용 관리자 네트워크에 연결합니다.
 |===
 
 
-== E2800 컨트롤러
+== E2800 시리즈 스토리지 컨트롤러
+
+SG5700에는 E2800A 및 E2800B의 2가지 버전의 E2800 스토리지 컨트롤러가 사용됩니다. E2800A에는 HIC가 없으며 E2800B에는 4포트 HIC가 있습니다. 두 컨트롤러 버전은 상호 연결 포트의 위치를 제외하고 동일한 사양과 기능을 가집니다.
+
+E2800 시리즈 스토리지 컨트롤러의 사양은 다음과 같습니다.
 
 * 어플라이언스에 대한 스토리지 컨트롤러로 작동합니다.
 * 드라이브의 데이터 스토리지를 관리합니다.
@@ -118,9 +130,15 @@ StorageGRID용 관리자 네트워크에 연결합니다.
 * E5500SG 컨트롤러에 연결하고 타겟으로 작동합니다.
 
 
-이 그림은 E2800 컨트롤러 후면의 커넥터를 보여 줍니다.
+다음 그림은 E2800A 및 E2800B 컨트롤러 후면의 커넥터를 보여줍니다.
 
-image::../media/e2800_controller_with_callouts.gif[E2800 컨트롤러의 커넥터]
+* E2800A 뒷면의 커넥터 *
+
+image::../media/e2800_controller_with_callouts.gif[E2800A 컨트롤러의 커넥터]
+
+* E2800B 뒷면의 커넥터 *
+
+image::../media/e2800B_controller_with_callouts.gif[E2800B 컨트롤러의 커넥터]
 
 |===
 |  | 포트 | 유형 | 사용 
@@ -180,6 +198,6 @@ image::../media/e2800_controller_with_callouts.gif[E2800 컨트롤러의 커넥�
  a| 
 12Gb/s SAS
  a| 
-사용 안 합니다. StorageGRID 어플라이언스는 확장 드라이브 쉘프를 지원하지 않습니다.
+사용 안 합니다.
 
 |===

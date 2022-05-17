@@ -11,7 +11,7 @@ summary: 스토리지 용량을 늘리려면 StorageGRID 시스템에 구축된 
 
 
 [role="lead"]
-스토리지 용량을 늘리려면 StorageGRID 시스템에 이미 구축된 SG6060에 1~2개의 확장 쉘프를 추가할 수 있습니다.
+스토리지 용량을 늘리려면 StorageGRID 시스템에 이미 구축된 SG6060 또는 SG6060X에 확장 쉘프를 하나 또는 두 개 추가할 수 있습니다.
 
 .무엇을 &#8217;필요로 할거야
 * 프로비저닝 암호가 있어야 합니다.
@@ -26,27 +26,31 @@ xref:locating-controller-in-data-center.adoc[데이터 센터에서 컨트롤러
 확장 쉘프를 추가하려면 다음 단계를 높은 수준으로 수행해야 합니다.
 
 * 캐비닛 또는 랙에 하드웨어를 설치합니다.
-* SG6060을 유지보수 모드로 전환하십시오.
+* SG6060 또는 SG6060X를 유지보수 모드로 설정합니다.
 * 확장 쉘프를 E2860 컨트롤러 쉘프 또는 다른 확장 쉘프에 연결합니다.
 * StorageGRID 어플라이언스 설치 프로그램을 사용하여 확장을 시작합니다
 * 새 볼륨이 구성될 때까지 기다립니다.
 
 
-하나 또는 두 개의 확장 셸프에 대한 절차를 완료하는 데는 어플라이언스 노드당 1시간 이하가 걸립니다. 다운타임을 최소화하려면 SG6060을 유지보수 모드로 전환하기 전에 다음 단계에 따라 새 확장 쉘프와 드라이브를 설치하십시오. 나머지 단계는 어플라이언스 노드당 약 20~30분 정도 소요됩니다.
+하나 또는 두 개의 확장 셸프에 대한 절차를 완료하는 데는 어플라이언스 노드당 1시간 이하가 걸립니다. 가동 중지 시간을 최소화하기 위해 다음 단계에서는 SG6060 또는 SG6060X를 유지보수 모드로 설정하기 전에 새 확장 셸프 및 드라이브를 설치하도록 지시합니다. 나머지 단계는 어플라이언스 노드당 약 20~30분 정도 소요됩니다.
 
 .단계
 . 캐비닛 또는 랙에 60-드라이브 쉘프를 설치하기 위한 지침을 따릅니다.
 +
-xref:sg6060-installing-60-drive-shelves-into-cabinet-or-rack.adoc[SG6060: 캐비닛 또는 랙에 60 드라이브 쉘프 설치]
+xref:sg6060-installing-60-drive-shelves-into-cabinet-or-rack.adoc[SG6060 및 SG6060X: 캐비닛 또는 랙에 60 드라이브 쉘프를 설치합니다]
 
 . 드라이브 설치 지침을 따릅니다.
 +
-xref:sg6060-installing-drives.adoc[SG6060: 드라이브를 설치합니다]
+xref:sg6060-installing-drives.adoc[SG6060 및 SG6060X: 드라이브를 설치합니다]
 
 . Grid Manager에서 xref:placing-appliance-into-maintenance-mode.adoc[SG6000-CN 컨트롤러를 유지보수 모드로 설정합니다].
 . 다이어그램에 표시된 대로 각 확장 쉘프를 E2860 컨트롤러 쉘프에 연결합니다.
 +
 이 도면에는 2개의 확장 쉘프가 나와 있습니다. IOM A가 하나만 있는 경우 IOM A를 컨트롤러 A에 연결하고 IOM B를 컨트롤러 B에 연결합니다
+
++
+
+NOTE: SG6060이 표시됩니다. SG6060X의 확장 케이블은 동일합니다.
 
 +
 image::../media/expansion_shelves_connections_sg6060.png[SG6060 확장 셸프 연결]
@@ -208,10 +212,10 @@ image::../media/appliance_installer_reboot_complete.png[재부팅이 완료되�
 
 
 
-xref:unpacking-boxes-sg6000.adoc[박스 포장 풀기(SG6000)]
+xref:unpacking-boxes-sg6000.adoc[박스 포장 풀기(SG6000 및 SG6060X)]
 
-xref:sg6060-installing-60-drive-shelves-into-cabinet-or-rack.adoc[SG6060: 캐비닛 또는 랙에 60 드라이브 쉘프 설치]
+xref:sg6060-installing-60-drive-shelves-into-cabinet-or-rack.adoc[SG6060 및 SG6060X: 캐비닛 또는 랙에 60 드라이브 쉘프를 설치합니다]
 
-xref:sg6060-installing-drives.adoc[SG6060: 드라이브를 설치합니다]
+xref:sg6060-installing-drives.adoc[SG6060 및 SG6060X: 드라이브를 설치합니다]
 
 xref:../monitor/index.adoc[모니터링하고 문제를 해결합니다]

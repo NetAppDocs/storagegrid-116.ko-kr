@@ -24,7 +24,7 @@ StorageGRID 어플라이언스 설치 프로그램이 실행되는 동안 컴퓨
 image::../media/reboot_controller_from_maintenance_mode.png[유지보수 모드에서 컨트롤러를 재부팅합니다]
 
 +
-SG6000-CN 컨트롤러가 재부팅된다.
+컨트롤러가 재부팅됩니다.
 
 
 

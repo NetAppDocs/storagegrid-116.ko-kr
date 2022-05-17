@@ -40,9 +40,9 @@ entries:
   entries:
   - title: 하드웨어 등록
     url: "/sg6000/registering-hardware.html"
-  - title: 'SG6060: 캐비닛 또는 랙에 60 드라이브 쉘프 설치'
+  - title: 'SG6060 및 SG6060X: 캐비닛 또는 랙에 60 드라이브 쉘프를 설치합니다'
     url: "/sg6000/sg6060-installing-60-drive-shelves-into-cabinet-or-rack.html"
-  - title: 'SG6060: 드라이브를 설치합니다'
+  - title: 'SG6060 및 SG6060X: 드라이브를 설치합니다'
     url: "/sg6000/sg6060-installing-drives.html"
   - title: 'SGF6024: 캐비닛 또는 랙에 24 드라이브 쉘프를 설치합니다'
     url: "/sg6000/sgf6024-installing-24-drive-shelves-into-cabinet-or-rack.html"
@@ -50,13 +50,13 @@ entries:
     url: "/sg6000/sg6000-cn-installing-into-cabinet-or-rack.html"
   - title: 케이블 어플라이언스(SG6000)
     url: "/sg6000/cabling-appliance-sg6000.html"
-  - title: 'SG6060: 확장 셸프 케이블(옵션)'
+  - title: 'SG6060 및 SG6060X: 케이블 옵션 확장 셸프'
     url: "/sg6000/sg6060-cabling-optional-expansion-shelves.html"
   - title: 전원 코드 연결 및 전원 공급(SG6000)
     url: "/sg6000/connecting-power-cords-and-applying-power-sg6000.html"
   - title: SG6000-CN 컨트롤러의 상태 표시등 및 단추를 봅니다
     url: "/sg6000/viewing-status-indicators-and-buttons-on-sg6000-cn-controller.html"
-  - title: SG6000 스토리지 컨트롤러의 부팅 상태 코드를 봅니다
+  - title: SG6000 및 SG6060X 스토리지 컨트롤러의 부팅 상태 코드를 봅니다
     url: "/sg6000/viewing-boot-up-status-codes-for-sg6000-storage-controllers.html"
 - title: 하드웨어 구성(SG6000)
   url: "/sg6000/configuring-hardware.html"

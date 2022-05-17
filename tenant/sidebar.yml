@@ -26,12 +26,13 @@ entries:
   - title: ID 페더레이션을 사용합니다
     url: "/tenant/using-identity-federation.html"
   - title: 그룹을 관리합니다
-    url: "/tenant/managing-groups.html"
     entries:
     - title: S3 테넌트용 그룹을 생성합니다
       url: "/tenant/creating-groups-for-s3-tenant.html"
     - title: Swift 테넌트용 그룹을 생성합니다
       url: "/tenant/creating-groups-for-swift-tenant.html"
+    - title: 테넌트 관리 권한
+      url: "/tenant/tenant-management-permissions.html"
     - title: 그룹 세부 정보를 보고 편집합니다
       url: "/tenant/viewing-and-editing-group-details.html"
     - title: 로컬 그룹에 사용자를 추가합니다

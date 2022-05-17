@@ -29,6 +29,7 @@ IMPORTANT: 한 번에 둘 이상의 StorageGRID 어플라이언스에서 드라�
 
 
 .단계
+. 제품이 에 있는지 확인하십시오 xref:placing-appliance-into-maintenance-mode.adoc[유지보수 모드].
 . 다음 방법 중 하나를 사용하여 SANtricity System Manager에 액세스합니다.
 +
 ** StorageGRID 어플라이언스 설치 프로그램을 사용하여 * 고급 * > * SANtricity 시스템 관리자 * 를 선택합니다

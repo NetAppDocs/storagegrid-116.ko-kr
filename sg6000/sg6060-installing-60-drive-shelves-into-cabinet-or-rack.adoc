@@ -1,10 +1,10 @@
 ---
 permalink: sg6000/sg6060-installing-60-drive-shelves-into-cabinet-or-rack.html 
 sidebar: sidebar 
-keywords: storagegrid, sg6000, storage node, storage appliance, sg6060, install, installing, installation, 60-drive shelves, 60-drive shelf, 60 drive shelves, 60 drive shelf, 60 drive, 60-drive, shelf, shelves, drive, disk, 60 
+keywords: storagegrid, sg6000, storage node, storage appliance, sg6060, sg6060X, install, installing, installation, 60-drive shelves, 60-drive shelf, 60 drive shelves, 60 drive shelf, 60 drive, 60-drive, shelf, shelves, drive, disk, 60 
 summary: E2860 컨트롤러 쉘프에 대한 레일 세트를 캐비닛 또는 랙에 설치한 다음 컨트롤러 쉘프를 레일 위로 밀어 추가해야 합니다. 60-드라이브 확장 쉘프를 설치하는 경우, 같은 절차가 적용됩니다. 
 ---
-= SG6060: 캐비닛 또는 랙에 60 드라이브 쉘프 설치
+= SG6060 및 SG6060X: 캐비닛 또는 랙에 60 드라이브 쉘프를 설치합니다
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/

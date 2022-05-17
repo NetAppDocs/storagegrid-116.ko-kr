@@ -39,7 +39,7 @@ IMPORTANT: 성능 저하를 방지하려면 케이블을 비틀거나 접거나 
 
 . 컨트롤러 전면 패널에서 2개의 조임 나사를 풉니다.
 +
-image::../media/sg6060_rack_retaining_screws.png[SG6060 랙 고정 나사]
+image::../media/sg6060_rack_retaining_screws.png[SG6060 및 SG6060X 랙 고정 나사]
 
 . 장착 레일이 완전히 확장되고 양쪽의 래치가 딸깍하는 소리가 날 때까지 SG6000-CN 컨트롤러를 랙에서 앞쪽으로 밉니다.
 +

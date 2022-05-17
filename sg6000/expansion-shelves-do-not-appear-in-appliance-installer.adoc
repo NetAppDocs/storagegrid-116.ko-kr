@@ -2,7 +2,7 @@
 permalink: sg6000/expansion-shelves-do-not-appear-in-appliance-installer.html 
 sidebar: sidebar 
 keywords: storagegrid, sg6000, storage node, storage appliance troubleshooting, Expansion, shelves, do not appear, Appliance Installer, missing, not shown 
-summary: SG6060용 확장 셸프가 설치되어 있고 StorageGRID 어플라이언스 설치 프로그램에 나타나지 않는 경우 셸프가 완전히 설치되어 전원이 켜져 있는지 확인해야 합니다. 
+summary: SG6060 또는 SG6060X용 확장 셸프가 설치되어 있고 StorageGRID 어플라이언스 설치 프로그램에 나타나지 않는 경우 셸프가 완전히 설치되고 전원이 켜져 있는지 확인해야 합니다. 
 ---
 = 확장 셸프가 Appliance Installer에 나타나지 않습니다
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: SG6060용 확장 셸프가 설치되어 있고 StorageGRID 어플라이
 
 
 [role="lead"]
-SG6060용 확장 셸프가 설치되어 있고 StorageGRID 어플라이언스 설치 프로그램에 나타나지 않는 경우 셸프가 완전히 설치되어 전원이 켜져 있는지 확인해야 합니다.
+SG6060 또는 SG6060X용 확장 셸프가 설치되어 있고 StorageGRID 어플라이언스 설치 프로그램에 나타나지 않는 경우 셸프가 완전히 설치되고 전원이 켜져 있는지 확인해야 합니다.
 
 StorageGRID 어플라이언스 설치 프로그램에서 다음 정보를 확인하여 확장 쉘프가 어플라이언스에 연결되어 있는지 확인할 수 있습니다.
 

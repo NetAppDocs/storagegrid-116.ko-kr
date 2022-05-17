@@ -21,7 +21,7 @@ xref:removing-sg6000-cn-controller-from-cabinet-or-rack.adoc[캐비닛 또는 �
 . SG6000-CN 컨트롤러 덮개 래치가 잠겨 있지 않은지 확인합니다. 필요한 경우 래치 잠금 장치에 표시된 대로 파란색 플라스틱 래치 잠금 장치를 잠금 해제 방향으로 1/4바퀴 돌립니다.
 . 걸쇠를 위로 돌려 SG6000-CN 컨트롤러 섀시의 후면을 향해 멈출 때까지 돌린 다음 섀시에서 덮개를 조심스럽게 들어 올려 한 쪽에 둡니다.
 +
-image::../media/sg6060_cover_latch_open.jpg[SG6060 덮개 래치가 열려 있습니다]
+image::../media/sg6060_cover_latch_open.jpg[SG6060 및 SG6060X 덮개 걸쇠가 열려 있습니다]
 
 +
 

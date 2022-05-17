@@ -90,10 +90,7 @@ eth2
 트렁크 또는 액세스 인터페이스를 추가하려면 다음을 참조하십시오.
 
 * * VMware(노드 설치 후) *: xref:../maintain/vmware-adding-trunk-or-access-interfaces-to-node.adoc[VMware: 노드에 트렁크 또는 액세스 인터페이스를 추가합니다]
-+
-** * RHEL 또는 CentOS(노드 설치 전) *: xref:../rhel/creating-node-configuration-files.adoc[노드 구성 파일을 생성합니다]
-** * Ubuntu 또는 Debian(노드 설치 전) *: xref:../ubuntu/creating-node-configuration-files.adoc[노드 구성 파일을 생성합니다]
-** * RHEL, CentOS, Ubuntu 또는 Debian(노드 설치 후) *: xref:../maintain/linux-adding-trunk-or-access-interfaces-to-node.adoc[Linux: 노드에 트렁크 또는 액세스 인터페이스를 추가합니다]
-
-
+* * RHEL 또는 CentOS(노드 설치 전) *: xref:../rhel/creating-node-configuration-files.adoc[노드 구성 파일을 생성합니다]
+* * Ubuntu 또는 Debian(노드 설치 전) *: xref:../ubuntu/creating-node-configuration-files.adoc[노드 구성 파일을 생성합니다]
+* * RHEL, CentOS, Ubuntu 또는 Debian(노드 설치 후) *: xref:../maintain/linux-adding-trunk-or-access-interfaces-to-node.adoc[Linux: 노드에 트렁크 또는 액세스 인터페이스를 추가합니다]
 

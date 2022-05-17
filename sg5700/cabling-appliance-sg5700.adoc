@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storagegrid, sg5700, storage node, storage appliance, cabling, wiring, connecting, cable, wire, connect 
 summary: 두 컨트롤러를 서로 연결하고, 각 컨트롤러의 관리 포트를 연결한 다음, E5500SG 컨트롤러의 10/25-GbE 포트를 그리드 네트워크 및 StorageGRID용 클라이언트 네트워크 옵션에 연결해야 합니다. 
 ---
-= 케이블 어플라이언스(SG5700)
+= 케이블 어플라이언스(SG5700 시리즈)
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
@@ -33,9 +33,15 @@ summary: 두 컨트롤러를 서로 연결하고, 각 컨트롤러의 관리 포
 
 CAUTION: * 레이저 방사선에 노출될 위험 * -- SFP 트랜시버를 분해하거나 제거하지 마십시오. 레이저 방사선에 노출될 수 있습니다.
 
-이 그림은 SG5760의 컨트롤러 2개와 E2800 컨트롤러가 상단에 있고 E5500SG 컨트롤러 아래쪽은 입니다. SG5712에서 E2800 컨트롤러는 후면에서 볼 때 E5500SG 컨트롤러의 왼쪽에 있습니다.
+이 그림은 SG5760 및 SG5760X의 컨트롤러 2개와 E2800 시리즈 스토리지 컨트롤러 위쪽 및 E5500SG 컨트롤러 맨 아래에 있는 컨트롤러 2개를 보여 줍니다. SG5712 및 SG5712X에서는 E2800 시리즈 스토리지 컨트롤러를 후면에서 볼 때 E5500SG 컨트롤러의 왼쪽에 연결합니다.
+
+* SG5760 연결 *
 
 image::../media/sg5760_connections.gif[SG5760 어플라이언스에 연결]
+
+* SG5760X 연결 *
+
+image::../media/sg5760X_connections.png[SG5760X 어플라이언스에 연결]
 
 |===
 |  | 포트 | 포트의 유형입니다 | 기능 
@@ -55,7 +61,7 @@ image::../media/sg5760_connections.gif[SG5760 어플라이언스에 연결]
  a| 
 2
  a| 
-E2800 컨트롤러의 관리 포트 1
+E2800 시리즈 컨트롤러의 관리 포트 1
  a| 
 1GbE(RJ-45)
  a| 
@@ -66,7 +72,7 @@ SANtricity 시스템 관리자에 액세스하는 네트워크에 연결합니�
  a| 
 2
  a| 
-E2800 컨트롤러의 관리 포트 2
+E2800 시리즈 컨트롤러의 관리 포트 2
  a| 
 1GbE(RJ-45)
  a| 

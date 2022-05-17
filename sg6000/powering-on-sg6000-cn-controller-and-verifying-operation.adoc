@@ -29,7 +29,7 @@ xref:locating-controller-in-data-center.adoc[데이터 센터에서 컨트롤러
 +
 ** 컨트롤러 전면에 있는 전원 스위치를 누릅니다.
 +
-image::../media/sg6060_front_panel_power_led_off.jpg[SG6060 전면 패널 전원 LED - 꺼짐]
+image::../media/sg6060_front_panel_power_led_off.jpg[SG6060 및 SG6060X 전면 패널 전원 LED 꺼짐]
 
 ** 컨트롤러 BMC 인터페이스 사용:
 +
