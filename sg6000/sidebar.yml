@@ -6,7 +6,7 @@ entries:
   pdf-filename: StorageGRID SG6000 스토리지 어플라이언스
   url: "/sg6000/index.html"
   entries:
-  - title: SG6060 개요
+  - title: SG6060 및 SG6060X 개요
     url: "/sg6000/sg6060-overview.html"
   - title: SGF6024 개요
     url: "/sg6000/sgf6024-overview.html"
