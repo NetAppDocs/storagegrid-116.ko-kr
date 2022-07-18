@@ -45,6 +45,8 @@ sidebar:
     - section: expand
     - section: maintain
     - section: audit
+  - title: StorageGRID를 활성화합니다
+    url: "/storagegrid-enable.html"
   - title: 이전 버전
     url: "/earlier-versions.html"
   - title: 법적 고지
@@ -111,6 +113,8 @@ homepage:
       url: "/audit/index.html"
   - title: 데모 자습서
     links:
+    - title: StorageGRID를 활성화하는 방법을 알아보십시오
+      url: https://docs.netapp.com/us-en/storagegrid-enable/index.html
     - title: StorageGRID 비디오 라이브러리
       url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7nh2wGRA65iulXhtXwLiqrY
     - title: NetApp 학습 서비스

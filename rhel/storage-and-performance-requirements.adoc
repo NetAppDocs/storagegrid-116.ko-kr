@@ -32,9 +32,9 @@ StorageGRID 노드에는 다음과 같은 세 가지 논리적 스토리지 범�
 
 
 
-== NetApp AFF 스토리지를 사용하는 호스트에 대한 요구사항
+== NetApp ONTAP 스토리지를 사용하는 호스트에 대한 요구사항
 
-StorageGRID 노드에서 NetApp AFF 시스템에서 할당된 스토리지를 사용하는 경우 볼륨에 FabricPool 계층화 정책이 활성화되어 있지 않은지 확인합니다. StorageGRID 노드와 함께 사용되는 볼륨에 대해 FabricPool 계층화를 사용하지 않도록 설정하면 문제 해결과 스토리지 작업이 간소화됩니다.
+StorageGRID 노드에서 NetApp ONTAP 시스템에서 할당된 스토리지를 사용하는 경우 볼륨에 FabricPool 계층화 정책이 활성화되어 있지 않은지 확인합니다. StorageGRID 노드와 함께 사용되는 볼륨에 대해 FabricPool 계층화를 사용하지 않도록 설정하면 문제 해결과 스토리지 작업이 간소화됩니다.
 
 
 IMPORTANT: FabricPool를 사용하여 StorageGRID 관련 데이터를 StorageGRID 자체로 계층화하지 마십시오. StorageGRID 데이터를 StorageGRID로 다시 계층화하면 문제 해결과 운영 복잡성이 늘어납니다.

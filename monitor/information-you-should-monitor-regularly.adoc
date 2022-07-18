@@ -42,12 +42,14 @@ xref:monitoring-information-lifecycle-management.adoc[정보 수명 주기 관�
 
 
  a| 
-xref:monitoring-performance-networking-and-system-resources.adoc[성능, 네트워킹 및 시스템 리소스]:
+xref:monitoring-network-connections-and-performance.adoc[네트워크 연결 및 성능]
+ a| 
+매주
 
-* 쿼리 대기 시간
-* 연결 및 네트워킹
-* 노드 레벨 리소스
 
+
+ a| 
+xref:monitoring-node-level-resources.adoc[노드 레벨 리소스]
  a| 
 매주
 
