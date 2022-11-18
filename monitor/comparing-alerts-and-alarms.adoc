@@ -115,7 +115,7 @@ xref:../admin/index.adoc[StorageGRID 관리]
 
 * 참고: * 알람과 알림은 독립 시스템이므로 알람 및 AutoSupport 알림에 사용되는 이메일 설정은 알림 용도로 사용되지 않습니다. 그러나 모든 알림에 동일한 메일 서버를 사용할 수 있습니다.
 
-xref:set-up-email-alert-notifications.adoc[알림에 대한 이메일 알림을 설정합니다]
+xref:email-alert-notifications.adoc[알림에 대한 이메일 알림을 설정합니다]
  a| 
 지원 * > * 알람(레거시) * > * 레거시 이메일 설정 * 을 선택합니다.
 
@@ -147,7 +147,7 @@ xref:alarms-that-generate-snmp-notifications.adoc[SNMP 알림을 생성하는 �
 . 받는 사람* 섹션에서 경고가 발생할 때 전자 메일을 받을 각 전자 메일 목록의 전자 메일 주소를 입력합니다.
 
 
-xref:set-up-email-alert-notifications.adoc[알림에 대한 이메일 알림을 설정합니다]
+xref:email-alert-notifications.adoc[알림에 대한 이메일 알림을 설정합니다]
  a| 
 . 지원 * > * 알람(레거시) * > * 레거시 이메일 설정 * 을 선택합니다.
 . 메일 그룹 만들기.

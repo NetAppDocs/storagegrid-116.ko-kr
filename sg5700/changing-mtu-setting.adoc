@@ -20,9 +20,9 @@ IMPORTANT: 네트워크의 MTU 값은 노드가 연결된 스위치 포트에 �
 
 IMPORTANT: 최상의 네트워크 성능을 얻으려면 모든 노드를 그리드 네트워크 인터페이스에서 유사한 MTU 값으로 구성해야 합니다. 개별 노드의 그리드 네트워크에 대한 MTU 설정에 상당한 차이가 있을 경우 * Grid Network MTU mismatch * 경고가 트리거됩니다. MTU 값은 모든 네트워크 유형에 대해 같을 필요는 없습니다.
 
-어플라이언스 노드를 재부팅하지 않고 MTU 설정을 변경하려면 <<Change the MTU setting using the Change IP tool,IP 변경 도구를 사용합니다>>.
+어플라이언스 노드를 재부팅하지 않고 MTU 설정을 변경하려면  the MTU setting using the Change IP tool,IP 변경 도구를 사용합니다.
 
-초기 설치 중에 StorageGRID 어플라이언스 설치 프로그램에서 클라이언트 또는 관리자 네트워크가 구성되지 않은 경우 <<Change the MTU setting using maintenance mode,유지보수 모드를 사용하여 MTU 설정을 변경합니다>>.
+초기 설치 중에 StorageGRID 어플라이언스 설치 프로그램에서 클라이언트 또는 관리자 네트워크가 구성되지 않은 경우  the MTU setting using maintenance mode,유지보수 모드를 사용하여 MTU 설정을 변경합니다.
 
 
 

@@ -88,12 +88,12 @@ StorageGRID 11.6으로 업그레이드하면 다음 중 하나가 적용되지 �
 +
 image::../media/nodes_page_object_data_used_with_alert.png[3 SNS에 사용된 오브젝트 데이터를 보여주는 노드 페이지입니다]
 
-. 스토리지 노드 중 거의 꽉 참(예: 모든 * 사용된 객체 데이터 * 값이 80% 미만인 경우)이 없는 경우 재정의 설정을 사용할 수 있습니다. 로 이동합니다 <<Use optimized watermarks>>.
+. 스토리지 노드 중 거의 꽉 참(예: 모든 * 사용된 객체 데이터 * 값이 80% 미만인 경우)이 없는 경우 재정의 설정을 사용할 수 있습니다. 로 이동합니다  optimized watermarks.
 +
 
-NOTE: 이 일반 규칙에는 몇 가지 예외가 있습니다. 예를 들어 ILM 규칙이 Strict 수집 동작을 사용하거나 특정 스토리지 풀이 거의 꽉 찬 경우 먼저 의 단계를 수행해야 합니다 <<View optimized storage watermarks>> 및 <<Determine if you can use optimized watermarks>>.
+NOTE: 이 일반 규칙에는 몇 가지 예외가 있습니다. 예를 들어 ILM 규칙이 Strict 수집 동작을 사용하거나 특정 스토리지 풀이 거의 꽉 찬 경우 먼저 의 단계를 수행해야 합니다  optimized storage watermarks 및  if you can use optimized watermarks.
 
-. 하나 이상의 스토리지 노드가 거의 꽉 찬 경우 의 단계를 수행합니다 <<View optimized storage watermarks>> 및 <<Determine if you can use optimized watermarks>>.
+. 하나 이상의 스토리지 노드가 거의 꽉 찬 경우 의 단계를 수행합니다  optimized storage watermarks 및  if you can use optimized watermarks.
 
 
 
@@ -133,9 +133,9 @@ StorageGRID는 두 개의 Prometheus 메트릭을 사용하여 * 스토리지 �
 .. 각 오브젝트 저장소(볼륨)의 * 사용 가능 * 값을 해당 스토리지 노드에 대해 기록해 둔 최대 최적화 워터마크와 비교합니다.
 
 
-. 모든 온라인 스토리지 노드에서 하나 이상의 볼륨에 해당 노드에 대해 최적화된 최대 워터마크보다 사용 가능한 공간이 더 많은 경우 로 이동합니다 <<Use optimized watermarks>> 최적화된 워터마크를 사용하기 시작합니다.
+. 모든 온라인 스토리지 노드에서 하나 이상의 볼륨에 해당 노드에 대해 최적화된 최대 워터마크보다 사용 가능한 공간이 더 많은 경우 로 이동합니다  optimized watermarks 최적화된 워터마크를 사용하기 시작합니다.
 +
-그렇지 않으면 xref:../expand/index.adoc[그리드를 확장합니다] 빨리. 기존 노드에 스토리지 볼륨을 추가하거나 새 스토리지 노드를 추가합니다. 그런 다음 로 이동합니다 <<Use optimized watermarks>> 배경무늬 설정을 업데이트합니다.
+그렇지 않으면 xref:../expand/index.adoc[그리드를 확장합니다] 빨리. 기존 노드에 스토리지 볼륨을 추가하거나 새 스토리지 노드를 추가합니다. 그런 다음 로 이동합니다  optimized watermarks 배경무늬 설정을 업데이트합니다.
 
 . 스토리지 볼륨 워터마크에 대해 사용자 지정 값을 계속 사용해야 하는 경우 xref:../monitor/silencing-alert-notifications.adoc[침묵] 또는 xref:../monitor/disabling-alert-rules.adoc[사용 안 함] 낮은 읽기 전용 배경무늬 무시 * 알림.
 +

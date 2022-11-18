@@ -42,7 +42,7 @@ CAUTION: 두 개 이상의 스토리지 노드가 오프라인이거나 이 그�
 * 'sn-recovery-postinstall.sh' 스크립트를 실행합니다. 이 스크립트가 실행되면 다음 작업을 수행합니다.
 +
 
-IMPORTANT: sn-recovery-postinstall.sh를 실행하기 전에 복구 중에 스토리지 노드를 재부팅하지 마십시오( 의 단계 참조) <<post_install_script_step,설치 후 스크립트>>)를 사용하여 오류가 발생한 스토리지 볼륨을 다시 포맷하고 개체 메타데이터를 복원합니다. 'sn-recovery-postinstall.sh'가 완료되기 전에 스토리지 노드를 재부팅하면 서비스를 시작할 때 오류가 발생하여 StorageGRID 어플라이언스 노드가 유지보수 모드를 종료합니다.
+IMPORTANT: 실행 전에 복구 중에 스토리지 노드를 재부팅하지 마십시오 `sn-recovery-postinstall.sh` 장애가 발생한 스토리지 볼륨을 다시 포맷하고 객체 메타데이터를 복원합니다. 전에 스토리지 노드를 재부팅합니다 `sn-recovery-postinstall.sh` 완료로 인해 서비스를 시작하려고 하는 서비스에 오류가 발생하여 StorageGRID 어플라이언스 노드가 유지보수 모드를 종료합니다. 의 단계를 참조하십시오 ,설치 후 스크립트.
 
 +
 ** 'n-remount-volumes' 스크립트가 마운트할 수 없거나 잘못 포맷된 스토리지 볼륨을 다시 포맷합니다.
@@ -227,7 +227,7 @@ NOTE: RSM 서비스는 ADC 서비스를 포함하는 스토리지 노드에 있�
 
 NOTE: 일부 StorageGRID 복구 절차에서는 리퍼를 사용하여 Cassandra 수리를 처리합니다. 관련 또는 필수 서비스가 시작되는 즉시 수리가 자동으로 이루어집니다. "리퍼" 또는 "'Cassandra 수리'라는 스크립트 출력을 볼 수 있습니다. 복구가 실패했다는 오류 메시지가 나타나면 오류 메시지에 표시된 명령을 실행합니다.
 
-. 'sn-recovery-postinstall.sh' 스크립트가 실행되면 Grid Manager에서 복구 페이지를 모니터링합니다.
+. [[설치 후 스크립트 - 단계]]. 를 클릭합니다 `sn-recovery-postinstall.sh` 스크립트가 실행되면 Grid Manager에서 복구 페이지를 모니터링합니다.
 +
 복구 페이지의 진행률 표시줄과 단계 열은 'sn-recovery-postinstall.sh' 스크립트의 상위 상태를 제공합니다.
 

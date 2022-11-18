@@ -27,7 +27,7 @@ Active Directory, Azure Active Directory(Azure AD), OpenLDAP 또는 Oracle Direc
 
 NOTE: 목록에 없는 LDAP v3 서비스를 사용하려면 기술 지원 부서에 문의하십시오.
 
-* OpenLDAP를 사용하려면 OpenLDAP 서버를 구성해야 합니다. 을 참조하십시오 <<Guidelines for configuring an OpenLDAP server>>.
+* OpenLDAP를 사용하려면 OpenLDAP 서버를 구성해야 합니다. 을 참조하십시오  for configuring an OpenLDAP server.
 * SSO(Single Sign-On)를 사용하려는 경우 을 검토했습니다 xref:requirements-for-sso.adoc[Single Sign-On 사용에 대한 요구 사항].
 * LDAP 서버와의 통신에 TLS(Transport Layer Security)를 사용하려는 경우 ID 공급자는 TLS 1.2 또는 1.3을 사용합니다. 을 참조하십시오 xref:supported-ciphers-for-outgoing-tls-connections.adoc[발신 TLS 연결에 지원되는 암호].
 

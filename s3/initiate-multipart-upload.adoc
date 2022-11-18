@@ -92,7 +92,7 @@ xref:using-s3-object-lock.adoc[S3 오브젝트 잠금 사용]
 ** 'X-amz-서버측-암호화-고객-키'
 ** 'X-amz-서버측-암호화-고객-알고리즘'
 +
-<<Request headers for server-side encryption>>
+ headers for server-side encryption
 
 
 

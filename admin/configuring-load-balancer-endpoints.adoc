@@ -153,7 +153,7 @@ image::../media/load_balancer_endpoint_node_interfaces_binding_mode.png[끝점 �
 +
 image::../media/load_balancer_endpoint_ha_group_vips_binding_mode.png[Endpoint HA 그룹 VIP 바인딩 모드]
 
-. HTTP* 끝점을 만드는 경우에는 인증서를 첨부할 필요가 없습니다. 새 로드 밸런서 끝점을 추가하려면 * Create * 를 선택합니다. 그런 다음 로 이동합니다 <<After-you-finish,작업을 마친 후>>. 그렇지 않으면 * 계속 * 을 선택하여 인증서를 첨부하십시오.
+. HTTP* 끝점을 만드는 경우에는 인증서를 첨부할 필요가 없습니다. 새 로드 밸런서 끝점을 추가하려면 * Create * 를 선택합니다. 그런 다음 로 이동합니다 ,작업을 마친 후. 그렇지 않으면 * 계속 * 을 선택하여 인증서를 첨부하십시오.
 
 
 

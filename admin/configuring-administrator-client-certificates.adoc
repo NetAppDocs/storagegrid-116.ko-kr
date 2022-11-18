@@ -48,9 +48,9 @@ NOTE: KMS(키 관리 서버)를 사용하여 특수하게 구성된 어플라이
 
 시나리오에 따라 클라이언트 인증서를 추가합니다.
 
-* <<Management interface certificate already configured>>
-* <<CA issued client certificate>>
-* <<Generated certificate from Grid Manager>>
+*  interface certificate already configured
+*  issued client certificate
+*  certificate from Grid Manager
 
 
 
@@ -220,7 +220,7 @@ IMPORTANT: 대화 상자를 닫은 후에는 인증서 개인 키를 볼 수 없
 . 그리드 관리자에서 * 구성 * > * 보안 * > * 인증서 * 를 선택한 다음 * 글로벌 * 탭을 선택합니다.
 . Management Interface certificate * 를 선택합니다.
 . 사용자 정의 인증서 사용 * 을 선택합니다.
-. 에서 certificate.pem 및 private_key.pem 파일을 업로드합니다 <<client_cert_details,클라이언트 인증서 세부 정보입니다>> 단계. CA 번들을 업로드할 필요가 없습니다.
+. 에서 certificate.pem 및 private_key.pem 파일을 업로드합니다 ,클라이언트 인증서 세부 정보입니다 단계. CA 번들을 업로드할 필요가 없습니다.
 +
 .. 인증서 업로드 * 를 선택한 다음 * 계속 * 을 선택합니다.
 .. 각 인증서 파일('.pem')을 업로드합니다.

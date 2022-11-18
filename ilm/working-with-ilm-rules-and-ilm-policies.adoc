@@ -78,7 +78,7 @@ ILM 규칙 편집 마법사가 열립니다.
 +
 image::../media/edit_ilm_rule_step_1.png[ILM 규칙 페이지를 편집합니다]
 
-. 에 대한 단계에 따라 ILM 규칙 편집 마법사의 페이지를 완료합니다 xref:creating-ilm-rule.adoc[ILM 규칙 만들기] 및 xref:using-advanced-filters-in-ilm-rules.adoc[고급 필터 사용], 필요에 따라.
+. 에 대한 단계에 따라 ILM 규칙 편집 마법사의 페이지를 완료합니다 xref:access-create-ilm-rule-wizard.adoc[ILM 규칙 만들기] 및 xref:using-advanced-filters-in-ilm-rules.adoc[고급 필터 사용], 필요에 따라.
 +
 ILM 규칙을 편집할 때는 해당 이름을 변경할 수 없습니다.
 

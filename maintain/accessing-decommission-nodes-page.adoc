@@ -66,7 +66,7 @@ image::../media/decommission_nodes_page_all_connected.png[노드 해제 페이�
 ** image:../media/icon_alarm_blue_unknown.png["파란색 물음표 아이콘"] (파란색): 알 수 없음
 
  a| 
-로 이동합니다 <<decommission_procedure_choices,서비스 해제 절차 선택 항목이 나열된 단계입니다>>.
+로 이동합니다 ,서비스 해제 절차 선택 항목이 나열된 단계입니다.
 
 
 

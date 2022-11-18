@@ -287,7 +287,7 @@ S3 Select 서비스에 대한 로그를 포함합니다.
  a| 
 관리자 및 게이트웨이 노드
 
-특정 관리자 및 게이트웨이 노드에만 이 로그가 포함됩니다. 를 참조하십시오 xref:manage-s3-select-for-tenant-accounts.adoc[S3 관리자 및 게이트웨이 노드에 대한 요구 사항 및 제한 사항을 선택합니다].
+특정 관리자 및 게이트웨이 노드에만 이 로그가 포함됩니다. 를 참조하십시오 xref:../admin/manage-s3-select-for-tenant-accounts.adoc[S3 관리자 및 게이트웨이 노드에 대한 요구 사항 및 제한 사항을 선택합니다].
 
 
 

@@ -15,6 +15,7 @@ StorageGRID를 처음 구축할 때 하나 이상의 StorageGRID 서비스 어�
 
 StorageGRID 시스템에서 필요한 버전의 StorageGRID 소프트웨어를 사용하고 있습니다.
 
+[cols="1a,2a"]
 |===
 | 어플라이언스 | 필수 StorageGRID 버전입니다 
 
@@ -38,7 +39,7 @@ SG1000
 
 그리드에 StorageGRID 어플라이언스 준비 및 추가에는 4가지 기본 단계가 있습니다.
 
-. 설치 준비:
+. xref:preparing-for-installation-sg100-and-sg1000.adoc[설치 준비 중]:
 +
 ** 설치 사이트 준비 중
 ** 박스 포장 풀기 및 내용물 확인
@@ -47,7 +48,7 @@ SG1000
 ** 선택 사항: 모든 어플라이언스 데이터를 암호화하려는 경우 외부 키 관리 서버(KMS) 구성 StorageGRID 관리 지침에 있는 외부 키 관리에 대한 자세한 내용을 참조하십시오.
 
 
-. 하드웨어 설치:
+. xref:registering-hardware-sg100-and-sg1000.adoc[하드웨어 설치]:
 +
 ** 하드웨어를 등록하는 중입니다
 ** 캐비닛 또는 랙에 제품 설치
@@ -56,7 +57,7 @@ SG1000
 ** 부팅 상태 코드 보기
 
 
-. 하드웨어 구성:
+. xref:configuring-storagegrid-connections-sg100-and-sg1000.adoc[하드웨어 구성]:
 +
 ** StorageGRID 어플라이언스 설치 프로그램에 액세스하고 StorageGRID 네트워크에 연결하는 데 필요한 링크 및 네트워크 IP 설정을 구성합니다
 ** 어플라이언스의 베이스보드 관리 컨트롤러(BMC) 인터페이스에 액세스합니다.
@@ -68,6 +69,7 @@ SG1000
 어플라이언스 하드웨어를 설치 및 구성한 후 어플라이언스를 게이트웨이 노드 및 StorageGRID 시스템에 관리 노드로 배포할 수 있습니다. SG100과 SG1000 어플라이언스는 모두 게이트웨이 노드 및 관리 노드(운영 노드 및 비운영 노드)로 동시에 작동할 수 있습니다.
 
 +
+[cols="2a,2a"]
 |===
 | 작업 | 지침 
 
@@ -82,26 +84,20 @@ xref:deploying-services-appliance-node.adoc[서비스 어플라이언스 노드�
  a| 
 기존 StorageGRID 시스템에 어플라이언스 게이트웨이 또는 관리자 노드 추가
  a| 
-StorageGRID 시스템 확장을 위한 지침
+xref:../expand/index.adoc[StorageGRID 시스템을 확장합니다]
 
 
 
  a| 
 노드 복구 작업의 일부로 어플라이언스 게이트웨이 또는 관리 노드 배포
  a| 
-복구 및 유지 관리 지침
+xref:../maintain/index.adoc[StorageGRID 시스템 복구 및 유지 관리]
 
 |===
 
 
-xref:preparing-for-installation-sg100-and-sg1000.adoc[설치 준비(SG100 및 SG1000)]
-
-xref:installing-hardware-sg100-and-sg1000.adoc[하드웨어 설치(SG100 및 SG1000)]
-
-xref:configuring-storagegrid-connections-sg100-and-sg1000.adoc[StorageGRID 접속 구성(SG100 및 SG1000)]
-
 xref:../expand/index.adoc[그리드를 확장합니다]
 
-xref:../maintain/index.adoc[복구 및 유지 관리]
+xref:../maintain/index.adoc[그리드 복구 및 유지 관리]
 
 xref:../admin/index.adoc[StorageGRID 관리]

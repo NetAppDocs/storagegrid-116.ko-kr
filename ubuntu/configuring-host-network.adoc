@@ -16,7 +16,7 @@ summary: 호스트에서 Linux 설치를 완료한 후 나중에 배포할 Stora
 .무엇을 &#8217;필요로 할거야
 * 을(를) 검토했습니다 xref:../network/index.adoc[StorageGRID 네트워킹 지침].
 * 에 대한 정보를 검토했습니다 xref:node-container-migration-requirements.adoc[노드 컨테이너 마이그레이션 요구사항].
-* 가상 호스트를 사용하는 경우 를 읽었습니다 <<mac_address_cloning_ubuntu,MAC 주소 복제에 대한 고려 사항 및 권장 사항>> 호스트 네트워크를 구성하기 전에
+* 가상 호스트를 사용하는 경우 를 읽었습니다 ,MAC 주소 복제에 대한 고려 사항 및 권장 사항 호스트 네트워크를 구성하기 전에
 
 
 

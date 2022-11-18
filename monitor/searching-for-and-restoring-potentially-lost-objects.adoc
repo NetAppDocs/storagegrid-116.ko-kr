@@ -115,7 +115,7 @@ ls '/var/local/rangedb/1/p/17/11/00rH0%DkRs&LgA%#3tN6'
 * 참고 *: 특수 문자를 이스케이프하려면 항상 명령에서 개체 파일 경로를 작은따옴표로 묶어야 합니다.
 
 * 개체 경로를 찾을 수 없으면 개체가 손실되어 이 절차를 사용하여 복원할 수 없습니다. 기술 지원 부서에 문의하십시오.
-* 개체 경로가 발견되면 단계를 계속 진행합니다 <<restore_the_object_to_StorageGRID,개체를 StorageGRID 로 복원합니다>>. 검색된 객체를 다시 StorageGRID로 복원할 수 있습니다.
+* 개체 경로가 발견되면 단계를 계속 진행합니다 ,개체를 StorageGRID 로 복원합니다. 검색된 객체를 다시 StorageGRID로 복원할 수 있습니다.
 +
 .. [[RESTORE_The_OBJECT_to_StorageGRID,START=3]] 개체 경로가 발견되면 개체를 StorageGRID에 복원해 보십시오.
 +
@@ -154,7 +154,7 @@ First packet of file was valid. Extracted key: 38186FE53E3C49A5
 Renamed '/var/local/rangedb/1/p/17/11/00rH0%DkRs&LgA%#3tN6' to '/var/local/rangedb/1/p/17/11/00rH0%DkRt78Ila#3udu'
 ----
 +
-단계를 계속 진행합니다 <<verify_that_new_locations_were_created,새 위치가 생성되었는지 확인합니다>>
+단계를 계속 진행합니다 ,새 위치가 생성되었는지 확인합니다
 
 +
 ... [[Verify_that_new_locations_created, start=4]] 객체가 StorageGRID에 성공적으로 복구되었으면 새 위치가 생성되었는지 확인합니다.

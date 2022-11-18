@@ -57,7 +57,7 @@ image::../media/services_appliance_installer_gateway_node.png[어플라이언스
 .. Node Name * 필드에 복구 중인 노드에 사용된 이름과 동일한 이름을 입력하고 * Save * 를 클릭합니다.
 .. 설치 섹션에서 현재 상태에 나열된 소프트웨어 버전을 확인합니다
 +
-설치 준비가 완료된 소프트웨어 버전이 올바른 경우 로 건너뜁니다 <<installation_section_step,설치 단계>>.
+설치 준비가 완료된 소프트웨어 버전이 올바른 경우 로 건너뜁니다 ,설치 단계.
 
 .. 다른 버전의 소프트웨어를 업로드하려면 * 고급 * 메뉴에서 * StorageGRID 소프트웨어 업로드 * 를 선택합니다.
 +

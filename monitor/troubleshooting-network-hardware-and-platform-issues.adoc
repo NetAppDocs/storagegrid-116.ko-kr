@@ -234,7 +234,7 @@ NOTE: 전기 소음이 많은 환경에서 높은 오류율을 느낄 수 있습
 
 
 
-<<troubleshoot_MTU_alert,Grid Network MTU 불일치 알림 문제를 해결합니다>>
+,Grid Network MTU 불일치 알림 문제를 해결합니다
 
 xref:alarms-reference.adoc[알람 기준(레거시 시스템)]
 

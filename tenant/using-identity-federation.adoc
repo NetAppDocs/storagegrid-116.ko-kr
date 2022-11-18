@@ -27,7 +27,7 @@ ID 페더레이션을 사용하면 테넌트 그룹 및 사용자를 더 빠르�
 
 NOTE: 목록에 없는 LDAP v3 서비스를 사용하려면 기술 지원 부서에 문의하십시오.
 
-* OpenLDAP를 사용하려면 OpenLDAP 서버를 구성해야 합니다. 을 참조하십시오 <<Guidelines for configuring OpenLDAP server>>.
+* OpenLDAP를 사용하려면 OpenLDAP 서버를 구성해야 합니다. 을 참조하십시오  for configuring OpenLDAP server.
 * LDAP 서버와의 통신에 TLS(Transport Layer Security)를 사용하려는 경우 ID 공급자는 TLS 1.2 또는 1.3을 사용해야 합니다. 을 참조하십시오 xref:../admin/supported-ciphers-for-outgoing-tls-connections.adoc[발신 TLS 연결에 지원되는 암호].
 
 

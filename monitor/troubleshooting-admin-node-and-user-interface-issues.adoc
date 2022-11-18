@@ -165,7 +165,7 @@ sg snmp agent                  11.4.0         Running
 +
 idnt, acct, nginx 및 cassandra 서비스가 모두 실행 중인지 확인합니다.
 
-. 단계를 반복합니다 <<use_Lumberjack_to_collect_logs,로그를 수집하려면 Lumberjack을 사용합니다>> 및 <<review_logs,로그를 검토합니다>> 스토리지 노드의 로그를 검토합니다.
+. 단계를 반복합니다 ,로그를 수집하려면 Lumberjack을 사용합니다 및 ,로그를 검토합니다 스토리지 노드의 로그를 검토합니다.
 . 문제를 해결할 수 없는 경우 기술 지원 부서에 문의하십시오.
 +
 기술 지원 팀에 수집한 로그를 제공합니다. 도 참조하십시오 xref:logs-files-reference.adoc[로그 파일 참조].

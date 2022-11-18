@@ -21,7 +21,7 @@ summary: 소프트웨어 업그레이드를 시작하기 전에 업그레이드�
  a| 
 StorageGRID 업그레이드 파일
  a| 
-<<Download the StorageGRID upgrade files>> 서비스 랩톱으로 이동합니다.
+ the StorageGRID upgrade files 서비스 랩톱으로 이동합니다.
 
 
 
@@ -46,7 +46,7 @@ xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저]
  a| 
 복구 패키지(".zip") 파일
  a| 
-<<Download the Recovery Package>> 업그레이드하기 전에 파일을 안전한 위치에 저장하십시오. 복구 패키지 파일을 사용하면 오류가 발생할 경우 시스템을 복원할 수 있습니다.
+ the Recovery Package 업그레이드하기 전에 파일을 안전한 위치에 저장하십시오. 복구 패키지 파일을 사용하면 오류가 발생할 경우 시스템을 복원할 수 있습니다.
 
 
 
