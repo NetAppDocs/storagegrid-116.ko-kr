@@ -80,4 +80,5 @@ summary: 다음 Swift API 작업은 어카운트에 대해 수행됩니다.
 * X-Trans-ID
 
 
+.관련 정보
 xref:monitoring-and-auditing-operations.adoc[운영 모니터링 및 감사]

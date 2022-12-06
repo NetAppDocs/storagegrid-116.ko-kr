@@ -145,4 +145,5 @@ Connection: CLOSE
 X-Trans-Id: 1936575373
 Content-Length: 0
 ----
+.관련 정보
 xref:../tenant/index.adoc[테넌트 계정을 사용합니다]

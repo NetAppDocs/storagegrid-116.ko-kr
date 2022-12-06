@@ -1,5 +1,5 @@
 ---
-permalink: maintain/vmware-configuring-virtual-machine-for-automatic-restart 
+permalink: maintain/vmware-configuring-virtual-machine-for-automatic-restart.html 
 sidebar: sidebar 
 keywords: storagegrid, recover, vmware, automatic restart, auto restart, configure automatic restart, configure auto restart 
 summary: VMware vSphere Hypervisor를 다시 시작한 후 가상 머신을 다시 시작하지 않으면 가상 머신을 자동 다시 시작하도록 구성해야 할 수 있습니다. 

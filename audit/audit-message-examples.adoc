@@ -71,6 +71,7 @@ UT][ANID(UI32):12872812][AMID(FC32):S3RQ][ATID(UI64):15792241
 ----
 ATIM은 UNIX epoch 시작 이후 시간(단위: 마이크로초)을 기록합니다. 이 예에서 값 '1405631878959669'는 2014년 7월 17일 목요일 21:17:59 UTC로 변환됩니다.
 
+.관련 정보
 xref:sput-s3-put.adoc[SPUT: S3 PUT]
 
 xref:common-elements-in-audit-messages.adoc[감사 메시지의 공통 요소]

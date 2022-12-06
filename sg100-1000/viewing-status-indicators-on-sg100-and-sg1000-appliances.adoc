@@ -114,6 +114,7 @@ image::../media/ssd_indicators.png[SSD 표시등]
 파란색(깜박임): 드라이브에 액세스하는 중입니다
 
 |===
+.관련 정보
 xref:troubleshooting-hardware-installation-sg100-and-sg1000.adoc[하드웨어 설치 문제 해결(SG100 및 SG1000)]
 
 xref:configuring-bmc-interface-sg1000.adoc[BMC 인터페이스 구성(SG100 및 SG1000)]

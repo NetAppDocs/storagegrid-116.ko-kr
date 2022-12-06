@@ -145,6 +145,7 @@ X-amz-STERAGE-CLASS:빙하
 
 rrionId 서브리소스를 지정하지 않으면 가장 최근 버전의 객체가 버전 관리되는 버킷에 페치됩니다. 객체의 현재 버전이 삭제 표식이면 x-amz-DELETE-MARKER 응답 헤더가 TRUE로 설정된 상태로 "Not Found" 상태가 반환됩니다.
 
+.관련 정보
 xref:using-server-side-encryption.adoc[서버측 암호화를 사용합니다]
 
 xref:../ilm/index.adoc[ILM을 사용하여 개체를 관리합니다]

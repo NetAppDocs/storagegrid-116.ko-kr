@@ -56,4 +56,5 @@ ILM 정책을 처음 만들 때는 하나 이상의 ILM 규칙을 선택하고 �
 
 image::../media/ilm_policies_proposed_active_historical.png[ILM 정책에 대한 개념적 이미지]
 
+.관련 정보
 xref:creating-ilm-policy.adoc[ILM 정책을 생성합니다]

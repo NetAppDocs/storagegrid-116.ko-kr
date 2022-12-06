@@ -13,8 +13,10 @@ summary: 어플라이언스의 E2700 컨트롤러를 SANtricity 스토리지 관
 [role="lead"]
 어플라이언스의 E2700 컨트롤러를 SANtricity 스토리지 관리자에 연결한 다음 어플라이언스를 스토리지 어레이로 추가합니다.
 
+.필요한 것
 을(를) 사용하고 있습니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
 
+.이 작업에 대해
 자세한 내용은 SANtricity 스토리지 관리자 설명서를 참조하십시오.
 
 .단계
@@ -43,4 +45,5 @@ NOTE: 어플라이언스의 컨트롤러 중 하나만 SANtricity 스토리지 �
 . 추가 * 를 클릭합니다.
 
 
+.관련 정보
 http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61197["NetApp 문서: SANtricity 스토리지 관리자"^]

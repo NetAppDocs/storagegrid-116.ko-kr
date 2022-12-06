@@ -55,6 +55,7 @@ NOTE: 아카이브 노드에서 Tivoli Storage Manager를 외부 아카이브 �
 
 NOTE: CIFS/Samba를 통한 감사 내보내기는 더 이상 사용되지 않으며 향후 StorageGRID 릴리즈에서 제거될 예정입니다.
 
+.관련 정보
 xref:../admin/index.adoc[StorageGRID 관리]
 
 xref:../s3/index.adoc[S3을 사용합니다]

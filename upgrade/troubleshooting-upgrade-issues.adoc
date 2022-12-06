@@ -45,4 +45,5 @@ summary: 업그레이드가 성공적으로 완료되지 않으면 직접 문제
 
 데이터베이스 업그레이드에 오류가 발생하면 업그레이드를 다시 시도하십시오. 다시 실패하면 기술 지원 부서에 문의하십시오.
 
+.관련 정보
 xref:checking-systems-condition-before-upgrading-software.adoc[소프트웨어를 업그레이드하기 전에 시스템 상태를 확인합니다]

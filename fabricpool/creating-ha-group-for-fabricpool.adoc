@@ -13,12 +13,13 @@ summary: 'FabricPool와 함께 사용하도록 StorageGRID를 구성할 때 하�
 [role="lead"]
 FabricPool와 함께 사용하도록 StorageGRID를 구성할 때 HA(고가용성) 그룹을 하나 이상 선택적으로 생성할 수 있습니다. HA 그룹은 관리 노드, 게이트웨이 노드 또는 둘 다에서 하나 이상의 네트워크 인터페이스로 구성됩니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 를 사용하여 그리드 관리자에 로그인했습니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
 * 루트 액세스 권한이 있습니다.
 * VLAN을 사용하려는 경우 VLAN 인터페이스를 만들었습니다. 을 참조하십시오 xref:../admin/configure-vlan-interfaces.adoc[VLAN 인터페이스를 구성합니다].
 
 
+.이 작업에 대해
 각 HA 그룹은 가상 IP 주소(VIP)를 사용하여 연결된 노드의 공유 서비스에 대한 고가용성 액세스를 제공합니다.
 
 이 작업에 대한 자세한 내용은 을 참조하십시오 xref:../admin/managing-high-availability-groups.adoc[고가용성 그룹을 관리합니다].

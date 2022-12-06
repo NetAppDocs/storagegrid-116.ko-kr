@@ -179,7 +179,7 @@ HDD(하드 디스크 드라이브) 또는 SSD(Solid State Drive)와 같은 어�
  a| 
 하나의 데이터 드라이브의 유효 크기입니다.
 
-* 참고 *: 확장 쉘프가 있는 노드의 경우 를 사용하십시오 ,각 쉘프의 데이터 드라이브 크기입니다 대신 유효 드라이브 크기는 쉘프마다 다를 수 있습니다.
+* 참고 *: 확장 쉘프가 있는 노드의 경우 를 사용하십시오 <<shelf_data_drive_size,각 쉘프의 데이터 드라이브 크기입니다>> 대신 유효 드라이브 크기는 쉘프마다 다를 수 있습니다.
 
 
 
@@ -476,6 +476,7 @@ image::../media/nodes_page_storage_tables.png[노드 페이지 스토리지 테�
 
 
 
+.관련 정보
 xref:../sg6000/index.adoc[SG6000 스토리지 어플라이언스]
 
 xref:../sg5700/index.adoc[SG5700 스토리지 어플라이언스]
@@ -712,4 +713,5 @@ image::../media/nodes_page_storage_tab_services_appliance.png[노드 페이지 �
 
 
 
+.관련 정보
 xref:../sg100-1000/index.adoc[SG100 및 SG1000 서비스 어플라이언스]

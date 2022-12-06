@@ -13,6 +13,7 @@ summary: StorageGRID 시스템에 가입하려면 각 그리드 노드를 승인
 [role="lead"]
 StorageGRID 시스템에 가입하려면 각 그리드 노드를 승인해야 합니다.
 
+.필요한 것
 모든 가상 및 StorageGRID 어플라이언스 그리드 노드를 구축했습니다.
 
 

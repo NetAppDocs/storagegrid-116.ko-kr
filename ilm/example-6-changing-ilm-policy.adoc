@@ -40,6 +40,7 @@ NOTE: StorageGRID는 각 삭제 코딩 프로필을 고유한 것으로 간주�
 * 기존 오브젝트의 복사본을 전혀 다른 위치로 이동(예: 많은 오브젝트를 Cloud Storage Pool 간에 이동 또는 원격 사이트 간에 이동)
 
 
+.관련 정보
 xref:creating-ilm-policy.adoc[ILM 정책을 생성합니다]
 
 

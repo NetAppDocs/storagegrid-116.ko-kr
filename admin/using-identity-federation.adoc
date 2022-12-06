@@ -19,7 +19,7 @@ ID 페더레이션을 사용하면 그룹 및 사용자를 더 빠르게 설정�
 
 Active Directory, Azure Active Directory(Azure AD), OpenLDAP 또는 Oracle Directory Server와 같은 다른 시스템에서 관리 그룹 및 사용자를 관리하려는 경우 Grid Manager에서 ID 페더레이션을 구성할 수 있습니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 를 사용하여 그리드 관리자에 로그인했습니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
 * 특정 액세스 권한이 있습니다.
 * Active Directory, Azure AD, OpenLDAP 또는 Oracle Directory Server를 ID 공급자로 사용하고 있습니다.
@@ -27,11 +27,12 @@ Active Directory, Azure Active Directory(Azure AD), OpenLDAP 또는 Oracle Direc
 
 NOTE: 목록에 없는 LDAP v3 서비스를 사용하려면 기술 지원 부서에 문의하십시오.
 
-* OpenLDAP를 사용하려면 OpenLDAP 서버를 구성해야 합니다. 을 참조하십시오  for configuring an OpenLDAP server.
+* OpenLDAP를 사용하려면 OpenLDAP 서버를 구성해야 합니다. 을 참조하십시오 <<OpenLDAP 서버 구성 지침>>.
 * SSO(Single Sign-On)를 사용하려는 경우 을 검토했습니다 xref:requirements-for-sso.adoc[Single Sign-On 사용에 대한 요구 사항].
 * LDAP 서버와의 통신에 TLS(Transport Layer Security)를 사용하려는 경우 ID 공급자는 TLS 1.2 또는 1.3을 사용합니다. 을 참조하십시오 xref:supported-ciphers-for-outgoing-tls-connections.adoc[발신 TLS 연결에 지원되는 암호].
 
 
+.이 작업에 대해
 Active Directory, Azure AD, OpenLDAP 또는 Oracle Directory Server와 같은 다른 시스템에서 그룹을 가져오려면 Grid Manager의 ID 소스를 구성할 수 있습니다. 다음 유형의 그룹을 가져올 수 있습니다.
 
 * 관리 그룹: 관리자 그룹의 사용자는 그룹에 할당된 관리 권한에 따라 Grid Manager에 로그인하여 작업을 수행할 수 있습니다.
@@ -185,6 +186,7 @@ NOTE: ID 소스에서 페더레이션 그룹과 사용자를 동기화하는 데
 
 그룹 및 사용자에 대한 ID 페더레이션을 일시적으로 또는 영구적으로 비활성화할 수 있습니다. ID 페더레이션을 사용하지 않도록 설정하면 StorageGRID와 ID 소스 간에 통신이 이루어지지 않습니다. 그러나 구성한 설정은 그대로 유지되므로 나중에 ID 페더레이션을 쉽게 다시 사용할 수 있습니다.
 
+.이 작업에 대해
 ID 페더레이션을 사용하지 않도록 설정하기 전에 다음 사항을 확인해야 합니다.
 
 * 페더레이션 사용자는 로그인할 수 없습니다.

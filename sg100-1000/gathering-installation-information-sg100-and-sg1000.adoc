@@ -357,6 +357,7 @@ BMC 관리 포트에 사용할 고정 IP 주소입니다
 
 
 |===
+.관련 정보
 xref:sg100-and-sg1000-appliances-overview.adoc[SG100 및 SG1000 어플라이언스 개요]
 
 xref:cabling-appliance-sg100-and-sg1000.adoc[케이블 어플라이언스 SG100 및 SG1000]

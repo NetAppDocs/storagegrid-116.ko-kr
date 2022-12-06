@@ -92,7 +92,7 @@ xref:using-s3-object-lock.adoc[S3 오브젝트 잠금 사용]
 ** 'X-amz-서버측-암호화-고객-키'
 ** 'X-amz-서버측-암호화-고객-알고리즘'
 +
- headers for server-side encryption
+<<서버측 암호화에 대한 요청 헤더>>
 
 
 
@@ -139,6 +139,7 @@ NOTE: StorageGRID에서 UTF-8 문자를 처리하는 방법에 대한 자세한 
 
 멀티파트 업로드는 업로드 시작, 리스팅 업로드, 파트 업로드, 업로드된 파트 조립 및 업로드 완료를 위한 별도의 작업으로 구성됩니다. MultiPart Upload 작업이 완료되면 개체가 만들어지고 버전이 적용됩니다(해당하는 경우).
 
+.관련 정보
 xref:../ilm/index.adoc[ILM을 사용하여 개체를 관리합니다]
 
 xref:using-server-side-encryption.adoc[서버측 암호화를 사용합니다]

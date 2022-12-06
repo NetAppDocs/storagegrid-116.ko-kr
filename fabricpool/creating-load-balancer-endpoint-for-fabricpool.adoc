@@ -13,7 +13,7 @@ summary: FabricPool와 함께 사용하도록 StorageGRID를 구성할 때는 �
 [role="lead"]
 FabricPool와 함께 사용하도록 StorageGRID를 구성할 때는 로드 밸런서 끝점을 구성하고 로드 밸런서 끝점 인증서를 업로드해야 합니다. 이 인증서는 ONTAP와 StorageGRID 간의 연결을 보호하는 데 사용됩니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 를 사용하여 그리드 관리자에 로그인했습니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
 * 루트 액세스 권한이 있습니다.
 * 다음 파일이 있습니다.
@@ -25,6 +25,7 @@ FabricPool와 함께 사용하도록 StorageGRID를 구성할 때는 로드 밸�
 
 
 
+.이 작업에 대해
 이 작업에 대한 자세한 내용은 을 참조하십시오 xref:../admin/configuring-load-balancer-endpoints.adoc[로드 밸런서 엔드포인트를 구성합니다].
 
 .단계

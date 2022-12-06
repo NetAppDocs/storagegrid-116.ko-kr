@@ -29,6 +29,7 @@ IMPORTANT: 연결이 끊긴 사이트 파기 작업을 수행하기 전에 NetAp
 
 NOTE: 두 번째 유지보수 절차를 수행해야 하는 경우 를 수행할 수 있습니다 xref:pausing-and-resuming-decommission-process-for-storage-nodes.adoc[스토리지 노드를 제거하는 동안 서비스 해제 절차를 일시 중지합니다]. ILM 평가 또는 삭제 코딩 데이터 사용 중단 단계에 도달한 경우에만 * 일시 중지 * 버튼이 활성화됩니다. 그러나 ILM 평가(데이터 마이그레이션)는 백그라운드에서 계속 실행됩니다. 두 번째 유지 보수 절차가 완료되면 서비스 해제를 재개할 수 있습니다.
 
+.관련 정보
 xref:grid-node-decommissioning.adoc[그리드 노드 해제]
 
 xref:site-decommissioning.adoc[사이트 파기]

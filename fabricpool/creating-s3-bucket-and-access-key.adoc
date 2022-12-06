@@ -13,10 +13,11 @@ summary: FabricPool 워크로드에 StorageGRID를 사용하기 전에 FabricPoo
 [role="lead"]
 FabricPool 워크로드에 StorageGRID를 사용하기 전에 FabricPool 데이터용 S3 버킷을 생성해야 합니다. 또한 FabricPool에 사용할 테넌트 계정에 대한 액세스 키와 비밀 액세스 키를 얻어야 합니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * FabricPool 사용을 위해 테넌트 계정을 만들었습니다.
 
 
+.이 작업에 대해
 다음 지침은 StorageGRID 테넌트 관리자를 사용하여 버킷을 생성하고 액세스 키를 얻는 방법을 설명합니다. 테넌트 관리 API 또는 StorageGRID S3 REST API를 사용하여 이러한 작업을 수행할 수도 있습니다. 또는 ONTAP 9.10을 사용하는 경우 대신 FabricPool 설정 마법사를 사용하여 버킷을 생성할 수 있습니다.
 
 자세한 내용:

@@ -173,4 +173,5 @@ SNMP 에이전트 구성 및 알람 허용/거부 목록은 SNMP 알림을 보�
 StorageGRID 컨테이너 명령의 출력 네트워킹 및 디스크 사용과 같은 시스템 정보를 포함합니다.
 
 |===
+.관련 정보
 xref:collecting-log-files-and-system-data.adoc[로그 파일 및 시스템 데이터를 수집합니다]

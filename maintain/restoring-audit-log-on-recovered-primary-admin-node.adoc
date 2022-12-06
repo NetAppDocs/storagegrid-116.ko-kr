@@ -58,4 +58,5 @@ summary: 실패한 기본 관리 노드에서 감사 로그를 보존할 수 있
 
 또한 감사 공유에 대한 기존 클라이언트 액세스도 복원해야 합니다. 자세한 내용은 StorageGRID 관리 지침을 참조하십시오.
 
+.관련 정보
 xref:../admin/index.adoc[StorageGRID 관리]

@@ -76,4 +76,5 @@ Date: _date_
 Authorization: _authorization string_
 Host: _host_
 ----
+.관련 정보
 xref:consistency-controls.adoc[일관성 제어]

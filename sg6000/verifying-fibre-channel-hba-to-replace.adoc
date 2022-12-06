@@ -13,7 +13,7 @@ summary: '교체할 Fibre Channel 호스트 버스 어댑터 \(HBA\)가 확실�
 [role="lead"]
 교체할 Fibre Channel HBA(호스트 버스 어댑터)가 확실하지 않은 경우 이 절차를 수행하여 확인하십시오.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * Fibre Channel HBA를 교체해야 하는 스토리지 어플라이언스 또는 SG6000-CN 컨트롤러의 일련 번호가 있습니다.
 +
 
@@ -47,4 +47,5 @@ xref:turning-controller-identify-led-on-and-off.adoc[컨트롤러 식별 LED를 
 
 
 
+.관련 정보
 xref:removing-fibre-channel-hba.adoc[Fibre Channel HBA를 제거합니다]

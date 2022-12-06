@@ -29,6 +29,7 @@ Compliance가 설정된 새 버킷을 더 이상 생성할 수 없습니다. 새
 The Compliance feature is deprecated.
 Contact your StorageGRID administrator if you need to create new Compliant buckets.
 ----
+.관련 정보
 xref:../ilm/index.adoc[ILM을 사용하여 개체를 관리합니다]
 
 xref:../tenant/index.adoc[테넌트 계정을 사용합니다]

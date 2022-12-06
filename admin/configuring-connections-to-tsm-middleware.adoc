@@ -13,11 +13,12 @@ summary: '아카이브 노드가 TSM(Tivoli Storage Manager) 미들웨어와 통
 [role="lead"]
 아카이브 노드가 TSM(Tivoli Storage Manager) 미들웨어와 통신하려면 먼저 여러 설정을 구성해야 합니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 를 사용하여 그리드 관리자에 로그인했습니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
 * 특정 액세스 권한이 있습니다.
 
 
+.이 작업에 대해
 이러한 설정이 구성될 때까지 ARC 서비스는 Tivoli Storage Manager와 통신할 수 없기 때문에 주요 알람 상태를 유지합니다.
 
 .단계

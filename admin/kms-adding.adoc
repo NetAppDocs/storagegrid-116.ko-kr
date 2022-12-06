@@ -13,13 +13,14 @@ summary: StorageGRID 키 관리 서버 마법사를 사용하여 각 KMS 또는 
 [role="lead"]
 StorageGRID 키 관리 서버 마법사를 사용하여 각 KMS 또는 KMS 클러스터를 추가합니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 을(를) 검토했습니다 xref:kms-considerations-and-requirements.adoc[키 관리 서버 사용에 대한 고려 사항 및 요구 사항].
 * 있습니다 xref:kms-configuring-storagegrid-as-client.adoc[KMS에서 StorageGRID를 클라이언트로 구성했습니다]또한 각 KMS 또는 KMS 클러스터에 필요한 정보가 있습니다.
 * 를 사용하여 그리드 관리자에 로그인했습니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
 * 루트 액세스 권한이 있습니다.
 
 
+.이 작업에 대해
 가능하면 다른 KMS에서 관리하지 않는 모든 사이트에 적용되는 기본 KMS를 구성하기 전에 사이트별 키 관리 서버를 구성하십시오. 기본 KMS를 먼저 만들면 그리드의 모든 노드 암호화 어플라이언스는 기본 KMS로 암호화됩니다. 나중에 사이트별 KMS를 만들려면 먼저 기본 KMS에서 새 KMS로 암호화 키의 현재 버전을 복사해야 합니다. 을 참조하십시오 xref:kms-considerations-for-changing-for-site.adoc[사이트의 KMS를 변경할 때의 고려 사항] 를 참조하십시오.
 
 

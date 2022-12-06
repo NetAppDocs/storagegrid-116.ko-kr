@@ -13,7 +13,7 @@ summary: AutoSupport 도구는 어플라이언스에서 고객 지원 번들의 
 [role="lead"]
 AutoSupport 도구는 어플라이언스에서 고객 지원 번들의 데이터를 수집하고 자동으로 기술 지원 부서에 전송합니다. AutoSupport를 구성하면 원격 문제 해결 및 문제 분석에 대한 기술 지원을 받을 수 있습니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 제품에서 AutoSupport 기능을 활성화 및 활성화해야 합니다.
 +
 AutoSupport 기능은 저장소 관리 스테이션에서 전역적으로 활성화 및 비활성화됩니다.
@@ -21,6 +21,7 @@ AutoSupport 기능은 저장소 관리 스테이션에서 전역적으로 활성
 * Storage Manager 이벤트 모니터는 어플라이언스에 액세스할 수 있는 하나 이상의 시스템에서 실행되고 있어야 하며, 둘 이상의 시스템에서 실행하는 것이 좋습니다.
 
 
+.이 작업에 대해
 모든 데이터는 사용자가 지정한 위치에서 압축된 단일 아카이브 파일 형식(.7z)으로 압축됩니다.
 
 AutoSupport에서는 다음과 같은 유형의 메시지를 제공합니다.
@@ -61,4 +62,5 @@ AutoSupport에서는 다음과 같은 유형의 메시지를 제공합니다.
 . 필요한 경우 SANtricity 스토리지 관리자 온라인 도움말을 사용하여 작업을 완료합니다.
 
 
+.관련 정보
 http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61197["NetApp 문서: SANtricity 스토리지 관리자"^]

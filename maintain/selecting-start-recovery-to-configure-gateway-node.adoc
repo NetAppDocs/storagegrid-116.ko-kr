@@ -13,7 +13,7 @@ summary: 게이트웨이 노드를 교체한 후 그리드 관리자에서 복�
 [role="lead"]
 게이트웨이 노드를 교체한 후 그리드 관리자에서 복구 시작 을 선택하여 새 노드를 장애가 발생한 노드에 대한 교체품으로 구성해야 합니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 를 사용하여 그리드 관리자에 로그인해야 합니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
 * 유지 관리 또는 루트 액세스 권한이 있어야 합니다.
 * 프로비저닝 암호가 있어야 합니다.
@@ -50,4 +50,5 @@ image::../media/recovery_reset_warning.gif[복구 경고 재설정 대화 상자
 
 
 
+.관련 정보
 xref:preparing-appliance-for-reinstallation-platform-replacement-only.adoc[어플라이언스 재설치 준비(플랫폼 교체만 해당)]

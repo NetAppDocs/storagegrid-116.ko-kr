@@ -13,8 +13,10 @@ summary: 'Change IP(IP 변경) 도구를 사용하여 하나 이상의 노드의
 [role="lead"]
 Change IP(IP 변경) 도구를 사용하여 하나 이상의 노드의 네트워크 구성을 변경할 수 있습니다. 그리드 네트워크의 구성을 변경하거나 관리자 또는 클라이언트 네트워크를 추가, 변경 또는 제거할 수 있습니다.
 
+.필요한 것
 "passwords.txt" 파일이 있어야 합니다.
 
+.이 작업에 대해
 * Linux: * 그리드 노드를 관리 네트워크 또는 클라이언트 네트워크에 처음으로 추가하는 경우, 노드 구성 파일에서 admin_network_target 또는 client_network_target을 이전에 구성하지 않은 경우에는 지금 구성해야 합니다.
 
 Linux 운영 체제에 대한 StorageGRID 설치 지침을 참조하십시오.
@@ -201,6 +203,7 @@ Updating grid network configuration on Name
 
 
 
+.관련 정보
 xref:linux-adding-interfaces-to-existing-node.adoc[Linux: 기존 노드에 인터페이스를 추가합니다]
 
 xref:../rhel/index.adoc[Red Hat Enterprise Linux 또는 CentOS를 설치합니다]

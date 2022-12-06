@@ -13,7 +13,7 @@ summary: 연결된 플랫폼 서비스를 더 이상 사용하지 않으려면 �
 [role="lead"]
 연결된 플랫폼 서비스를 더 이상 사용하지 않으려면 끝점을 삭제할 수 있습니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 를 사용하여 테넌트 관리자에 로그인해야 합니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
 * 끝점 관리 * 권한이 있는 사용자 그룹에 속해야 합니다. 을 참조하십시오 xref:tenant-management-permissions.adoc[테넌트 관리 권한].
 

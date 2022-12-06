@@ -13,7 +13,7 @@ summary: 'AD FS(Active Directory Federation Services)를 사용하여 시스템�
 [role="lead"]
 AD FS(Active Directory Federation Services)를 사용하여 시스템의 각 관리 노드에 대한 기반 당사자 신뢰를 만들어야 합니다. PowerShell 명령을 사용하거나, StorageGRID에서 SAML 메타데이터를 가져오거나, 데이터를 수동으로 입력하여 의존할 수 있는 회사 트러스트를 만들 수 있습니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * StorageGRID에 대해 Single Sign-On을 구성하고 SSO 유형으로 * AD FS * 를 선택했습니다.
 * * Sandbox 모드 * 는 Grid Manager의 Single Sign-On 페이지에서 선택됩니다. 을 참조하십시오 xref:../admin/using-sandbox-mode.adoc[sandbox 모드를 사용합니다].
 * 시스템의 각 관리 노드에 대한 정규화된 도메인 이름(또는 IP 주소)과 관련 당사자 식별자를 알고 있습니다. 이러한 값은 StorageGRID 단일 사인온 페이지의 관리 노드 세부 정보 테이블에서 찾을 수 있습니다.
@@ -26,6 +26,7 @@ NOTE: StorageGRID 시스템의 각 관리 노드에 대한 신뢰할 수 있는 
 * 수동으로 신뢰할 수 있는 상대 신뢰를 만드는 경우 StorageGRID 관리 인터페이스에 대해 업로드된 사용자 지정 인증서가 있거나 명령 셸에서 관리 노드에 로그인하는 방법을 알고 있어야 합니다.
 
 
+.이 작업에 대해
 이 지침은 Windows Server 2016 AD FS에 적용됩니다. 다른 버전의 AD FS를 사용하는 경우 절차에 약간의 차이가 있을 수 있습니다. 질문이 있는 경우 Microsoft AD FS 설명서를 참조하십시오.
 
 

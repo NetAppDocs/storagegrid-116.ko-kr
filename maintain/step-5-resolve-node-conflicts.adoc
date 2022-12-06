@@ -100,6 +100,7 @@ NOTE: 파기가 완료될 때까지 * Previous * (이전 *) 버튼이 비활성�
 
 
 
+.관련 정보
 xref:../monitor/index.adoc[모니터링하고 문제를 해결합니다]
 
 xref:grid-node-procedures.adoc[그리드 노드 절차]

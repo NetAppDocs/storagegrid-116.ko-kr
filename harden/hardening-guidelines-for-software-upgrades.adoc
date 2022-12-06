@@ -41,12 +41,13 @@ NetApp 상호 운용성 매트릭스 툴을 사용하여 지원되는 버전 목
 
 
 
-== Linux 노드로 업그레이드합니다
+== * Linux 노드로 업그레이드 *
 
 StorageGRID 노드가 Linux 호스트 플랫폼을 사용하는 경우 보안 업데이트 및 커널 업데이트가 호스트 OS에 적용되었는지 확인해야 합니다. 또한 이러한 업데이트를 사용할 수 있게 되면 취약한 하드웨어에 펌웨어 업데이트를 적용해야 합니다.
 
 NetApp 상호 운용성 매트릭스 툴을 사용하여 지원되는 버전 목록을 확인하십시오.
 
+.관련 정보
 https://mysupport.netapp.com/site/products/all/details/storagegrid/downloads-tab["NetApp 다운로드: StorageGRID"^]
 
 xref:../upgrade/index.adoc[소프트웨어 업그레이드]

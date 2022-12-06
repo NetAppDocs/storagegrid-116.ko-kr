@@ -69,6 +69,7 @@ SG5660
 . 필요한 네트워크 스위치를 설치합니다. 호환성 정보는 NetApp 상호 운용성 매트릭스 툴을 참조하십시오.
 
 
+.관련 정보
 https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^]
 
 https://mysupport.netapp.com/NOW/products/interoperability["NetApp 상호 운용성"^]

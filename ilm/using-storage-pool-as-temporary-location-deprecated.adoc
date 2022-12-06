@@ -18,4 +18,5 @@ summary: 단일 스토리지 풀이 포함된 개체 배치로 ILM 규칙을 생
 
 NOTE: ILM 규칙 생성 마법사의 3단계(Strict 수집 동작)를 선택하면 임시 위치가 무시됩니다.
 
+.관련 정보
 xref:data-protection-options-for-ingest.adoc[데이터 보호를 위한 수집 옵션]

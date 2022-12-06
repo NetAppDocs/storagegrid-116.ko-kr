@@ -35,6 +35,7 @@ NOTE: 노드 또는 사이트 서비스 해제 절차가 일시 중지된 경우
 
 
 
+.관련 정보
 xref:../monitor/index.adoc[모니터링하고 문제를 해결합니다]
 
 xref:pausing-and-resuming-decommission-process-for-storage-nodes.adoc[스토리지 노드에 대한 서비스 해제 프로세스를 일시 중지하고 다시 시작합니다]

@@ -13,7 +13,7 @@ summary: 'SG6000-CN 컨트롤러의 파이버 채널 호스트 버스 어댑터 
 [role="lead"]
 SG6000-CN 컨트롤러의 파이버 채널 호스트 버스 어댑터(HBA)가 최적의 상태로 작동하지 않거나 장애가 발생한 경우 이를 교체해야 할 수 있습니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 올바른 교체용 Fibre Channel HBA가 있습니다.
 * 교체할 파이버 채널 HBA가 포함된 SG6000-CN 컨트롤러를 확인했습니다.
 +
@@ -29,6 +29,7 @@ xref:removing-sg6000-cn-controller-cover.adoc[SG6000-CN 컨트롤러 덮개를 �
 
 
 
+.이 작업에 대해
 서비스 중단을 방지하려면 Fibre Channel HBA 교체를 시작하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하거나 서비스 중단이 정상적으로 예상되는 예약된 유지 보수 기간 동안 어댑터를 교체하십시오. 정보 수명 주기 관리를 사용하여 개체를 관리하는 방법에 대한 지침은 노드 연결 상태 결정에 대한 정보를 참조하십시오.
 
 
@@ -52,10 +53,12 @@ image::../media/sg6060_fc_hba_location.jpg[라이저 어셈블리의 SG6060 파�
 . 어댑터를 평평한 정전기 방지 표면에 놓습니다.
 
 
+.작업을 마친 후
 교체용 Fibre Channel HBA를 설치합니다.
 
 xref:reinstalling-fibre-channel-hba.adoc[Fibre Channel HBA를 다시 설치합니다]
 
+.관련 정보
 xref:reinstalling-fibre-channel-hba.adoc[Fibre Channel HBA를 다시 설치합니다]
 
 xref:../admin/index.adoc[StorageGRID 관리]

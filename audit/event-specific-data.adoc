@@ -15,12 +15,14 @@ summary: 감사 로그의 각 감사 메시지는 시스템 이벤트와 관련�
 
 메시지 자체를 식별하는 열기 '[AUDT:]' 컨테이너에 이어 다음 속성 집합은 감사 메시지에서 설명하는 이벤트 또는 작업에 대한 정보를 제공합니다. 이러한 특성은 다음 예제에서 강조됩니다.
 
+[]
 ====
 2018-12-05T08:24:45.921845 [AUDT: * \[RSLT\(FC32\):SUCS\] * \[TIME\(UI64\):11454\] \[SAIP\(iPad\):"10.224.0.100"\]\[S3SStr\S31124562C642S562S564C6100C4S562S564CW5100C6100C6100C4C4S564C4C4C4C4C4C4C4CW4S5100C4S562S564S564CW5100C4CW4S562S5100C4S5100C4C4C4C4C4CW5100C4C4C4C4C6100C6100C6100CWs\S564C4C6100C4C4C4C4CWs\S564C4C4C4CWs\S564CWs\S564C4C4S
 
 ====
 이 예제에서 밑줄이 그어진 ATYP 요소는 메시지를 생성한 이벤트를 식별합니다. 이 예제 메시지에는 S3 헤드 요청에 의해 생성되었음을 나타내는 Shea 메시지 코드([ATYP(FC32):Shea])가 포함됩니다.
 
+.관련 정보
 xref:common-elements-in-audit-messages.adoc[감사 메시지의 공통 요소]
 
 xref:audit-messages-main.adoc[감사 메시지]

@@ -19,6 +19,7 @@ ILM 탭은 각 스토리지 노드, 각 사이트 및 전체 그리드에 대해
 
 image::../media/nodes_page_ilm_tab.png[노드 페이지 ILM 탭]
 
+.관련 정보
 xref:monitoring-information-lifecycle-management.adoc[정보 수명 주기 관리를 모니터링합니다]
 
 xref:../admin/index.adoc[StorageGRID 관리]

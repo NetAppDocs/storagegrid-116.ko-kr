@@ -106,6 +106,7 @@ Consistency-Control: strong-site
 * 요청의 RetenitionPeriodMinutes가 버킷의 현재 보존 기간보다 짧으면 HTTP 상태 코드는 400개의 잘못된 요청입니다.
 
 
+.관련 정보
 xref:deprecated-put-bucket-request-modifications-for-compliance.adoc[사용되지 않음: 규정 준수를 위해 버킷 요청 수정을 배치합니다]
 
 xref:../tenant/index.adoc[테넌트 계정을 사용합니다]

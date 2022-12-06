@@ -13,7 +13,7 @@ summary: 스토리지 용량을 늘리려면 StorageGRID 시스템에 구축된 
 [role="lead"]
 스토리지 용량을 늘리려면 StorageGRID 시스템에 이미 구축된 SG6060 또는 SG6060X에 확장 쉘프를 하나 또는 두 개 추가할 수 있습니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 프로비저닝 암호가 있어야 합니다.
 * StorageGRID 11.4 이상을 실행해야 합니다.
 * 확장 쉘프와 각 확장 쉘프의 SAS 케이블을 2개 사용합니다.
@@ -23,6 +23,7 @@ xref:locating-controller-in-data-center.adoc[데이터 센터에서 컨트롤러
 
 
 
+.이 작업에 대해
 확장 쉘프를 추가하려면 다음 단계를 높은 수준으로 수행해야 합니다.
 
 * 캐비닛 또는 랙에 하드웨어를 설치합니다.
@@ -192,7 +193,7 @@ image::../media/monitor_expansion_for_new_appliance_shelf.png[모니터 확장 �
 
 +
 
-NOTE: 확장 셸프 구성이 실패할 경우 다시 시도하려면 StorageGRID 어플라이언스 설치 프로그램으로 이동하여 * 고급 * > * 컨트롤러 재부팅 * 을 선택한 다음 * 유지보수 모드로 재부팅 * 을 선택합니다. 노드가 재부팅된 후 를 재시도하십시오 ,확장 쉘프 구성.
+NOTE: 확장 셸프 구성이 실패할 경우 다시 시도하려면 StorageGRID 어플라이언스 설치 프로그램으로 이동하여 * 고급 * > * 컨트롤러 재부팅 * 을 선택한 다음 * 유지보수 모드로 재부팅 * 을 선택합니다. 노드가 재부팅된 후 를 재시도하십시오 <<start_expansion,확장 쉘프 구성>>.
 
 +
 재부팅이 완료되면 * Tasks * 탭이 다음 스크린샷과 같이 표시됩니다.
@@ -212,6 +213,7 @@ image::../media/appliance_installer_reboot_complete.png[재부팅이 완료되�
 
 
 
+.관련 정보
 xref:unpacking-boxes-sg6000.adoc[박스 포장 풀기(SG6000 및 SG6060X)]
 
 xref:sg6060-installing-60-drive-shelves-into-cabinet-or-rack.adoc[SG6060 및 SG6060X: 캐비닛 또는 랙에 60 드라이브 쉘프를 설치합니다]

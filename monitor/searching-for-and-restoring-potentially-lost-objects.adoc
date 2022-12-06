@@ -14,11 +14,12 @@ summary: '개체 손실(손실) 경보와 * 개체 손실 * 경고를 트리거�
 [role="lead"]
 개체 손실(손실) 경보와 * 개체 손실 * 경고를 트리거하고 잠재적으로 분실된 것으로 식별된 개체를 찾아서 복원할 수 있습니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * "손실된 객체 조사"에서 식별된 대로 손실된 객체의 UUID가 있어야 합니다.
 * "passwords.txt" 파일이 있어야 합니다.
 
 
+.이 작업에 대해
 이 절차에 따라 그리드의 다른 위치에서 손실된 개체의 복제된 복사본을 찾을 수 있습니다. 대부분의 경우 손실된 개체를 찾을 수 없습니다. 그러나 경우에 따라 즉각적인 조치를 취할 경우 손실된 복제 개체를 찾아 복원할 수 있습니다.
 
 
@@ -115,7 +116,7 @@ ls '/var/local/rangedb/1/p/17/11/00rH0%DkRs&LgA%#3tN6'
 * 참고 *: 특수 문자를 이스케이프하려면 항상 명령에서 개체 파일 경로를 작은따옴표로 묶어야 합니다.
 
 * 개체 경로를 찾을 수 없으면 개체가 손실되어 이 절차를 사용하여 복원할 수 없습니다. 기술 지원 부서에 문의하십시오.
-* 개체 경로가 발견되면 단계를 계속 진행합니다 ,개체를 StorageGRID 로 복원합니다. 검색된 객체를 다시 StorageGRID로 복원할 수 있습니다.
+* 개체 경로가 발견되면 단계를 계속 진행합니다 <<restore_the_object_to_StorageGRID,개체를 StorageGRID 로 복원합니다>>. 검색된 객체를 다시 StorageGRID로 복원할 수 있습니다.
 +
 .. [[RESTORE_The_OBJECT_to_StorageGRID,START=3]] 개체 경로가 발견되면 개체를 StorageGRID에 복원해 보십시오.
 +
@@ -154,7 +155,7 @@ First packet of file was valid. Extracted key: 38186FE53E3C49A5
 Renamed '/var/local/rangedb/1/p/17/11/00rH0%DkRs&LgA%#3tN6' to '/var/local/rangedb/1/p/17/11/00rH0%DkRt78Ila#3udu'
 ----
 +
-단계를 계속 진행합니다 ,새 위치가 생성되었는지 확인합니다
+단계를 계속 진행합니다 <<verify_that_new_locations_were_created,새 위치가 생성되었는지 확인합니다>>
 
 +
 ... [[Verify_that_new_locations_created, start=4]] 객체가 StorageGRID에 성공적으로 복구되었으면 새 위치가 생성되었는지 확인합니다.
@@ -272,6 +273,7 @@ ORLM 감사 메시지는 이 샘플 메시지와 같습니다.
 
 
 
+.관련 정보
 xref:investigating-lost-objects.adoc[손실된 개체를 조사합니다]
 
 xref:resetting-lost-and-missing-object-counts.adoc[분실 및 누락된 개체 수를 재설정합니다]

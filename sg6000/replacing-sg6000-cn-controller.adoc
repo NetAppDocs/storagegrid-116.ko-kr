@@ -13,7 +13,7 @@ summary: SG6000-CN 컨트롤러가 최적의 상태로 작동하지 않거나 �
 [role="lead"]
 SG6000-CN 컨트롤러가 최적의 상태로 작동하지 않거나 오류가 발생한 경우 교체해야 할 수 있습니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 교체할 컨트롤러와 부품 번호가 동일한 교체 컨트롤러가 있습니다.
 * 컨트롤러에 연결된 각 케이블을 식별하는 라벨이 있습니다.
 * 데이터 센터에서 물리적으로 교체할 컨트롤러를 가지고 있습니다.
@@ -22,6 +22,7 @@ xref:locating-controller-in-data-center.adoc[데이터 센터에서 컨트롤러
 
 
 
+.이 작업에 대해
 SG6000-CN 컨트롤러를 교체할 때 어플라이언스 스토리지 노드에 액세스할 수 없습니다. SG6000-CN 컨트롤러가 충분히 작동하는 경우 이 절차를 시작할 때 제어된 종료를 수행할 수 있습니다.
 
 
@@ -83,6 +84,7 @@ xref:../maintain/index.adoc[복구 및 유지 관리]
 
 
 
+.관련 정보
 xref:sg6000-cn-installing-into-cabinet-or-rack.adoc[SG6000-CN: 캐비닛 또는 랙에 설치합니다]
 
 xref:viewing-status-indicators-and-buttons-on-sg6000-cn-controller.adoc[SG6000-CN 컨트롤러의 상태 표시등 및 단추를 봅니다]

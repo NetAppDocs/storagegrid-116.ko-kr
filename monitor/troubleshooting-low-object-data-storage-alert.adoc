@@ -14,11 +14,12 @@ summary: Low object data storage * 알림은 각 스토리지 노드에 오브�
 [role="lead"]
 Low object data storage * 알림은 각 스토리지 노드에 오브젝트 데이터를 저장하는 데 사용할 수 있는 공간의 양을 모니터링합니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 를 사용하여 그리드 관리자에 로그인해야 합니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
 * 특정 액세스 권한이 있어야 합니다.
 
 
+.이 작업에 대해
 스토리지 노드에서 복제 및 삭제 코딩 오브젝트 데이터의 총 양이 경고 규칙에 구성된 조건 중 하나를 충족할 경우 * Low object data storage * 경고가 트리거됩니다.
 
 기본적으로 이 조건이 true로 평가되면 주 경고가 트리거됩니다.
@@ -83,6 +84,7 @@ NOTE: 전체 스토리지 노드를 관리하려면 StorageGRID 관리 지침을
 
 
 
+.관련 정보
 xref:troubleshooting-storage-status-alarm.adoc[SSTS(Storage Status) 경보 문제를 해결합니다]
 
 xref:../expand/index.adoc[그리드를 확장합니다]

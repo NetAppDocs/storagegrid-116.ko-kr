@@ -133,4 +133,5 @@ StorageGRID는 Swift 계정당 최대 1,000개의 컨테이너를 지원합니�
 
 컨테이너 이름은 StorageGRID 네임스페이스에서 고유해야 합니다. 컨테이너가 다른 계정 아래에 있는 경우 "HTTP/1.1 409 충돌"이라는 헤더가 반환됩니다.
 
+.관련 정보
 xref:monitoring-and-auditing-operations.adoc[운영 모니터링 및 감사]

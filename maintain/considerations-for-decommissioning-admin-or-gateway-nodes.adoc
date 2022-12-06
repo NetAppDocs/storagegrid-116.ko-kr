@@ -20,4 +20,5 @@ summary: 관리 노드 또는 게이트웨이 노드를 해제하기 전에 다�
 * StorageGRID 시스템에 대해 관리자 노드를 사용 중지하고 SSO(Single Sign-On)를 사용하는 경우 AD FS(Active Directory Federation Services)에서 노드의 기반 당사자 신뢰를 제거해야 합니다.
 
 
+.관련 정보
 xref:../admin/index.adoc[StorageGRID 관리]

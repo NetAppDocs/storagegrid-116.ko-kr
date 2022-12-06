@@ -15,4 +15,5 @@ summary: 게이트웨이 노드 장애를 복구하려면 일련의 작업을 �
 
 image::../media/overview_api_gateway_node_recovery.png[게이트웨이 노드 복구의 개요 흐름도]
 
+.관련 정보
 xref:../sg100-1000/index.adoc[SG100 및 SG1000 서비스 어플라이언스]

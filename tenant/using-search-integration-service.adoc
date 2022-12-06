@@ -25,6 +25,7 @@ NOTE: 검색 통합 서비스로 인해 개체 메타데이터가 대상으로 �
 * PUT 버킷 메타데이터 알림 구성 요청
 
 
+.관련 정보
 xref:configuration-xml-for-search-configuration.adoc[검색 통합을 위한 구성 XML]
 
 xref:object-metadata-included-in-metadata-notifications.adoc[메타데이터 알림에 포함된 개체 메타데이터입니다]

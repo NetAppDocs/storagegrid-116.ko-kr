@@ -13,6 +13,7 @@ summary: StorageGRID 어플라이언스 설치 프로그램을 사용하여 Stor
 [role="lead"]
 StorageGRID 어플라이언스 설치 프로그램을 사용하여 StorageGRID 그리드, 관리자 및 클라이언트 네트워크의 어플라이언스 스토리지 노드에 사용되는 IP 주소 및 라우팅 정보를 구성합니다.
 
+.이 작업에 대해
 연결된 각 네트워크에서 어플라이언스에 대해 고정 IP를 할당하거나 DHCP 서버의 주소에 대해 영구 임대를 할당해야 합니다.
 
 링크 구성을 변경하려면 를 참조하십시오 xref:changing-link-configuration-of-sg6000-cn-controller.adoc[SG6000-CN 컨트롤러의 링크 구성 변경 지침].

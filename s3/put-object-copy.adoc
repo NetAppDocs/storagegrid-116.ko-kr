@@ -85,7 +85,7 @@ xref:using-s3-object-lock.adoc[S3 오브젝트 잠금을 사용합니다]
 ** 'X-amz-서버측-암호화-고객-키'
 ** 'X-amz-서버측-암호화-고객-알고리즘'
 +
-을 참조하십시오  headers for server-side encryption
+을 참조하십시오 <<서버측 암호화에 대한 요청 헤더>>
 
 
 
@@ -179,6 +179,7 @@ x-amz-copy-source 헤더에 지정된 소스 버킷과 키가 대상 버킷 및 
 
 소스 버킷의 버전이 있는 경우 "x-amz-copy-source" 헤더를 사용하여 객체의 최신 버전을 복사할 수 있습니다. 개체의 특정 버전을 복사하려면 rionId 하위 리소스를 사용하여 복사할 버전을 명시적으로 지정해야 합니다. 목적지 버킷의 버전 관리가 되면 생성된 버전은 'x-amz-version-id' 응답 헤더로 반환됩니다. 대상 버킷의 버전 관리가 일시 중단된 경우 x-amz-version-id는 "null" 값을 반환합니다.
 
+.관련 정보
 xref:../ilm/index.adoc[ILM을 사용하여 개체를 관리합니다]
 
 xref:using-server-side-encryption.adoc[서버측 암호화를 사용합니다]

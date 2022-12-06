@@ -17,11 +17,12 @@ summary: 문제를 해결할 때 기술 지원 부서의 도움을 받을 수 �
 * xref:commonly-used-prometheus-metrics.adoc[일반적으로 사용되는 Prometheus 메트릭입니다]
 
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 를 사용하여 그리드 관리자에 로그인했습니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
 * 특정 액세스 권한이 있습니다.
 
 
+.이 작업에 대해
 진단 페이지는 그리드의 현재 상태에 대한 진단 검사 집합을 수행합니다. 각 진단 점검에는 다음 세 가지 상태 중 하나가 있을 수 있습니다.
 
 * image:../media/icon_alert_green_checkmark.png["아이콘 경고 녹색 확인 표시"] * 정상 *: 모든 값이 정상 범위 내에 있습니다.

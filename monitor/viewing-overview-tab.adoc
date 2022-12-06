@@ -58,6 +58,7 @@ Overview(개요) 탭의 Alerts(경고) 섹션에는 이 노드에 현재 영향�
 
 image::../media/nodes_page_alerts_table.png[노드 페이지 경고 표]
 
+.관련 정보
 xref:monitoring-node-connection-states.adoc[노드 연결 상태를 모니터링합니다]
 
 xref:viewing-current-alerts.adoc[현재 경고를 봅니다]

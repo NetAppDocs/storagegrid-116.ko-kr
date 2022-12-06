@@ -45,7 +45,7 @@ image::../media/sign_in_sso.gif[SSO가 활성화된 경우 StorageGRID 로그인
 
 +
 
-NOTE: 테넌트 계정에 대한 전체 URL(즉, 정규화된 도메인 이름 또는 IP 주소 다음에 "/?accountId=_20-digit-account-id_")을 입력하면 StorageGRID 로그인 페이지가 표시되지 않습니다. 대신 조직의 SSO 로그인 페이지로 즉시 리디렉션됩니다. 여기에서 해당 페이지로 이동할 수 있습니다 ,SSO 자격 증명으로 로그인합니다.
+NOTE: 테넌트 계정에 대한 전체 URL(즉, 정규화된 도메인 이름 또는 IP 주소 다음에 "/?accountId=_20-digit-account-id_")을 입력하면 StorageGRID 로그인 페이지가 표시되지 않습니다. 대신 조직의 SSO 로그인 페이지로 즉시 리디렉션됩니다. 여기에서 해당 페이지로 이동할 수 있습니다 <<signin_sso,SSO 자격 증명으로 로그인합니다>>.
 
 . 그리드 관리자 또는 테넌트 관리자에 액세스할지 여부를 지정합니다.
 +

@@ -95,6 +95,7 @@ TLS
 
 
 |===
+.관련 정보
 xref:../admin/index.adoc[StorageGRID 관리]
 
 
@@ -180,4 +181,5 @@ TLS_RSA_with_AES_128_GCM_SHA256
 TLS_RSA_WITED_AES_256_GCM_SHA384
 
 |===
+.관련 정보
 xref:configuring-tenant-accounts-and-connections.adoc[클라이언트 연결 구성 방법]

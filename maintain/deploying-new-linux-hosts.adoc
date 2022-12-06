@@ -39,6 +39,7 @@ IMPORTANT: FabricPool를 사용하여 StorageGRID 관련 데이터를 StorageGRI
 
 
 
+.관련 정보
 xref:../rhel/index.adoc[Red Hat Enterprise Linux 또는 CentOS를 설치합니다]
 
 xref:../ubuntu/index.adoc[Ubuntu 또는 Debian을 설치합니다]

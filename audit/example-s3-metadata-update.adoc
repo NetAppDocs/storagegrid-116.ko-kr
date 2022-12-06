@@ -33,4 +33,5 @@ S3 클라이언트는 S3 오브젝트(S3KY)에 대해 지정된 메타데이터(
 [ATIM(UI64):1499810043157462][ATYP(FC32):SUPD][ANID(UI32):12258396][AMID(FC32):S3RQ]
 [ATID(UI64):8987436599021955788]]
 ----
+.관련 정보
 xref:../monitor/configure-audit-messages.adoc[감사 메시지 및 로그 대상을 구성합니다]

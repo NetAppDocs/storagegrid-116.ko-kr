@@ -37,6 +37,7 @@ NOTE: 태그 및 사용자 메타데이터의 경우 StorageGRID는 날짜 및 �
 
 StorageGRID 검색 통합 서비스는 Elasticsearch 클러스터를 대상으로 지원합니다. 다른 플랫폼 서비스와 마찬가지로 대상은 서비스의 구성 XML에서 URN이 사용되는 끝점에서 지정됩니다. 를 사용합니다 https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^] 지원되는 Elasticsearch 버전을 확인합니다.
 
+.관련 정보
 xref:configuration-xml-for-search-configuration.adoc[검색 통합을 위한 구성 XML]
 
 xref:object-metadata-included-in-metadata-notifications.adoc[메타데이터 알림에 포함된 개체 메타데이터입니다]

@@ -82,6 +82,7 @@ _표시기 없음 _
 
 
 
+.관련 정보
 xref:troubleshooting-hardware-installation.adoc[하드웨어 설치 문제 해결(SG6000)]
 
 xref:configuring-bmc-interface-sg6000.adoc[BMC 인터페이스(SG6000) 구성]

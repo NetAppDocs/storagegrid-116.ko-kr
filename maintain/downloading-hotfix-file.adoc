@@ -50,4 +50,5 @@ NOTE: macOS 장치를 사용하는 경우 핫픽스 파일이 자동으로 '.txt
 . 다운로드할 위치를 선택하고 * 저장 * 을 선택합니다.
 
 
+.관련 정보
 xref:configuring-replacement-primary-admin-node.adoc[대체 운영 관리자 노드를 구성합니다]

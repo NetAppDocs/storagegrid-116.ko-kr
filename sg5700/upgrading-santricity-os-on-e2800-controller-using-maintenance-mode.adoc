@@ -13,7 +13,7 @@ summary: '현재 SANtricity OS가 08.42.20.00\(11.42\)보다 오래된 스토리
 [role="lead"]
 현재 08.42.20.00(11.42) 이전의 SANtricity OS를 사용하는 스토리지 컨트롤러의 경우, 업그레이드를 적용하려면 유지보수 모드 절차를 사용해야 합니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 업그레이드에 사용 중인 SANtricity OS 버전이 어플라이언스와 호환되는지 확인하려면 NetApp 상호 운용성 매트릭스 툴(IMT)을 참조하십시오.
 * E5500SG 컨트롤러를 에 장착해야 합니다 xref:placing-appliance-into-maintenance-mode.adoc[유지보수 모드]E2800 컨트롤러와의 연결을 중단합니다.
 +
@@ -22,6 +22,7 @@ NOTE: StorageGRID 어플라이언스를 유지보수 모드로 전환하면 원�
 
 
 
+.이 작업에 대해
 한 번에 두 개 이상의 StorageGRID 어플라이언스에 있는 E-Series 컨트롤러의 SANtricity OS 또는 NVSRAM을 업그레이드하지 마십시오.
 
 
@@ -57,4 +58,5 @@ image::../media/node_rejoin_grid_confirmation.png[어플라이언스 노드가 �
 
 
 
+.관련 정보
 xref:upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg5700.adoc[그리드 관리자를 사용하여 스토리지 컨트롤러의 SANtricity OS를 업그레이드합니다]

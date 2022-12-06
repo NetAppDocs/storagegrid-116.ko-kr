@@ -13,6 +13,7 @@ summary: 컨트롤러 덮개를 분리하여 내부 구성요소에 유지보수
 [role="lead"]
 컨트롤러 덮개를 분리하여 내부 구성요소에 유지보수 액세스를 제공합니다.
 
+.필요한 것
 캐비닛 또는 랙에서 컨트롤러를 제거하여 상단 덮개에 액세스합니다.
 
 xref:removing-sg6000-cn-controller-from-cabinet-or-rack.adoc[캐비닛 또는 랙에서 SG6000-CN 컨트롤러를 제거합니다]
@@ -29,4 +30,5 @@ IMPORTANT: SG6000-CN 컨트롤러 내부에서 작업할 때 정전기 방전을
 
 
 
+.관련 정보
 xref:removing-fibre-channel-hba.adoc[Fibre Channel HBA를 제거합니다]

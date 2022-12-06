@@ -31,6 +31,7 @@ StorageGRID 어플라이언스를 StorageGRID 시스템에 스토리지 노드�
 
 NOTE: StorageGRID 네트워크에 대한 자세한 내용은 _Grid Primer_를 참조하십시오.
 
+.관련 정보
 xref:gathering-installation-information-sg6000.adoc[설치 정보 수집(SG6000)]
 
 xref:cabling-appliance-sg6000.adoc[케이블 어플라이언스(SG6000)]

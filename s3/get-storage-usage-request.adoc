@@ -71,4 +71,5 @@ Content-Type: application/xml
 
 저장된 모든 개체 버전은 응답에서 ObjectCount 및 DataBytes 값에 기여합니다. 삭제 표식이 ObjectCount 합계에 추가되지 않습니다.
 
+.관련 정보
 xref:consistency-controls.adoc[일관성 제어]

@@ -13,7 +13,7 @@ summary: 교체 노드는 StorageGRID 시스템의 기본 관리 노드로 구�
 [role="lead"]
 교체 노드는 StorageGRID 시스템의 기본 관리 노드로 구성해야 합니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 가상 시스템에서 호스팅되는 운영 관리 노드의 경우 가상 머신을 구축, 전원 켜기 및 초기화해야 합니다.
 * 서비스 어플라이언스에서 호스팅되는 운영 관리 노드의 경우 어플라이언스를 교체하고 소프트웨어를 설치했습니다. 사용 중인 제품의 설치 안내서를 참조하십시오.
 +
@@ -62,6 +62,7 @@ NOTE: 신뢰할 수 있는 상대 신뢰를 구성하려면 StorageGRID 관리 �
 
 
 
+.관련 정보
 xref:../admin/index.adoc[StorageGRID 관리]
 
 xref:storagegrid-hotfix-procedure.adoc[StorageGRID 핫픽스 절차]

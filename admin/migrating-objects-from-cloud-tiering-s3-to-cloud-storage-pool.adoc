@@ -13,7 +13,7 @@ summary: '현재 Cloud Tiering - Simple Storage Service\(S3\) 기능을 사용�
 [role="lead"]
 현재 * Cloud Tiering - S3(Simple Storage Service) * 기능을 사용하여 오브젝트 데이터를 S3 버킷으로 계층화하려는 경우 대신 오브젝트를 Cloud Storage Pool로 마이그레이션하는 것을 고려해 보십시오. 클라우드 스토리지 풀은 StorageGRID 시스템의 모든 스토리지 노드를 활용하는 확장 가능한 접근 방식을 제공합니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 를 사용하여 그리드 관리자에 로그인했습니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
 * 특정 액세스 권한이 있습니다.
 * Cloud Tiering에 구성된 S3 버킷에 오브젝트를 이미 저장했습니다.
@@ -22,6 +22,7 @@ summary: '현재 Cloud Tiering - Simple Storage Service\(S3\) 기능을 사용�
 
 NOTE: 오브젝트 데이터를 마이그레이션하기 전에 NetApp 고객 담당자에게 연락하여 관련 비용을 파악하고 관리하십시오.
 
+.이 작업에 대해
 ILM 관점에서 Cloud Storage Pool은 스토리지 풀과 유사합니다. 그러나 스토리지 풀은 StorageGRID 시스템 내의 스토리지 노드 또는 아카이브 노드로 구성되지만, 클라우드 스토리지 풀은 외부 S3 버킷으로 구성됩니다.
 
 Cloud Tiering-S3에서 클라우드 스토리지 풀로 오브젝트를 마이그레이션하기 전에 먼저 S3 버킷을 생성한 다음 StorageGRID에서 클라우드 스토리지 풀을 생성해야 합니다. 그런 다음 새 ILM 정책을 생성하고 Cloud Tiering 버킷에 오브젝트를 저장하는 데 사용되는 ILM 규칙을 Cloud Storage Pool에 동일한 오브젝트를 저장하는 클론 생성된 ILM 규칙으로 대체할 수 있습니다.
@@ -45,4 +46,5 @@ Cloud Storage Pool에 새로운 S3 버킷을 사용하여 Cloud Storage Pool에�
 
 
 
+.관련 정보
 xref:../ilm/index.adoc[ILM을 사용하여 개체를 관리합니다]

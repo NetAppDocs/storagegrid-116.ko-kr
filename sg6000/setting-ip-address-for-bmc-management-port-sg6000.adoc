@@ -13,7 +13,7 @@ summary: BMC 인터페이스에 액세스하려면 SG6000-CN 컨트롤러의 BMC
 [role="lead"]
 BMC 인터페이스에 액세스하려면 SG6000-CN 컨트롤러의 BMC 관리 포트에 대한 IP 주소를 구성해야 합니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 관리 클라이언트에서 을 사용하고 있습니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
 * StorageGRID 네트워크에 연결할 수 있는 관리 클라이언트를 사용 중입니다.
 * BMC 관리 포트가 사용하려는 관리 네트워크에 연결되어 있습니다.
@@ -22,6 +22,7 @@ image::../media/sg6000_cn_bmc_management_port.gif[SG6000-CN 컨트롤러의 BMC 
 
 
 
+.이 작업에 대해
 지원을 위해 BMC 관리 포트를 사용하면 낮은 수준의 하드웨어 액세스가 가능합니다.
 
 

@@ -13,6 +13,7 @@ summary: StorageGRID DEB 패키지를 사용하여 StorageGRID 호스트 서비�
 [role="lead"]
 StorageGRID DEB 패키지를 사용하여 StorageGRID 호스트 서비스를 설치합니다.
 
+.이 작업에 대해
 이 지침은 DEB 패키지에서 호스트 서비스를 설치하는 방법을 설명합니다. 또는 설치 아카이브에 포함된 APT 리포지토리 메타데이터를 사용하여 DEB 패키지를 원격으로 설치할 수 있습니다. Linux 운영 체제에 대한 APT 리포지토리 지침을 참조하십시오.
 
 .단계

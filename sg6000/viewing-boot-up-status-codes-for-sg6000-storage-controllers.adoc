@@ -13,6 +13,7 @@ summary: 각 스토리지 컨트롤러에는 컨트롤러 전원이 켜질 때 �
 [role="lead"]
 각 스토리지 컨트롤러에는 컨트롤러 전원이 켜질 때 상태 코드를 제공하는 7개의 세그먼트 디스플레이가 있습니다. 상태 코드는 E2800 컨트롤러와 EF570 컨트롤러에서 동일합니다.
 
+.이 작업에 대해
 이러한 코드에 대한 설명은 스토리지 컨트롤러 유형에 대한 E-Series 시스템 모니터링 정보를 참조하십시오.
 
 .단계
@@ -30,6 +31,7 @@ image::../media/seven_segment_display_codes_for_e2800.gif[E2800용 7세그먼트
 . 한 컨트롤러 또는 두 컨트롤러 모두에 다른 값이 표시되는 경우 를 참조하십시오 xref:troubleshooting-hardware-installation.adoc[하드웨어 설치 문제 해결(SG6000)] 설치 단계를 올바르게 완료했는지 확인합니다. 문제를 해결할 수 없는 경우 기술 지원 부서에 문의하십시오.
 
 
+.관련 정보
 https://library.netapp.com/ecmdocs/ECMLP2588751/html/frameset.html["E5700 및 E2800 시스템 모니터링 가이드"^]
 
 https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"^]

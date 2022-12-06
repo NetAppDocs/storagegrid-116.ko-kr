@@ -69,6 +69,7 @@ StorageGRID 시스템 확장을 위한 지침
 복구 및 유지 관리 지침
 
 |===
+.관련 정보
 xref:preparing-for-installation.adoc[설치 준비(SG5600)]
 
 xref:installing-hardware.adoc[하드웨어 설치(SG5600)]

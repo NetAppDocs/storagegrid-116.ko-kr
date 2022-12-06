@@ -43,4 +43,5 @@ Management_Port_IP의 경우, E600SG 컨트롤러의 관리 포트 1에 대한 I
 
 
 
+.관련 정보
 xref:e5600sg-controller-seven-segment-display-codes.adoc[E5500SG 컨트롤러 7세그먼트 디스플레이 코드]

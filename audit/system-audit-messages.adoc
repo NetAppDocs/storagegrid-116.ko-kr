@@ -205,4 +205,5 @@ VLST
 xref:vlst-user-initiated-volume-lost.adoc[VLST: 사용자가 시작한 볼륨이 손실되었습니다]
 
 |===
+.관련 정보
 xref:lkcu-overwritten-object-cleanup.adoc[LKCU: 덮어쓴 개체 정리]

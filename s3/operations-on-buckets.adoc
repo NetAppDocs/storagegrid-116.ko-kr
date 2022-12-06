@@ -366,6 +366,7 @@ Bucket 태그 달기
 을 참조하십시오 xref:../s3/use-s3-object-lock-default-bucket-retention.adoc#put-object-lock-configuration[개체 잠금 구성을 배치합니다] 을 참조하십시오.
 
 |===
+.관련 정보
 xref:consistency-controls.adoc[일관성 제어]
 
 xref:get-bucket-last-access-time-request.adoc[버킷 최종 액세스 시간 요청 가져오기]

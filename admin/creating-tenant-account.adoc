@@ -17,7 +17,7 @@ StorageGRID 시스템의 스토리지에 대한 액세스를 제어하려면 하
 
 Grid Manager는 테넌트 계정 생성 단계를 안내하는 마법사를 제공합니다. 단계는 에 따라 다릅니다 xref:using-identity-federation.adoc[ID 제휴] 및 xref:configuring-sso.adoc[SSO(Single Sign-On)] 테넌트 계정을 만드는 데 사용하는 Grid Manager 계정이 루트 액세스 권한이 있는 관리자 그룹에 속하는지 여부 및 가 구성됩니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 를 사용하여 그리드 관리자에 로그인했습니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
 * 특정 액세스 권한이 있습니다.
 * 테넌트 계정에서 Grid Manager에 대해 구성된 ID 소스를 사용하고 테넌트 계정에 대한 루트 액세스 권한을 통합 그룹에 부여하려는 경우 해당 통합 그룹을 Grid Manager로 가져온 것입니다. 이 관리 그룹에 그리드 관리자 권한을 할당할 필요는 없습니다. 를 참조하십시오 xref:managing-admin-groups.adoc[관리 그룹 관리 지침].

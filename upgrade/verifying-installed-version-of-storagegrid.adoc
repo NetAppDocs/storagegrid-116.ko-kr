@@ -13,9 +13,10 @@ summary: 업그레이드를 시작하기 전에 사용 가능한 최신 핫픽�
 [role="lead"]
 업그레이드를 시작하기 전에 사용 가능한 최신 핫픽스가 적용된 이전 버전의 StorageGRID가 현재 설치되어 있는지 확인해야 합니다.
 
+.이 작업에 대해
 StorageGRID 11.6으로 업그레이드하기 전에 그리드에 StorageGRID 11.5가 설치되어 있어야 합니다. 현재 이전 버전의 StorageGRID를 사용 중인 경우 그리드의 현재 버전이 StorageGRID 11.5._x.y_가 될 때까지 최신 핫픽스(적극 권장)와 함께 이전 업그레이드 파일을 모두 설치해야 합니다.
 
-가능한 업그레이드 경로 하나가 에 표시됩니다  Upgrade to StorageGRID 11.5 from version 11.3.0.8,예.
+가능한 업그레이드 경로 하나가 에 표시됩니다 <<예: 버전 11.3.0.8에서 StorageGRID 11.5로 업그레이드합니다,예>>.
 
 
 IMPORTANT: 다음 버전으로 업그레이드하기 전에 각 StorageGRID 버전에 최신 핫픽스를 적용하고 설치하는 각 새 버전에 최신 핫픽스를 적용할 것을 적극 권장합니다. 경우에 따라 데이터 손실 위험을 방지하기 위해 핫픽스를 적용해야 합니다. 을 참조하십시오 https://mysupport.netapp.com/site/products/all/details/storagegrid/downloads-tab["NetApp 다운로드: StorageGRID"^] 각 핫픽스에 대한 릴리스 노트를 참조하십시오.

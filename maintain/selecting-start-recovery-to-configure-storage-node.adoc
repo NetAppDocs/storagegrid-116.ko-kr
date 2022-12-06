@@ -13,7 +13,7 @@ summary: 스토리지 노드를 교체한 후 그리드 관리자에서 복구 �
 [role="lead"]
 스토리지 노드를 교체한 후 그리드 관리자에서 복구 시작 을 선택하여 장애가 발생한 노드의 대체 노드로 새 노드를 구성해야 합니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 를 사용하여 그리드 관리자에 로그인해야 합니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
 * 유지 관리 또는 루트 액세스 권한이 있어야 합니다.
 * 프로비저닝 암호가 있어야 합니다.
@@ -22,6 +22,7 @@ summary: 스토리지 노드를 교체한 후 그리드 관리자에서 복구 �
 * 스토리지 노드가 지난 15일 이내에 재구축되지 않은 것을 확인해야 합니다.
 
 
+.이 작업에 대해
 스토리지 노드가 Linux 호스트에 컨테이너로 설치되어 있는 경우 다음 중 하나가 참인 경우에만 이 단계를 수행해야 합니다.
 
 * 노드를 가져오려면 '--force' 플래그를 사용하거나 StorageGRID node force-recovery_node-name_'을(를) 실행했습니다
@@ -61,4 +62,5 @@ image::../media/recovery_reset_button.gif["수동 단계 대기 중" 단계를 �
 
 
 
+.관련 정보
 xref:preparing-appliance-for-reinstallation-platform-replacement-only.adoc[어플라이언스 재설치 준비(플랫폼 교체만 해당)]

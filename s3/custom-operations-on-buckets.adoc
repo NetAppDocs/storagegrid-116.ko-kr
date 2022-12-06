@@ -108,4 +108,5 @@ xref:deprecated-get-bucket-compliance-request.adoc[사용되지 않음: 버킷 �
 xref:deprecated-put-bucket-compliance-request.adoc[폐기됨: 버킷 준수 요청을 넣으십시오]
 
 |===
+.관련 정보
 xref:s3-operations-tracked-in-audit-logs.adoc[감사 로그에서 S3 작업을 추적했습니다]

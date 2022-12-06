@@ -13,6 +13,7 @@ summary: StorageGRID를 처음 구축할 때 하나 이상의 StorageGRID 스토
 [role="lead"]
 StorageGRID를 처음 구축할 때 하나 이상의 StorageGRID 스토리지 어플라이언스를 설치하거나 나중에 확장을 위해 어플라이언스 스토리지 노드를 추가할 수 있습니다. 복구 작업의 일부로 어플라이언스 스토리지 노드를 설치해야 할 수도 있습니다.
 
+.필요한 것
 StorageGRID 시스템에서 필요한 버전의 StorageGRID 소프트웨어를 사용하고 있습니다.
 
 |===
@@ -104,6 +105,7 @@ StorageGRID 시스템 확장을 위한 지침
 |===
 
 
+.관련 정보
 xref:preparing-for-installation.adoc[설치 준비(SG6000)]
 
 xref:installing-hardware.adoc[하드웨어 설치(SG6000)]

@@ -24,6 +24,7 @@ StorageGRID 어플라이언스를 StorageGRID 시스템에 노드로 구축할 �
 
 
 
+.관련 정보
 xref:gathering-installation-information-sg100-and-sg1000.adoc[설치 정보 수집(SG100 및 SG1000)]
 
 xref:cabling-appliance-sg100-and-sg1000.adoc[케이블 어플라이언스 SG100 및 SG1000]

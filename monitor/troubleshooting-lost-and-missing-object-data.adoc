@@ -26,6 +26,7 @@ StorageGRID 시스템은 개체의 메타데이터에 있는 위치 정보를 �
 
 복사본 없이 오브젝트 데이터를 손실할 경우 복구 솔루션이 없습니다. 그러나 손실된 개체를 다시 설정하여 손실된 개체를 새로 마스킹하지 못하도록 해야 합니다.
 
+.관련 정보
 xref:investigating-lost-objects.adoc[손실된 개체를 조사합니다]
 
 xref:resetting-lost-and-missing-object-counts.adoc[분실 및 누락된 개체 수를 재설정합니다]

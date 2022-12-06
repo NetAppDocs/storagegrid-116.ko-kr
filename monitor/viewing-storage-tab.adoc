@@ -34,4 +34,5 @@ image::../media/nodes_storage_node_storage_tab.png[노드 > 스토리지 노드 
 
 image::../media/nodes_page_storage_tables.png[노드 페이지 스토리지 테이블]
 
+.관련 정보
 xref:monitoring-storage-capacity.adoc[스토리지 용량을 모니터링합니다]

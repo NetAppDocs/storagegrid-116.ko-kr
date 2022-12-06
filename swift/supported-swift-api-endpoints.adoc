@@ -97,6 +97,7 @@ Swift의 StorageGRID 구현을 통해 정보 URL에 대한 인증되지 않은 �
 * X-Container-Object-Count
 
 
+.관련 정보
 xref:configuring-tenant-accounts-and-connections.adoc[테넌트 계정 및 연결을 구성합니다]
 
 xref:account-operations.adoc[계정 작업]

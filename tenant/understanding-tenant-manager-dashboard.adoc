@@ -100,6 +100,7 @@ image::../media/tenant_dashboard_endpoint_error.png[끝점 메시지를 보여 �
 
 끝점 오류에 대한 세부 정보를 보려면 끝점 을 선택하여 끝점 페이지를 표시합니다.
 
+.관련 정보
 xref:troubleshooting-platform-services-endpoint-errors.adoc[플랫폼 서비스 끝점 오류 문제 해결]
 
 xref:../monitor/index.adoc[모니터링하고 문제를 해결합니다]

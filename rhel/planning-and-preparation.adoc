@@ -36,6 +36,7 @@ NOTE: 하드웨어 관련 설치 및 통합 지침은 StorageGRID 설치 절차�
 * 사용할 수 있는 배포 및 구성 도구 중에서 선택합니다.
 
 
+.관련 정보
 xref:../network/index.adoc[네트워킹 지침]
 
 xref:../sg100-1000/index.adoc[SG100 및 SG1000 서비스 어플라이언스]

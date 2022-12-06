@@ -46,6 +46,7 @@ StorageGRID 시스템을 처음 설치할 때 암호가 생성되고 문서화�
 가능한 경우 시스템의 현재 토폴로지를 설명하는 문서를 가져옵니다.
 
 |===
+.관련 정보
 xref:../admin/web-browser-requirements.adoc[웹 브라우저 요구 사항]
 
 xref:downloading-recovery-package.adoc[복구 패키지를 다운로드합니다]

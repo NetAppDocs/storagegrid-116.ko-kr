@@ -75,6 +75,7 @@ StorageGRID에서 플랫폼 서비스 끝점의 유효성을 검사할 때 끝�
 
 xref:../admin/index.adoc[StorageGRID 관리]
 
+.관련 정보
 xref:creating-platform-services-endpoint.adoc[플랫폼 서비스 끝점을 만듭니다]
 
 xref:testing-connection-for-platform-services-endpoint.adoc[플랫폼 서비스 끝점에 대한 연결을 테스트합니다]

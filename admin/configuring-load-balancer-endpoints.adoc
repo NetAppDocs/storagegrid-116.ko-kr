@@ -13,7 +13,7 @@ summary: 로드 밸런서 끝점은 게이트웨이 및 관리 노드의 Storage
 [role="lead"]
 로드 밸런서 끝점은 게이트웨이 및 관리 노드의 StorageGRID 로드 밸런서에 연결할 때 사용할 수 있는 포트 및 네트워크 프로토콜 S3 및 Swift 클라이언트를 결정합니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 를 사용하여 그리드 관리자에 로그인했습니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
 * 루트 액세스 권한이 있습니다.
 * 로드 밸런서 끝점에 사용할 포트를 이전에 다시 매핑한 경우 xref:../maintain/removing-port-remaps.adoc[포트 재맵을 제거했습니다].
@@ -153,7 +153,7 @@ image::../media/load_balancer_endpoint_node_interfaces_binding_mode.png[끝점 �
 +
 image::../media/load_balancer_endpoint_ha_group_vips_binding_mode.png[Endpoint HA 그룹 VIP 바인딩 모드]
 
-. HTTP* 끝점을 만드는 경우에는 인증서를 첨부할 필요가 없습니다. 새 로드 밸런서 끝점을 추가하려면 * Create * 를 선택합니다. 그런 다음 로 이동합니다 ,작업을 마친 후. 그렇지 않으면 * 계속 * 을 선택하여 인증서를 첨부하십시오.
+. HTTP* 끝점을 만드는 경우에는 인증서를 첨부할 필요가 없습니다. 새 로드 밸런서 끝점을 추가하려면 * Create * 를 선택합니다. 그런 다음 로 이동합니다 <<After-you-finish,작업을 마친 후>>. 그렇지 않으면 * 계속 * 을 선택하여 인증서를 첨부하십시오.
 
 
 
@@ -243,7 +243,7 @@ NOTE: EC 개인 키는 224비트 이상이어야 합니다. RSA 개인 키는 20
 
 
 
-=== 작업을 마친 후
+=== [[After-you-finish]]를 클릭합니다
 
 . DNS(도메인 이름 시스템)를 사용하는 경우 DNS에 StorageGRID 정규화된 도메인 이름을 클라이언트가 연결하는 데 사용할 각 IP 주소에 연결하는 레코드가 포함되어 있는지 확인합니다.
 +

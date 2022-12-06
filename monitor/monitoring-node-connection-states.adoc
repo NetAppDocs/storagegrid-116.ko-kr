@@ -13,10 +13,11 @@ summary: 하나 이상의 노드가 그리드에서 분리되면 중요한 Stora
 [role="lead"]
 하나 이상의 노드가 그리드에서 분리되면 중요한 StorageGRID 작업이 영향을 받을 수 있습니다. 노드 연결 상태를 모니터링하고 문제를 즉시 해결해야 합니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 를 사용하여 그리드 관리자에 로그인해야 합니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
 
 
+.이 작업에 대해
 노드는 다음 세 가지 연결 상태 중 하나일 수 있습니다.
 
 * * 연결되지 않음 - 알 수 없음 * image:../media/icon_alarm_blue_unknown.png["파란색 물음표 아이콘"]: 알 수 없는 이유로 노드가 그리드에 연결되어 있지 않습니다. 예를 들어, 노드 간 네트워크 연결이 끊어지거나 전원이 꺼졌습니다. 노드 * 와 통신할 수 없음 알림도 트리거될 수 있습니다. 다른 알림도 활성 상태일 수 있습니다. 이 상황은 즉각적인 주의가 필요합니다.
@@ -60,6 +61,7 @@ image::../media/node_connection_state_blue.png[노드 연결 상태 파란색]
 
 
 
+.관련 정보
 xref:alerts-reference.adoc[경고 참조]
 
 xref:../maintain/index.adoc[복구 및 유지 관리]

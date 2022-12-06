@@ -97,6 +97,7 @@ StorageGRID 그리드 네트워크(필수)용으로 생성된 VMware 네트워�
 * DNS(Domain Name System) 서버 IP 주소입니다
 
 
+.관련 정보
 xref:how-grid-nodes-discover-primary-admin-node.adoc[그리드 노드가 기본 관리자 노드를 검색하는 방법]
 
 xref:storage-and-performance-requirements.adoc[요구사항을 충족해야 합니다]

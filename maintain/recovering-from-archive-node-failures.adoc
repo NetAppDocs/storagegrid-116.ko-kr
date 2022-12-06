@@ -15,6 +15,7 @@ summary: 아카이브 노드 장애를 복구하려면 정확한 작업 시퀀�
 
 image::../media/overview_archive_node_recovery.gif[아카이브 노드 복구의 개요 흐름도]
 
+.이 작업에 대해
 아카이브 노드 복구는 다음 문제의 영향을 받습니다.
 
 * ILM 정책이 단일 복사본을 복제하도록 구성된 경우

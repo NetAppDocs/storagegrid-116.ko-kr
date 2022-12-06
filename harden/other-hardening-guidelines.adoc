@@ -51,6 +51,7 @@ AutoSupport는 전송 프로토콜을 위해 HTTPS, HTTP 및 SMTP를 지원합�
 
 신뢰할 수 없는 클라이언트 트래픽에는 타사 로드 밸런서가 권장됩니다. 타사 로드 밸런싱은 더 많은 제어 기능과 공격에 대한 추가적인 보호 계층을 제공합니다.
 
+.관련 정보
 xref:../monitor/index.adoc[모니터링하고 문제를 해결합니다]
 
 xref:../audit/index.adoc[감사 로그를 검토합니다]

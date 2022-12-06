@@ -23,7 +23,7 @@ StorageGRID 설치 아카이브
  a| 
 새 그리드 노드 또는 새 사이트를 추가하는 경우 StorageGRID 설치 아카이브를 다운로드하여 추출해야 합니다. 그리드에서 현재 실행 중인 버전과 동일한 버전을 사용해야 합니다.
 
-자세한 내용은 의 지침을 참조하십시오 ,StorageGRID 설치 파일 다운로드 및 추출.
+자세한 내용은 의 지침을 참조하십시오 <<download-and-extract-install-files,StorageGRID 설치 파일 다운로드 및 추출>>.
 
 * 참고: * 기존 스토리지 노드에 새 스토리지 볼륨을 추가하거나 새 StorageGRID 어플라이언스를 설치할 경우 파일을 다운로드할 필요가 없습니다.
 
@@ -81,8 +81,10 @@ StorageGRID 설명서
 
 == StorageGRID 설치 파일을 다운로드하고 압축을 풉니다
 
+.[[download-and-extract-install-files]]([다운로드 및 추출-설치 파일])
 새 그리드 노드 또는 새 사이트를 추가하려면 먼저 적절한 StorageGRID 설치 아카이브를 다운로드하고 파일을 추출해야 합니다.
 
+.이 작업에 대해
 현재 그리드에서 실행 중인 StorageGRID 버전을 사용하여 확장 작업을 수행해야 합니다.
 
 .단계

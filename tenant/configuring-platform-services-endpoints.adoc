@@ -47,4 +47,5 @@ StorageGRID는 Elasticsearch 클러스터를 나타내는 검색 통합 끝점�
 
 검색 통합 끝점은 특정 Elasticsearch 인덱스 및 유형을 참조합니다. StorageGRID에서 끝점을 만들기 전에 Elasticsearch에서 인덱스를 만들어야 합니다. 그렇지 않으면 끝점 생성이 실패합니다. 끝점을 만들기 전에 형식을 만들 필요가 없습니다. StorageGRID는 개체 메타데이터를 끝점으로 보낼 때 필요한 경우 형식을 만듭니다.
 
+.관련 정보
 xref:../admin/index.adoc[StorageGRID 관리]

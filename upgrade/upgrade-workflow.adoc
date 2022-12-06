@@ -30,4 +30,5 @@ IMPORTANT: 노드를 중지하고 재부팅할 준비가 되어 있는지 확실
 . 업그레이드가 완료되면 소프트웨어 버전을 확인하고 핫픽스를 적용합니다.
 
 
+.관련 정보
 xref:estimating-time-to-complete-upgrade.adoc[업그레이드를 완료하는 데 걸리는 시간을 예상합니다]

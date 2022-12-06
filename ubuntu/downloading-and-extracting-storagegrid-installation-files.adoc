@@ -111,4 +111,5 @@ StorageGRID에 대한 API 스키마입니다.
 * 참고 *: 업그레이드를 수행하기 전에 이러한 스키마를 사용하여 StorageGRID 관리 API를 사용하도록 작성한 코드가 업그레이드 호환성 테스트를 위한 비프로덕션 StorageGRID 환경이 없는 경우 새 StorageGRID 릴리스와 호환되는지 확인할 수 있습니다.
 
 |===
+.관련 정보
 xref:../maintain/index.adoc[복구 및 유지 관리]

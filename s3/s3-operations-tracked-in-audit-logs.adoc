@@ -45,6 +45,7 @@ StorageGRID 감사 로그에서 여러 버킷 작업 및 오브젝트 작업을 
 * 개체 - 복사 를 선택합니다
 
 
+.관련 정보
 xref:operations-on-buckets.adoc[버킷 작업]
 
 xref:operations-on-objects.adoc[객체에 대한 작업]

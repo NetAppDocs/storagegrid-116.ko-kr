@@ -180,4 +180,5 @@ xref:using-s3-object-lock.adoc[S3 오브젝트 잠금을 사용합니다]
 요청에 rionId 쿼리 매개 변수가 지정되지 않은 경우 작업에서 버전 관리되는 버킷의 가장 최신 버전의 개체에 태그를 추가합니다. 객체의 현재 버전이 삭제 표식이면 x-amz-delete-marker 응답 헤더가 true로 설정된 상태로 "MethodNotAllowed" 상태가 반환됩니다.
 
 |===
+.관련 정보
 xref:s3-operations-tracked-in-audit-logs.adoc[S3 작업이 감사 로그에서 추적되었습니다]

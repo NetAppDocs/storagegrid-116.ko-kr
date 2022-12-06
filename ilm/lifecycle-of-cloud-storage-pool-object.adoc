@@ -13,8 +13,8 @@ summary: 클라우드 스토리지 풀을 구현하기 전에 각 유형의 클�
 [role="lead"]
 클라우드 스토리지 풀을 구현하기 전에 각 유형의 클라우드 스토리지 풀에 저장된 개체의 라이프사이클을 검토하십시오.
 
-*  Lifecycle of a Cloud Storage Pool object
-*  Lifecycle of a Cloud Storage Pool object
+* <<S3: 클라우드 스토리지 풀 오브젝트의 수명 주기>>
+* <<Azure: Cloud Storage Pool 개체의 수명 주기>>
 
 
 
@@ -110,4 +110,5 @@ Azure Cloud Storage Pool에 오브젝트가 복원되면 클라이언트 애플�
 
 
 
+.관련 정보
 xref:../s3/index.adoc[S3을 사용합니다]

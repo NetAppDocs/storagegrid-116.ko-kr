@@ -66,4 +66,5 @@ NOTE: 전체 사이트에 장애가 발생하면 객체 및 객체 메타데이�
 
 
 
+.관련 정보
 xref:site-decommissioning.adoc[사이트 파기]

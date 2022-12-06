@@ -20,18 +20,19 @@ IMPORTANT: 네트워크의 MTU 값은 노드가 연결된 스위치 포트에 �
 
 IMPORTANT: 최상의 네트워크 성능을 얻으려면 모든 노드를 그리드 네트워크 인터페이스에서 유사한 MTU 값으로 구성해야 합니다. 개별 노드의 그리드 네트워크에 대한 MTU 설정에 상당한 차이가 있을 경우 * Grid Network MTU mismatch * 경고가 트리거됩니다. MTU 값은 모든 네트워크 유형에 대해 같을 필요는 없습니다.
 
-어플라이언스 노드를 재부팅하지 않고 MTU 설정을 변경하려면  the MTU setting using the Change IP tool,IP 변경 도구를 사용합니다.
+어플라이언스 노드를 재부팅하지 않고 MTU 설정을 변경하려면 <<IP 변경 도구를 사용하여 MTU 설정을 변경합니다,IP 변경 도구를 사용합니다>>.
 
-초기 설치 중에 StorageGRID 어플라이언스 설치 프로그램에서 클라이언트 또는 관리자 네트워크가 구성되지 않은 경우  the MTU setting using maintenance mode,유지보수 모드를 사용하여 MTU 설정을 변경합니다.
+초기 설치 중에 StorageGRID 어플라이언스 설치 프로그램에서 클라이언트 또는 관리자 네트워크가 구성되지 않은 경우 <<유지보수 모드를 사용하여 MTU 설정을 변경합니다,유지보수 모드를 사용하여 MTU 설정을 변경합니다>>.
 
 
 
 == IP 변경 도구를 사용하여 MTU 설정을 변경합니다
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * Change IP 툴을 사용할 수 있는 "passwords.txt" 파일이 있습니다.
 
 
+.단계
 IP 변경 도구에 액세스하여 에 설명된 대로 MTU 설정을 업데이트합니다 xref:../maintain/changing-nodes-network-configuration.adoc[노드 네트워크 구성을 변경합니다].
 
 
@@ -40,7 +41,7 @@ IP 변경 도구에 액세스하여 에 설명된 대로 MTU 설정을 업데이
 
 Change IP(IP 변경) 도구를 사용하여 이러한 설정에 액세스할 수 없는 경우 유지보수 모드를 사용하여 MTU 설정을 변경합니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 있습니다 xref:placing-appliance-into-maintenance-mode.adoc[제품을 유지보수 모드로 전환하였습니다].
 
 
@@ -68,4 +69,5 @@ image::../media/nodes_menu.png[어플라이언스 노드가 그리드에 다시 
 
 
 
+.관련 정보
 xref:../admin/index.adoc[StorageGRID 관리]

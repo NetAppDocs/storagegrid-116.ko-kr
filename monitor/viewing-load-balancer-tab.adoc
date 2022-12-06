@@ -46,6 +46,7 @@ NOTE: 이 값은 각 요청이 완료될 때 업데이트됩니다. 따라서 �
 
 이 그래프는 오류 응답 코드로 분할된 초당 클라이언트에 반환되는 오류 응답 수의 3분 이동 평균을 제공합니다.
 
+.관련 정보
 xref:monitoring-load-balancing-operations.adoc[로드 밸런싱 작업을 모니터링합니다]
 
 xref:../admin/index.adoc[StorageGRID 관리]

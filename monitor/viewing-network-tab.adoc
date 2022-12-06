@@ -21,4 +21,5 @@ summary: 네트워크 탭은 노드, 사이트 또는 그리드의 모든 네트
 
 image::../media/nodes_page_network_tab.png[노드 페이지 네트워크 탭]
 
+.관련 정보
 xref:monitoring-network-connections-and-performance.adoc[네트워크 연결 및 성능을 모니터링합니다]

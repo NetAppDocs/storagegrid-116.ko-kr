@@ -13,7 +13,7 @@ summary: 하나 이상의 노드의 관리 네트워크 서브넷 목록에서 �
 [role="lead"]
 하나 이상의 노드의 관리 네트워크 서브넷 목록에서 서브넷을 추가, 삭제 또는 변경할 수 있습니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * "passwords.txt" 파일이 있어야 합니다.
 
 
@@ -139,4 +139,5 @@ Updating grid network configuration on Name
 
 
 
+.관련 정보
 xref:configuring-ip-addresses.adoc[IP 주소를 구성합니다]

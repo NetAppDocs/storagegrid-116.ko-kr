@@ -13,7 +13,7 @@ summary: Azure Blob 스토리지용 Cloud Storage Pool을 생성할 때 StorageG
 [role="lead"]
 Azure Blob 스토리지용 Cloud Storage Pool을 생성할 때 StorageGRID에서 개체를 저장하는 데 사용할 외부 컨테이너의 계정 이름 및 계정 키를 지정해야 합니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 클라우드 스토리지 풀에 대한 기본 정보를 입력하고 공급자 유형으로 * Azure Blob Storage * 를 지정했습니다. * 공유 키 * 가 * 인증 유형 * 필드에 나타납니다.
 +
 image::../media/cloud_storage_pool_create_azure.png[클라우드 스토리지 풀 Azure를 생성합니다]

@@ -15,7 +15,7 @@ summary: 현재 StorageGRID 시스템에 영향을 미치는 알림 또는 해�
 
 필요에 따라 할 수 있습니다 xref:silencing-alert-notifications.adoc[현재 경고를 해제합니다] 또는 xref:editing-alert-rules.adoc[알림 규칙을 업데이트합니다].
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 를 사용하여 그리드 관리자에 로그인했습니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
 
 

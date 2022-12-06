@@ -29,6 +29,7 @@ IMPORTANT: 저장된 키로 드라이브를 잠금 해제할 때까지 제품을
 * 를 사용하여 그리드 관리자에 로그인해야 합니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
 
 
+.이 작업에 대해
 다음 두 가지 방법으로 오류가 발생한 컨트롤러 캐니스터가 있는지 확인할 수 있습니다.
 
 * SANtricity 시스템 관리자의 Recovery Guru에서 컨트롤러를 교체하도록 안내합니다.
@@ -266,7 +267,7 @@ E2800B 컨트롤러에만 별도의 HIC가 사용됩니다. HIC는 메인 컨트
 
 NOTE: 이 절차의 그림에서는 2-포트 HIC를 보여 줍니다. 컨트롤러의 HIC는 포트 수가 다를 수 있습니다.
 
-. 컨트롤러에 HIC(E2800A)가 없는 경우 컨트롤러 덮개를 교체합니다. 컨트롤러에 HIC(E2800B)가 있는 경우 로 이동합니다 ,HIC를 장애 컨트롤러에서 교체 컨트롤러로 이동합니다.
+. 컨트롤러에 HIC(E2800A)가 없는 경우 컨트롤러 덮개를 교체합니다. 컨트롤러에 HIC(E2800B)가 있는 경우 로 이동합니다 <<move_the_HIC_to_the_replacement_controller,HIC를 장애 컨트롤러에서 교체 컨트롤러로 이동합니다>>.
 +
 .. [[move_the_HIC_to_the_replacement_controller]] HIC가 장착된 경우 HIC를 장애가 발생한 컨트롤러에서 교체 컨트롤러로 이동합니다.
 .. HIC에서 모든 SFP를 제거합니다.
@@ -392,4 +393,5 @@ image::../media/node_rejoin_grid_confirmation.png[어플라이언스 노드가 �
 
 부품을 교체한 후 키트와 함께 제공된 RMA 지침에 따라 오류가 발생한 부품을 NetApp에 반환합니다. 를 참조하십시오 https://mysupport.netapp.com/site/info/rma["부품 반품 및 앰프, 교체"^] 페이지를 참조하십시오.
 
+.관련 정보
 http://mysupport.netapp.com/info/web/ECMP1658252.html["NetApp E-Series 시스템 문서 사이트"^]

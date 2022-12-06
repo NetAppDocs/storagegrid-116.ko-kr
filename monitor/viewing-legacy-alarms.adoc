@@ -16,7 +16,7 @@ summary: '경보\(기존 시스템\)는 시스템 속성이 알람 임계값에 
 
 NOTE: 기존 알람 시스템은 계속 지원되지만, 알림 시스템은 상당한 이점을 제공하며 사용이 간편합니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 를 사용하여 그리드 관리자에 로그인해야 합니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
 
 
@@ -93,6 +93,7 @@ image::../media/alarms_acknowledging.png[알람 확인]
 
 
 
+.관련 정보
 xref:alarms-reference.adoc[알람 기준(레거시 시스템)]
 
 xref:managing-alarms.adoc[현재 알람 확인(레거시 시스템)]

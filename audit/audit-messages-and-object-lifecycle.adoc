@@ -61,4 +61,5 @@ CBID(객체의 내부 식별자)
 
 아카이브 노드가 외부 아카이브 스토리지 시스템에서 오브젝트 데이터를 삭제할 때 생성되는 일련의 감사 메시지는 SREM(Object Store Remove) 메시지가 없고 각 삭제 요청에 대해 AREM(Archive Object Remove) 메시지가 있다는 점을 제외하고 스토리지 노드의 감사 메시지와 유사합니다.
 
+.관련 정보
 xref:../ilm/index.adoc[ILM을 사용하여 개체를 관리합니다]

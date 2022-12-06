@@ -293,6 +293,7 @@ EP
 "ManageSGA" 코드는 E2700 컨트롤러와 사전 그리드 통신이 실패했음을 나타냅니다.
 
 |===
+.관련 정보
 xref:troubleshooting-hardware-installation.adoc[하드웨어 설치 문제 해결(SG5600)]
 
 https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"^]

@@ -15,7 +15,7 @@ StorageGRID 네트워크, 하드웨어 및 플랫폼 문제와 관련된 문제�
 
 
 
-== "422:처리할 수 없는 엔티티" 오류를 해결합니다
+== "'422:처리할 수 없는 엔티티'" 오류를 해결합니다
 
 422:처리할 수 없는 엔터티는 여러 상황에서 발생할 수 있습니다. 오류 메시지를 확인하여 문제의 원인을 파악합니다.
 
@@ -75,14 +75,16 @@ TLS handshake failed
 외부 시스템에서 제공하는 Cipherer를 확인한다. 시스템은 StorageGRID 관리 지침에 나와 있는 것처럼 발신 TLS 연결에 대해 StorageGRID에서 지원하는 암호 중 하나를 사용해야 합니다.
 
 |===
+.관련 정보
 xref:../admin/index.adoc[StorageGRID 관리]
 
 
 
-== Grid Network MTU 불일치 알림 문제를 해결합니다
+== [[troubleshooting_MTU_alert]] 그리드 네트워크 MTU 불일치 경고를 해결합니다
 
 그리드 네트워크 인터페이스(eth0)에 대한 최대 전송 단위(MTU) 설정이 그리드의 노드 간에 상당히 다를 경우 * Grid Network MTU mismatch * 경고가 트리거됩니다.
 
+.이 작업에 대해
 MTU 설정의 차이는 일부(전기는 아님) eth0 네트워크가 점보 프레임에 맞게 구성되었다는 것을 나타낼 수 있습니다. MTU 크기가 1000보다 크면 네트워크 성능 문제가 발생할 수 있습니다.
 
 .단계
@@ -152,6 +154,7 @@ MTU를 적용할 네트워크입니다. 다음 네트워크 유형 중 하나 �
 
 
 
+.관련 정보
 xref:../sg100-1000/index.adoc[SG100 및 SG1000 서비스 어플라이언스]
 
 xref:../sg6000/index.adoc[SG6000 스토리지 어플라이언스]
@@ -166,6 +169,7 @@ xref:../sg5600/index.adoc[SG5600 스토리지 어플라이언스]
 
 네트워크 수신 오류(NRER) 경보는 StorageGRID와 네트워크 하드웨어 간의 연결 문제로 인해 발생할 수 있습니다. 경우에 따라 NRER 오류는 수동 개입 없이 해결할 수 있습니다. 오류가 지워지지 않으면 권장 조치를 취하십시오.
 
+.이 작업에 대해
 NRER 경보는 StorageGRID에 연결되는 네트워크 하드웨어의 다음과 같은 문제로 인해 발생할 수 있습니다.
 
 * 정방향 오류 수정(FEC)이 필요하며 사용되지 않습니다
@@ -234,7 +238,8 @@ NOTE: 전기 소음이 많은 환경에서 높은 오류율을 느낄 수 있습
 
 
 
-,Grid Network MTU 불일치 알림 문제를 해결합니다
+.관련 정보
+<<troubleshoot_MTU_alert,Grid Network MTU 불일치 알림 문제를 해결합니다>>
 
 xref:alarms-reference.adoc[알람 기준(레거시 시스템)]
 
@@ -257,6 +262,7 @@ xref:../sg100-1000/index.adoc[SG100 및 SG1000 서비스 어플라이언스]
 
 NOTE: 프로덕션 수준 StorageGRID 설치에 외부 NTP 소스를 지정할 때 Windows Server 2016 이전 버전의 Windows에서는 Windows 시간(W32Time) 서비스를 사용하지 마십시오. 이전 버전의 Windows의 시간 서비스는 정확하지 않으며 StorageGRID와 같은 고정밀 환경에서 사용하기 위해 Microsoft에서 지원되지 않습니다.
 
+.관련 정보
 xref:../maintain/index.adoc[복구 및 유지 관리]
 
 
@@ -282,16 +288,18 @@ MAC 클로닝 활성화에 대한 자세한 내용은 해당 플랫폼 설치 �
 
 MAC 주소 클로닝을 사용하지 않고 모든 인터페이스가 하이퍼바이저에 의해 할당된 것이 아닌 MAC 주소에 대한 데이터를 수신 및 전송하도록 허용하는 경우, 가상 스위치 및 포트 그룹 수준의 보안 속성이 Promiscuous Mode, MAC Address 변경 및 Forged 전송에 대해 * Accept * 로 설정되어 있는지 확인합니다. 가상 스위치에 설정된 값은 포트 그룹 수준의 값으로 재정의할 수 있으므로 두 위치에서 설정이 동일한지 확인합니다.
 
+.관련 정보
 xref:../rhel/index.adoc[Red Hat Enterprise Linux 또는 CentOS를 설치합니다]
 
 xref:../ubuntu/index.adoc[Ubuntu 또는 Debian을 설치합니다]
 
 
 
-== Linux: 노드 상태가 "고립된" 경우
+== 리눅스: 노드 상태가 ""고아""입니다.
 
 고립된 상태의 Linux 노드는 대개 StorageGRID 서비스나 노드의 컨테이너를 제어하는 StorageGRID 노드 데몬이 예기치 않게 종료되었음을 나타냅니다.
 
+.이 작업에 대해
 Linux 노드가 분리된 상태에 있다고 보고하는 경우 다음을 수행해야 합니다.
 
 * 로그에서 오류 및 메시지를 확인합니다.
@@ -337,6 +345,7 @@ storagegrid node start DC1-S1-172-16-1-172
 
 Linux 호스트에 StorageGRID 노드를 설치한 경우 커널에서 IPv6 지원을 활성화해야 하며, IPv6 주소가 예상대로 노드 컨테이너에 할당되지 않은 것을 확인할 수 있습니다.
 
+.이 작업에 대해
 Grid Manager의 다음 위치에서 그리드 노드에 할당된 IPv6 주소를 볼 수 있습니다.
 
 * nodes * 를 선택하고 노드를 선택합니다. 그런 다음 개요 탭에서 * IP 주소 * 옆에 * 더 보기 * 를 선택합니다.

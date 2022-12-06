@@ -41,4 +41,5 @@ info URL 또는 저장소 URL과 함께 사용할 경우 options 메서드는 �
 * X-Trans-ID
 
 
+.관련 정보
 xref:supported-swift-api-endpoints.adoc[지원되는 Swift API 엔드포인트]

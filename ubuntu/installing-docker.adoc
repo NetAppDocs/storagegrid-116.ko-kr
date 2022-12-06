@@ -41,4 +41,5 @@ sudo docker version
 
 
 
+.관련 정보
 xref:configuring-host-storage.adoc[호스트 스토리지를 구성합니다]

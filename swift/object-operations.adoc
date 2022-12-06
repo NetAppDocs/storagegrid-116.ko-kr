@@ -210,6 +210,7 @@ reducted_redundancy를 지정하면 개체를 처음 인제스트할 때 생성�
 * X-Trans-ID
 
 
+.관련 정보
 xref:../ilm/index.adoc[ILM을 사용하여 개체를 관리합니다]
 
 xref:monitoring-and-auditing-operations.adoc[운영 모니터링 및 감사]

@@ -13,8 +13,10 @@ summary: E2700 컨트롤러의 관리 포트 1은 SANtricity 스토리지 관리
 [role="lead"]
 E2700 컨트롤러의 관리 포트 1은 SANtricity 스토리지 관리자를 위한 관리 네트워크에 어플라이언스를 연결합니다. StorageGRID 어플라이언스의 하드웨어 및 컨트롤러 펌웨어에 대한 관리 연결이 끊어지지 않도록 하려면 E2700 컨트롤러의 정적 IP 주소를 설정해야 합니다.
 
+.필요한 것
 을(를) 사용하고 있습니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
 
+.이 작업에 대해
 DHCP 할당 주소는 언제든지 변경될 수 있습니다. 고정 IP 주소를 컨트롤러에 할당하여 일관성 있는 접근성을 보장합니다.
 
 .단계
@@ -64,4 +66,5 @@ SANtricity 저장소 관리자에 연결할 때 새 고정 IP 주소를 URL: + `
 
 
 
+.관련 정보
 http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61197["NetApp 문서: SANtricity 스토리지 관리자"^]

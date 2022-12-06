@@ -13,7 +13,7 @@ summary: S3 테넌트를 사용하는 경우 적절한 권한이 있으면 S3 �
 [role="lead"]
 S3 테넌트를 사용하는 경우 적절한 권한이 있으면 S3 액세스 키 목록을 볼 수 있습니다. 만료 시간을 기준으로 목록을 정렬할 수 있으므로 곧 만료되는 키를 확인할 수 있습니다. 필요에 따라 새 키를 만들거나 더 이상 사용하지 않는 키를 삭제할 수 있습니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 를 사용하여 테넌트 관리자에 로그인해야 합니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
 * 자신의 S3 자격 증명 관리 권한이 있어야 합니다.
 
@@ -39,6 +39,7 @@ image::../media/access_keys_view_list.png[액세스 키 목록]
 
 
 
+.관련 정보
 xref:creating-your-own-s3-access-keys.adoc[자체 S3 액세스 키를 생성합니다]
 
 xref:deleting-your-own-s3-access-keys.adoc[자체 S3 액세스 키를 삭제합니다]

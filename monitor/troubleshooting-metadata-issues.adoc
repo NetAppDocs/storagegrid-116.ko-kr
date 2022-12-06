@@ -20,10 +20,11 @@ summary: 여러 작업을 수행하여 메타데이터 문제의 원인을 확�
 
 메타데이터 스토리지 부족 * 경고가 트리거되면 새 스토리지 노드를 추가해야 합니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 를 사용하여 그리드 관리자에 로그인해야 합니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
 
 
+.이 작업에 대해
 StorageGRID는 각 스토리지 노드의 볼륨 0에 개체 메타데이터를 위한 일정한 양의 공간을 예약합니다. 이 공간을 실제 예약 공간이라고 하며, 여기에는 오브젝트 메타데이터(허용되는 메타데이터 공간)에 허용되는 공간과 컴팩션 및 복구처럼 필수 데이터베이스 작업에 필요한 공간으로 세분화됩니다. 허용되는 메타데이터 공간은 전체 오브젝트 용량을 관리합니다.
 
 image::../media/metadata_allowed_space_volume_0.png[메타데이터 허용 공간 볼륨 0]
@@ -76,12 +77,13 @@ NOTE: StorageGRID는 모든 오브젝트 메타데이터의 전체 복사본을 
 
 서비스: 상태 - Cassandra(SVST) 알람은 스토리지 노드에 대한 Cassandra 데이터베이스를 재구성해야 할 수 있음을 나타냅니다. Cassandra는 StorageGRID의 메타데이터 저장소로 사용됩니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 를 사용하여 그리드 관리자에 로그인해야 합니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
 * 특정 액세스 권한이 있어야 합니다.
 * "passwords.txt" 파일이 있어야 합니다.
 
 
+.이 작업에 대해
 Cassandra가 15일 이상 중지(예: 스토리지 노드 전원이 꺼져 있는 경우)인 경우, 노드가 다시 온라인 상태가 될 때 Cassandra가 시작되지 않습니다. 영향을 받는 DDS 서비스를 위해 Cassandra 데이터베이스를 재구축해야 합니다.
 
 가능합니다 xref:running-diagnostics.adoc[진단 유틸리티를 실행합니다] 그리드의 현재 상태에 대한 추가 정보를 얻습니다.
@@ -165,7 +167,7 @@ Cassandra가 15일 이상 중단된 경우 servermanager.log 파일에 다음 �
 started because it has been offline for longer than
 its 15 day grace period - rebuild cassandra
 ----
-.. 이 메시지의 타임스탬프가 단계의 지침에 따라 Cassandra를 다시 시작하려고 시도한 시간인지 확인합니다 ,스토리지 노드에서 Cassandra를 다시 시작합니다.
+.. 이 메시지의 타임스탬프가 단계의 지침에 따라 Cassandra를 다시 시작하려고 시도한 시간인지 확인합니다 <<restart_Cassandra_from_the_Storage_Node,스토리지 노드에서 Cassandra를 다시 시작합니다>>.
 +
 Cassandra에는 여러 항목이 있을 수 있으며, 가장 최근 항목을 찾아야 합니다.
 
@@ -184,6 +186,7 @@ Cassandra에는 여러 항목이 있을 수 있으며, 가장 최근 항목을 �
 
 Cassandra 데이터베이스에 메모리 부족 오류가 발생하면 SMTT(Total Events) 경보가 발생합니다. 이 오류가 발생하면 기술 지원 부서에 문의하여 문제를 해결하십시오.
 
+.이 작업에 대해
 Cassandra 데이터베이스에 대해 메모리 부족 오류가 발생하면 힙 덤프가 생성되고, SMTT(Total Events) 경보가 트리거되고, Cassandra 힙 Out of Memory Errors 카운트가 1씩 증가합니다.
 
 .단계

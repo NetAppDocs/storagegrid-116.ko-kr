@@ -15,7 +15,7 @@ S3 SelectObjectContent 요청을 사용하여 간단한 SQL 문을 기반으로 
 
 자세한 내용은 를 참조하십시오 https://docs.aws.amazon.com/AmazonS3/latest/API/API_SelectObjectContent.html["SelectObjectContent에 대한 AWS 문서"^].
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 테넌트 계정에 S3 Select 권한이 있습니다.
 * 쿼리할 객체에 대한 '3:GetObject' 권한이 있습니다.
 * 쿼리할 객체가 CSV 형식이거나 CSV 형식 파일이 포함된 GZIP 또는 BZIP2 압축 파일입니다.

@@ -13,11 +13,12 @@ summary: StorageGRID 제품에서 드라이브, 팬, 전원 공급 장치 또는
 [role="lead"]
 StorageGRID 제품에서 드라이브, 팬, 전원 공급 장치 또는 배터리를 교체해야 할 수 있습니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * E-Series 하드웨어 교체 절차가 있습니다.
 * 제품이 다 되었습니다 xref:placing-appliance-into-maintenance-mode.adoc[유지보수 모드로 전환] 구성 요소 교체 절차에서 제품을 종료해야 하는 경우
 
 
+.이 작업에 대해
 드라이브, 전원 팬 캐니스터, 팬 캐니스터, 전원 캐니스터, 배터리 교체 또는 드라이브 드로어는 E2700 및 E5600 스토리지 어레이의 표준 절차를 참조하십시오. 하드웨어 자체의 제거 및 교체에 대한 단계별 지침에 초점을 맞춥니다. 대부분의 SANtricity 스토리지 관리자 절차는 어플라이언스에 적용되지 않습니다.
 
 
@@ -83,6 +84,7 @@ E2700 컨트롤러의 배터리(컨트롤러 분리 필요)
 의 단계를 따릅니다 xref:replacing-e2700-controller.adoc[E2700 컨트롤러를 교체합니다]기존 컨트롤러에 새 배터리를 설치합니다.
 
 |===
+.관련 정보
 https://mysupport.netapp.com/info/web/ECMP11751516.html["NetApp E-Series 및 EF-Series 하드웨어 교체 절차 를 참조하십시오"^]
 
 http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61765["NetApp 설명서: E2700 시리즈"^]

@@ -24,4 +24,5 @@ summary: 네트워크 케이블을 연결한 후 어플라이언스에 전원을
 . 분리한 경우 전면 베젤을 제품에 장착합니다.
 
 
+.관련 정보
 xref:viewing-status-indicators-on-sg100-and-sg1000-appliances.adoc[SG100 및 SG1000 어플라이언스의 상태 표시기를 봅니다]

@@ -13,7 +13,7 @@ summary: 스토리지 컨트롤러의 하드웨어를 모니터링하거나 E-Se
 [role="lead"]
 스토리지 컨트롤러의 하드웨어를 모니터링하거나 E-Series AutoSupport를 구성하려면 스토리지 컨트롤러의 SANtricity System Manager에 액세스해야 할 수 있습니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 을(를) 사용하고 있습니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
 * 그리드 관리자를 통해 SANtricity 시스템 관리자에 액세스하려면 StorageGRID가 설치되어 있어야 하며 스토리지 어플라이언스 관리자 권한이나 루트 액세스 권한이 있어야 합니다.
 * StorageGRID 어플라이언스 설치 프로그램을 사용하여 SANtricity 시스템 관리자에 액세스하려면 SANtricity 시스템 관리자 사용자 이름과 암호가 있어야 합니다.
@@ -26,6 +26,7 @@ NOTE: 그리드 관리자 또는 StorageGRID 어플라이언스 설치 프로그
 
 IMPORTANT: 그리드 관리자 또는 어플라이언스 설치 프로그램에서 SANtricity 시스템 관리자에 액세스하는 것은 일반적으로 하드웨어를 모니터링하고 E-Series AutoSupport를 구성하는 데만 사용됩니다. 펌웨어 업그레이드와 같은 SANtricity System Manager 내의 많은 기능과 작업은 StorageGRID 어플라이언스 모니터링에는 적용되지 않습니다. 문제를 방지하려면 항상 어플라이언스에 대한 하드웨어 설치 및 유지 관리 지침을 따르십시오.
 
+.이 작업에 대해
 설치 및 구성 프로세스 단계에 따라 SANtricity System Manager에 액세스하는 방법에는 세 가지가 있습니다.
 
 * 어플라이언스가 아직 StorageGRID 시스템에 노드로 배포되지 않은 경우 StorageGRID 어플라이언스 설치 프로그램의 고급 탭을 사용해야 합니다.
@@ -37,7 +38,7 @@ NOTE: 노드가 배포되면 StorageGRID 어플라이언스 설치 프로그램�
 * StorageGRID 어플라이언스 설치 관리자 또는 그리드 관리자를 사용할 수 없는 경우 관리 포트에 연결된 웹 브라우저를 사용하여 SANtricity 시스템 관리자에 직접 액세스할 수 있습니다.
 
 
-이 절차에는 SANtricity 시스템 관리자에 대한 초기 액세스 단계가 포함되어 있습니다. SANtricity 시스템 관리자를 이미 설정한 경우 로 이동합니다 ,하드웨어 경고를 구성합니다 단계.
+이 절차에는 SANtricity 시스템 관리자에 대한 초기 액세스 단계가 포함되어 있습니다. SANtricity 시스템 관리자를 이미 설정한 경우 로 이동합니다 <<config_hardware_alerts_sg5700,하드웨어 경고를 구성합니다>> 단계.
 
 
 NOTE: 그리드 관리자 또는 StorageGRID 어플라이언스 설치 프로그램을 사용하면 어플라이언스의 관리 포트를 구성하거나 연결하지 않고도 SANtricity 시스템 관리자에 액세스할 수 있습니다.

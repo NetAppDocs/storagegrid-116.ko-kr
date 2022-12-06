@@ -39,6 +39,7 @@ image::../media/ping_test_passed.png[StorageGRID Webscale 어플라이언스 설
 
 
 
+.관련 정보
 xref:configuring-network-links-sg6000.adoc[네트워크 링크 구성(SG6000)]
 
 xref:changing-mtu-setting.adoc[MTU 설정을 변경합니다]

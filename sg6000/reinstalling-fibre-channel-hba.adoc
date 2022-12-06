@@ -13,7 +13,7 @@ summary: 교체용 Fibre Channel HBA가 제거된 위치와 동일한 위치에 
 [role="lead"]
 교체용 Fibre Channel HBA가 제거된 위치와 동일한 위치에 설치됩니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 올바른 교체용 Fibre Channel HBA가 있습니다.
 * 기존 Fibre Channel HBA를 제거했습니다.
 +
@@ -40,6 +40,7 @@ image::../media/sg6060_riser_alignment_hole.jpg[SG6060 라이저 어셈블리의
 . 케이블을 다시 설치할 Fibre Channel HBA 포트에서 보호 캡을 제거합니다.
 
 
+.작업을 마친 후
 컨트롤러에서 수행할 다른 유지보수 절차가 없는 경우 컨트롤러 덮개를 다시 설치합니다.
 
 xref:reinstalling-sg6000-cn-controller-cover.adoc[SG6000-CN 컨트롤러 덮개를 다시 설치합니다]

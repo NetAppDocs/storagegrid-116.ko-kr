@@ -46,6 +46,7 @@ StorageGRID 시스템 내에서 교환되는 감사 메시지에는 모든 메�
 * 값 은 특성의 내용으로 일반적으로 숫자 또는 텍스트 값입니다. 값은 항상 콜론(':')을 따릅니다. CStr 데이터 형식의 값은 큰따옴표 " ""로 둘러싸입니다.
 
 
+.관련 정보
 xref:using-audit-explain-tool.adoc[감사 설명 도구를 사용합니다]
 
 xref:using-audit-sum-tool.adoc[감사 합계 도구를 사용합니다]

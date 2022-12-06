@@ -135,4 +135,5 @@ xref:../sg6000/index.adoc[SG6000 스토리지 어플라이언스]
 
 
 
+.관련 정보
 xref:../rhel/index.adoc[Red Hat Enterprise Linux 또는 CentOS를 설치합니다]

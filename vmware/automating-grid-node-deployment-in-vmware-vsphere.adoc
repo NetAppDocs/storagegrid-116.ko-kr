@@ -19,7 +19,7 @@ VMware vSphere를 사용하여 그리드 노드 구축을 자동화할 수 있�
 
 VMware vSphere를 사용하여 그리드 노드의 구축 자동화
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * Bash 3.2 이상이 설치된 Linux/Unix 시스템에 액세스할 수 있습니다.
 * VMware OVF Tool 4.1이 설치되고 올바르게 구성되었습니다.
 * OVF 툴을 사용하여 VMware vSphere에 액세스하는 데 필요한 사용자 이름과 암호를 알고 있습니다.
@@ -93,7 +93,7 @@ NOTE: vApp에 구축할 경우 가상 머신이 처음 시작될 때 자동으�
 . dddeploy-vsphere-ovftool.ini` 를 엽니다.
 . VMware 가상 그리드 노드를 구축하는 데 필요한 모든 정보를 입력합니다.
 +
-을 참조하십시오 ,구성 파일 설정 를 참조하십시오.
+을 참조하십시오 <<configuration-file-settings,구성 파일 설정>> 를 참조하십시오.
 
 . 필요한 모든 정보를 입력하고 확인했으면 파일을 저장하고 닫습니다.
 
@@ -308,6 +308,7 @@ NOTE: admin_ip 매개 변수는 기본 관리 노드에 대해 무시됩니다.
 * 전역적으로 설정되지 않은 모든 매개변수. 예를 들어, 노드가 관리 네트워크에 연결되어 있고 admin_network 매개 변수를 전역으로 지정하지 않은 경우 노드에 대해 이러한 매개 변수를 지정해야 합니다.
 
 
+.기본 관리자 노드
 기본 관리 노드에는 다음과 같은 추가 설정이 필요합니다.
 
 * * node_type *: vm_Admin_Node
@@ -339,6 +340,7 @@ DISK = INSTANCES=2, CAPACITY=300
 
 NOTE: 관리 노드의 경우 인스턴스는 항상 2가 되어야 합니다.
 
+.스토리지 노드
 스토리지 노드에는 다음과 같은 추가 설정이 필요합니다.
 
 * * node_type *: vm_storage_Node
@@ -399,6 +401,7 @@ DISK = INSTANCES=16, CAPACITY=4096
 ----
 
 
+.아카이브 노드
 아카이브 노드에 대해 다음 추가 설정이 필요합니다.
 
 * * node_type *: vm_Archive_Node
@@ -416,6 +419,7 @@ DISK = INSTANCES=16, CAPACITY=4096
 
   ADMIN_IP = 10.1.0.2
 ----
+.게이트웨이 노드
 게이트웨이 노드에는 다음과 같은 추가 설정이 필요합니다.
 
 * * node_type *: vm_api_Gateway
@@ -439,6 +443,7 @@ DISK = INSTANCES=16, CAPACITY=4096
 
   ADMIN_IP = 10.1.0.2
 ----
+.운영 관리자 노드가 아닌 노드
 운영 관리자 노드가 아닌 경우 다음과 같은 추가 설정이 필요합니다.
 
 * * node_type *: vm_Admin_Node
@@ -478,7 +483,7 @@ NOTE: 관리 노드의 경우 인스턴스는 항상 2가 되어야 합니다.
 
 VMware vSphere에서 StorageGRID 그리드 노드 구축을 자동화하기 위해 수정한 deploy-vsphere-ovftool.ini 구성 파일과 dedploy-vsphere-ovftool.sh" bash 스크립트를 사용할 수 있습니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 사용자 환경에 대한 deploy-vsphere-ovftool.ini 구성 파일을 만들었습니다.
 
 
@@ -546,7 +551,7 @@ Deployment Summary
 
 그리드 노드를 구축한 후 StorageGRID 시스템 구성을 자동화할 수 있습니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 설치 아카이브에서 다음 파일의 위치를 알고 있습니다.
 
 
@@ -602,6 +607,7 @@ cd StorageGRID-Webscale-version/platform
 ----
 
 
+.결과
 복구 패키지 .zip 파일은 구성 프로세스 중에 생성되며 설치 및 구성 프로세스를 실행 중인 디렉터리에 다운로드됩니다. 하나 이상의 그리드 노드에 장애가 발생할 경우 StorageGRID 시스템을 복구할 수 있도록 복구 패키지 파일을 백업해야 합니다. 예를 들어, 안전한 백업 네트워크 위치 및 안전한 클라우드 저장소 위치에 복사합니다.
 
 
@@ -624,6 +630,7 @@ IMPORTANT: 복구 패키지 파일은 StorageGRID 시스템에서 데이터를 �
 ----
 StorageGRID has been configured and installed.
 ----
+.관련 정보
 xref:navigating-to-grid-manager.adoc[그리드 관리자로 이동합니다]
 
 xref:overview-of-installation-rest-api.adoc[설치 REST API 개요]

@@ -42,6 +42,7 @@ IMPORTANT: ILM 규칙이 복제된 복사본을 하나만 저장하도록 구성
 
 NOTE: 복구 중 서비스:상태-Cassandra(SVST) 경보가 발생하는 경우, Cassandra를 재작성하여 모니터링 및 문제 해결 지침을 참조하여 알람에서 복구합니다. Cassandra가 재구축된 후에는 경보가 지워집니다. 알람이 소거되지 않으면 기술 지원 부서에 문의하십시오.
 
+.관련 정보
 xref:../monitor/index.adoc[모니터링하고 문제를 해결합니다]
 
 xref:warnings-and-considerations-for-grid-node-recovery.adoc[그리드 노드 복구에 대한 경고 및 고려 사항]

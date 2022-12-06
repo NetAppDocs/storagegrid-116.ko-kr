@@ -13,10 +13,11 @@ summary: 각 스토리지 노드의 총 사용 가능 공간을 모니터링하�
 [role="lead"]
 각 스토리지 노드의 총 사용 가능 공간을 모니터링하여 노드에 새 오브젝트 데이터를 위한 충분한 공간이 있는지 확인해야 합니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 를 사용하여 그리드 관리자에 로그인해야 합니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
 
 
+.이 작업에 대해
 사용 가능한 공간 은 오브젝트를 저장할 수 있는 저장 공간의 양입니다. 스토리지 노드의 사용 가능한 총 공간은 노드 내의 모든 오브젝트 저장소에 사용 가능한 공간을 추가하여 계산합니다.
 
 image::../media/calculating_watermarks.gif[사용 가능한 총 공간에 대한 개념적 도면]
@@ -66,6 +67,7 @@ NOTE: ILM 정책에서 삭제 코딩을 사용하는 경우 기존 스토리지 
 
 
 
+.관련 정보
 xref:../admin/index.adoc[StorageGRID 관리]
 
 xref:troubleshooting-storagegrid-system.adoc[오브젝트 부족 데이터 스토리지 경고 문제를 해결합니다]

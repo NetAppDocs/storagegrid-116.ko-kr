@@ -43,6 +43,7 @@ summary: 제품을 설치하기 전에 StorageGRID 어플라이언스의 사양�
 . 제품을 설치할 위치를 결정합니다.
 
 
+.관련 정보
 https://hwu.netapp.com["NetApp Hardware Universe를 참조하십시오"^]
 
 https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^]

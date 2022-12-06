@@ -15,11 +15,12 @@ summary: 모든 StorageGRID 노드는 감사 메시지를 생성하여 시스템
 
 감사 메시지에 대한 자세한 내용은 을 참조하십시오 xref:../audit/index.adoc[감사 로그를 검토합니다].
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 를 사용하여 그리드 관리자에 로그인했습니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
 * 유지 관리 또는 루트 액세스 권한이 있습니다.
 
 
+.이 작업에 대해
 모든 StorageGRID 노드는 감사 메시지와 로그를 생성하여 시스템 활동 및 이벤트를 추적합니다. 기본적으로 감사 정보는 관리 노드의 감사 로그로 전송됩니다. 감사 레벨을 조정하여 감사 로그에 기록되는 감사 메시지의 유형과 수를 늘리거나 줄일 수 있습니다. 필요에 따라 원격 syslog 서버로 전송되거나 수동 수집을 위해 원래 노드에 임시로 저장되도록 감사 정보를 구성할 수 있습니다.
 
 
@@ -141,7 +142,7 @@ NOTE: 감사 프로토콜 요청 헤더는 * 클라이언트 읽기 * 또는 * �
 감사 정보를 원격으로 저장하려면 외부 syslog 서버를 구성할 수 있습니다.
 
 * 감사 정보를 외부 syslog 서버에 저장하려면 로 이동합니다 xref:../monitor/configuring-syslog-server.adoc[외부 syslog 서버를 구성합니다].
-* 외부 syslog 서버를 사용하지 않는 경우 로 이동합니다 ,감사 정보 대상을 선택합니다.
+* 외부 syslog 서버를 사용하지 않는 경우 로 이동합니다 <<Select-audit-information-destinations,감사 정보 대상을 선택합니다>>.
 
 
 
@@ -214,6 +215,7 @@ CAUTION: 로그 대상을 변경하시겠습니까?
 
 
 
+.관련 정보
 xref:../monitor/considerations-for-external-syslog-server.adoc[외부 syslog 서버에 대한 고려 사항]
 
 xref:../admin/index.adoc[StorageGRID 관리]

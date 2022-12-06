@@ -13,6 +13,7 @@ summary: 장애가 발생한 StorageGRID 어플라이언스 스토리지 노드�
 [role="lead"]
 장애가 발생한 StorageGRID 어플라이언스 스토리지 노드를 복구하는 절차는 시스템 드라이브 손실 또는 스토리지 볼륨 손실에서 복구하든 동일합니다.
 
+.이 작업에 대해
 어플라이언스를 준비하고 소프트웨어를 재설치하고, 그리드에 다시 참가하도록 노드를 구성하고, 스토리지를 다시 포맷하고, 객체 데이터를 복원해야 합니다.
 
 image::../media/overview_sga_recovery.gif[StorageGRID 어플라이언스 복구의 개요 흐름도]
@@ -37,6 +38,7 @@ NOTE: 복구 중 서비스:상태-Cassandra(SVST) 경보가 발생하는 경우,
 
 NOTE: 컨트롤러 교체 또는 SANtricity OS 재설치 지침과 같은 하드웨어 유지보수 절차는 스토리지 어플라이언스의 설치 및 유지보수 지침을 참조하십시오.
 
+.관련 정보
 xref:../monitor/index.adoc[모니터링하고 문제를 해결합니다]
 
 xref:../sg6000/index.adoc[SG6000 스토리지 어플라이언스]

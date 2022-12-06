@@ -16,7 +16,7 @@ summary: 제안된 ILM 정책을 처음부터 새로 만들거나 동일한 규�
 
 NOTE: 전역 S3 오브젝트 잠금 설정이 활성화된 경우 다음 절차를 대신 사용하십시오. xref:creating-ilm-policy-after-s3-object-lock-is-enabled.adoc[S3 오브젝트 잠금이 활성화된 후 ILM 정책을 생성합니다].
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 를 사용하여 그리드 관리자에 로그인했습니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
 * 특정 액세스 권한이 있습니다.
 * 제안된 정책에 추가할 ILM 규칙을 만들었습니다. 필요에 따라 제안된 정책을 저장하고 규칙을 추가한 다음 제안된 정책을 편집하여 새 규칙을 추가할 수 있습니다.
@@ -28,6 +28,7 @@ image::../media/video-screenshot-ilm-policies.png[비디오: StorageGRID ILM 정
 
 
 
+.이 작업에 대해
 제안된 ILM 정책을 생성하는 일반적인 이유는 다음과 같습니다.
 
 * 새 사이트를 추가하고 새 ILM 규칙을 사용하여 해당 사이트에 개체를 배치해야 합니다.

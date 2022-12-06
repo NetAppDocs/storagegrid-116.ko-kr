@@ -22,6 +22,7 @@ StorageGRID 어플라이언스 하드웨어를 설치하기 전에 서비스 랩
 * SSH 클라이언트(예: PuTTY)
 
 
+.관련 정보
 xref:../admin/web-browser-requirements.adoc[웹 브라우저 요구 사항]
 
 http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61197["NetApp 문서: SANtricity 스토리지 관리자"^]

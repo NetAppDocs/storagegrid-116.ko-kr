@@ -44,4 +44,5 @@ NOTE: 그리드 버전과 일치하도록 노드를 배포할 때 부 릴리즈�
 . 그런 다음 핫 픽스 11._A.B.y_를 기본 관리 노드에 적용합니다.
 
 
+.관련 정보
 xref:configuring-replacement-primary-admin-node.adoc[대체 운영 관리자 노드를 구성합니다]
