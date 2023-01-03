@@ -244,7 +244,7 @@ image::../media/storage_used_object_metadata_allowed.png[사용된 스토리지 
 
 * 시스템 전체 * 메타데이터 예약 공간 * 은 8TB로 설정됩니다. 각 스토리지 노드에 128GB RAM이 넘는 경우 StorageGRID 11.6의 기본값입니다.
 * SN1의 메타데이터에 대한 실제 예약 공간은 6TB입니다. (볼륨 0이 * Metadata Reserved Space * 설정보다 작기 때문에 전체 볼륨이 예약됩니다.)
-* SN1에서 허용되는 메타데이터 공간은 에 나와 있는 계산에 따라 3TB입니다 <<actual-reserved-space-for-metadata,메타데이터에 대한 실제 예약 공간입니다>>(메타데이터의 실제 예약된 공간 −1TB) × 60%, 최대 3.96TB.
+* SN1에서 허용되는 메타데이터 공간은 에 나와 있는 계산에 따라 3TB입니다 <<table-allowed-space-for-metadata,메타데이터에 허용되는 공간에 대한 테이블입니다>>(메타데이터의 실제 예약된 공간 −1TB) × 60%, 최대 3.96TB.
 
 
 
