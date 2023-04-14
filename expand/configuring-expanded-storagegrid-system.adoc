@@ -41,7 +41,7 @@ NOTE: 기본적으로 새 스토리지 노드는 모든 스토리지 노드 스�
 . 관리 노드를 추가한 경우 다음 구성 작업을 완료합니다.
 +
 .. StorageGRID 시스템에 SSO(Single Sign-On)가 활성화된 경우 새 관리 노드에 대한 신뢰할 수 있는 상대 트러스트를 만듭니다. 이 신뢰할 수 있는 상대 트러스트를 만들 때까지 노드에 로그인할 수 없습니다. 을 참조하십시오xref:../admin/configuring-sso.adoc[Single Sign-On 구성].
-.. 관리 노드에서 로드 밸런서 서비스를 사용하려는 경우 필요에 따라 새 관리 노드를 HA 그룹에 추가합니다. 구성 * > * 네트워크 * > * 고가용성 그룹 * 을 선택하여 기존 HA 그룹 목록을 검토하고 새 노드를 추가합니다. 을 참조하십시오 xref:../admin/index.adoc[StorageGRID 관리].
+.. 관리 노드에서 로드 밸런서 서비스를 사용하려는 경우 필요에 따라 새 관리 노드를 HA 그룹에 추가합니다. 기존 HA 그룹 목록을 검토하고 새 노드를 추가하려면 * configuration * * * Network * * High Availability groups * 를 선택합니다. 을 참조하십시오 xref:../admin/index.adoc[StorageGRID 관리].
 .. 필요에 따라 각 관리 노드에서 속성과 감사 정보를 일관되게 유지하려면 운영 관리 노드에서 확장 관리 노드로 관리 노드 데이터베이스를 복사합니다. 을 참조하십시오 xref:copying-admin-node-database.adoc[관리 노드 데이터베이스를 복사합니다].
 .. 필요에 따라 각 관리 노드에서 기간별 메트릭을 일관되게 유지하려면 Prometheus 데이터베이스를 기본 관리 노드에서 확장 관리 노드로 복사합니다. 을 참조하십시오 xref:copying-prometheus-metrics.adoc[Prometheus 메트릭을 복사합니다].
 .. 필요에 따라 각 관리 노드에서 기록 로그 정보를 일관되게 유지하려면 기존 감사 로그를 기본 관리 노드에서 확장 관리 노드로 복사합니다. 을 참조하십시오 xref:copying-audit-logs.adoc[감사 로그를 복사합니다].

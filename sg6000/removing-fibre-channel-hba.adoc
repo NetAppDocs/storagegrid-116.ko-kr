@@ -15,25 +15,22 @@ SG6000-CN 컨트롤러의 파이버 채널 호스트 버스 어댑터(HBA)가 �
 
 .필요한 것
 * 올바른 교체용 Fibre Channel HBA가 있습니다.
-* 교체할 파이버 채널 HBA가 포함된 SG6000-CN 컨트롤러를 확인했습니다.
+* 있습니다 link:verifying-fibre-channel-hba-to-replace.html["교체할 파이버 채널 HBA가 포함된 SG6000-CN 컨트롤러를 확인했습니다"].
+* 있습니다 link:locating-controller-in-data-center.html["SG6000-CN 컨트롤러를 물리적으로 위치했다"] 데이터 센터 내에서,
+* 있습니다 link:shutting-down-sg6000-cn-controller.html["SG6000-CN 컨트롤러를 종료합니다"].
 +
-xref:verifying-fibre-channel-hba-to-replace.adoc[교체할 Fibre Channel HBA를 확인합니다]
 
-* 데이터 센터의 파이버 채널 HBA를 교체하는 SG6000-CN 컨트롤러를 물리적으로 배치했습니다.
-+
-xref:locating-controller-in-data-center.adoc[데이터 센터에서 컨트롤러를 찾습니다]
+IMPORTANT: 컨트롤러를 랙에서 분리하기 전에 제어된 방식으로 종료해야 합니다.
 
-* 컨트롤러 덮개를 제거했습니다.
-+
-xref:removing-sg6000-cn-controller-cover.adoc[SG6000-CN 컨트롤러 덮개를 분리합니다]
-
+* 있습니다 link:removing-sg6000-cn-controller-from-cabinet-or-rack.html["캐비닛이나 랙에서 컨트롤러를 제거했습니다"].
+* 있습니다 link:removing-sg6000-cn-controller-cover.html["컨트롤러 덮개를 분리했습니다"].
 
 
 .이 작업에 대해
-서비스 중단을 방지하려면 Fibre Channel HBA 교체를 시작하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하거나 서비스 중단이 정상적으로 예상되는 예약된 유지 보수 기간 동안 어댑터를 교체하십시오. 정보 수명 주기 관리를 사용하여 개체를 관리하는 방법에 대한 지침은 노드 연결 상태 결정에 대한 정보를 참조하십시오.
+서비스 중단을 방지하려면 Fibre Channel HBA 교체를 시작하기 전에 다른 모든 스토리지 노드가 그리드에 연결되어 있는지 확인하거나 서비스 중단이 정상적으로 예상되는 예약된 유지 보수 기간 동안 어댑터를 교체하십시오. 에 대한 정보를 참조하십시오 link:../monitor/monitor-node-connection-states.html["노드 연결 상태를 모니터링합니다"].
 
 
-IMPORTANT: 개체의 복사본을 하나만 생성하는 ILM 규칙을 사용한 적이 있는 경우 예약된 유지 관리 기간 동안 파이버 채널 HBA를 교체해야 합니다. 그렇지 않으면 이 절차 중에 해당 개체에 대한 액세스가 일시적으로 끊어질 수 있습니다. +정보 수명 주기 관리를 사용하여 개체를 관리하는 방법에 대한 정보를 참조하십시오.
+IMPORTANT: 개체의 복사본을 하나만 생성하는 ILM 규칙을 사용한 적이 있는 경우 예약된 유지 관리 기간 동안 파이버 채널 HBA를 교체해야 합니다. 그렇지 않으면 이 절차 중에 해당 개체에 대한 액세스가 일시적으로 끊어질 수 있습니다. 에 대한 정보를 참조하십시오 link:../ilm/why-you-should-not-use-single-copy-replication.html["단일 복사본 복제를 사용하지 않아야 하는 이유"].
 
 .단계
 . ESD 밴드의 스트랩 끝을 손목 둘레에 감고 클립 끝을 금속 바닥에 단단히 고정하여 정전기 방전을 방지하십시오.
@@ -57,12 +54,3 @@ image::../media/sg6060_fc_hba_location.jpg[라이저 어셈블리의 SG6060 파�
 교체용 Fibre Channel HBA를 설치합니다.
 
 xref:reinstalling-fibre-channel-hba.adoc[Fibre Channel HBA를 다시 설치합니다]
-
-.관련 정보
-xref:reinstalling-fibre-channel-hba.adoc[Fibre Channel HBA를 다시 설치합니다]
-
-xref:../admin/index.adoc[StorageGRID 관리]
-
-xref:../monitor/index.adoc[모니터링하고 문제를 해결합니다]
-
-xref:../ilm/index.adoc[ILM을 사용하여 개체를 관리합니다]
