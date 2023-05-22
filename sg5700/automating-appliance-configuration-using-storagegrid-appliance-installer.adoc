@@ -42,7 +42,7 @@ NOTE: 어플라이언스의 설치와 구성을 모두 자동화하려는 숙련
 +
 ** ConfigBuilder 응용 프로그램
 +
-https://configbuilder.netapp.com/["ConfigBuilder.netapp.com"^]
+https://["ConfigBuilder.netapp.com"^]
 
 ** 'configure-sGA.py' 어플라이언스 구성 스크립트 StorageGRID 어플라이언스 설치 프로그램(* 도움말*>* 어플라이언스 구성 스크립트*)에서 스크립트를 다운로드할 수 있습니다. configure-sga.py 스크립트를 사용하여 구성 자동화에 대한 지침을 참조하십시오.
 +

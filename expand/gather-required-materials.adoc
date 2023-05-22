@@ -74,7 +74,7 @@ StorageGRID 설명서
  a| 
 현재 사용 중인 플랫폼에 대한 설명서입니다
  a| 
-지원되는 버전은 를 참조하십시오 https://mysupport.netapp.com/matrix["상호 운용성 매트릭스"^].
+지원되는 버전은 를 참조하십시오 https://["상호 운용성 매트릭스"^].
 
 |===
 
@@ -90,7 +90,7 @@ StorageGRID 설명서
 .단계
 . StorageGRID용 NetApp 다운로드 페이지로 이동합니다.
 +
-https://mysupport.netapp.com/site/products/all/details/storagegrid/downloads-tab["NetApp 다운로드: StorageGRID"^]
+https://["NetApp 다운로드: StorageGRID"^]
 
 . 그리드에서 현재 실행 중인 StorageGRID 버전을 선택합니다.
 . NetApp 계정의 사용자 이름과 암호를 사용하여 로그인합니다.

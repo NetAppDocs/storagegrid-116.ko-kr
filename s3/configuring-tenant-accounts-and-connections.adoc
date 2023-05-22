@@ -268,7 +268,7 @@ xref:configuring-security-for-rest-api.adoc[REST API에 대한 보안을 구성�
 AWS CLI(Amazon Web Services Command Line Interface)를 사용하여 시스템에 대한 연결을 테스트하고 시스템에 개체를 읽고 쓸 수 있는지 확인할 수 있습니다.
 
 .필요한 것
-* 에서 AWS CLI를 다운로드하여 설치했습니다 https://aws.amazon.com/cli["aws.amazon.com/cli"^].
+* 에서 AWS CLI를 다운로드하여 설치했습니다 https://["aws.amazon.com/cli"^].
 * StorageGRID 시스템에서 S3 테넌트 계정을 생성했습니다.
 
 

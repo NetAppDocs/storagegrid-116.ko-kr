@@ -16,7 +16,7 @@ summary: StorageGRID 환경에서 애플리케이션을 테스트하고 구현�
 [role="lead"]
 StorageGRID 환경에서 애플리케이션을 테스트하고 구현하는 방법을 알아보십시오.
 
-로 이동합니다 https://docs.netapp.com/us-en/storagegrid-enable/index.html["StorageGRID 지원"^] 이 사이트의 제품 설명서에서 확장하는 예제 및 요리책을 찾을 수 있는 DOC 사이트입니다. 또한 * StorageGRID-enable * 사이트에서는 StorageGRID를 평가하고 통합하는 몇 가지 단계를 설명합니다.
+로 이동합니다 https://["StorageGRID 지원"^] 이 사이트의 제품 설명서에서 확장하는 예제 및 요리책을 찾을 수 있는 DOC 사이트입니다. 또한 * StorageGRID-enable * 사이트에서는 StorageGRID를 평가하고 통합하는 몇 가지 단계를 설명합니다.
 
 다음 정보가 포함되어 있습니다.
 

@@ -19,7 +19,7 @@ StorageGRID 핫픽스에는 기능 또는 패치 릴리스 외부에서 사용�
 .단계
 . StorageGRID용 NetApp 다운로드 페이지로 이동합니다.
 +
-https://mysupport.netapp.com/site/products/all/details/storagegrid/downloads-tab["NetApp 다운로드: StorageGRID"^]
+https://["NetApp 다운로드: StorageGRID"^]
 
 . 다운로드할 수 있는 업데이트 목록을 보려면 * 유형/버전 선택 * 필드의 아래쪽 화살표를 선택하십시오.
 +

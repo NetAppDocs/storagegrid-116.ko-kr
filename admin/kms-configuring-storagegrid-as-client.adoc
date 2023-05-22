@@ -16,7 +16,7 @@ KMS를 StorageGRID에 추가하려면 각 외부 키 관리 서버 또는 KMS �
 .이 작업에 대해
 이러한 지침은 Thales CipherTrust Manager k170v, 버전 2.0, 2.1 및 2.2에 적용됩니다. StorageGRID에서 다른 키 관리 서버를 사용하는 방법에 대한 질문이 있는 경우 기술 지원 부서에 문의하십시오.
 
-https://thalesdocs.com/ctp/cm/latest/["Thales CipherTrust 관리자"^]
+https://["Thales CipherTrust 관리자"^]
 
 .단계
 . KMS 소프트웨어에서 사용하려는 각 KMS 또는 KMS 클러스터에 대해 StorageGRID 클라이언트를 만듭니다.

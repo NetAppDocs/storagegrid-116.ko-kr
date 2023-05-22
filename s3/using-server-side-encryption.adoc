@@ -123,4 +123,4 @@ xref:upload-part.adoc[부품 업로드]
 
 xref:upload-part-copy.adoc[업로드 부품 - 복사]
 
-https://docs.aws.amazon.com/AmazonS3/latest/dev/ServerSideEncryptionCustomerKeys.html["Amazon S3 개발자 가이드: 고객 제공 암호화 키(SSE-C)를 사용하여 서버측 암호화를 사용하여 데이터 보호"^]
+https://["Amazon S3 개발자 가이드: 고객 제공 암호화 키(SSE-C)를 사용하여 서버측 암호화를 사용하여 데이터 보호"^]

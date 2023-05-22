@@ -36,13 +36,13 @@ summary: 경고를 통해 StorageGRID 시스템 내의 다양한 이벤트 및 �
 
 자세한 내용은 다음 비디오를 참조하십시오.
 
-* https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2680a74f-070c-41c2-bcd3-acc5013c9cdd["비디오: 경고 개요"^]
+* https://["비디오: 경고 개요"^]
 +
 [link=https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2680a74f-070c-41c2-bcd3-acc5013c9cdd]
 image::../media/video-screenshot-alert-overview.png[비디오: 경고 개요]
 
-* https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b35ac3f2-957b-4e79-b82b-acc5013c98d0["비디오: 메트릭을 사용하여 사용자 지정 경고 생성"^]
+* https://["비디오: 메트릭을 사용하여 사용자 지정 경고 생성"^]
 +
-image::../media/video-screenshot-alert-create-custom.png[링크 -"https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b35ac3f2-957b-4e79-b82b-acc5013c98d0"[] Alt="비디오: 메트릭을 사용하여 사용자 지정 경고 생성"]
+image::../media/video-screenshot-alert-create-custom.png[링크 -"https://[] Alt="비디오: 메트릭을 사용하여 사용자 지정 경고 생성"]
 
 

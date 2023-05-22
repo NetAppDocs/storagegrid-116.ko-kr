@@ -38,7 +38,7 @@ NOTE: 이 절차에서는 NVSRAM을 SANtricity OS 업그레이드와 관련된 �
 스토리지 컨트롤러의 SANtricity OS 버전을 선택해야 합니다.
 
 +
-https://mysupport.netapp.com/site/products/all/details/storagegrid-appliance/downloads-tab["NetApp 다운로드: StorageGRID 어플라이언스"^]
+https://["NetApp 다운로드: StorageGRID 어플라이언스"^]
 
 . 유지보수 * > * 시스템 * > * 소프트웨어 업데이트 * 를 선택합니다.
 +
@@ -189,6 +189,6 @@ NOTE: 업그레이드 절차를 반복하면 이전에 업그레이드된 노드
 
 
 .관련 정보
-https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^]
+https://["NetApp 상호 운용성 매트릭스 툴"^]
 
 xref:upgrading-santricity-os-on-storage-controllers-using-maintenance-mode-sg6000.adoc[유지보수 모드를 사용하여 스토리지 컨트롤러에서 SANtricity OS를 업그레이드합니다]

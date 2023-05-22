@@ -15,7 +15,7 @@ summary: 경고가 트리거되면 경고 아이콘이 대시보드에 표시됩
 
 .필요한 것
 * 를 사용하여 그리드 관리자에 로그인해야 합니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
-* 선택적으로 비디오를 시청했습니다. https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2680a74f-070c-41c2-bcd3-acc5013c9cdd["비디오: 경고 개요"^].
+* 선택적으로 비디오를 시청했습니다. https://["비디오: 경고 개요"^].
 +
 [link=https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2680a74f-070c-41c2-bcd3-acc5013c9cdd]
 image::../media/video-screenshot-alert-overview.png[비디오: 경고 개요]

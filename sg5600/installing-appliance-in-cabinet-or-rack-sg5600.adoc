@@ -77,6 +77,6 @@ image::../media/appliance_drive_insertion.gif[드라이브 삽입]
 
 
 .관련 정보
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2344477["E2700 컨트롤러 - 드라이브 트레이 및 관련 드라이브 트레이 설치 가이드"^]
+https://["E2700 컨트롤러 - 드라이브 트레이 및 관련 드라이브 트레이 설치 가이드"^]
 
-https://library.netapp.com/ecm/ecm_download_file/ECMP1532527["E5600 컨트롤러 - 드라이브 트레이 및 관련 드라이브 트레이 설치 가이드"^]
+https://["E5600 컨트롤러 - 드라이브 트레이 및 관련 드라이브 트레이 설치 가이드"^]

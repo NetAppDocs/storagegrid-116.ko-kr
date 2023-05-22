@@ -110,4 +110,4 @@ xref:initiate-multipart-upload.adoc[멀티파트 업로드를 시작합니다]
 
 xref:object-versioning.adoc[오브젝트 버전 관리]
 
-https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html["Amazon Simple Storage Service 사용자 가이드: S3 Object Lock 사용"^]
+https://["Amazon Simple Storage Service 사용자 가이드: S3 Object Lock 사용"^]

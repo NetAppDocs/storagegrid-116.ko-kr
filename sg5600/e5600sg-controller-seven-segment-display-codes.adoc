@@ -296,4 +296,4 @@ EP
 .관련 정보
 xref:troubleshooting-hardware-installation.adoc[하드웨어 설치 문제 해결(SG5600)]
 
-https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"^]
+https://["NetApp 지원"^]

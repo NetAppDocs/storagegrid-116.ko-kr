@@ -2,7 +2,7 @@
 settings:
   name: StorageGRID
   internal:
-    pdf_enabled: true
+    pdf_enabled: false
   prod:
     pdf_enabled: true
     harmony_enabled: false
@@ -48,7 +48,7 @@ sidebar:
     - section: audit
   - title: StorageGRID를 활성화합니다
     url: "/storagegrid-enable.html"
-  - title: 이전 버전
+  - title: 기타 버전
     url: "/earlier-versions.html"
   - title: 법적 고지
     url: "/legal-notices.html"
@@ -132,10 +132,12 @@ homepage:
       url: https://netapp.com/blog/
     - title: NetApp 커뮤니티
       url: https://community.netapp.com/
-  - title: 이전 버전
+  - title: 기타 버전
     links:
+    - title: StorageGRID 11.7 문서
+      url: https://docs.netapp.com/us-en/storagegrid-117/index.html
     - title: StorageGRID 11.5 문서
-      url: https://docs.netapp.com/sgws-115/index.jsp
+      url: https://docs.netapp.com/us-en/storagegrid-115/index.html
     - title: StorageGRID 11.4 문서
       url: https://docs.netapp.com/sgws-114/index.jsp
     - title: StorageGRID 11.3 문서

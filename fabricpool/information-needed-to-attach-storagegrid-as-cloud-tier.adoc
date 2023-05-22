@@ -21,8 +21,8 @@ NOTE: 나열된 정확한 필드 이름과 ONTAP에 필요한 값을 입력하�
 
 자세한 내용은 다음을 참조하십시오.
 
-* https://www.netapp.com/pdf.html?item=/media/17239-tr4598pdf.pdf["TR-4598: ONTAP 9.9.1의 FabricPool 모범 사례"^]
-* https://docs.netapp.com/us-en/ontap/index.html["ONTAP 9 설명서"^]
+* https://["TR-4598: ONTAP 9.9.1의 FabricPool 모범 사례"^]
+* https://["ONTAP 9 설명서"^]
 
 
 [cols="1a,2a"]

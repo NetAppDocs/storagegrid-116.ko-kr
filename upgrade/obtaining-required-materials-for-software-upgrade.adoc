@@ -95,7 +95,7 @@ Linux 호스트에 노드가 배포된 경우 업그레이드를 시작하기 �
 
 
 .단계
-. 로 이동합니다 https://mysupport.netapp.com/site/products/all/details/storagegrid/downloads-tab["NetApp 다운로드: StorageGRID"^].
+. 로 이동합니다 https://["NetApp 다운로드: StorageGRID"^].
 . 최신 릴리스를 다운로드하려면 버튼을 선택하거나 드롭다운 메뉴에서 다른 버전을 선택하고 * GO * 를 선택합니다.
 +
 StorageGRID 소프트웨어 버전의 형식은 11._x. y _ 입니다. StorageGRID 핫픽스의 형식은 11._x.x.x.z _ 입니다.

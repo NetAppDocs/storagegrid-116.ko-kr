@@ -50,7 +50,7 @@ S3 오브젝트 잠금은 이전 StorageGRID 버전에서 사용할 수 있었�
 * 법적 증거 자료 보관
 
 
-을 참조하십시오 https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/StorageGRID/How_to_manage_legacy_Compliant_buckets_in_StorageGRID_11.5["NetApp 기술 자료: StorageGRID 11.5에서 레거시 준수 버킷을 관리하는 방법"^] 를 참조하십시오.
+을 참조하십시오 https://["NetApp 기술 자료: StorageGRID 11.5에서 레거시 준수 버킷을 관리하는 방법"^] 를 참조하십시오.
 
 이전 버전의 StorageGRID에서 레거시 규정 준수 기능을 사용한 경우 다음 표를 참조하여 StorageGRID의 S3 오브젝트 잠금 기능과 어떻게 다른지 알아보십시오.
 

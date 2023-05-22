@@ -41,4 +41,4 @@ IMPORTANT: 볼륨이 이미 구성되었거나 StorageGRID가 이전에 설치�
 
 
 .관련 정보
-http://mysupport.netapp.com/info/web/ECMP1658252.html["NetApp E-Series 시스템 문서 사이트"^]
+http://["NetApp E-Series 시스템 문서 사이트"^]

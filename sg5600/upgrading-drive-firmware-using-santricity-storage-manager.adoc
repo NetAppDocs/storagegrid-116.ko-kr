@@ -70,7 +70,7 @@ View associated Drives * 를 선택하여 스토리지 어플라이언스에서 
 +
 .. 웹 브라우저를 열고 NetApp Support 웹 사이트로 이동한 다음 ID 및 암호를 사용하여 로그인합니다.
 +
-https://mysupport.netapp.com/site/["NetApp 지원"^]
+https://["NetApp 지원"^]
 
 .. NetApp Support 웹 사이트에서 * Downloads * 탭을 선택한 다음, * E-Series Disk Drive Firmware * 를 선택합니다.
 +

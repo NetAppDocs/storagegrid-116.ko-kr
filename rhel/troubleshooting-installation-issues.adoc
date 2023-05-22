@@ -38,4 +38,4 @@ xref:../sg5700/index.adoc[SG5700 스토리지 어플라이언스]
 
 xref:../sg5600/index.adoc[SG5600 스토리지 어플라이언스]
 
-https://mysupport.netapp.com/site/global/dashboard["NetApp 지원"^]
+https://["NetApp 지원"^]

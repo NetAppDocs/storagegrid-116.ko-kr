@@ -17,10 +17,10 @@ summary: 사용자 지정 알림 규칙을 만들어 알림을 트리거할 자�
 * 를 사용하여 그리드 관리자에 로그인했습니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저]
 * 알림 관리 또는 루트 액세스 권한이 있습니다
 * 에 익숙합니다 xref:commonly-used-prometheus-metrics.adoc[일반적으로 사용되는 Prometheus 메트릭입니다]
-* 을(를) 이해합니다 https://prometheus.io/docs/querying/basics/["Prometheus 쿼리의 구문"^]
-* 선택적으로 비디오를 시청했습니다. https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b35ac3f2-957b-4e79-b82b-acc5013c98d0["비디오: 메트릭을 사용하여 사용자 지정 경고 생성"^]
+* 을(를) 이해합니다 https://["Prometheus 쿼리의 구문"^]
+* 선택적으로 비디오를 시청했습니다. https://["비디오: 메트릭을 사용하여 사용자 지정 경고 생성"^]
 +
-image::../media/video-screenshot-alert-create-custom.png[링크 -"https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b35ac3f2-957b-4e79-b82b-acc5013c98d0"[] Alt="비디오: 메트릭을 사용하여 사용자 지정 경고 생성"]
+image::../media/video-screenshot-alert-create-custom.png[링크 -"https://[] Alt="비디오: 메트릭을 사용하여 사용자 지정 경고 생성"]
 
 
 
