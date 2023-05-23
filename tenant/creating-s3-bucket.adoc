@@ -50,7 +50,7 @@ IMPORTANT: 버킷을 생성한 후에는 버킷 이름을 변경할 수 없습�
 
 +
 
-NOTE: 자세한 내용은 를 참조하십시오 https://["버킷 명명 규칙에 대한 AWS(Amazon Web Services) 문서입니다"^].
+NOTE: 자세한 내용은 를 참조하십시오 https://docs.aws.amazon.com/AmazonS3/latest/userguide/bucketnamingrules.html["버킷 명명 규칙에 대한 AWS(Amazon Web Services) 문서입니다"^].
 
 . 이 버킷의 영역을 선택합니다.
 +

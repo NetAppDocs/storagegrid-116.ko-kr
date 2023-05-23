@@ -57,6 +57,6 @@ xref:e5600sg-controller-seven-segment-display-codes.adoc[E5500SG 컨트롤러 7�
 
 xref:he-error-error-synchronizing-with-santricity-os-software.adoc[SANtricity OS 소프트웨어와 동기화하는 동안 오류가 발생했습니다]
 
-https://["E2700 컨트롤러 - 드라이브 트레이 및 관련 드라이브 트레이 설치 가이드"^]
+https://library.netapp.com/ecm/ecm_download_file/ECMLP2344477["E2700 컨트롤러 - 드라이브 트레이 및 관련 드라이브 트레이 설치 가이드"^]
 
-http://["NetApp 설명서: E2700 시리즈"^]
+http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61765["NetApp 설명서: E2700 시리즈"^]

@@ -65,7 +65,7 @@ Swift의 StorageGRID 구현을 통해 정보 URL에 대한 인증되지 않은 �
 
 인증 요청에 대한 응답은 다음과 같이 스토리지 URL 및 인증 토큰을 반환합니다.
 
-'X-Storage-URL: https://[] |_Node_IP:Swift_Port_/v1/_Tenant_Account_ID_'
+'X-Storage-URL: https://_FQDN_[] |_Node_IP:Swift_Port_/v1/_Tenant_Account_ID_'
 
 'X-Auth-Token:_token_'
 

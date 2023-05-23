@@ -57,4 +57,4 @@ xref:status-indicators-on-e5700sg-controller.adoc[E5500SG 컨트롤러의 상태
 
 xref:he-error-error-synchronizing-with-santricity-os-software.adoc[SANtricity OS 소프트웨어와 동기화하는 동안 오류가 발생했습니다]
 
-http://["NetApp E-Series 시스템 문서 사이트"^]
+http://mysupport.netapp.com/info/web/ECMP1658252.html["NetApp E-Series 시스템 문서 사이트"^]

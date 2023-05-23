@@ -38,7 +38,7 @@ Management_Port_IP의 경우, E600SG 컨트롤러의 관리 포트 1에 대한 I
 .. ping에서 응답을 받는 경우 포트 8443이 방화벽에서 열려 있는지 확인합니다.
 .. 어플라이언스를 재부팅합니다.
 .. 설치 웹 페이지를 새로 고칩니다.
-.. 그래도 연결 문제가 해결되지 않으면 NetApp Support 사이트 에서 기술 지원을 문의하십시오 http://["mysupport.netapp.com"^].
+.. 그래도 연결 문제가 해결되지 않으면 NetApp Support 사이트 에서 기술 지원을 문의하십시오 http://mysupport.netapp.com/["mysupport.netapp.com"^].
 
 
 

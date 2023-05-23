@@ -35,7 +35,7 @@ IMPORTANT: CPU 및 메모리 사용량을 정기적으로 모니터링하여 이
 스토리지 요구 사항에 대한 정보도 참조하십시오.
 
 .관련 정보
-https://["NetApp 상호 운용성 매트릭스 툴"^]
+https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^]
 
 xref:storage-and-performance-requirements.adoc[요구사항을 충족해야 합니다]
 

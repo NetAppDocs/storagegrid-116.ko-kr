@@ -59,6 +59,6 @@ image::../media/node_rejoin_grid_confirmation.png[어플라이언스 노드가 �
 
 
 .관련 정보
-https://["NetApp 상호 운용성 매트릭스 툴"^]
+https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^]
 
 xref:upgrading-santricity-os-on-storage-controllers-using-grid-manager-sg6000.adoc[그리드 관리자를 사용하여 스토리지 컨트롤러의 SANtricity OS를 업그레이드합니다]

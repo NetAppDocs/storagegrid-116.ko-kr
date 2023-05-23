@@ -98,6 +98,6 @@ image::../media/node_rejoin_grid_confirmation.png[어플라이언스 노드가 �
 
 
 .관련 정보
-https://["NetApp E-Series 및 EF-Series 하드웨어 교체 절차 를 참조하십시오"^]
+https://mysupport.netapp.com/info/web/ECMP11751516.html["NetApp E-Series 및 EF-Series 하드웨어 교체 절차 를 참조하십시오"^]
 
-http://["NetApp 설명서: E2700 시리즈"^]
+http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61765["NetApp 설명서: E2700 시리즈"^]

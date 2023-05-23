@@ -112,4 +112,4 @@ IMPORTANT: 컨트롤러의 무게를 지탱하려면 항상 두 손을 사용하
 
 
 .관련 정보
-http://["NetApp E-Series 시스템 문서 사이트"^]
+http://mysupport.netapp.com/info/web/ECMP1658252.html["NetApp E-Series 시스템 문서 사이트"^]

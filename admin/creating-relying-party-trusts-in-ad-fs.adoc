@@ -39,7 +39,7 @@ Windows PowerShell을 사용하여 하나 이상의 신뢰할 수 있는 파티 
 . Windows 시작 메뉴에서 PowerShell 아이콘을 마우스 오른쪽 버튼으로 선택하고 * 관리자 권한으로 실행 * 을 선택합니다.
 . PowerShell 명령 프롬프트에서 다음 명령을 입력합니다.
 +
-'Add-AdfsRelyingPartyTrust - Name'_Admin_Node_Identififer_" - MetadataURL "https://[]
+'Add-AdfsRelyingPartyTrust - Name'_Admin_Node_Identififer_" - MetadataURL "https://_Admin_Node_FQDN_/api/saml-metadata"`[]
 
 +
 ** '_Admin_Node_Identifier_'의 경우 단일 사인온 페이지에 표시된 대로 관리 노드에 대한 기반 당사자 식별자를 입력합니다. 예: 'SG-DC1-ADM1'입니다.

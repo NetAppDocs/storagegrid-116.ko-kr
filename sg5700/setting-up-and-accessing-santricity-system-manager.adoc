@@ -58,7 +58,7 @@ SANtricity 시스템 관리자를 사용하여 다음 설정을 구성할 수 �
 E-Series AutoSupport에 대한 자세한 내용은 E-Series 문서 센터를 참조하십시오.
 
 +
-http://["NetApp E-Series 시스템 문서 사이트"^]
+http://mysupport.netapp.com/info/web/ECMP1658252.html["NetApp E-Series 시스템 문서 사이트"^]
 
 * 드라이브 보안 키 - 보안 드라이브 잠금을 해제하는 데 필요(드라이브 보안 기능이 활성화된 경우 이 단계 필요)
 * SANtricity 시스템 관리자에 액세스하기 위한 관리자 암호입니다

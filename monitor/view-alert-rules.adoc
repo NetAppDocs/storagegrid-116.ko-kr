@@ -18,7 +18,7 @@ summary: 경고 규칙은 특정 경고를 트리거하는 조건을 정의합�
 .필요한 것
 * 를 사용하여 그리드 관리자에 로그인했습니다 xref:../admin/web-browser-requirements.adoc[지원되는 웹 브라우저].
 * 알림 관리 또는 루트 액세스 권한이 있습니다.
-* 선택적으로 비디오를 시청했습니다. https://["비디오: 경고 개요"^]
+* 선택적으로 비디오를 시청했습니다. https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2680a74f-070c-41c2-bcd3-acc5013c9cdd["비디오: 경고 개요"^]
 +
 [link=https://netapp.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2680a74f-070c-41c2-bcd3-acc5013c9cdd]
 image::../media/video-screenshot-alert-overview.png[비디오: 경고 개요]

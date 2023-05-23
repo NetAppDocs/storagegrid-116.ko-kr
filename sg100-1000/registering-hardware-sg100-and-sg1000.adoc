@@ -21,7 +21,7 @@ summary: 어플라이언스 하드웨어를 등록하면 지원 혜택이 제공
 +
 image::../media/appliance_label.gif[일련 번호를 포함한 라벨]
 
-. NetApp Support 사이트 로 이동합니다 http://["mysupport.netapp.com"^].
+. NetApp Support 사이트 로 이동합니다 http://mysupport.netapp.com/["mysupport.netapp.com"^].
 . 하드웨어를 등록해야 하는지 여부를 확인합니다.
 +
 |===

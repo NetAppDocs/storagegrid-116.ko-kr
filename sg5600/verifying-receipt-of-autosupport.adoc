@@ -33,7 +33,7 @@ AutoSupport는 다음 상태 중 하나를 표시할 수 있습니다.
 기술 지원 부서에서 시스템에서 주별 로그를 수신하면 AutoSupport 상태가 On으로 변경됩니다.
 
 .단계
-. NetApp Support 사이트 로 이동합니다 http://["mysupport.netapp.com"^]Active IQ 포털에 로그인합니다.
+. NetApp Support 사이트 로 이동합니다 http://mysupport.netapp.com/["mysupport.netapp.com"^]Active IQ 포털에 로그인합니다.
 . AutoSupport 상태가 OFF인 상태에서 잘못된 것으로 판단될 경우 다음을 수행하십시오.
 +
 .. 시스템 구성을 확인하여 AutoSupport가 켜져 있는지 확인합니다.

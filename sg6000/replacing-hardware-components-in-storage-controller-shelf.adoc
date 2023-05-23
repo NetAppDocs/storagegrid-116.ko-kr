@@ -73,6 +73,6 @@ E-Series: 드라이브 드로어 교체(60 드라이브)
 
 |===
 .관련 정보
-http://["NetApp E-Series 시스템 문서 사이트"^]
+http://mysupport.netapp.com/info/web/ECMP1658252.html["NetApp E-Series 시스템 문서 사이트"^]
 
 xref:replacing-storage-controller-sg6000.adoc[스토리지 컨트롤러를 교체합니다]

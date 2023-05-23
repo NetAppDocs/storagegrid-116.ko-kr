@@ -45,4 +45,4 @@ StorageGRID 그리드 노드를 구축하기 전에 VMware vSphere 및 vCenter�
 이러한 VMware 제품을 설치하는 데 필요한 단계는 VMware 설명서를 참조하십시오.
 
 .관련 정보
-https://["NetApp 상호 운용성 매트릭스 툴"^]
+https://mysupport.netapp.com/matrix["NetApp 상호 운용성 매트릭스 툴"^]
