@@ -1,16 +1,13 @@
 ---
-sidebar: sidebar 
 permalink: legal-notices.html 
+sidebar: sidebar 
 keywords: copyrights, notice, trademarks, patents, privacy, open source 
 summary: 법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다. 
 ---
 = 법적 고지
-:hardbreaks:
 :allow-uri-read: 
-:nofooter: 
 :icons: font
-:linkattrs: 
-:imagesdir: ./media/
+:imagesdir: ../media/
 
 
 [role="lead"]
@@ -46,6 +43,8 @@ https://www.netapp.com/us/legal/privacypolicy/index.aspx[]
 
 
 
-== StorageGRID 11.6의 오픈 소스
+== 오픈 소스
+
+통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.
 
 https://library.netapp.com/ecm/ecm_download_file/ECMLP2879263[]

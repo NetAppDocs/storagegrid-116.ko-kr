@@ -76,7 +76,7 @@ entries:
       url: "/sg6000/verifying-network-connections.html"
     - title: 포트 수준 네트워크 연결을 확인합니다
       url: "/sg6000/verifying-port-level-network-connections.html"
-  - title: SG6000(SANtricity System Manager) 액세스 및 구성
+  - title: SANtricity 시스템 관리자(SG6000) 액세스 및 구성
     url: "/sg6000/accessing-and-configuring-santricity-system-manager.html"
     entries:
     - title: SANtricity 시스템 관리자를 설정하고 액세스합니다
