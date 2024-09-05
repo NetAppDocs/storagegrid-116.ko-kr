@@ -12,7 +12,8 @@ sidebar:
   entries:
   - title: StorageGRID 11.6 문서
     url: "/index.html"
-  - section: release-notes
+  - title: 릴리스 정보
+    url: "/release-notes/index.html"
   - title: 시작하십시오
     entries:
     - section: primer
