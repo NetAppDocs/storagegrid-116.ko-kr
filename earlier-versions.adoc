@@ -16,9 +16,11 @@ summary: 다른 NetApp StorageGRID 소프트웨어 릴리즈에 대한 문서는
 [role="lead"]
 다른 NetApp StorageGRID 소프트웨어 릴리즈에 대한 문서는 다음을 참조하십시오.
 
+* https://docs.netapp.com/us-en/storagegrid/index.html["StorageGRID 11.9 설명서"^]
+* https://docs.netapp.com/us-en/storagegrid-118/index.html["StorageGRID 11.8 설명서"^]
 * https://docs.netapp.com/us-en/storagegrid-117/index.html["StorageGRID 11.7 문서"^]
 * https://docs.netapp.com/us-en/storagegrid-115/index.html["StorageGRID 11.5 문서"^]
-* https://docs.netapp.com/sgws-114/index.jsp["StorageGRID 11.4 문서"^]
-* https://docs.netapp.com/sgws-113/index.jsp["StorageGRID 11.3 문서"^]
-* https://docs.netapp.com/sgws-112/index.jsp["StorageGRID 11.2 문서"^]
+* https://docs.netapp.com/sgws-114/index.jsp["StorageGRID 11.4 설명서 센터"^]
+* https://docs.netapp.com/sgws-113/index.jsp["StorageGRID 11.3 설명서 센터"^]
+* https://docs.netapp.com/sgws-112/index.jsp["StorageGRID 11.2 설명서 센터"^]
 
